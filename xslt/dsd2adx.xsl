@@ -10,7 +10,7 @@
     
     <xsl:template match="/msg:Structure">
         <xsl:variable name="primaryMeasure" 
-            select="//structure:Keyfamily[@id='ADX']/structure:PrimaryMeasure/@conceptref"/>
+            select="//structure:PrimaryMeasure/@conceptRef"/>
 
         <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
             xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1">

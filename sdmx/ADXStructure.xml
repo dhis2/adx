@@ -24,7 +24,7 @@
 		<structure:Concept id="period" agencyID="IHE" version="1.0">
 			<structure:Name xml:lang="en">Time</structure:Name>
 		</structure:Concept>
-		<structure:Concept id="dataValue" agencyID="IHE" version="1.0">
+		<structure:Concept id="value" agencyID="IHE" version="1.0">
 			<structure:Name xml:lang="en">Subject of data measure</structure:Name>
 		</structure:Concept>
 	</Concepts>
@@ -35,10 +35,10 @@
 			<structure:Components>
 				<structure:Dimension conceptRef="dataElement"  />
 				<structure:Dimension conceptRef="orgUnit" />
-				<structure:Dimension conceptRef="period" />
-				<structure:TimeDimension conceptRef="period" crossSectionalAttachGroup="true"/>
+	
+				<structure:TimeDimension conceptRef="period" />
 				
-				<structure:PrimaryMeasure conceptRef="dataValue"/>
+				<structure:PrimaryMeasure conceptRef="value"/>
 				
 			</structure:Components>
 		</structure:KeyFamily>
