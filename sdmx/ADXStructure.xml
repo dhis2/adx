@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message"
+	xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message XSD/v2_0/SDMXMessage.xsd">
+	<Header>
+		<ID>DSD_ADX</ID>
+		<Test>true</Test>
+		<Name xml:lang="en">DSD for ADX</Name>
+		<Prepared>2015-01-13T09:30:47-05:00</Prepared>
+		<Sender id="Bob">
+			<Name xml:lang="en">Bob Jolliffe</Name>
+		</Sender>
+	</Header>
+	
+	<Concepts>
+		<structure:Concept id="dataElement" agencyID="IHE" version="1.0" >
+			<structure:Name xml:lang="en">Subject of data measure</structure:Name>
+		</structure:Concept>
+		<structure:Concept id="orgUnit" agencyID="IHE" version="1.0">
+			<structure:Name xml:lang="en">Spatial dimension of measure</structure:Name>
+		</structure:Concept>
+		<structure:Concept id="period" agencyID="IHE" version="1.0">
+			<structure:Name xml:lang="en">Time</structure:Name>
+		</structure:Concept>
+		<structure:Concept id="dataValue" agencyID="IHE" version="1.0">
+			<structure:Name xml:lang="en">Subject of data measure</structure:Name>
+		</structure:Concept>
+	</Concepts>
+	
+	<KeyFamilies>
+		<structure:KeyFamily id="ADX" agencyID="IHE" version="1.0" >
+			<structure:Name xml:lang="en">ADX data structure</structure:Name>
+			<structure:Components>
+				<structure:Dimension conceptRef="dataElement"  />
+				<structure:Dimension conceptRef="orgUnit" />
+				<structure:Dimension conceptRef="period" />
+				<structure:TimeDimension conceptRef="period" crossSectionalAttachGroup="true"/>
+				
+				<structure:PrimaryMeasure conceptRef="dataValue"/>
+				
+			</structure:Components>
+		</structure:KeyFamily>
+	</KeyFamilies>
+</Structure>
