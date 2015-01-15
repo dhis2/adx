@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This is a valid sample with fully explicit datavalues -->
-<dataValueSet period="2010" >
+<dataValueSet>
     
    <dataValue dataElement="Unconfirmed Malaria cases" orgUnit="Nyamandhlovu clinic" period="2015-01" value="30"  />
    <dataValue dataElement="Confirmed Malaria cases" orgUnit="Nyamandhlovu clinic" period="2015-01" value="5"/>
