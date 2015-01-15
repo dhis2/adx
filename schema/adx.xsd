@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msg="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" elementFormDefault="qualified" vc:minVersion="1.1">
+  <xs:element name="dataValueSet" type="dataValueSetType"/>
+  <xs:complexType name="dataValueSetType">
+    <xs:sequence>
+      <xs:element name="dataValue" type="dataValueType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:anyAttribute processContents="skip"/>
+  </xs:complexType>
+  <xs:complexType name="dataValueType">
+    <xs:attribute name="value" use="required"/>
+    <xs:anyAttribute processContents="skip"/>
+  </xs:complexType>
+</xs:schema>
