@@ -22,7 +22,7 @@ xsltproc xslt/dsd2adx.xsl sdmx/ADXStructure.xml > schema/adx.xsd
 
 The Schematron schema can be derived with:
 ```bash
-xsltproc xslt/dsd2adx.xsl sdmx/ADXStructure.xml > schema/adx.xsd
+xsltproc xslt/dsd2adxsch.xsl sdmx/ADXStructure.xml > schema/adx.sch
 ```
 
 Sample messages can be validated with:
