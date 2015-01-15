@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a valid sample with an additional attribute on dataValue[3] -->
+<dataValueSet orgUnit="Nyamandhlovu clinic"  period="2010" >
+    
+    <dataValue dataElement="Unconfirmed Malaria cases" value="30"  />
+    <dataValue dataElement="Confirmed Malaria cases" value="5"/>
+    <dataValue dataElement="Malaria deaths" value="1" comment="Recorded in register" />
+    
+</dataValueSet> 

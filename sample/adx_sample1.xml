@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a valid sample with just period dimension in the outer datavalueSet -->
+<dataValueSet period="2010" >
+    
+   <dataValue dataElement="Unconfirmed Malaria cases" orgUnit="Nyamandhlovu clinic" value="30"  />
+   <dataValue dataElement="Confirmed Malaria cases" orgUnit="Nyamandhlovu clinic" value="5"/>
+   <dataValue dataElement="Malaria deaths" orgUnit="Nyamandhlovu clinic" value="1"/>
+   <dataValue dataElement="Unconfirmed Malaria cases" orgUnit="Gweru clinic" value="20"  />
+   <dataValue dataElement="Confirmed Malaria cases" orgUnit="Gweru clinic" value="2"/>
+   <dataValue dataElement="Malaria deaths" orgUnit="Gweru clinic" value="0"/>
+   
+</dataValueSet> 
