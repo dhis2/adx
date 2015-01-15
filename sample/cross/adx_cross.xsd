@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ihe.net/qrph/adx" targetNamespace="http://ihe.net/qrph/adx" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:import namespace="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" schemaLocation="SDMXCrossSectionalData.xsd"/>
+  <xs:import namespace="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" schemaLocation="SDMXCommon.xsd"/>
+  <xs:element name="DataSet" type="DataSetType" substitutionGroup="cross:DataSet"/>
+  <xs:complexType name="DataSetType">
+    <xs:complexContent>
+      <xs:extension base="cross:DataSetType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="Group"/>
+          <xs:element ref="Section"/>
+          <xs:element name="Annotations" type="common:AnnotationsType"/>
+        </xs:choice>
+        <xs:attribute name="orgUnit" type="xs:string" use="optional"/>
+        <xs:attribute name="period" type="common:TimePeriodType" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Group" type="GroupType" substitutionGroup="cross:Group"/>
+  <xs:complexType name="GroupType">
+    <xs:complexContent>
+      <xs:extension base="cross:GroupType">
+        <xs:sequence>
+          <xs:element ref="Section" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="Annotations" type="common:AnnotationsType" minOccurs="0"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Section" type="SectionType" substitutionGroup="cross:Section"/>
+  <xs:complexType name="SectionType">
+    <xs:complexContent>
+      <xs:extension base="cross:SectionType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="value"/>
+          <xs:element name="Annotations" type="common:AnnotationsType"/>
+        </xs:choice>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="value" type="ObsType" substitutionGroup="cross:Obs"/>
+  <xs:complexType name="ObsType">
+    <xs:complexContent>
+      <xs:extension base="cross:ObsType">
+        <xs:sequence>
+          <xs:element name="Annotations" type="common:AnnotationsType" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="dataElement" type="xs:string" use="optional"/>
+        <xs:attribute name="orgUnit" type="xs:string" use="optional"/>
+        <xs:attribute name="period" type="common:TimePeriodType" use="optional"/>
+        <xs:attribute name="value" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

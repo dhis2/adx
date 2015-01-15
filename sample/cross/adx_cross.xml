@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adx:DataSet xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common"
+ xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross"
+ xmlns:adx="http://ihe.net/qrph/adx"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://ihe.net/qrph/adx file:/home/bobj/src/adx/sample/cross/adx_cross.xsd">
+ 
+ <adx:Section>
+  <adx:value dataElement="Malaria cases" orgUnit="Nyamandhlovu clinic" period="2014-09" value="34" />
+  <adx:value dataElement="Malaria cases" orgUnit="Nyamandhlovu clinic" period="2014-08" value="34" />
+  <adx:value dataElement="Malaria cases" orgUnit="Nyamandhlovu clinic" period="2014-07" value="34" />
+  <adx:value dataElement="Malaria cases" orgUnit="Nyamandhlovu clinic" period="2014-06" value="34" />
+  <adx:value dataElement="Malaria cases" orgUnit="Nyamandhlovu clinic" period="2014-05" value="34" />
+ </adx:Section>
+ 
+ </adx:DataSet>
