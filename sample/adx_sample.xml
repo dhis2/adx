@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="adx.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<dataValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="adx.xsd"
- 
- orgUnit="Nyamandhlovu clinic"  period="2010" >
+<!-- This is a valid sample with the orgUnit and period dimensions in the outer datavalueSet -->
+<dataValueSet orgUnit="Nyamandhlovu clinic"  period="2010" >
     
-    <dataValue dataElement="Unconfirmed Malaria cases" value="3" comment="pretty cool" />
+    <dataValue dataElement="Unconfirmed Malaria cases" value="30"  />
     <dataValue dataElement="Confirmed Malaria cases" value="5"/>
-    <dataValue dataElement="Malaria deaths" period='2010' value="21"/>
+    <dataValue dataElement="Malaria deaths" value="21"/>
     
 </dataValueSet> 
