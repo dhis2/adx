@@ -1,7 +1,9 @@
 # ADX definition, samples and tests
 
 ADX is an data exchange profile being prepared by QRPH 
-technical committtee of IHE.net.
+technical committtee of IHE.net.  This repository in no way represents
+the official work of that committee.  What I have here is a scratchpad
+for testing and sharing various ideas.
 
 ## What is here?
 1. Under the sdmx directory there is an SDMX 2.0 Data Structure Definition (DSD)
