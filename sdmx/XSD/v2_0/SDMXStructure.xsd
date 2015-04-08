@@ -1249,7 +1249,8 @@
 		<xs:attribute name="isEntityAttribute" type="xs:boolean" default="false"/>
 		<xs:attribute name="isNonObservationalTimeAttribute" type="xs:boolean" default="false"/>
 		<xs:attribute name="isCountAttribute" type="xs:boolean" default="false"/>
-		<xs:attribute name="isFrequencyAttribute" type="xs:boolean" default="false"/>				<xs:attribute name="isIdentityAttribute" type="xs:boolean" default="false"/>
+		<xs:attribute name="isFrequencyAttribute" type="xs:boolean" default="false"/>				
+		<xs:attribute name="isIdentityAttribute" type="xs:boolean" default="false"/>
 		
 	</xs:complexType>
 	<xs:simpleType name="AttachmentLevelType">

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:dsd="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific"
+    xmlns="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IHE:ADX(1.0):ObsLevelDim:dataElement"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:compact="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structurespecific"
+    xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    targetNamespace="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IHE:ADX(1.0):ObsLevelDim:dataElement"
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:import namespace="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+        schemaLocation="http://www.metadatatechnology.com/beta/SDMX2.1/SDMXCommon.xsd"/>
+    <xs:import namespace="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific"
+        schemaLocation="http://www.metadatatechnology.com/beta/SDMX2.1/SDMXDataStructureSpecific.xsd"/>
+    <xs:element name="DataSet" type="DataSetType" />
+    <xs:complexType name="DataSetType">
+        <xs:complexContent>
+            <xs:restriction base="dsd:DataSetType">
+                <xs:sequence>
+                    <xs:element ref="common:Annotations" minOccurs="0"/>
+                    <xs:element name="DataProvider" type="common:DataProviderReferenceType"
+                        form="unqualified" minOccurs="0"/>
+                    <xs:choice minOccurs="0">
+                        <xs:element name="Series" type="SeriesType" form="unqualified"
+                            maxOccurs="unbounded"/>
+                    </xs:choice>
+                </xs:sequence>
+                <xs:attribute name="REPORTING_YEAR_START_DAY" type="xs:gMonthDay" use="prohibited"/>
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="SeriesType">
+        <xs:complexContent>
+            <xs:restriction base="dsd:SeriesType">
+                <xs:sequence>
+                    <xs:element ref="common:Annotations" minOccurs="0"/>
+                    <xs:element name="Obs" type="ObsType" form="unqualified" minOccurs="0"
+                        maxOccurs="unbounded"/>
+                </xs:sequence>
+                <xs:attribute name="orgUnit" type="xs:string" use="required"/>
+                <xs:attribute name="TIME_PERIOD" type="common:ObservationalTimePeriodType"
+                    use="required"/>
+                <xs:attribute name="REPORTING_YEAR_START_DAY" type="xs:gMonthDay" use="prohibited"/>
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="ObsType">
+        <xs:complexContent>
+            <xs:restriction base="dsd:ObsType">
+                <xs:sequence>
+                    <xs:element ref="common:Annotations" minOccurs="0"/>
+                </xs:sequence>
+                <xs:attribute name="dataElement" type="xs:string" use="required"/>
+                <xs:attribute name="OBS_VALUE" type="xs:string" use="optional"/>
+                <xs:attribute name="TIME_PERIOD" type="common:ObservationalTimePeriodType"
+                    use="prohibited"/>
+                <xs:attribute name="REPORTING_YEAR_START_DAY" type="xs:gMonthDay" use="prohibited"/>
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
+</xs:schema>

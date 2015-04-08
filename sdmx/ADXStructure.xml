@@ -33,7 +33,7 @@
 		<structure:KeyFamily id="ADX" agencyID="IHE" version="1.0" >
 			<structure:Name xml:lang="en">ADX data structure</structure:Name>
 			<structure:Components>
-				<structure:Dimension conceptRef="dataElement" crossSectionalAttachObservation="true"   />
+				<structure:Dimension conceptRef="dataElement" crossSectionalAttachObservation="true"  />
 				<structure:Dimension conceptRef="orgUnit" crossSectionalAttachObservation="true" crossSectionalAttachDataSet="true" />
 	
 				<structure:TimeDimension conceptRef="period" crossSectionalAttachObservation="true"  crossSectionalAttachDataSet="true"/>

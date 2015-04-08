@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" 
+  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" 
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure">
+  <mes:Header>
+    <mes:ID>DSD_ADX</mes:ID>
+    <mes:Test>true</mes:Test>
+    <mes:Prepared>2015-01-13T14:30:47.000Z</mes:Prepared>
+    <mes:Sender id="Bob">
+      <com:Name xml:lang="en">Bob Jolliffe</com:Name>
+    </mes:Sender>
+  </mes:Header>
+
+  <mes:Structures>
+    
+    <str:Concepts>
+      <str:ConceptScheme id="ADX_MANDATORY_CONCEPTS"  
+        agencyID="IHE" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">Mandatory concepts defined by IHE ADX profile</com:Name>
+        <str:Concept id="dataElement" >
+          <com:Name xml:lang="en">Subject of data measure</com:Name>
+        </str:Concept>
+        <str:Concept id="orgUnit" >
+          <com:Name xml:lang="en">Spatial dimension of measure</com:Name>
+        </str:Concept>
+        <str:Concept id="period" >
+          <com:Name xml:lang="en">Time</com:Name>
+        </str:Concept>
+        <str:Concept id="value" >
+          <com:Name xml:lang="en">Subject of data measure</com:Name>
+        </str:Concept>
+      </str:ConceptScheme>
+      
+      <str:ConceptScheme id="ADX_WAHO_CONCEPTS" agencyID="WAHO" version="1.0" >
+        <com:Name xml:lang="en">Disaggregation concepts used in WAHO data warehouse</com:Name>
+        <str:Concept id="AGE_GROUP" >
+          <com:Name xml:lang="en">Age group</com:Name>
+        </str:Concept>
+        <str:Concept id="SEX" >
+          <com:Name xml:lang="en">Sex</com:Name>
+        </str:Concept>        
+      </str:ConceptScheme>
+    </str:Concepts>
+    
+    <str:DataStructures>
+      <str:DataStructure id="ADX" agencyID="WAHO" version="1.0">
+        <com:Name xml:lang="en">ADX data structure</com:Name>
+        
+        <str:DataStructureComponents>
+          
+          <str:DimensionList>
+            <str:Dimension >
+              <str:ConceptIdentity>
+                <Ref id="dataElement" maintainableParentID="ADX_MANDATORY_CONCEPTS" maintainableParentVersion="1.0" agencyID="IHE" />
+              </str:ConceptIdentity>
+            </str:Dimension>
+            <str:Dimension >
+              <str:ConceptIdentity>
+                <Ref id="orgUnit" maintainableParentID="ADX_MANDATORY_CONCEPTS" maintainableParentVersion="1.0" agencyID="IHE" />
+              </str:ConceptIdentity>
+            </str:Dimension>
+
+            <str:Dimension >
+              <str:ConceptIdentity>
+                <Ref id="SEX" maintainableParentID="ADX_WAHO_CONCEPTS" maintainableParentVersion="1.0" agencyID="WAHO" />
+              </str:ConceptIdentity>
+            </str:Dimension>
+
+            <str:TimeDimension>
+              <str:ConceptIdentity>
+                <Ref id="period" maintainableParentID="ADX_MANDATORY_CONCEPTS" maintainableParentVersion="1.0" agencyID="IHE" />
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat/>
+              </str:LocalRepresentation>
+            </str:TimeDimension>
+          </str:DimensionList>
+
+          <str:MeasureList>
+            <str:PrimaryMeasure >
+              <str:ConceptIdentity>
+                <Ref id="value" maintainableParentID="ADX_MANDATORY_CONCEPTS" maintainableParentVersion="1.0" agencyID="IHE"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        
+        </str:DataStructureComponents>
+      
+      </str:DataStructure>
+    </str:DataStructures>
+  </mes:Structures>
+</mes:Structure>
