@@ -15,12 +15,12 @@
     <group orgUnit="342" period="2015-01" mechanism="OTHER" comment="Imported from facility system">
         <dataValue dataElement="MAL01" value="32" />
         <dataValue dataElement="MAL02" value="20" />
+        <dataValue dataElement="MAL03" value="0" >
+            <annotation>Some qualifying text here on the datavalue</annotation>
+        </dataValue>
         <dataValue dataElement="MAL04" value="10" ageGroup="under5" sex="M" />
         <dataValue dataElement="MAL04" value="10" ageGroup="under5" sex="F"/>
         <dataValue dataElement="MAL04" value="10" ageGroup="5andOver" sex="M"/>
         <dataValue dataElement="MAL04" value="10" ageGroup="5andOver" sex="F"/>
-        <dataValue dataElement="MAL03" value="0" >
-            <text>Some qualifying text here on the dataelement</text>
-        </dataValue>
     </group>
 </adx>
