@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ihe.net/quality/schema/adx"
+  xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+  targetNamespace="http://ihe.net/quality/schema/adx" elementFormDefault="qualified">
+
+<!--  Copyright notice -->
+  
+  <xs:annotation>
+    <xs:documentation>
+      This is a very loosely constrained schema which should validate anny adx data document,
+      regardless of jurisdiction specific additions.
+    </xs:documentation>
+  </xs:annotation>
+
+
+  <xs:import namespace="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+    schemaLocation="sdmx/SDMXCommon.xsd"/>
+
+  <!-- TODO: restrict the allowable SDMX timeperiod types (there are too many)
+    <xs:simpleType name="adxTimePeriodType">
+    <xs:restriction base="common:ObservationalTimePeriodType">
+      ...
+    </xs:restriction>
+  </xs:simpleType>
+-->
+
+  <xs:complexType name="adxType">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="group" type="groupType"/>
+    </xs:sequence>
+    <xs:attribute name="exported" use="required" type="xs:dateTime"/>
+    <xs:anyAttribute processContents="skip" />
+  </xs:complexType>
+
+  <xs:complexType name="groupType">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="dataValue" type="exDataValueType"/>
+    </xs:sequence>
+    <xs:attribute name="orgUnit" use="required" type="xs:token"/>
+    <xs:attribute name="period" use="required" type="common:ObservationalTimePeriodType"/>
+    <xs:anyAttribute processContents="skip" />
+  </xs:complexType>
+
+  <xs:complexType name="exDataValueType">
+    <xs:attribute name="dataElement" use="required" type="xs:token"/>
+    <xs:attribute name="value" use="required" type="xs:decimal"/>
+    <xs:anyAttribute processContents="skip"/>
+  </xs:complexType>
+
+  <!-- ================================================================================
+    ADX document root 
+    ================================================================================= -->
+  <xs:element name="adx" type="adxType"/>
+
+</xs:schema>

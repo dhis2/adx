@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ihe.net/quality/schema/adx"
+  xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+  targetNamespace="http://ihe.net/quality/schema/adx" elementFormDefault="qualified">
+
+  <!--  Copyright notice -->
+  
+  <xs:annotation>
+    <xs:documentation>
+      This is an example of a tightly constrained schema which should validate an adx data document
+      which has been formed in compliance with the sample SDMX DSD.
+    </xs:documentation>
+  </xs:annotation>
+  
+  <xs:import namespace="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+    schemaLocation="sdmx/SDMXCommon.xsd"/>
+
+  <!-- TODO: restrict the allowable SDMX timeperiod types (there are too many)
+    <xs:simpleType name="adxTimePeriodType">
+    <xs:restriction base="common:ObservationalTimePeriodType">
+      ...
+    </xs:restriction>
+  </xs:simpleType>
+-->
+
+<!-- ================================================================================
+    Type restrictions derived from SDMX DSD Codelists
+    ================================================================================= -->
+  
+  <xs:simpleType name="dataElementType">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="MAL01"/>
+      <xs:enumeration value="MAL02"/>
+      <xs:enumeration value="MAL03"/>
+      <xs:enumeration value="MAL04"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="orgUnitType">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="342"/>
+      <xs:enumeration value="343"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ageGroupType">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="under5"/>
+      <xs:enumeration value="5andOver"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="sexType">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="M"/>
+      <xs:enumeration value="F"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="mechanismType">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="PEPFAR"/>
+      <xs:enumeration value="GFATM"/>
+      <xs:enumeration value="OTHER"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!-- ================================================================================
+    ADX Root element type
+    ================================================================================= -->
+  <xs:complexType name="adxType">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="group" type="groupType"/>
+    </xs:sequence>
+    <xs:attribute name="exported" use="required" type="xs:dateTime"/>
+    <xs:anyAttribute processContents="skip" />
+  </xs:complexType>
+
+  <!-- ================================================================================
+    Element types derived from SDMX DSD DataStructure
+    ================================================================================= -->
+  <xs:complexType name="groupType">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="dataValue" type="DataValueType"/>
+    </xs:sequence>
+    <xs:attribute name="orgUnit" use="required" type="orgUnitType"/>
+    <xs:attribute name="period" use="required" type="common:ObservationalTimePeriodType"/>
+    <xs:attribute name="mechanism" type="mechanismType" use="required"/>
+    <xs:anyAttribute processContents="skip" />
+  </xs:complexType>
+
+  <xs:complexType name="DataValueType">
+    <xs:attribute name="dataElement" use="required" type="dataElementType"/>
+    <xs:attribute name="value" use="required" type="xs:decimal"/>
+    <xs:attribute name="ageGroup" type="ageGroupType" use="optional"/>
+    <xs:attribute name="sex" type="sexType" use="optional"/>
+    <xs:anyAttribute processContents="skip"/>
+  </xs:complexType>
+
+  <!-- ================================================================================
+    ADX document root 
+    ================================================================================= -->
+  <xs:element name="adx" type="adxType"/>
+
+</xs:schema>
