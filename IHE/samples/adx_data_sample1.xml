@@ -19,5 +19,8 @@
         <dataValue dataElement="MAL04" value="10" ageGroup="under5" sex="F"/>
         <dataValue dataElement="MAL04" value="10" ageGroup="5andOver" sex="M"/>
         <dataValue dataElement="MAL04" value="10" ageGroup="5andOver" sex="F"/>
+        <dataValue dataElement="MAL03" value="0" >
+            <text>Some qualifying text here on the dataelement</text>
+        </dataValue>
     </group>
 </adx>
