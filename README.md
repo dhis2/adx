@@ -6,15 +6,12 @@ the official work of that committee.  What I have here is a scratchpad
 for testing and sharing various ideas.
 
 ## What is here?
-1. Under the sdmx directory there is an SDMX 2.0 Data Structure Definition (DSD)
-which defines the structure of ADX data.
-2. Under the xslt directory are 2 transforms which operate on the DSD to generate
-the schema to validate an ADX data message. These are a W3C XSD schema and an ISO 
-Schematron schema.
-3. Under the sample directory there are various valid and invalid ADX files for
-testing against tyhe schema.
+Lots of old stuff which represent earlier ideas under test.
+
+The current trunk of work is under the folder IHE.
 
 ## Process description
+(This section needs updating)
 The structure of ADX data is represented by an SDMX profile of a Data Structure Definition.
 
 The W3C schema for ADX can be derived from the DSD with:
