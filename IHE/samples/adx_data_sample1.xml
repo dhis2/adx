@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <adx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://ihe.net/quality/schema/adx ../schema/adx4.xsd"
+ xsi:schemaLocation="http://ihe.net/quality/schema/adx ../schema/adx_sample_generated.xsd"
  xmlns="http://ihe.net/quality/schema/adx" dataElementIDSystem="code" orgUnitIDSCheme="code"
  exported="2015-02-08T19:30:00Z">
     
