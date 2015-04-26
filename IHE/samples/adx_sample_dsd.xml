@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="dsd_validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/dsd_validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message ../../../../Documents/formats/sdmx-2.1/SDMX_2-1-1_SECTION_3B_SDMX_ML_Schemas_Samples_201108/schemas/SDMXMessage.xsd"
  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
@@ -49,7 +49,7 @@
         <str:Code id="under5">
           <com:Name xml:lang="en">Under 5 years of age</com:Name>
         </str:Code>
-        <str:Code id="5andover">
+        <str:Code id="5andOver">
           <com:Name xml:lang="en">5 Years and over</com:Name>
         </str:Code>
       </str:Codelist>
@@ -217,7 +217,7 @@
               </str:ConceptIdentity>
             </str:PrimaryMeasure>
           </str:MeasureList>
-
+          
         </str:DataStructureComponents>
 
       </str:DataStructure>
