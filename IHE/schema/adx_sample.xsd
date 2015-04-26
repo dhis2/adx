@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ihe.net/quality/schema/adx"
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  xmlns="http://ihe.net/quality/schema/adx"
   xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
-  targetNamespace="http://ihe.net/quality/schema/adx" elementFormDefault="qualified">
+  targetNamespace="http://ihe.net/quality/schema/adx" 
+  elementFormDefault="qualified">
 
   <!--  Copyright notice -->
   
@@ -90,6 +92,9 @@
   </xs:complexType>
 
   <xs:complexType name="DataValueType">
+    <xs:sequence maxOccurs="1" minOccurs="0">
+      <xs:element name="annotation" />
+    </xs:sequence>
     <xs:attribute name="dataElement" use="required" type="dataElementType"/>
     <xs:attribute name="value" use="required" type="xs:decimal"/>
     <xs:attribute name="ageGroup" type="ageGroupType" use="optional"/>
