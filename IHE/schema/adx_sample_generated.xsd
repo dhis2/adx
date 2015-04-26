@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://ihe.net/quality/schema/adx"
+           xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+           xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://ihe.net/quality/schema/adx"
+           elementFormDefault="qualified">
+   <xs:annotation>
+      <xs:documentation> This is an example of a tightly constrained schema which should
+                    validate an adx data document which has been formed in compliance with the
+                    sample SDMX DSD. </xs:documentation>
+   </xs:annotation>
+   <xs:import namespace="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+              schemaLocation="sdmx/SDMXCommon.xsd"/>
+   <xs:simpleType name="CL_OrgUnits_WAHO_1.0_Type">
+      <xs:restriction base="xs:token">
+         <xs:enumeration value="342"/>
+         <xs:enumeration value="343"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="CL_DataElements_WAHO_1.0_Type">
+      <xs:restriction base="xs:token">
+         <xs:enumeration value="MAL01"/>
+         <xs:enumeration value="MAL02"/>
+         <xs:enumeration value="MAL03"/>
+         <xs:enumeration value="MAL04"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="CL_AgeGroup_WAHO_1.0_Type">
+      <xs:restriction base="xs:token">
+         <xs:enumeration value="under5"/>
+         <xs:enumeration value="5andOver"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="CL_Sex_WAHO_1.0_Type">
+      <xs:restriction base="xs:token">
+         <xs:enumeration value="M"/>
+         <xs:enumeration value="F"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="CL_Mechanism_WAHO_1.0_Type">
+      <xs:restriction base="xs:token">
+         <xs:enumeration value="PEPFAR"/>
+         <xs:enumeration value="GFATM"/>
+         <xs:enumeration value="OTHER"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:complexType name="adxType">
+      <xs:sequence maxOccurs="unbounded">
+         <xs:element name="group" type="groupType"/>
+      </xs:sequence>
+      <xs:attribute name="exported" use="required" type="xs:dateTime"/>
+      <xs:anyAttribute processContents="skip"/>
+   </xs:complexType>
+   <xs:complexType name="groupType">
+      <xs:sequence maxOccurs="unbounded">
+         <xs:element name="dataValue" type="DataValueType"/>
+      </xs:sequence>
+      <xs:attribute name="orgUnit" use="required" type="CL_OrgUnits_WAHO_1.0_Type"/>
+      <xs:attribute name="period"
+                    use="required"
+                    type="common:ObservationalTimePeriodType"/>
+      <xs:attribute name="mechanism" type="CL_Mechanism_WAHO_1.0_Type" use="required"/>
+      <xs:anyAttribute processContents="skip"/>
+   </xs:complexType>
+   <xs:complexType name="DataValueType">
+      <xs:sequence maxOccurs="1" minOccurs="0">
+         <xs:element name="annotation"/>
+      </xs:sequence>
+      <xs:attribute name="dataElement"
+                    use="required"
+                    type="CL_DataElements_WAHO_1.0_Type"/>
+      <xs:attribute name="value" use="required" type="xs:decimal"/>
+      <xs:attribute name="sex" type="CL_Sex_WAHO_1.0_Type" use="optional"/>
+      <xs:attribute name="ageGroup" type="CL_AgeGroup_WAHO_1.0_Type" use="optional"/>
+      <xs:anyAttribute processContents="skip"/>
+   </xs:complexType>
+   <xs:element name="adx" type="adxType"/>
+</xs:schema>
