@@ -7,7 +7,7 @@
   
   <xs:annotation>
     <xs:documentation>
-      This is a very loosely constrained schema which should validate anny adx data document,
+      This is a very loosely constrained schema which should validate any adx data document,
       regardless of jurisdiction specific additions.
     </xs:documentation>
   </xs:annotation>
