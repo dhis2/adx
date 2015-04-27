@@ -81,7 +81,7 @@
             
         </rule>
     </pattern>
-    
+        
     <pattern>
         <title>Testing for mandatory dimensions</title>
         
@@ -109,44 +109,43 @@
                 There shall be a group with @id='OUTER_DIMENSIONS'
             </assert>            
         </rule>
-        
-        <rule context="str:Dimension[@id='dataElement']">
-            <let name="ref" value="str:ConceptIdentity/Ref"/>
-            
-            <assert test="$ref/@id='dataElement'">
-                @id of dataElement dimension concept reference must be 'dataElement'.
-            </assert>
-            
-            <assert test="$ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
+     
+        <rule abstract="true" id="mandatoryDimension">
+            <assert test="@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
                 @maintainableParentID of dataElement dimension concept reference 
                 must be 'ADX_MANDATORY_CONCEPTS'.
             </assert>
             
-            <assert test="$ref/@agencyID='IHE'">
+            <assert test="@agencyID='IHE'">
                 @agencyId of dataElement dimension concept reference must be 'IHE'.
             </assert>
+        </rule>
+        
+        <rule context="str:Dimension[@id='dataElement']/str:ConceptIdentity/Ref" >
+            <extends rule="mandatoryDimension"/>
+            
+            <assert test="@id='dataElement'">
+                @id of dataElement dimension concept reference must be 'dataElement'.
+            </assert>
+            
         </rule>
 
-        <rule context="str:Dimension[@id='orgUnit']">
-            <let name="ref" value="str:ConceptIdentity/Ref"/>
+        <rule context="str:Dimension[@id='orgUnit']/str:ConceptIdentity/Ref">
+            <extends rule="mandatoryDimension"/>
             
-            <assert test="$ref/@id='orgUnit'">
+            <assert test="@id='orgUnit'">
                 @id of dataElement dimension concept reference must be 'dataElement'.
-            </assert>
-            
-            <assert test="$ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
-                @maintainableParentID of dataElement dimension concept reference 
-                must be 'ADX_MANDATORY_CONCEPTS'.
-            </assert>
-            
-            <assert test="$ref/@agencyID='IHE'">
-                @agencyId of dataElement dimension concept reference must be 'IHE'.
             </assert>
         </rule>
         
-        <rule context="str:TimeDimension">
+        <rule context="str:TimeDimension/str:ConceptIdentity/Ref">
+            <extends rule="mandatoryDimension"/>
+            
+            <assert test="@id='period'">
+                @id of Time dimension concept reference must be 'period'.
+            </assert>
+
         </rule>
     </pattern>
-    
     
 </schema>

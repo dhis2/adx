@@ -83,16 +83,16 @@
       <str:ConceptScheme id="ADX_MANDATORY_CONCEPTS" agencyID="IHE" version="1.0">
         <com:Name xml:lang="en">Mandatory concepts defined by IHE ADX profile</com:Name>
         <str:Concept id="dataElement">
-          <com:Name xml:lang="en">Subject of data measure</com:Name>
+          <com:Name xml:lang="en">Subject of the data measure</com:Name>
         </str:Concept>
         <str:Concept id="orgUnit">
-          <com:Name xml:lang="en">Spatial dimension of measure</com:Name>
+          <com:Name xml:lang="en">Spatial dimension of the measure</com:Name>
         </str:Concept>
         <str:Concept id="period">
-          <com:Name xml:lang="en">Time</com:Name>
+          <com:Name xml:lang="en">Temporal dimension of the measure</com:Name>
         </str:Concept>
         <str:Concept id="value">
-          <com:Name xml:lang="en">Subject of data measure</com:Name>
+          <com:Name xml:lang="en">Value of the data measure</com:Name>
         </str:Concept>
       </str:ConceptScheme>
 

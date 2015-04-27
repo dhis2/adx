@@ -9,8 +9,9 @@
   
   <xs:annotation>
     <xs:documentation>
-      This is an example of a tightly constrained schema which should validate an adx data document
-      which has been formed in compliance with the sample SDMX DSD.
+      This is an example of a tightly constrained schema which should 
+      validate an adx data document which has been formed in compliance 
+      with the sample SDMX DSD.
     </xs:documentation>
   </xs:annotation>
   
