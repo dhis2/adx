@@ -19,7 +19,7 @@
         <title>Testing that Structures are all present</title>
         <rule context="mes:Structure">
             <assert test="count(mes:Structures)=1">
-                There shall be a single str:Structures element in the message.
+                There shall be a single mes:Structures element in the message.
             </assert>
         </rule>
         
