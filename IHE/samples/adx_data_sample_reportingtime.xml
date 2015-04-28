@@ -102,14 +102,14 @@
     <group orgUnit="342" period="2015-01-05/P7D" dataSetComplete="true" mechanism="PEPFAR" >
         <dataValue dataElement="MAL01" value="32" />
     </group>
-    
-    <!-- WARNING: you can define some arbitrary intervals and still be valid -->
-    <group orgUnit="342" period="2015-01-23/P1Y2M3D" dataSetComplete="true" mechanism="PEPFAR" >
+        
+    <!-- xs:datetime/xs:duration with timezone -->
+    <group orgUnit="342" period="2015-01-01T09:00:00+01:00/P1D" dataSetComplete="true" mechanism="PEPFAR" >
         <dataValue dataElement="MAL01" value="32" />
     </group>
     
-    <!-- xs:datetime/xs:duration with timezone -->
-    <group orgUnit="342" period="2015-01-01T09:00:00+01:00/P1D" dataSetComplete="true" mechanism="PEPFAR" >
+    <!-- WARNING: you can define some quite arbitrary intervals and still be valid -->
+    <group orgUnit="342" period="2015-01-23/P1Y2M3D" dataSetComplete="true" mechanism="PEPFAR" >
         <dataValue dataElement="MAL01" value="32" />
     </group>
     
