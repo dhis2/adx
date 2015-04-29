@@ -20,18 +20,20 @@
     <!-- Jurisdiction specific Dimensions at dataValue level -->
     <xsl:variable name="innerDimensions"
         select="$dimensions[not (//str:Group[@id='OUTER_DIMENSIONS']/descendant::Ref/@id = @id )
-        and @id != 'dataElement']"/>
+        and str:ConceptIdentity/Ref/@id != 'dataElement']"/>
 
+    <!-- Reference to the orgUnit code list -->
     <xsl:variable 
         name="orgUnitCLRef" 
-        select="$dimensions[@id='orgUnit']/str:LocalRepresentation/str:Enumeration/Ref" />
+        select="$dimensions[str:ConceptIdentity/Ref/@id='orgUnit']/str:LocalRepresentation/str:Enumeration/Ref" />
 
     <xsl:variable name="orgUnitType"
         select="concat($orgUnitCLRef/@id,'_',$orgUnitCLRef/@agencyID,'_',$orgUnitCLRef/@version,'_Type')" />
  
+    <!-- Reference to the dataElement code list -->
     <xsl:variable 
         name="dataElementCLRef" 
-        select="$dimensions[@id='dataElement']/str:LocalRepresentation/str:Enumeration/Ref" />
+        select="$dimensions[str:ConceptIdentity/Ref/@id='dataElement']/str:LocalRepresentation/str:Enumeration/Ref" />
     
     <xsl:variable name="dataElementType"
         select="concat($dataElementCLRef/@id,'_',$dataElementCLRef/@agencyID,'_',$dataElementCLRef/@version,'_Type')" />

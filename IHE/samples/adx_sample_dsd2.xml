@@ -82,13 +82,9 @@
     <str:Concepts>
       <str:ConceptScheme id="ADX_MANDATORY_CONCEPTS" agencyID="IHE" version="1.0">
         <com:Name xml:lang="en">Mandatory concepts defined by IHE ADX profile</com:Name>
+        
         <str:Concept id="dataElement">
           <com:Name xml:lang="en">Subject of the data measure</com:Name>
-          <str:CoreRepresentation>
-            <str:Enumeration>
-              <Ref agencyID="WAHO" id="CL_DataElements" version="1.0"/>            
-            </str:Enumeration>
-          </str:CoreRepresentation>
         </str:Concept>
         <str:Concept id="orgUnit">
           <com:Name xml:lang="en">Spatial dimension of the measure</com:Name>
@@ -99,18 +95,34 @@
         <str:Concept id="value">
           <com:Name xml:lang="en">Value of the data measure</com:Name>
         </str:Concept>
+
       </str:ConceptScheme>
 
       <str:ConceptScheme id="ADX_WAHO_CONCEPTS" agencyID="WAHO" version="1.0">
         <com:Name xml:lang="en">Disaggregation concepts used in WAHO data warehouse</com:Name>
         <str:Concept id="ageGroup">
           <com:Name xml:lang="en">Age group</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="WAHO" id="CL_AgeGroup" version="1.0"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
         </str:Concept>
         <str:Concept id="sex">
           <com:Name xml:lang="en">Sex</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="WAHO" id="CL_Sex" version="1.0"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
         </str:Concept>
         <str:Concept id="mechanism">
           <com:Name xml:lang="en">Funding Mechanism</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="WAHO" id="CL_Mechanism" version="1.0"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
         </str:Concept>
       </str:ConceptScheme>
     </str:Concepts>
@@ -152,11 +164,6 @@
                 <Ref id="sex" maintainableParentID="ADX_WAHO_CONCEPTS"
                   maintainableParentVersion="1.0" agencyID="WAHO"/>
               </str:ConceptIdentity>
-              <str:LocalRepresentation>
-                <str:Enumeration>
-                <Ref agencyID="WAHO" id="CL_Sex" version="1.0"/>
-              </str:Enumeration>
-              </str:LocalRepresentation>
             </str:Dimension>
 
             <str:Dimension>
@@ -164,11 +171,6 @@
                 <Ref id="ageGroup" maintainableParentID="ADX_WAHO_CONCEPTS"
                   maintainableParentVersion="1.0" agencyID="WAHO"/>
               </str:ConceptIdentity>
-              <str:LocalRepresentation>
-                <str:Enumeration>
-                  <Ref agencyID="WAHO" id="CL_AgeGroup" version="1.0"/>
-                </str:Enumeration>
-              </str:LocalRepresentation>
             </str:Dimension>
             
             <str:Dimension id="mechanism">
@@ -176,11 +178,6 @@
                 <Ref id="mechanism" maintainableParentID="ADX_WAHO_CONCEPTS"
                   maintainableParentVersion="1.0" agencyID="WAHO"/>
               </str:ConceptIdentity>
-              <str:LocalRepresentation>
-                <str:Enumeration>
-                  <Ref agencyID="WAHO" id="CL_Mechanism" version="1.0"/>
-                </str:Enumeration>
-              </str:LocalRepresentation>
             </str:Dimension>
             
             <str:TimeDimension id="TIME_PERIOD">

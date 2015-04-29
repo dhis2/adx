@@ -48,7 +48,7 @@
         <dataValue dataElement="MAL01" value="32" />
     </group>
     
-    <!-- trimester (P3M) -->
+    <!-- trimester (P4M) -->
     <group orgUnit="342" period="2015-T3" dataSetComplete="true" mechanism="PEPFAR" >
         <dataValue dataElement="MAL01" value="32" />
     </group>
