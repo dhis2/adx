@@ -35,10 +35,6 @@
             <assert test="count(str:DataStructures/str:DataStructure)=1">
                 There shall be a single DataStructure element.
             </assert>
-
-            <assert test="str:DataStructures/str:DataStructure/@id='ADX'">
-                The DataStructure element @id attribute shall be 'ADX'  
-            </assert>
         </rule>
     </pattern>
     
@@ -51,12 +47,12 @@
         <rule context="str:Concepts">
             
             <let name="ADX_Concepts" value="str:ConceptScheme[
-                @id='ADX_MANDATORY_CONCEPTS' and @agencyID='IHE']"/>
+                @id='ADX_MANDATORY_CONCEPTS' and @agencyID='IHE_QRPH']"/>
             
             <assert
                 test="count($ADX_Concepts)=1">
                 There shall be a ConceptScheme with @id='ADX_MANDATORY_CONCEPTS' and
-                @agencyID='IHE'.
+                @agencyID='IHE_QRPH'.
             </assert>
             
             <assert
@@ -85,63 +81,51 @@
     <pattern>
         <title>Testing for mandatory dimensions</title>
         
+        <let name="components" value="str:DataStructureComponents" />
+        <let name="dimensions" value="$components/str:DimensionList"/>
+        
+        <let name="dataElementDimension"
+            value="$dimensions/str:Dimension[/str:ConceptIdentity/Ref/@id='dataElement']" />
+        <let name="orgUnitDimension"
+            value="$dimensions/str:Dimension[/str:ConceptIdentity/Ref/@id='orgUnit']" />
+        <let name="periodDimension" value="$dimensions/str:TimeDimension" />
+        
+        <let name="outerGroup" value="$components/str:Group" />
+        
         <rule context="str:DataStructure">
-            <let name="components" value="str:DataStructureComponents" />
-            <let name="dimensions" value="$components/str:DimensionList"/>
             
             <assert test="$dimensions">
                 There shall be a DimensionList
             </assert>
             
-            <assert test="$dimensions/str:Dimension[@id='dataElement']">
+            <assert test="count($dataElementDimension)=1">
                 There shall be a dimension with @id='dataElement' 
             </assert>
             
-            <assert test="$dimensions/str:Dimension[@id='orgUnit']">
+            <assert test="count($orgUnitDimension)=1">
                 There shall be a dimension with @id='orgUnit' 
             </assert>
 
-            <assert test="$dimensions/str:Dimension[@id='orgUnit']">
-                There shall be a dimension with @id='orgUnit' 
-            </assert>
-            
-            <assert test="$components/str:Group[@id='OUTER_DIMENSIONS']">
+            <assert test="count($outerGroup)=1">
                 There shall be a group with @id='OUTER_DIMENSIONS'
             </assert>            
-        </rule>
-     
-        <rule abstract="true" id="mandatoryDimension">
-            <assert test="@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
+        
+           <assert 
+               test="($dataElementDimension | $orgUnitDimension)/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
                 @maintainableParentID of dataElement dimension concept reference 
                 must be 'ADX_MANDATORY_CONCEPTS'.
             </assert>
             
-            <assert test="@agencyID='IHE'">
-                @agencyId of dataElement dimension concept reference must be 'IHE'.
-            </assert>
-        </rule>
+            <assert test="count(str:LocalRepresenation)=1">
+                Mandatory dimensions must provide LocalRepresenation.
+            </assert>        
         
-        <rule context="str:Dimension[@id='dataElement']/str:ConceptIdentity/Ref" >
-            <extends rule="mandatoryDimension"/>
-            
-            <assert test="@id='dataElement'">
-                @id of dataElement dimension concept reference must be 'dataElement'.
+            <assert 
+                test="$periodDimension/str:ConceptIdentity/Ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
+                @maintainableParentID of period dimension concept reference 
+                must be 'ADX_MANDATORY_CONCEPTS'.
             </assert>
-            
-        </rule>
-
-        <rule context="str:Dimension[@id='orgUnit']/str:ConceptIdentity/Ref">
-            <extends rule="mandatoryDimension"/>
-            
-            <assert test="@id='orgUnit'">
-                @id of dataElement dimension concept reference must be 'dataElement'.
-            </assert>
-        </rule>
-        
-        <rule context="str:TimeDimension/str:ConceptIdentity/Ref">
-            <extends rule="mandatoryDimension"/>
-            
-            <assert test="@id='period'">
+            <assert test="$periodDimension/str:ConceptIdentity/Ref/@id='period'">
                 @id of Time dimension concept reference must be 'period'.
             </assert>
 

@@ -17,7 +17,8 @@
   <mes:Structures>
 
     <str:Codelists>
-
+      <!-- These are used to constrain vocabulary of dimension values -->
+      
       <str:Codelist id="CL_OrgUnits" agencyID="WAHO" version="1.0" >
         <com:Name xml:lang="en">Reporting health clinics</com:Name>
         <str:Code id="342">
@@ -80,9 +81,16 @@
     </str:Codelists>
 
     <str:Concepts>
-      <str:ConceptScheme id="ADX_MANDATORY_CONCEPTS" agencyID="IHE" version="1.0">
+      <!-- These are named concepts which are referred to in the definition of 
+        data dimensions.  Their can be constrained through the use of codelists --> 
+        
+      <!-- ADX Mandatory concepts -->
+      <str:ConceptScheme id="ADX_MANDATORY_CONCEPTS" agencyID="IHE_QRPH" version="1.0">
         <com:Name xml:lang="en">Mandatory concepts defined by IHE ADX profile</com:Name>
         
+        <!--
+        There is no default representation for these concepts.  An Agency which makes
+        use of these to construct an ADX DSD has to provide a local representation -->
         <str:Concept id="dataElement">
           <com:Name xml:lang="en">Subject of the data measure</com:Name>
         </str:Concept>
@@ -92,13 +100,23 @@
         <str:Concept id="period">
           <com:Name xml:lang="en">Temporal dimension of the measure</com:Name>
         </str:Concept>
+      
+      <!-- The value concept is represented by an integer or 
+        real number (xsd:decimal)-->
         <str:Concept id="value">
           <com:Name xml:lang="en">Value of the data measure</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat textType="Decimal"/>
+          </str:CoreRepresentation>
         </str:Concept>
 
       </str:ConceptScheme>
 
       <str:ConceptScheme id="ADX_WAHO_CONCEPTS" agencyID="WAHO" version="1.0">
+        <!-- These concepts are user-defined by an Agency other than IHE_QRPH. 
+           A concept is declared together it's core represenation reference 
+           to a codelist 
+        -->
         <com:Name xml:lang="en">Disaggregation concepts used in WAHO data warehouse</com:Name>
         <str:Concept id="ageGroup">
           <com:Name xml:lang="en">Age group</com:Name>
@@ -128,7 +146,12 @@
     </str:Concepts>
 
     <str:DataStructures>
-      <str:DataStructure id="ADX" agencyID="WAHO" version="1.0">
+      <!-- An implementing Aency other than IHE_QRPH defines the DatStructure to
+        use for ADX data payloads in that jurisdiction.  The dataStructure must
+        have Dimensions which correspond to the core concepts and provide a 
+        local representation which links those dimensions to codelists.  -->
+      
+        <str:DataStructure id="ADX" agencyID="WAHO" version="1.0">
         <com:Name xml:lang="en">ADX data structure</com:Name>
 
         <str:DataStructureComponents>
@@ -138,7 +161,7 @@
             <str:Dimension>
               <str:ConceptIdentity>
                 <Ref id="dataElement" maintainableParentID="ADX_MANDATORY_CONCEPTS"
-                  maintainableParentVersion="1.0" agencyID="IHE"/>
+                  maintainableParentVersion="1.0" agencyID="IHE_QRPH"/>
               </str:ConceptIdentity>
               <str:LocalRepresentation>
                 <str:Enumeration>
@@ -150,7 +173,7 @@
             <str:Dimension id="orgUnit">
               <str:ConceptIdentity>
                 <Ref id="orgUnit" maintainableParentID="ADX_MANDATORY_CONCEPTS"
-                  maintainableParentVersion="1.0" agencyID="IHE"/>
+                  maintainableParentVersion="1.0" agencyID="IHE_QRPH"/>
               </str:ConceptIdentity>
               <str:LocalRepresentation>
                 <str:Enumeration>
@@ -183,17 +206,18 @@
             <str:TimeDimension id="TIME_PERIOD">
               <str:ConceptIdentity>
                 <Ref id="period" maintainableParentID="ADX_MANDATORY_CONCEPTS"
-                  maintainableParentVersion="1.0" agencyID="IHE"/>
+                  maintainableParentVersion="1.0" agencyID="IHE_QRPH"/>
               </str:ConceptIdentity>
               <str:LocalRepresentation>
+                <!-- An ADX DSD allows either an SDMX 'TimeRange' or 'DateTime' 
+                  representation of the time dimension --> 
                 <str:TextFormat textType="TimeRange"/>
-<!-- or :
-                <str:TextFormat textType="DateTime"/>
--->
               </str:LocalRepresentation>
             </str:TimeDimension>
           </str:DimensionList>
           
+          <!-- These dimensions are identified as being used as outer dimensions
+            of the data.  They must include orgUnit and period.  -->
           <str:Group id="OUTER_DIMENSIONS">
             <str:GroupDimension>
               <str:DimensionReference>
@@ -212,8 +236,8 @@
             </str:GroupDimension>
           </str:Group>
 
-          <!-- <str:AttributeList/> -->
-
+          <!-- ADX requires that there be a primary measure which is linked to
+            the value concept.  -->
           <str:MeasureList>
             <str:PrimaryMeasure>
               <str:ConceptIdentity>

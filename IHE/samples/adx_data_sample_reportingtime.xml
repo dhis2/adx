@@ -109,7 +109,7 @@
     </group>
     
     <!-- WARNING: you can define some quite arbitrary intervals and still be valid -->
-    <group orgUnit="342" period="2015-01-23/P1Y2M3D" dataSetComplete="true" mechanism="PEPFAR" >
+    <group orgUnit="342" period="2015-01-23/P1Y2M3DT01H01M01S" dataSetComplete="true" mechanism="PEPFAR" >
         <dataValue dataElement="MAL01" value="32" />
     </group>
     
