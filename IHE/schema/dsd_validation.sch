@@ -122,49 +122,60 @@
             <assert test="count($periodDimension)=1">
                 There shall be a TimeDimension with @id='TIME_PERIOD'. 
             </assert>
+            
+        </rule>
+        
+        <rule context="str:Dimension[@id='dataElement']">
 
             <assert 
-                test="($dataElementDimension)/str:ConceptIdentity/Ref/@id='dataElement'">
+                test="str:ConceptIdentity/Ref/@id='dataElement'">
                 @id of dataElement concept reference must be 'dataElement'.
             </assert>
             
             <assert 
-                test="($dataElementDimension)/str:ConceptIdentity/Ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
+                test="str:ConceptIdentity/Ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
                 @maintainableParentID of dataElement dimension concept reference 
                 must be 'ADX_MANDATORY_CONCEPTS'.
             </assert>
-                        
+
+            <assert test="count(str:LocalRepresentation)=1">
+                dataElement dimension must provide LocalRepresentation.
+            </assert>        
+            
+        </rule>
+        
+        <rule context="str:Dimension[@id='orgUnit']">
+    
             <assert 
-                test="($orgUnitDimension)/str:ConceptIdentity/Ref/@id='orgUnit'">
+                test="str:ConceptIdentity/Ref/@id='orgUnit'">
                 @id of orgUnit concept reference must be 'dataElement'.
             </assert>
 
             <assert 
-                test="($orgUnitDimension)/str:ConceptIdentity/Ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
+                test="str:ConceptIdentity/Ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
                 @maintainableParentID of mandatory dimensions concept reference 
                 must be 'ADX_MANDATORY_CONCEPTS'.
             </assert>
+
+            <assert test="count(str:LocalRepresentation)=1">
+                dataElement dimension must provide LocalRepresentation.
+            </assert>        
             
+        </rule>
+            
+        <rule context="str:TimeDimension">
             <assert 
-                test="($periodDimension)/str:ConceptIdentity/Ref/@id='period'">
+                test="str:ConceptIdentity/Ref/@id='period'">
                 @id of orgUnit concept reference must be 'period'.
             </assert>
             
             <assert 
-                test="($periodDimension)/str:ConceptIdentity/Ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
+                test="str:ConceptIdentity/Ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
                 @maintainableParentID of period dimension concept reference 
                 must be 'ADX_MANDATORY_CONCEPTS'.
             </assert>
-            
-            <assert test="count($dataElementDimension/str:LocalRepresentation)=1">
-                dataElement dimension must provide LocalRepresentation.
-            </assert>        
-            
-            <assert test="count($orgUnitDimension/str:LocalRepresentation)=1">
-                orgUnit dimension must provide LocalRepresentation.
-            </assert>        
-            
-            <let name="periodFormat" value="$periodDimension/str:LocalRepresentation/str:TextFormat/@textType"/>
+           
+            <let name="periodFormat" value="str:LocalRepresentation/str:TextFormat/@textType"/>
 
             <assert test="$periodFormat='TimeRange' or $periodFormat='DateTime'">
                 The time period format must be either 'TimeRange' or 'DateTime'.
