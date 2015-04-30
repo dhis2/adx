@@ -18,7 +18,7 @@
     <ns prefix="str" uri="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" />
     <ns prefix="com" uri="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" />
     
-    <pattern>
+    <pattern >
         <title>Testing that Structures are all present</title>
         <rule context="mes:Structure">
             <assert test="count(mes:Structures)=1">
@@ -49,6 +49,7 @@
             </assert>
 
         </rule>
+        
     </pattern>
     
     <pattern>
@@ -62,7 +63,7 @@
             
             <assert
                 test="count(str:Concept)=4">
-                There are 4 mandatory concepts.
+                There shall be exactly 4 mandatory concepts.
             </assert>
             
             <assert
@@ -86,6 +87,16 @@
             </assert>
             
         </rule>
+        
+        <rule context="str:Concept[@id='value']">
+            
+            <assert test="str:CoreRepresentation/str:TextFormat/@textType='Decimal'">
+                The ADX value concept shall have a core representation
+                of TextFormat with @textType="Decimal"
+            </assert>
+            
+        </rule>
+            
     </pattern>
         
     <pattern>
@@ -186,17 +197,32 @@
         <rule context="str:Group[@id='OUTER_DIMENSIONS']">
             
             <assert test="count(str:GroupDimension/str:DimensionReference/Ref[@id='orgUnit'])=1" >
-                The orgUnit dimension must be in the 'OUTER_DIMENSIONS' group.
+                The orgUnit dimension must appear once in the 'OUTER_DIMENSIONS' group.
             </assert>
             
             <assert test="count(str:GroupDimension/str:DimensionReference/Ref[@id='TIME_PERIOD'])=1" >
-                The period dimension must be in the 'OUTER_DIMENSIONS' group.
+                The period dimension must appear once in the 'OUTER_DIMENSIONS' group.
             </assert>
 
             <assert test="count(str:GroupDimension/str:DimensionReference/Ref[@id='dataElement'])=0" >
-                The period dimension must be in the 'OUTER_DIMENSIONS' group.
+                The period dimension must appear once in the 'OUTER_DIMENSIONS' group.
             </assert>
             
+        </rule>
+        
+        <rule context="str:PrimaryMeasure">
+            
+            <assert 
+                test="str:ConceptIdentity/Ref/@id='value'">
+                @id of PrimaryMeasure concept reference must be 'value'.
+            </assert>
+            
+            <assert 
+                test="str:ConceptIdentity/Ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
+                @maintainableParentID of PrimaryMeasure concept reference 
+                must be 'ADX_MANDATORY_CONCEPTS'.
+            </assert>
+        
         </rule>
         
     </pattern>

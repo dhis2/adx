@@ -108,7 +108,7 @@
         <str:Concept id="value">
           <com:Name xml:lang="en">Value of the data measure</com:Name>
           <str:CoreRepresentation>
-            <str:TextFormat textType="Decimal"/>
+            <str:TextFormat textType="Decimal" />
           </str:CoreRepresentation>
         </str:Concept>
 
