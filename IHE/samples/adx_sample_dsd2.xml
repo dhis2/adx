@@ -82,7 +82,9 @@
 
     <str:Concepts>
       <!-- These are named concepts which are referred to in the definition of 
-        data dimensions.  Their can be constrained through the use of codelists --> 
+        data dimensions.  They can be constrained through the use of codelists 
+        or text format patterns using a CoreRepresentation
+      --> 
         
       <!-- ADX Mandatory concepts -->
       <str:ConceptScheme id="ADX_MANDATORY_CONCEPTS" agencyID="IHE_QRPH" version="1.0">
@@ -114,7 +116,7 @@
 
       <str:ConceptScheme id="ADX_WAHO_CONCEPTS" agencyID="WAHO" version="1.0">
         <!-- These concepts are user-defined by an Agency other than IHE_QRPH. 
-           A concept is declared together it's core represenation reference 
+           A concept is declared together with it's core represenation reference 
            to a codelist 
         -->
         <com:Name xml:lang="en">Disaggregation concepts used in WAHO data warehouse</com:Name>
@@ -158,7 +160,7 @@
 
           <str:DimensionList>
             
-            <str:Dimension>
+            <str:Dimension id="dataElement">
               <str:ConceptIdentity>
                 <Ref id="dataElement" maintainableParentID="ADX_MANDATORY_CONCEPTS"
                   maintainableParentVersion="1.0" agencyID="IHE_QRPH"/>
@@ -211,7 +213,7 @@
               <str:LocalRepresentation>
                 <!-- An ADX DSD allows either an SDMX 'TimeRange' or 'DateTime' 
                   representation of the time dimension --> 
-                <str:TextFormat textType="TimeRange"/>
+                <str:TextFormat textType="DateTime"/> 
               </str:LocalRepresentation>
             </str:TimeDimension>
           </str:DimensionList>
