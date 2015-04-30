@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/dsd_validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message ../../../../Documents/formats/sdmx-2.1/SDMX_2-1-1_SECTION_3B_SDMX_ML_Schemas_Samples_201108/schemas/SDMXMessage.xsd"
+ xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message ../schema/sdmx/SDMXMessage.xsd"
  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
  xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message">
