@@ -54,9 +54,11 @@
     
     <pattern>
         <title>Testing for mandatory concepts</title>
-        <p>An ADX profiled DSD is required to provide concepts for
-        dataElement, orgUnit, period and value within the mandatory
-        ADX concept scheme.</p>
+        <p> 
+            The ConceptScheme with @id='ADX_MANDATORY_CONCEPTS' is maintained
+            by the IHE QRPH committee.  ADX DSD Producers are required to include
+            this ConceptScheme and are prohibited from making any changes within it.
+        </p>
         
         <rule context="str:Concepts/str:ConceptScheme[
             @id='ADX_MANDATORY_CONCEPTS' and @agencyID='IHE_QRPH']">
@@ -100,23 +102,20 @@
     </pattern>
         
     <pattern>
-        <title>Testing for mandatory dimensions</title>
+        <title>Testing DataStructureComponents</title>
         
         <let name="components" value="str:DataStructureComponents" />
         <let name="dimensions" value="$components/str:DimensionList"/>
         
         <rule context="str:DataStructure/str:DataStructureComponents">
-            
-            <assert test="count(str:DimensionList)=1">
-                There shall be a DimensionList
-            </assert>
-            
+
             <assert test="count(str:Group[@id='OUTER_DIMENSIONS'])=1">
-                There shall be a group with @id='OUTER_DIMENSIONS'
+                There shall be a Group with @id='OUTER_DIMENSIONS'
             </assert>            
         
         </rule>
         
+        <p>The dimension list shall include the mandatory dimensions</p>
         <rule context="str:DimensionList">
             <let name="dataElementDimension" value="str:Dimension[@id='dataElement']" />
             <let name="orgUnitDimension"     value="str:Dimension[@id='orgUnit']" />
@@ -136,6 +135,10 @@
             
         </rule>
         
+        <p> 
+            The dataElement dimension must be linked to the mandatory 'dataElement' concept and
+            provide a LocalRepresentation. 
+        </p>
         <rule context="str:Dimension[@id='dataElement']">
 
             <assert 
@@ -155,25 +158,33 @@
             
         </rule>
         
+        <p> 
+            The orgUnit dimension must be linked to the mandatory 'orgUnit' concept and
+            provide a LocalRepresentation. 
+        </p>
         <rule context="str:Dimension[@id='orgUnit']">
     
             <assert 
                 test="str:ConceptIdentity/Ref/@id='orgUnit'">
-                @id of orgUnit concept reference must be 'dataElement'.
+                @id of orgUnit concept reference must be 'orgUnit'.
             </assert>
 
             <assert 
                 test="str:ConceptIdentity/Ref/@maintainableParentID='ADX_MANDATORY_CONCEPTS'">
-                @maintainableParentID of mandatory dimensions concept reference 
+                @maintainableParentID of orgUnit dimensions concept reference 
                 must be 'ADX_MANDATORY_CONCEPTS'.
             </assert>
 
             <assert test="count(str:LocalRepresentation)=1">
-                dataElement dimension must provide LocalRepresentation.
+                orgUnit dimension must provide LocalRepresentation.
             </assert>        
             
         </rule>
             
+        <p> 
+            The TimeDimension must be linked to the mandatory 'period' concept and
+            provide a LocalRepresentation. 
+        </p>
         <rule context="str:TimeDimension">
             <assert 
                 test="str:ConceptIdentity/Ref/@id='period'">
@@ -194,6 +205,10 @@
             
         </rule>
         
+        <p> 
+            The orgUnit and period dimensions must be attached to the outer group.  The dataElement
+            dimesnion may not be in the outer group. 
+        </p>
         <rule context="str:Group[@id='OUTER_DIMENSIONS']">
             
             <assert test="count(str:GroupDimension/str:DimensionReference/Ref[@id='orgUnit'])=1" >
@@ -210,6 +225,9 @@
             
         </rule>
         
+        <p> 
+            The PrimaryMeasure must be linked to the mandatory 'value' concept. 
+        </p>
         <rule context="str:PrimaryMeasure">
             
             <assert 

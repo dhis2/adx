@@ -25,7 +25,7 @@
           <com:Name xml:lang="en">Bob's clinic</com:Name>
         </str:Code>
         <str:Code id="343">
-          <com:Name xml:lang="en">Jim's clinic</com:Name>
+          <com:Name xml:lang="en">Jim's clinic</com:Name> 
         </str:Code>
       </str:Codelist>
 
@@ -171,7 +171,7 @@
                 </str:Enumeration>
               </str:LocalRepresentation>
             </str:Dimension>
-
+            
             <str:Dimension id="orgUnit">
               <str:ConceptIdentity>
                 <Ref id="orgUnit" maintainableParentID="ADX_MANDATORY_CONCEPTS"
@@ -183,14 +183,14 @@
                 </str:Enumeration>
               </str:LocalRepresentation>
             </str:Dimension>
-
+            
             <str:Dimension>
               <str:ConceptIdentity>
                 <Ref id="sex" maintainableParentID="ADX_WAHO_CONCEPTS"
                   maintainableParentVersion="1.0" agencyID="WAHO"/>
               </str:ConceptIdentity>
             </str:Dimension>
-
+            
             <str:Dimension>
               <str:ConceptIdentity>
                 <Ref id="ageGroup" maintainableParentID="ADX_WAHO_CONCEPTS"
@@ -213,7 +213,7 @@
               <str:LocalRepresentation>
                 <!-- An ADX DSD allows either an SDMX 'TimeRange' or 'DateTime' 
                   representation of the time dimension --> 
-                <str:TextFormat textType="DateTime"/> 
+                <str:TextFormat textType="TimeRange"/> 
               </str:LocalRepresentation>
             </str:TimeDimension>
           </str:DimensionList>
