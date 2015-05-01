@@ -164,7 +164,7 @@
         <xs:simpleType name="periodType">
             <xsl:choose>
                 <xsl:when test="$timeFormat/@textType='DateTime'">
-                    <xs:restriction base="common:DateTimeType"/>
+                    <xs:restriction base="xs:dateTime"/>
                 </xsl:when>
                 <xsl:when test="$timeFormat/@textType='TimeRange'"> 
                     <xs:restriction base="common:TimeRangeType"/>
