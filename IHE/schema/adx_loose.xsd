@@ -37,6 +37,9 @@
   </xs:complexType>
 
   <xs:complexType name="dataValueType">
+    <xs:sequence maxOccurs="1" minOccurs="0">
+      <xs:element name="annotation"/>
+    </xs:sequence>
     <xs:attribute name="dataElement" use="required" type="xs:token"/>
     <xs:attribute name="value" use="required" type="xs:decimal"/>
     <xs:anyAttribute processContents="skip"/>
