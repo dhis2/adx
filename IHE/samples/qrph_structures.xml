@@ -25,7 +25,6 @@
         </str:OrganisationSchemes>
         
         <str:Concepts>
-
             <!-- ADX Mandatory concepts -->
             <str:ConceptScheme id="ADX_MANDATORY_CONCEPTS" agencyID="IHE_QRPH" version="1.0">
                 <com:Name xml:lang="en">Mandatory concepts defined by IHE ADX profile</com:Name>
@@ -49,7 +48,6 @@
                         <str:TextFormat textType="Decimal"/>
                     </str:CoreRepresentation>
                 </str:Concept>
-
             </str:ConceptScheme>
         </str:Concepts>
     </mes:Structures>

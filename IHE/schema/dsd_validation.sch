@@ -51,56 +51,7 @@
         </rule>
         
     </pattern>
-    
-    <pattern>
-        <title>Testing for mandatory concepts</title>
-        <p> 
-            The ConceptScheme with @id='ADX_MANDATORY_CONCEPTS' is maintained
-            by the IHE QRPH committee.  ADX DSD Producers are required to include
-            this ConceptScheme and are prohibited from making any changes within it.
-        </p>
-        
-        <rule context="str:Concepts/str:ConceptScheme[
-            @id='ADX_MANDATORY_CONCEPTS' and @agencyID='IHE_QRPH']">
             
-            <assert
-                test="count(str:Concept)=4">
-                There shall be exactly 4 mandatory concepts.
-            </assert>
-            
-            <assert
-                test="count(str:Concept[@id='dataElement'])=1">
-                There shall be a concept with @id='dataElement'.
-            </assert>
-            
-            <assert
-                test="count(str:Concept[@id='orgUnit'])=1">
-                There shall be a concept with @id='orgUnit'.
-            </assert>
-            
-            <assert
-                test="count(str:Concept[@id='period'])=1">
-                There shall be a concept with @id='period'.
-            </assert>
-
-            <assert
-                test="count(str:Concept[@id='value'])=1">
-                There shall be a concept with @id='value'.
-            </assert>
-            
-        </rule>
-        
-        <rule context="str:Concept[@id='value']">
-            
-            <assert test="str:CoreRepresentation/str:TextFormat/@textType='Decimal'">
-                The ADX value concept shall have a core representation
-                of TextFormat with @textType="Decimal"
-            </assert>
-            
-        </rule>
-            
-    </pattern>
-        
     <pattern>
         <title>Testing DataStructureComponents</title>
         
