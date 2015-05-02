@@ -17,8 +17,8 @@
         
         <str:OrganisationSchemes>
             <str:AgencyScheme id="AGENCIES" agencyID="IHE_QRPH">
-                <com:Name></com:Name>
-                <str:Agency id="IHE_QRPH">
+                <com:Name>List of AGENCY identifiers maintained by IHE QRPH</com:Name>
+                <str:Agency id="IHE_QRPH" >
                     <com:Name>IHE Quality Research and Public Health Technical Committee</com:Name>
                 </str:Agency>
             </str:AgencyScheme>
