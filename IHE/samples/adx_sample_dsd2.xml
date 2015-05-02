@@ -114,7 +114,7 @@
 
       </str:ConceptScheme>
 
-      <str:ConceptScheme id="ADX_WAHO_CONCEPTS" agencyID="WAHO" version="1.0">
+      <str:ConceptScheme id="ADX_WAHO_CONCEPTS" agencyID="WAHO" version="1.0" >
         <!-- These concepts are user-defined by an Agency other than IHE_QRPH. 
            A concept is declared together with it's core represenation reference 
            to a codelist 
@@ -153,14 +153,14 @@
         have Dimensions which correspond to the core concepts and provide a 
         local representation which links those dimensions to codelists.  -->
       
-        <str:DataStructure id="ADX" agencyID="WAHO" version="1.0">
+        <str:DataStructure id="ADX" agencyID="WAHO" version="1.0" >
         <com:Name xml:lang="en">ADX data structure</com:Name>
 
         <str:DataStructureComponents>
 
           <str:DimensionList>
             
-            <str:Dimension id="dataElement">
+            <str:Dimension id="dataElement" >
               <str:ConceptIdentity>
                 <Ref id="dataElement" maintainableParentID="ADX_MANDATORY_CONCEPTS"
                   maintainableParentVersion="1.0" agencyID="IHE_QRPH"/>
