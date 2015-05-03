@@ -21,7 +21,9 @@
 
 <!-- Copy in external references where indicated --> 
     <xsl:template match="*[@isExternalReference = 'true' and @structureURL]">
-        <xsl:message>External reference <xsl:value-of select="name()"/></xsl:message>
+        <xsl:message>
+            External reference for <xsl:value-of select="name()"/> fetched from <xsl:value-of select="@structureURL"/>
+        </xsl:message>
         <xsl:variable name="elementName" select="name()"/>
         <xsl:variable name="id" select="@id"/>
         <xsl:variable name="agencyID" select="@agencyID"/>
