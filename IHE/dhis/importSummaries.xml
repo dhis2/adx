@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importSummaries xmlns="http://dhis2.org/schema/dxf/2.0">
+  <imported>0</imported>
+  <updated>14</updated>
+  <ignored>0</ignored>
+  <importSummaryList>
+    <importSummary>
+      <status>ERROR</status>
+      <description>Exception: Invalid attributes:{sex=M, ageGroup=xunder5}</description>
+      <importCount imported="0" updated="0" ignored="0" deleted="0"/>
+    </importSummary>
+    <importSummary>
+      <status>ERROR</status>
+      <description>Exception: catcombo AgeSex must have Age Group</description>
+      <importCount imported="0" updated="0" ignored="0" deleted="0"/>
+    </importSummary>
+    <importSummary>
+      <status>ERROR</status>
+      <description>Exception: 2015-01-01 not in valid &lt;date&gt;/&lt;duration&gt; format</description>
+      <importCount imported="0" updated="0" ignored="0" deleted="0"/>
+    </importSummary>
+    <importSummary>
+      <status>ERROR</status>
+      <description>Exception: catcombo AgeSex must have Age Group</description>
+      <importCount imported="0" updated="0" ignored="0" deleted="0"/>
+    </importSummary>
+    <importSummary>
+      <status>SUCCESS</status>
+      <description>Import process completed successfully</description>
+      <importCount imported="0" updated="7" ignored="0" deleted="0"/>
+      <dataSetComplete>false</dataSetComplete>
+    </importSummary>
+    <importSummary>
+      <status>SUCCESS</status>
+      <description>Import process completed successfully</description>
+      <importCount imported="0" updated="7" ignored="0" deleted="0"/>
+      <dataSetComplete>false</dataSetComplete>
+    </importSummary>
+  </importSummaryList>
+</importSummaries>
