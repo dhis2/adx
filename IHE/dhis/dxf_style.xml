@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adx xmlns="urn:ihe:qrph:adx:2015"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:ihe:qrph:adx:2015 ../schema/adx_sample_generated.xsd"
+  exported="2015-02-08T19:30:00Z">
+
+  <group orgUnit="GbjtFwPRgsf" period="2015-02-01/P1M" dataSet="DewwhDSQA9B" attributeOptionCombo="hYdGYjbV3BZ">  
+    <!--Data element: Malaria deaths-->
+    <dataValue dataElement="JMit4DXSP8O" categoryOptionCombo="wv3d3M2WkBH" value="2"/>
+    <!--Data element: Malaria cases-->
+    <dataValue dataElement="SRlFUrQF4o2" categoryOptionCombo="wv3d3M2WkBH" value="3"/>
+    <!--Data element: Malaria tests-->
+    <dataValue dataElement="UTFEUcTwcsG" categoryOptionCombo="wv3d3M2WkBH" value="">
+      <annotation>No tests carried out this month</annotation>
+    </dataValue>
+    <!--Data element: Malaria tested positive (5 and over, Female)-->
+    <dataValue dataElement="aOZdqsaTa1K" categoryOptionCombo="bXVkywSmJcD" value="20"/>
+    <!--Data element: Malaria tested positive (5 and over, Male)-->
+    <dataValue dataElement="aOZdqsaTa1K" categoryOptionCombo="dpwBJuqjRe8" value="5"/>
+    <!--Data element: Malaria tested positive (Under 5, Female)-->
+    <dataValue dataElement="aOZdqsaTa1K" categoryOptionCombo="qJFGjLLmogF" value="5"/>
+    <!--Data element: Malaria tested positive (Under 5, Male)-->
+    <dataValue dataElement="aOZdqsaTa1K" categoryOptionCombo="XDpDJAAs3na"  value="8"/>
+  </group>
+  
+</adx>
