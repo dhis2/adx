@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="PLq9sJluXvc"/>
+  <status value="published"/>
+  <title value="Inpatient Morbidity/Mortality Summary"/>
+  <item id="p4K11MFEWtw">
+    <text value="Inpatient malaria cases"/>
+    <type value="group"/>
+    <item id="p4K11MFEWtw.JkCyl4FMPVz">
+      <text value="5 years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="p4K11MFEWtw.pcKjEElpvqd">
+      <text value="Under 5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WHBtsCMZVAE">
+    <text value="Inpatient cases"/>
+    <type value="group"/>
+    <item id="WHBtsCMZVAE.JkCyl4FMPVz">
+      <text value="5 years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="WHBtsCMZVAE.pcKjEElpvqd">
+      <text value="Under 5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wWy5TE9cQ0V">
+    <text value="Inpatient malaria deaths"/>
+    <type value="group"/>
+    <item id="wWy5TE9cQ0V.JkCyl4FMPVz">
+      <text value="5 years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="wWy5TE9cQ0V.pcKjEElpvqd">
+      <text value="Under 5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZRVfMoPKK05">
+    <text value="Inpatient deaths"/>
+    <type value="group"/>
+    <item id="ZRVfMoPKK05.JkCyl4FMPVz">
+      <text value="5 years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZRVfMoPKK05.pcKjEElpvqd">
+      <text value="Under 5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

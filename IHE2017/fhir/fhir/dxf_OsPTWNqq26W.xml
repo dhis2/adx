@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="OsPTWNqq26W"/>
+  <status value="published"/>
+  <title value="TB/HIV (VCCT) monthly summary"/>
+  <item id="srXmZTeJxxT">
+    <text value="PLHIVs referred for TB screening"/>
+    <type value="group"/>
+    <item id="srXmZTeJxxT.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="srXmZTeJxxT.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="srXmZTeJxxT.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="srXmZTeJxxT.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="srXmZTeJxxT.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="srXmZTeJxxT.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="srXmZTeJxxT.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="srXmZTeJxxT.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EASG4IZChNr">
+    <text value="VCCT No receiving positive test results"/>
+    <type value="group"/>
+    <item id="EASG4IZChNr.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="EASG4IZChNr.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="EASG4IZChNr.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="EASG4IZChNr.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="EASG4IZChNr.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="EASG4IZChNr.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="EASG4IZChNr.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="EASG4IZChNr.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CjLP7zAhlP4">
+    <text value="VCCT No reiciving result &amp; post-test counselling"/>
+    <type value="group"/>
+    <item id="CjLP7zAhlP4.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CjLP7zAhlP4.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CjLP7zAhlP4.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CjLP7zAhlP4.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CjLP7zAhlP4.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CjLP7zAhlP4.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CjLP7zAhlP4.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CjLP7zAhlP4.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZjILYaYGEBM">
+    <text value="VCCT No positive test HIV1 and HIV2"/>
+    <type value="group"/>
+    <item id="ZjILYaYGEBM.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZjILYaYGEBM.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZjILYaYGEBM.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZjILYaYGEBM.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZjILYaYGEBM.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZjILYaYGEBM.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZjILYaYGEBM.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZjILYaYGEBM.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LicY0q8cagk">
+    <text value="VCCT No positive test HIV1 only"/>
+    <type value="group"/>
+    <item id="LicY0q8cagk.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LicY0q8cagk.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LicY0q8cagk.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LicY0q8cagk.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LicY0q8cagk.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LicY0q8cagk.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LicY0q8cagk.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LicY0q8cagk.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LgYtBqVkADK">
+    <text value="VCCT No positive test HIV2 only"/>
+    <type value="group"/>
+    <item id="LgYtBqVkADK.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LgYtBqVkADK.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LgYtBqVkADK.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LgYtBqVkADK.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LgYtBqVkADK.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LgYtBqVkADK.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LgYtBqVkADK.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LgYtBqVkADK.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bmW8ktueArb">
+    <text value="VCCT No Test"/>
+    <type value="group"/>
+    <item id="bmW8ktueArb.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="bmW8ktueArb.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="bmW8ktueArb.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="bmW8ktueArb.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="bmW8ktueArb.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="bmW8ktueArb.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="bmW8ktueArb.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="bmW8ktueArb.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZydlV51mGuj">
+    <text value="PLHIVs referred for TB test (Sputum/CXRay)"/>
+    <type value="group"/>
+    <item id="ZydlV51mGuj.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZydlV51mGuj.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZydlV51mGuj.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZydlV51mGuj.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZydlV51mGuj.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZydlV51mGuj.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZydlV51mGuj.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZydlV51mGuj.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oxht1VLqF6x">
+    <text value="PLHIVs with a positive TB result"/>
+    <type value="group"/>
+    <item id="oxht1VLqF6x.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="oxht1VLqF6x.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="oxht1VLqF6x.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="oxht1VLqF6x.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="oxht1VLqF6x.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="oxht1VLqF6x.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="oxht1VLqF6x.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="oxht1VLqF6x.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IpwsH1GUjCs">
+    <text value="VCCT No receiving Pre-test counselling"/>
+    <type value="group"/>
+    <item id="IpwsH1GUjCs.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="IpwsH1GUjCs.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="IpwsH1GUjCs.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="IpwsH1GUjCs.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="IpwsH1GUjCs.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="IpwsH1GUjCs.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="IpwsH1GUjCs.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="IpwsH1GUjCs.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

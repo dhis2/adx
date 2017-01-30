@@ -1,0 +1,2 @@
+for ds in $(curl -u "admin:district" "https://play.dhis2.org/dev/api/dataSets.xml" 2>/dev/null|xmllint --format - |xpath -e '//@id' 2>/dev/null |sed 's/id=\"\(.*\)\"/\1/'); do ./getDataSet $ds > ../dxf/dxf_$ds.xml; done
+

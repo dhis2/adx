@@ -1,0 +1,1635 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="lyLU2wR22tC"/>
+  <status value="published"/>
+  <title value="ART monthly summary"/>
+  <item id="QrhlrvV6Xs8">
+    <text value="ART new clients started on ARV"/>
+    <type value="group"/>
+    <item id="QrhlrvV6Xs8.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="QrhlrvV6Xs8.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="QrhlrvV6Xs8.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="QrhlrvV6Xs8.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="QrhlrvV6Xs8.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="QrhlrvV6Xs8.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="QrhlrvV6Xs8.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="QrhlrvV6Xs8.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YgsAnqU3I7B">
+    <text value="Shift to AZT + 3TC + NVP 300mg + 150mg + 200mg"/>
+    <type value="group"/>
+    <item id="YgsAnqU3I7B.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YIDKw3om85t">
+    <text value="New on d4T / 3TC / NVP 12mg/60mg/100mg"/>
+    <type value="group"/>
+    <item id="YIDKw3om85t.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pVImQlMAla4">
+    <text value="New on AZT + 3TC + NVP 300mg + 150mg + 200mg"/>
+    <type value="group"/>
+    <item id="pVImQlMAla4.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hUSSNufoUQz">
+    <text value="Shift to ABC 300mg + ddI 200mg + IDV 400mg + r 100mg"/>
+    <type value="group"/>
+    <item id="hUSSNufoUQz.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FTy5pcJZ3yX">
+    <text value="ART entry point: No walk in"/>
+    <type value="group"/>
+    <item id="FTy5pcJZ3yX.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="FTy5pcJZ3yX.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="FTy5pcJZ3yX.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="FTy5pcJZ3yX.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="FTy5pcJZ3yX.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="FTy5pcJZ3yX.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="FTy5pcJZ3yX.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="FTy5pcJZ3yX.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fDkcJaO15aQ">
+    <text value="New on d4T 40mg + 3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="fDkcJaO15aQ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hI7NM78r3Rg">
+    <text value="Shift from ABC 300mg + ddI 200mg + IDV 400mg + r 100mg"/>
+    <type value="group"/>
+    <item id="hI7NM78r3Rg.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FDpeT1lFQMM">
+    <text value="Prev. month on AZT + 3TC 300mg + 150mg for 7 days"/>
+    <type value="group"/>
+    <item id="FDpeT1lFQMM.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="soACnRV9gOI">
+    <text value="ART entry point: No transfer out"/>
+    <type value="group"/>
+    <item id="soACnRV9gOI.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="soACnRV9gOI.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="soACnRV9gOI.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="soACnRV9gOI.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="soACnRV9gOI.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="soACnRV9gOI.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="soACnRV9gOI.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="soACnRV9gOI.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="t6YgakIbFif">
+    <text value="Shift from AZT 10mg/ml + 3TC 10mg/ml + NVP 10mg/ml"/>
+    <type value="group"/>
+    <item id="t6YgakIbFif.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CUVDjGzRmmU">
+    <text value="Prev. month on NVP + AZT + 3TC 10mg/ml (2mg/kg) + 10mg/ml + 10mg/ml for 7 days"/>
+    <type value="group"/>
+    <item id="CUVDjGzRmmU.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yXZd6HTew4q">
+    <text value="Prev. month on AZT 10mg/ml + 3TC 10mg/ml + NVP 10mg/ml"/>
+    <type value="group"/>
+    <item id="yXZd6HTew4q.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AyLbN9fhY4W">
+    <text value="Shift to AZT 300mg at 28 wks"/>
+    <type value="group"/>
+    <item id="AyLbN9fhY4W.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nvsNqhfSSxd">
+    <text value="New on AZT + 3TC 300mg + 150mg for 7 days after 36 weeks"/>
+    <type value="group"/>
+    <item id="nvsNqhfSSxd.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="F53rTVTmSuF">
+    <text value="ART No clients with change of regimen due to drug toxicity"/>
+    <type value="group"/>
+    <item id="F53rTVTmSuF.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="F53rTVTmSuF.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="F53rTVTmSuF.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="F53rTVTmSuF.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="F53rTVTmSuF.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="F53rTVTmSuF.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="F53rTVTmSuF.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="F53rTVTmSuF.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wIQ5ugpWYUH">
+    <text value="New on AZT 300mg + 3TC 150mg + TDF 300mg "/>
+    <type value="group"/>
+    <item id="wIQ5ugpWYUH.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HDZOFvdXsqE">
+    <text value="ART entry point: No transfer in"/>
+    <type value="group"/>
+    <item id="HDZOFvdXsqE.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HDZOFvdXsqE.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HDZOFvdXsqE.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HDZOFvdXsqE.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HDZOFvdXsqE.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HDZOFvdXsqE.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HDZOFvdXsqE.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HDZOFvdXsqE.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vhT3YzTev3B">
+    <text value="Shift to AZT 10mg/ml + 3TC 10mg/ml + NVP 10mg/ml"/>
+    <type value="group"/>
+    <item id="vhT3YzTev3B.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oYZug9IEm3Q">
+    <text value="Prev. month on d4T 30mg + 3TC 100mg + ABC 300mg"/>
+    <type value="group"/>
+    <item id="oYZug9IEm3Q.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gyudBBtgGCv">
+    <text value="Prev. month on d4T / 3TC / NVP 12mg/60mg/100mg"/>
+    <type value="group"/>
+    <item id="gyudBBtgGCv.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rNEpbBxSyu7">
+    <text value="ART No clients with new adverse drug reaction"/>
+    <type value="group"/>
+    <item id="rNEpbBxSyu7.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="rNEpbBxSyu7.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="rNEpbBxSyu7.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="rNEpbBxSyu7.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="rNEpbBxSyu7.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="rNEpbBxSyu7.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="rNEpbBxSyu7.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="rNEpbBxSyu7.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AzwEuYfWAtN">
+    <text value="Shift from AZT + 3TC + NVP 300mg + 150mg + 200mg"/>
+    <type value="group"/>
+    <item id="AzwEuYfWAtN.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZecQS9lx4j9">
+    <text value="Prev. month on d4T 30mg / 3TC 150mg / NVP 200mg"/>
+    <type value="group"/>
+    <item id="ZecQS9lx4j9.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kxcIr99QcAO">
+    <text value="Shift to AZT 300mg / 3TC 150mg + NVP 200mg"/>
+    <type value="group"/>
+    <item id="kxcIr99QcAO.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D33rH8UHKlZ">
+    <text value="Prev. month on ABC 300mg + ddI 200mg + IDV 400mg + r 100mg"/>
+    <type value="group"/>
+    <item id="D33rH8UHKlZ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BVU4XA3aL0Y">
+    <text value="Prev. month on AZT 300mg + 3TC 150mg + ABC 300mg "/>
+    <type value="group"/>
+    <item id="BVU4XA3aL0Y.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jYYxzqd1dqM">
+    <text value="Shift to AZT + 3TC 300mg + 150mg for 7 days after 36w"/>
+    <type value="group"/>
+    <item id="jYYxzqd1dqM.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZgIaamZjBjz">
+    <text value="Shift to TDF 300mg + ddI 200mg + IDV 400mg + r 100mg"/>
+    <type value="group"/>
+    <item id="ZgIaamZjBjz.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eRwOwCpMzyP">
+    <text value="ART enrollment stage 3"/>
+    <type value="group"/>
+    <item id="eRwOwCpMzyP.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="eRwOwCpMzyP.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="eRwOwCpMzyP.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="eRwOwCpMzyP.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="eRwOwCpMzyP.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="eRwOwCpMzyP.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="eRwOwCpMzyP.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="eRwOwCpMzyP.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GMd99K8gVut">
+    <text value="ART No clients who stopped TRT due to TRT failure"/>
+    <type value="group"/>
+    <item id="GMd99K8gVut.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="GMd99K8gVut.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="GMd99K8gVut.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="GMd99K8gVut.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="GMd99K8gVut.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="GMd99K8gVut.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="GMd99K8gVut.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="GMd99K8gVut.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mmHNj6THZNH">
+    <text value="Shift from d4T 30mg / 3TC 150mg / NVP 200mg"/>
+    <type value="group"/>
+    <item id="mmHNj6THZNH.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NV0OXpHu6x4">
+    <text value="Shift to AZT 300mg + 3TC 150mg + TDF 300mg "/>
+    <type value="group"/>
+    <item id="NV0OXpHu6x4.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NJnhOzjaLYk">
+    <text value="ART clients with new adverse clinical event"/>
+    <type value="group"/>
+    <item id="NJnhOzjaLYk.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="NJnhOzjaLYk.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="NJnhOzjaLYk.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="NJnhOzjaLYk.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="NJnhOzjaLYk.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="NJnhOzjaLYk.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="NJnhOzjaLYk.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="NJnhOzjaLYk.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XVzfK55tu7h">
+    <text value="Prev. month on d4T 40mg + 3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="XVzfK55tu7h.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TyQ1vOHM6JO">
+    <text value="ART treatment stopped due to loss to follow-up"/>
+    <type value="group"/>
+    <item id="TyQ1vOHM6JO.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="TyQ1vOHM6JO.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="TyQ1vOHM6JO.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="TyQ1vOHM6JO.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="TyQ1vOHM6JO.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="TyQ1vOHM6JO.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="TyQ1vOHM6JO.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="TyQ1vOHM6JO.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tnDQ80ycQus">
+    <text value="New on TDF 300mg + ddI 200mg + IDV 400mg + r 100mg"/>
+    <type value="group"/>
+    <item id="tnDQ80ycQus.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DlZORv7kWSl">
+    <text value="Shift to ART other regimen"/>
+    <type value="group"/>
+    <item id="DlZORv7kWSl.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kVOiLDV4OC6">
+    <text value="ART entry point: No PMTCT"/>
+    <type value="group"/>
+    <item id="kVOiLDV4OC6.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="kVOiLDV4OC6.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="kVOiLDV4OC6.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="kVOiLDV4OC6.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="kVOiLDV4OC6.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="kVOiLDV4OC6.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="kVOiLDV4OC6.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="kVOiLDV4OC6.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wfKKFhBn0Q0">
+    <text value="ART No clients who stopped TRT due to adverse clinical status/event"/>
+    <type value="group"/>
+    <item id="wfKKFhBn0Q0.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfKKFhBn0Q0.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfKKFhBn0Q0.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfKKFhBn0Q0.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfKKFhBn0Q0.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfKKFhBn0Q0.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfKKFhBn0Q0.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfKKFhBn0Q0.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FQhY9n5Ft7t">
+    <text value="Prev. month on d4T 30mg + 3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="FQhY9n5Ft7t.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CxlYcbqio4v">
+    <text value="ART No started Opportunist Infection prophylaxis"/>
+    <type value="group"/>
+    <item id="CxlYcbqio4v.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CxlYcbqio4v.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CxlYcbqio4v.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CxlYcbqio4v.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CxlYcbqio4v.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CxlYcbqio4v.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CxlYcbqio4v.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CxlYcbqio4v.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YX1MQLgAD92">
+    <text value="New on AZT 300mg / 3TC 150mg + NVP 200mg"/>
+    <type value="group"/>
+    <item id="YX1MQLgAD92.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xrbIG3L9DdO">
+    <text value="New on AZT 10mg/ml + 3TC 10mg/ml + NVP 10mg/ml"/>
+    <type value="group"/>
+    <item id="xrbIG3L9DdO.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cQxY2T8GenX">
+    <text value="Prev. month on TDF 300mg + ddI 200mg + LPV/r 133.3mg/33.3mg"/>
+    <type value="group"/>
+    <item id="cQxY2T8GenX.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BtXmKYNBc3k">
+    <text value="Shift from d4T 40mg + 3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="BtXmKYNBc3k.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o44j6gPqFlA">
+    <text value="New on d4T 30mg / 3TC 150mg / NVP 200mg"/>
+    <type value="group"/>
+    <item id="o44j6gPqFlA.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w1554hhXNcq">
+    <text value="New on TDF 300mg + ddI 200mg + LPV/r 133.3mg/33.3mg"/>
+    <type value="group"/>
+    <item id="w1554hhXNcq.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="n91IylSb1JQ">
+    <text value="Prev. month on TDF 300mg + ddI 200mg + IDV 400mg + r 100mg"/>
+    <type value="group"/>
+    <item id="n91IylSb1JQ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pgzNTiQwMES">
+    <text value="Prev. month on AZT 300mg / 3TC 150mg + NVP 200mg"/>
+    <type value="group"/>
+    <item id="pgzNTiQwMES.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Sdfo0RBu1W3">
+    <text value="Prev. month on d4T 40mg / 3TC 150mg / NVP 200mg"/>
+    <type value="group"/>
+    <item id="Sdfo0RBu1W3.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="obbSEvaKTyW">
+    <text value="Prev. month on ABC 300mg + ddI 200mg + LPV/r 133.3/33.3mg"/>
+    <type value="group"/>
+    <item id="obbSEvaKTyW.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Yf4u4QOIdsi">
+    <text value="ART entry point: TB"/>
+    <type value="group"/>
+    <item id="Yf4u4QOIdsi.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yf4u4QOIdsi.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yf4u4QOIdsi.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yf4u4QOIdsi.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yf4u4QOIdsi.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yf4u4QOIdsi.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yf4u4QOIdsi.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yf4u4QOIdsi.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pq4msirdtpr">
+    <text value="New on d4T / 3TC / NVP 6mg/30mg/50mg"/>
+    <type value="group"/>
+    <item id="pq4msirdtpr.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BOSZApCrBni">
+    <text value="ART enrollment stage 1"/>
+    <type value="group"/>
+    <item id="BOSZApCrBni.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="BOSZApCrBni.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="BOSZApCrBni.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="BOSZApCrBni.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="BOSZApCrBni.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="BOSZApCrBni.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="BOSZApCrBni.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="BOSZApCrBni.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LVaUdM3CERi">
+    <text value="ART entry point: No old patients"/>
+    <type value="group"/>
+    <item id="LVaUdM3CERi.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVaUdM3CERi.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVaUdM3CERi.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVaUdM3CERi.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVaUdM3CERi.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVaUdM3CERi.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVaUdM3CERi.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVaUdM3CERi.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zYkwbCBALhn">
+    <text value="ART enrollment stage 4"/>
+    <type value="group"/>
+    <item id="zYkwbCBALhn.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zYkwbCBALhn.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zYkwbCBALhn.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zYkwbCBALhn.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zYkwbCBALhn.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zYkwbCBALhn.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zYkwbCBALhn.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zYkwbCBALhn.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jHxFwWMbXT2">
+    <text value="Shift from AZT 300mg /  3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="jHxFwWMbXT2.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uN64b5MivTO">
+    <text value="New on Infant NVP 10mg/ml (2mg/kg)"/>
+    <type value="group"/>
+    <item id="uN64b5MivTO.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="I5MLuG16arn">
+    <text value="ART entry point: No diagnostic testing"/>
+    <type value="group"/>
+    <item id="I5MLuG16arn.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="I5MLuG16arn.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="I5MLuG16arn.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="I5MLuG16arn.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="I5MLuG16arn.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="I5MLuG16arn.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="I5MLuG16arn.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="I5MLuG16arn.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZGKUt190yEn">
+    <text value="Shift from d4T 30mg + 3TC 100mg + ABC 300mg"/>
+    <type value="group"/>
+    <item id="ZGKUt190yEn.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aJ9oon0aJ87">
+    <text value="Shift to TDF 300mg + ddI 200mg + LPV/r 133.3mg/33.3mg"/>
+    <type value="group"/>
+    <item id="aJ9oon0aJ87.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oJLoUSMs3Ud">
+    <text value="Shift from TDF 300mg + ddI 200mg + LPV/r 133.3mg/33.3mg"/>
+    <type value="group"/>
+    <item id="oJLoUSMs3Ud.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PNlOOplRNOp">
+    <text value="Shift to AZT 300mg + 3TC 150mg + ABC 300mg "/>
+    <type value="group"/>
+    <item id="PNlOOplRNOp.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ksGURIlASZB">
+    <text value="Shift from d4T 30mg + 3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="ksGURIlASZB.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VZPWjoT6Iyb">
+    <text value="Prev. month on ART other regimen"/>
+    <type value="group"/>
+    <item id="VZPWjoT6Iyb.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KD5UjA5V16r">
+    <text value="Prev. month on d4T 30mg + 3TC 100mg + TDF 300mg "/>
+    <type value="group"/>
+    <item id="KD5UjA5V16r.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D4PywWuIwy0">
+    <text value="New on NVP + AZT + 3TC 10mg/ml (2mg/kg) + 10mg/ml + 10mg/ml for 7 days"/>
+    <type value="group"/>
+    <item id="D4PywWuIwy0.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iCGDtgPA28k">
+    <text value="Shift from d4T / 3TC / NVP 12mg/60mg/100mg"/>
+    <type value="group"/>
+    <item id="iCGDtgPA28k.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BI5CBuRJVSV">
+    <text value="Prev. month on AZT + 3TC 300mg + 150mg on labour"/>
+    <type value="group"/>
+    <item id="BI5CBuRJVSV.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eCIPNNYj9ZM">
+    <text value="Shift to d4T / 3TC / NVP 6mg/30mg/50mg"/>
+    <type value="group"/>
+    <item id="eCIPNNYj9ZM.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xETRo03ZfOM">
+    <text value="New on AZT 300mg + 3TC 150mg + ABC 300mg "/>
+    <type value="group"/>
+    <item id="xETRo03ZfOM.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tlSucW8wn23">
+    <text value="Shift from d4T / 3TC / NVP 6mg/30mg/50mg"/>
+    <type value="group"/>
+    <item id="tlSucW8wn23.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="a7Pue4ht1n1">
+    <text value="Shift from d4T 30mg + 3TC 100mg + TDF 300mg "/>
+    <type value="group"/>
+    <item id="a7Pue4ht1n1.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SLcj0Swq8rD">
+    <text value="New on d4T 30mg + 3TC 100mg + TDF 300mg "/>
+    <type value="group"/>
+    <item id="SLcj0Swq8rD.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x98jMXibptT">
+    <text value="New on d4T 30mg + 3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="x98jMXibptT.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qUY0i7PnaLS">
+    <text value="Shift to d4T 30mg + 3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="qUY0i7PnaLS.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PBXQFnb2AOk">
+    <text value="Shift to ABC 300mg + ddI 200mg + LPV/r 133.3/33.3mg"/>
+    <type value="group"/>
+    <item id="PBXQFnb2AOk.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YTmhoGBxE2m">
+    <text value="Shift to d4T 30mg + 3TC 100mg + ABC 300mg"/>
+    <type value="group"/>
+    <item id="YTmhoGBxE2m.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y6noHe7ltxY">
+    <text value="Shift from TDF 300mg + ddI 200mg + IDV 400mg + r 100mg"/>
+    <type value="group"/>
+    <item id="y6noHe7ltxY.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gVfwyHBGWec">
+    <text value="Received treatment for both TB and HIV"/>
+    <type value="group"/>
+    <item id="gVfwyHBGWec.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gVfwyHBGWec.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gVfwyHBGWec.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gVfwyHBGWec.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gVfwyHBGWec.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gVfwyHBGWec.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gVfwyHBGWec.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gVfwyHBGWec.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GNY9KvEmRjy">
+    <text value="New on AZT + 3TC 300mg + 150mg for 7 days"/>
+    <type value="group"/>
+    <item id="GNY9KvEmRjy.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="E7QJ0voitk7">
+    <text value="Shift to Infant NVP 10mg/ml (2mg/kg)"/>
+    <type value="group"/>
+    <item id="E7QJ0voitk7.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ibL7BD2vn2C">
+    <text value="ART treatment stopped due to death"/>
+    <type value="group"/>
+    <item id="ibL7BD2vn2C.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ibL7BD2vn2C.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ibL7BD2vn2C.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ibL7BD2vn2C.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ibL7BD2vn2C.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ibL7BD2vn2C.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ibL7BD2vn2C.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ibL7BD2vn2C.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GgsWqA0YETj">
+    <text value="New on AZT 300mg at 28 wks"/>
+    <type value="group"/>
+    <item id="GgsWqA0YETj.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pSHgU0Wf4ir">
+    <text value="Shift from AZT 300mg / 3TC 150mg + NVP 200mg"/>
+    <type value="group"/>
+    <item id="pSHgU0Wf4ir.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="la1f7sqY9sb">
+    <text value="New on ABC 300mg + ddI 200mg + LPV/r 133.3/33.3mg"/>
+    <type value="group"/>
+    <item id="la1f7sqY9sb.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EEEu3r8z1Rg">
+    <text value="Shift to d4T / 3TC / NVP 12mg/60mg/100mg"/>
+    <type value="group"/>
+    <item id="EEEu3r8z1Rg.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HmBwa7GWGRG">
+    <text value="Shift from NVP + AZT + 3TC 10mg/ml (2mg/kg) + 10mg/ml + 10mg/ml for 7 days"/>
+    <type value="group"/>
+    <item id="HmBwa7GWGRG.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q9CskFaFGE6">
+    <text value="Shift from AZT + 3TC 300mg + 150mg on labour"/>
+    <type value="group"/>
+    <item id="q9CskFaFGE6.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IJ4yZ027EmK">
+    <text value="Shift to AZT + 3TC 300mg + 150mg on labour"/>
+    <type value="group"/>
+    <item id="IJ4yZ027EmK.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="a5MxE5H7d3q">
+    <text value="Shift to d4T 40mg + 3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="a5MxE5H7d3q.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hoj1wTJT6ZW">
+    <text value="New on d4T 30mg + 3TC 100mg + ABC 300mg"/>
+    <type value="group"/>
+    <item id="hoj1wTJT6ZW.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="un5mkYkVKqV">
+    <text value="Shift to NVP + AZT + 3TC 10mg/ml (2mg/kg) + 10mg/ml + 10mg/ml for 7 days"/>
+    <type value="group"/>
+    <item id="un5mkYkVKqV.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dAnZOL5kxlK">
+    <text value="Shift from d4T 40mg / 3TC 150mg / NVP 200mg"/>
+    <type value="group"/>
+    <item id="dAnZOL5kxlK.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tZLjsE0VXrL">
+    <text value="New on AZT 300mg /  3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="tZLjsE0VXrL.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dGdeotKpRed">
+    <text value="ART enrollment stage 2"/>
+    <type value="group"/>
+    <item id="dGdeotKpRed.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="dGdeotKpRed.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="dGdeotKpRed.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="dGdeotKpRed.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="dGdeotKpRed.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="dGdeotKpRed.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="dGdeotKpRed.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="dGdeotKpRed.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gSD3Znye1hY">
+    <text value="Shift from AZT 300mg + 3TC 150mg + ABC 300mg "/>
+    <type value="group"/>
+    <item id="gSD3Znye1hY.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="V651s5yIbnR">
+    <text value="Shift to d4T 30mg / 3TC 150mg / NVP 200mg"/>
+    <type value="group"/>
+    <item id="V651s5yIbnR.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="deGkTqbpTlS">
+    <text value="Prev. month on AZT + 3TC 300mg + 150mg for 7 days after 36w"/>
+    <type value="group"/>
+    <item id="deGkTqbpTlS.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vJSPn2R6gVe">
+    <text value="ART entry point: No other"/>
+    <type value="group"/>
+    <item id="vJSPn2R6gVe.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="vJSPn2R6gVe.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="vJSPn2R6gVe.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="vJSPn2R6gVe.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="vJSPn2R6gVe.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="vJSPn2R6gVe.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="vJSPn2R6gVe.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="vJSPn2R6gVe.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XMsORYe4ZcA">
+    <text value="Shift to AZT 300mg /  3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="XMsORYe4ZcA.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rFkRvm5Ns4a">
+    <text value="Prev. month on AZT 300mg /  3TC 150mg + EFV 600mg"/>
+    <type value="group"/>
+    <item id="rFkRvm5Ns4a.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z5uEjG9zJNK">
+    <text value="Shift from Infant NVP 10mg/ml (2mg/kg)"/>
+    <type value="group"/>
+    <item id="Z5uEjG9zJNK.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e1eDe6JsE9j">
+    <text value="Prev. month on AZT + 3TC + NVP 300mg + 150mg + 200mg"/>
+    <type value="group"/>
+    <item id="e1eDe6JsE9j.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PxT44IblPCq">
+    <text value="New on ABC 300mg + ddI 200mg + IDV 400mg + r 100mg"/>
+    <type value="group"/>
+    <item id="PxT44IblPCq.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MeAvt39JtqN">
+    <text value="Shift from AZT 300mg + 3TC 150mg + TDF 300mg "/>
+    <type value="group"/>
+    <item id="MeAvt39JtqN.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LJBV91hapop">
+    <text value="Shift from AZT 300mg at 28 wks"/>
+    <type value="group"/>
+    <item id="LJBV91hapop.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FOWABOOZtPg">
+    <text value="Prev. month on AZT 300mg + 3TC 150mg + TDF 300mg "/>
+    <type value="group"/>
+    <item id="FOWABOOZtPg.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ReljOufQV11">
+    <text value="Prev. month on AZT 300mg at 28 wks"/>
+    <type value="group"/>
+    <item id="ReljOufQV11.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lmj0xtl5P6C">
+    <text value="New on ART other regimen"/>
+    <type value="group"/>
+    <item id="lmj0xtl5P6C.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ozmEltb5V8d">
+    <text value="New on AZT + 3TC 300mg + 150mg on labour"/>
+    <type value="group"/>
+    <item id="ozmEltb5V8d.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Mow8dnhE6FJ">
+    <text value="Shift from AZT + 3TC 300mg + 150mg for 7 days"/>
+    <type value="group"/>
+    <item id="Mow8dnhE6FJ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="supsI55QU7E">
+    <text value="Shift from AZT + 3TC 300mg + 150mg for 7 days after 36w"/>
+    <type value="group"/>
+    <item id="supsI55QU7E.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xUNvvqqhNwz">
+    <text value="New on d4T 40mg / 3TC 150mg / NVP 200mg"/>
+    <type value="group"/>
+    <item id="xUNvvqqhNwz.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="C6yhZddXLCX">
+    <text value="Shift to d4T 40mg / 3TC 150mg / NVP 200mg"/>
+    <type value="group"/>
+    <item id="C6yhZddXLCX.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lznF009R6XI">
+    <text value="Shift from ABC 300mg + ddI 200mg + LPV/r 133.3/33.3mg"/>
+    <type value="group"/>
+    <item id="lznF009R6XI.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YknvQAH4LnL">
+    <text value="Prev. month on d4T / 3TC / NVP 6mg/30mg/50mg"/>
+    <type value="group"/>
+    <item id="YknvQAH4LnL.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yB3qDR4Mlqk">
+    <text value="Shift to d4T 30mg + 3TC 100mg + TDF 300mg "/>
+    <type value="group"/>
+    <item id="yB3qDR4Mlqk.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aIJZ2d2QgVV">
+    <text value="ART defaulters"/>
+    <type value="group"/>
+    <item id="aIJZ2d2QgVV.uX9yDetTdOp">
+      <text value="Male, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIJZ2d2QgVV.qa0VqgYlgtN">
+      <text value="Female, 25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIJZ2d2QgVV.GuJESuyOCMW">
+      <text value="Male, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIJZ2d2QgVV.zPpvbvpmkxN">
+      <text value="Male, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIJZ2d2QgVV.LbeIlyHEhKr">
+      <text value="Female, 15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIJZ2d2QgVV.rCMUTmcreqP">
+      <text value="Female, &gt;49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIJZ2d2QgVV.TkDhg29x18A">
+      <text value="Male, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIJZ2d2QgVV.qNCMOhkoQju">
+      <text value="Female, &lt;15y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Jw8BIUYVMGE">
+    <text value="Shift from ART other regimen"/>
+    <type value="group"/>
+    <item id="Jw8BIUYVMGE.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zTWitarSrae">
+    <text value="Shift to AZT + 3TC 300mg + 150mg for 7 days"/>
+    <type value="group"/>
+    <item id="zTWitarSrae.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iri7NSiuRc3">
+    <text value="Prev. month on Infant NVP 10mg/ml (2mg/kg)"/>
+    <type value="group"/>
+    <item id="iri7NSiuRc3.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

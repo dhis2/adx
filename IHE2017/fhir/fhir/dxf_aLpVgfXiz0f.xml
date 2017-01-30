@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="aLpVgfXiz0f"/>
+  <status value="published"/>
+  <title value="Population"/>
+  <item id="DTVRnCGamkV">
+    <text value="Total population &lt; 1 year"/>
+    <type value="group"/>
+    <item id="DTVRnCGamkV.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DTtCy7Nx5jH">
+    <text value="Total population &lt; 5 years"/>
+    <type value="group"/>
+    <item id="DTtCy7Nx5jH.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WUg3MYWQ7pt">
+    <text value="Total Population"/>
+    <type value="group"/>
+    <item id="WUg3MYWQ7pt.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h0xKKjijTdI">
+    <text value="Expected pregnancies"/>
+    <type value="group"/>
+    <item id="h0xKKjijTdI.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vg6pdjObxsm">
+    <text value="Population of women of child bearing age (WRA)"/>
+    <type value="group"/>
+    <item id="vg6pdjObxsm.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

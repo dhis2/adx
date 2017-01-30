@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSet xmlns="http://dhis2.org/schema/dxf/2.0" id="Y8gAn9DfAGU">
+  <periodType>Quarterly</periodType>
+  <displayName>Project Management</displayName>
+  <version>12</version>
+  <dataSetElements>
+    <dataSetElement>
+      <dataElement id="xk0krAO2KfJ">
+        <displayName>Project: Communications plan</displayName>
+        <valueType>FILE_RESOURCE</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hA2cfVJL4fp">
+        <displayName>Project: Review</displayName>
+        <valueType>FILE_RESOURCE</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="okVqga4sADb">
+        <displayName>Project: Feasibility study</displayName>
+        <valueType>FILE_RESOURCE</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="yiAhmn4q7wJ">
+        <displayName>Project: Comments</displayName>
+        <valueType>LONG_TEXT</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="b65EIDnbjXf">
+        <displayName>Project: Plan</displayName>
+        <valueType>FILE_RESOURCE</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="JXwI2RLVRwa">
+        <displayName>Project: Goals and achievables</displayName>
+        <valueType>FILE_RESOURCE</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="xPTAT98T2Jd">
+        <displayName>Project: Activity Report</displayName>
+        <valueType>FILE_RESOURCE</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="seNDI6rguib">
+        <displayName>Project: Procurement plans</displayName>
+        <valueType>FILE_RESOURCE</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="qF555AXehEn">
+        <displayName>Project: Narrative</displayName>
+        <valueType>FILE_RESOURCE</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+  </dataSetElements>
+</dataSet>

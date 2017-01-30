@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+   <id value="vXK2IApyj6g"/>
+   <status value="published"/>
+   <title value="HTN test"/>
+    
+      
+      
+   <item id="s46m5MS0hxu">
+      <text value="BCG doses given"/>
+      <type value="group"/>
+        
+          
+      <item id="s46m5MS0hxu.hEFKSsPV5et">
+         <text value="Outreach, &gt;1y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="s46m5MS0hxu.psbwp3CQEhs">
+         <text value="Fixed, &gt;1y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="s46m5MS0hxu.V6L425pT3A0">
+         <text value="Outreach, &lt;1y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="s46m5MS0hxu.Prlt0C1RF0s">
+         <text value="Fixed, &lt;1y"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="WVrH6j3Wfye">
+      <text value="Stock PHU discarded OPV"/>
+      <type value="group"/>
+        
+          
+      <item id="WVrH6j3Wfye.fsFN9T4ck3E">
+         <text value="Expired"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="WVrH6j3Wfye.pn1upwnbxfn">
+         <text value="Damages"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="WVrH6j3Wfye.TxaWpw1pN5G">
+         <text value="VVM Change"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="oxht1VLqF6x">
+      <text value="PLHIVs with a positive TB result"/>
+      <type value="group"/>
+        
+          
+      <item id="oxht1VLqF6x.uX9yDetTdOp">
+         <text value="Male, 25-49y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="oxht1VLqF6x.qa0VqgYlgtN">
+         <text value="Female, 25-49y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="oxht1VLqF6x.GuJESuyOCMW">
+         <text value="Male, &gt;49y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="oxht1VLqF6x.zPpvbvpmkxN">
+         <text value="Male, 15-24y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="oxht1VLqF6x.LbeIlyHEhKr">
+         <text value="Female, 15-24y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="oxht1VLqF6x.rCMUTmcreqP">
+         <text value="Female, &gt;49y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="oxht1VLqF6x.TkDhg29x18A">
+         <text value="Male, &lt;15y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="oxht1VLqF6x.qNCMOhkoQju">
+         <text value="Female, &lt;15y"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="o5USc1zH5mA">
+      <text value="CMC Visiting team members (name and organization)"/>
+      <type value="group"/>
+        
+          
+      <item id="o5USc1zH5mA.bRowv6yZOF2">
+         <text value="default"/>
+         <type value="text"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="z7duEFcpApd">
+      <text value="LLITN given at Penta3"/>
+      <type value="group"/>
+        
+          
+      <item id="z7duEFcpApd.hEFKSsPV5et">
+         <text value="Outreach, &gt;1y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="z7duEFcpApd.psbwp3CQEhs">
+         <text value="Fixed, &gt;1y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="z7duEFcpApd.V6L425pT3A0">
+         <text value="Outreach, &lt;1y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="z7duEFcpApd.Prlt0C1RF0s">
+         <text value="Fixed, &lt;1y"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="rxt7nvPyRUi">
+      <text value="All access routes are clearly marked and safe"/>
+      <type value="group"/>
+        
+          
+      <item id="rxt7nvPyRUi.bRowv6yZOF2">
+         <text value="default"/>
+         <type value="boolean"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="rTYZHPHVULr">
+      <text value="CMC Facility receives FP referrals from community health workers"/>
+      <type value="group"/>
+        
+          
+      <item id="rTYZHPHVULr.bRowv6yZOF2">
+         <text value="default"/>
+         <type value="boolean"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="zHaIxBfQMZk">
+      <text value="WP1"/>
+      <type value="group"/>
+        
+          
+      <item id="zHaIxBfQMZk.bRowv6yZOF2">
+         <text value="default"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="h0BwBQO9XUf">
+      <text value="Hypertension follow-up"/>
+      <type value="group"/>
+        
+          
+      <item id="h0BwBQO9XUf.S34ULMcHMca">
+         <text value="0-11m"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="h0BwBQO9XUf.jOkIbJVhECg">
+         <text value="15y+"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="h0BwBQO9XUf.wHBMVthqIX4">
+         <text value="12-59m"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="h0BwBQO9XUf.SdOUI2yT46H">
+         <text value="5-14y"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="wcwbN1jR0ar">
+      <text value="Neonatal Tetanus new"/>
+      <type value="group"/>
+        
+          
+      <item id="wcwbN1jR0ar.S34ULMcHMca">
+         <text value="0-11m"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="wcwbN1jR0ar.jOkIbJVhECg">
+         <text value="15y+"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="wcwbN1jR0ar.wHBMVthqIX4">
+         <text value="12-59m"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="wcwbN1jR0ar.SdOUI2yT46H">
+         <text value="5-14y"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="MqeQ222wxN8">
+      <text value="CMC Post-abortion FP methods provided in CAC unit - Male condoms"/>
+      <type value="group"/>
+        
+          
+      <item id="MqeQ222wxN8.bRowv6yZOF2">
+         <text value="default"/>
+         <type value="boolean"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="ndb4fIRrQbM">
+      <text value="Diarrhoea with severe dehydration follow-up"/>
+      <type value="group"/>
+        
+          
+      <item id="ndb4fIRrQbM.S34ULMcHMca">
+         <text value="0-11m"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="ndb4fIRrQbM.jOkIbJVhECg">
+         <text value="15y+"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="ndb4fIRrQbM.wHBMVthqIX4">
+         <text value="12-59m"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="ndb4fIRrQbM.SdOUI2yT46H">
+         <text value="5-14y"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="kxcIr99QcAO">
+      <text value="Shift to AZT 300mg / 3TC 150mg + NVP 200mg"/>
+      <type value="group"/>
+        
+          
+      <item id="kxcIr99QcAO.bRowv6yZOF2">
+         <text value="default"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="Cm4XUw6VAxv">
+      <text value="ARI treated without antibiotics (cough) new"/>
+      <type value="group"/>
+        
+          
+      <item id="Cm4XUw6VAxv.S34ULMcHMca">
+         <text value="0-11m"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="Cm4XUw6VAxv.jOkIbJVhECg">
+         <text value="15y+"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="Cm4XUw6VAxv.wHBMVthqIX4">
+         <text value="12-59m"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="Cm4XUw6VAxv.SdOUI2yT46H">
+         <text value="5-14y"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="yqBkn9CWKih">
+      <text value="Anaemia referrals"/>
+      <type value="group"/>
+        
+          
+      <item id="yqBkn9CWKih.o2gxEt6Ek2C">
+         <text value="0-4y"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="yqBkn9CWKih.ba1FkzknqS8">
+         <text value="5y+"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="Nz5YtOpDyuV">
+      <text value="Vaccinator"/>
+      <type value="group"/>
+        
+          
+      <item id="Nz5YtOpDyuV.R23h9QZRbRt">
+         <text value="Not on salary"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="Nz5YtOpDyuV.DOC7emLzyRi">
+         <text value="On salary"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="U7v0q0amJqi">
+      <text value="All sterilisation equipment is validated / licensed"/>
+      <type value="group"/>
+        
+          
+      <item id="U7v0q0amJqi.bRowv6yZOF2">
+         <text value="default"/>
+         <type value="boolean"/>
+      </item>
+        
+      
+   </item>
+    
+    
+      
+      
+   <item id="zgeAdnpSY5K">
+      <text value="Porter"/>
+      <type value="group"/>
+        
+          
+      <item id="zgeAdnpSY5K.R23h9QZRbRt">
+         <text value="Not on salary"/>
+         <type value="integer"/>
+      </item>
+          
+      <item id="zgeAdnpSY5K.DOC7emLzyRi">
+         <text value="On salary"/>
+         <type value="integer"/>
+      </item>
+        
+      
+   </item>
+    
+  
+</Questionnaire>

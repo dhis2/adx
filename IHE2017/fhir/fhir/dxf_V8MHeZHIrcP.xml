@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="V8MHeZHIrcP"/>
+  <status value="published"/>
+  <title value="Facility Assessment"/>
+  <item id="zDDHyXrJkCi">
+    <text value="Date of assessment"/>
+    <type value="group"/>
+    <item id="zDDHyXrJkCi.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="cG4A76jrZmp">
+    <text value="Examination table with pad"/>
+    <type value="group"/>
+    <item id="cG4A76jrZmp.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sJWqKsx0ghX">
+    <text value="General state of facility"/>
+    <type value="group"/>
+    <item id="sJWqKsx0ghX.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="text"/>
+    </item>
+  </item>
+  <item id="DgnwZliJuh5">
+    <text value="Debriefing sessions are part of each resuscitation protocol"/>
+    <type value="group"/>
+    <item id="DgnwZliJuh5.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Kjvr9TNOmC1">
+    <text value="Grounds are maintained and are safe and clean"/>
+    <type value="group"/>
+    <item id="Kjvr9TNOmC1.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="uZJkd96hYCm">
+    <text value="Equipment is placed in appropriate reachable areas"/>
+    <type value="group"/>
+    <item id="uZJkd96hYCm.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="y3S3a9e4ugi">
+    <text value="Glucometer is present"/>
+    <type value="group"/>
+    <item id="y3S3a9e4ugi.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="a57FmdPj3Zl">
+    <text value="Appropriate hand washing facilities are available"/>
+    <type value="group"/>
+    <item id="a57FmdPj3Zl.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qgwWv33YaBj">
+    <text value="Referral protocol is described"/>
+    <type value="group"/>
+    <item id="qgwWv33YaBj.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="BbE5wGi3gZl">
+    <text value="Foetal heart recorded hourly"/>
+    <type value="group"/>
+    <item id="BbE5wGi3gZl.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="bOTcPezfyYk">
+    <text value="Time of assessment"/>
+    <type value="group"/>
+    <item id="bOTcPezfyYk.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="datetime"/>
+    </item>
+  </item>
+  <item id="rxt7nvPyRUi">
+    <text value="All access routes are clearly marked and safe"/>
+    <type value="group"/>
+    <item id="rxt7nvPyRUi.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="TLSChlBcw7L">
+    <text value="Facility has access to running water"/>
+    <type value="group"/>
+    <item id="TLSChlBcw7L.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="uF1DLnZNlWe">
+    <text value="Additional notes related to facility"/>
+    <type value="group"/>
+    <item id="uF1DLnZNlWe.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="text"/>
+    </item>
+  </item>
+  <item id="MJYalhqFsHK">
+    <text value="Facility has access to stable Internet connectivity"/>
+    <type value="group"/>
+    <item id="MJYalhqFsHK.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="X0rTbbFpRTO">
+    <text value="Lighting and ventilation is observed to be adequate"/>
+    <type value="group"/>
+    <item id="X0rTbbFpRTO.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="UMJym1vYPSu">
+    <text value="Facility has access to stable electrical power"/>
+    <type value="group"/>
+    <item id="UMJym1vYPSu.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="sPQgYGhXnXI">
+    <text value="An alternative to communicate if telephone line is off is always available"/>
+    <type value="group"/>
+    <item id="sPQgYGhXnXI.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="nzl75uHiWQO">
+    <text value="Blood pressure monitor, electronic or manual available"/>
+    <type value="group"/>
+    <item id="nzl75uHiWQO.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

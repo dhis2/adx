@@ -1,0 +1,4252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSet xmlns="http://dhis2.org/schema/dxf/2.0" code="DS_359414" id="eZDhcZi6FLP">
+  <periodType>Monthly</periodType>
+  <displayName>Morbidity</displayName>
+  <version>22</version>
+  <dataSetElements>
+    <dataSetElement>
+      <dataElement id="bBiAGF9UhUy">
+        <displayName>Meningitis/severe bacterial infection follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="tl03DMc49UT">
+        <displayName>STI - Genital Discharge follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="i0vXh1P92m3">
+        <displayName>Skin infection follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="nymNRxmnj4z">
+        <displayName>Diarrhoea with blood (Dysentery) new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="IeO1sWXVyp6">
+        <displayName>STI - Genital Ulcer new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ndb4fIRrQbM">
+        <displayName>Diarrhoea with severe dehydration follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="BvuQnfq1C4J">
+        <displayName>Onchocerciasis follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FHD3wiSM7Sn">
+        <displayName>ARI treated with antibiotics (pneumonia) follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="iKGjnOOaPlE">
+        <displayName>ARI treated with antibiotics (pneumonia) new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Cj5rTc9nEvl">
+        <displayName>Typhoid fever new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="sFMVaj1mHBk">
+        <displayName>Neonatal Tetanus follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="yqBkn9CWKih">
+        <displayName>Anaemia referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="TQnDEASFsVH">
+        <displayName>Malaria treated in community with ACT &lt;24 hrs f-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="vLA3KVFcZIw">
+        <displayName>Diarrhoea with blood (Dysentery) follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="UfZcabJUVcZ">
+        <displayName>Diarrhoea with severe dehydration new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="oLfWYAJhZb2">
+        <displayName>ARI treated without antibiotics (cough) referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="NCteyX2xpMf">
+        <displayName>Lassa fever new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="HQv1p570ldT">
+        <displayName>Diarrhoea with blood (Dysentery) referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="QYBJk7sqc1I">
+        <displayName>Burns follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Qk9nnX0i7lZ">
+        <displayName>Rapid diagnostic test for Malaria negative</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="BQI18TPLR7W">
+        <displayName>Eye infection new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="madOetOj4Ye">
+        <displayName>Tuberculosis follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="h0BwBQO9XUf">
+        <displayName>Hypertension follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="l76gpVSWoSE">
+        <displayName>Schistosomiasis referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hfuTiKOkuKs">
+        <displayName>Meningitis/severe bacterial infection referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ArS7VyuL95f">
+        <displayName>Otitis media follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="saMXNnGMaBw">
+        <displayName>STI - Genital Ulcer referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="wcwbN1jR0ar">
+        <displayName>Neonatal Tetanus new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="laZLQdnucV1">
+        <displayName>All other referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="JMKtVQ5HasH">
+        <displayName>Wounds/Trauma referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="gQAAvbLx8MM">
+        <displayName>Yaws referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="DrEOxW8mbbh">
+        <displayName>Onchocerciasis new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="U3jd8zVFKxY">
+        <displayName>Diarrhoea without severe dehydration new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="HFw6q0jUFKI">
+        <displayName>Neonatal Tetanus referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="bVkFujnp3F2">
+        <displayName>Malaria treated at PHU with ACT &gt; 24 hrs f-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="j73ScVBTyP0">
+        <displayName>Otitis media referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Bc7pt6MgY0j">
+        <displayName>Tetanus (not incl. 0-28 days) referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="rNi710XHPXY">
+        <displayName>Typhoid fever follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="iIBbZPAqnMt">
+        <displayName>Malaria treated at PHU without ACT &lt; 24 hrs f-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="pgi981WXhas">
+        <displayName>Malaria treated at PHU without ACT &gt; 24 hrs f-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Cm4XUw6VAxv">
+        <displayName>ARI treated without antibiotics (cough) new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="HLPuaFB7Frw">
+        <displayName>Anaemia new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Y4cFzB4A9ZQ">
+        <displayName>Skin infection new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FF3Ev33BuCh">
+        <displayName>Yaws new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="AoVvYq5mtLL">
+        <displayName>Skin infection referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="x8gsvCKjGdZ">
+        <displayName>Malaria treated in community with ACT &lt;24 hrs new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="XTqOHygxDj5">
+        <displayName>ARI treated with antibiotics (pneumonia) referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="RZNJFsg7fQp">
+        <displayName>STI - Genital Ulcer follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="wZwzzRnr9N4">
+        <displayName>Rapid diagnostic test for Malaria positive</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="GCvqIM3IzN0">
+        <displayName>Measles new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Uoj2wmnr5Dw">
+        <displayName>Tetanus (not incl. 0-28 days) new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="bcxWMsa1ZwU">
+        <displayName>STI - Genital Discharge referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="kqqgh0EOlcA">
+        <displayName>Leprosy follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="uz8dqEzuxyc">
+        <displayName>Lassa fever referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="UXW5hWW8dE1">
+        <displayName>Hypertension new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="XWU1Huh0Luy">
+        <displayName>Yellow fever new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="kcbTUfABUck">
+        <displayName>Malaria treated in community with ACT &gt;24 hrs new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="LaTxwutQILW">
+        <displayName>Typhoid fever referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="uCVKV6PGGNB">
+        <displayName>Measles follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="P3jJH5Tu5VC">
+        <displayName>Acute Flaccid Paralysis (AFP) follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="DWLCM68Q7Zl">
+        <displayName>Otitis media new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="CecywZWejT3">
+        <displayName>Malaria treated at PHU with ACT &lt; 24 hrs f-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="nmh0BSu3vaV">
+        <displayName>Malaria treated at PHU without ACT &lt; 24 hrs new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="RF4VFVGdFRO">
+        <displayName>ARI treated without antibiotics (cough) follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="GYm08KsVDOz">
+        <displayName>Schistosomiasis follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FQ2o8UBlcrS">
+        <displayName>Acute Flaccid Paralysis (AFP) new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Y7Oq71I3ASg">
+        <displayName>Schistosomiasis new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="nvkbuPrYmDd">
+        <displayName>Diarrhoea without severe dehydration follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="A2VfEfPflHV">
+        <displayName>All other new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="eomLLbWJfcx">
+        <displayName>Measles referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hdHLjKFmxB4">
+        <displayName>Tuberculosis referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Usk9Asj5DED">
+        <displayName>Worm infestation new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="RUv0hqER0zV">
+        <displayName>All other follow-ups</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="zSJF2b48kOg">
+        <displayName>Yellow fever referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="QV7HsRncdCz">
+        <displayName>Eye infection follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="oNyB0VOXIM8">
+        <displayName>Clinical Malnutrition referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="zAW6b5Owalk">
+        <displayName>Leprosy new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="E62UwxnYf26">
+        <displayName>Worm infestation follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="z9dYcQ2DlBG">
+        <displayName>Tuberculosis new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hvdCBRWUk80">
+        <displayName>Yellow fever follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="KAXjpSLFlhB">
+        <displayName>Leprosy referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="XfsVSt4zciP">
+        <displayName>Eye infection referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="dVdxnTNL2jZ">
+        <displayName>Lassa fever follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="JFFUt8yR2iW">
+        <displayName>Meningitis/severe bacterial infection new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="HpM1I5qc3Pb">
+        <displayName>Diarrhoea with severe dehydration referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FJs8ZjlQE6f">
+        <displayName>Wounds/Trauma new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="VmoPqzwBgkx">
+        <displayName>Worm infestation referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="vzcahelbU5s">
+        <displayName>Malaria treated in community with ACT &gt;24 hrs f-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="zMGEd921xd3">
+        <displayName>Burns new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="jmWyJFtE7Af">
+        <displayName>Anaemia follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="EGUJY3jQdJ6">
+        <displayName>Malaria treated at PHU without ACT &gt; 24 hrs new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="q9AIeFQD7zj">
+        <displayName>Onchocerciasis referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="CN9Oxawn7bD">
+        <displayName>STI - Genital Discharge new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="d92E7cpMvdl">
+        <displayName>Malaria treated at PHU with ACT &gt; 24 hrs new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="AFM5H0wNq3t">
+        <displayName>Malaria treated at PHU with ACT &lt; 24 hrs new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="nG0tBc37z0q">
+        <displayName>Tetanus (not incl. 0-28 days) follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="plfo9ai1jtW">
+        <displayName>Yaws follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="BHvVPwWrrLC">
+        <displayName>Burns referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="TBbCcJfZ91x">
+        <displayName>Clinical Malnutrition new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="HJulLfnIAE3">
+        <displayName>Clinical Malnutrition follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="yJwdE6XJbrF">
+        <displayName>Wounds/Trauma follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hnwWyM4gDSg">
+        <displayName>Malaria referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="X5GbcxQCasr">
+        <displayName>Hypertension referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="M62VHgYT2n0">
+        <displayName>Acute Flaccid Paralysis (AFP) referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+  </dataSetElements>
+</dataSet>

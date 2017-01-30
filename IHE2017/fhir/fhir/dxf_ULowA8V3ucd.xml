@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="ULowA8V3ucd"/>
+  <status value="published"/>
+  <title value="Life-Saving Commodities"/>
+  <item id="TCfIC3NDgQK">
+    <text value="Commodities - Zinc"/>
+    <type value="group"/>
+    <item id="TCfIC3NDgQK.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="TCfIC3NDgQK.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="TCfIC3NDgQK.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Lz8MM2Y9DNh">
+    <text value="Commodities - Oral Rehydration Salts"/>
+    <type value="group"/>
+    <item id="Lz8MM2Y9DNh.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="Lz8MM2Y9DNh.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="Lz8MM2Y9DNh.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Dkapzovo8Ll">
+    <text value="Commodities - Implants"/>
+    <type value="group"/>
+    <item id="Dkapzovo8Ll.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dkapzovo8Ll.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dkapzovo8Ll.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dY4OCwl0Y7Y">
+    <text value="Commodities - Female Condoms"/>
+    <type value="group"/>
+    <item id="dY4OCwl0Y7Y.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="dY4OCwl0Y7Y.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="dY4OCwl0Y7Y.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="W1XtQhP6BGd">
+    <text value="Commodities - Resuscitation Equipment"/>
+    <type value="group"/>
+    <item id="W1XtQhP6BGd.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="W1XtQhP6BGd.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="W1XtQhP6BGd.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o15CyZiTvxa">
+    <text value="Commodities - Magnesium Sulfate"/>
+    <type value="group"/>
+    <item id="o15CyZiTvxa.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="o15CyZiTvxa.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="o15CyZiTvxa.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WjDoIR27f31">
+    <text value="Commodities - Chlorhexidine"/>
+    <type value="group"/>
+    <item id="WjDoIR27f31.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="WjDoIR27f31.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="WjDoIR27f31.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Boy3QwztgeZ">
+    <text value="Commodities - Amoxicillin"/>
+    <type value="group"/>
+    <item id="Boy3QwztgeZ.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="Boy3QwztgeZ.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="Boy3QwztgeZ.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="f27B1G7B3m3">
+    <text value="Commodities - Misoprostol"/>
+    <type value="group"/>
+    <item id="f27B1G7B3m3.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="f27B1G7B3m3.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="f27B1G7B3m3.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JIazHXNSnFJ">
+    <text value="Commodities - Injectable Antibiotics"/>
+    <type value="group"/>
+    <item id="JIazHXNSnFJ.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="JIazHXNSnFJ.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="JIazHXNSnFJ.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="d9vZ3HOlzAd">
+    <text value="Commodities - Antenatal Corticosteroids"/>
+    <type value="group"/>
+    <item id="d9vZ3HOlzAd.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="d9vZ3HOlzAd.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="d9vZ3HOlzAd.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hJNC4Bu2Mkv">
+    <text value="Commodities - Oxytocin"/>
+    <type value="group"/>
+    <item id="hJNC4Bu2Mkv.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="hJNC4Bu2Mkv.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="hJNC4Bu2Mkv.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BXgDHhPdFVU">
+    <text value="Commodities - Emergency Contraception"/>
+    <type value="group"/>
+    <item id="BXgDHhPdFVU.J2Qf1jtZuj8">
+      <text value="Consumption"/>
+      <type value="integer"/>
+    </item>
+    <item id="BXgDHhPdFVU.KPP63zJPkOu">
+      <text value="Quantity to be ordered"/>
+      <type value="integer"/>
+    </item>
+    <item id="BXgDHhPdFVU.rQLFnNXXIL0">
+      <text value="End Balance"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

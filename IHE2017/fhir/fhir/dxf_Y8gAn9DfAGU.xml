@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="Y8gAn9DfAGU"/>
+  <status value="published"/>
+  <title value="Project Management"/>
+  <item id="xk0krAO2KfJ">
+    <text value="Project: Communications plan"/>
+    <type value="group"/>
+    <item id="xk0krAO2KfJ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="hA2cfVJL4fp">
+    <text value="Project: Review"/>
+    <type value="group"/>
+    <item id="hA2cfVJL4fp.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="okVqga4sADb">
+    <text value="Project: Feasibility study"/>
+    <type value="group"/>
+    <item id="okVqga4sADb.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="yiAhmn4q7wJ">
+    <text value="Project: Comments"/>
+    <type value="group"/>
+    <item id="yiAhmn4q7wJ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="text"/>
+    </item>
+  </item>
+  <item id="b65EIDnbjXf">
+    <text value="Project: Plan"/>
+    <type value="group"/>
+    <item id="b65EIDnbjXf.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="JXwI2RLVRwa">
+    <text value="Project: Goals and achievables"/>
+    <type value="group"/>
+    <item id="JXwI2RLVRwa.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="xPTAT98T2Jd">
+    <text value="Project: Activity Report"/>
+    <type value="group"/>
+    <item id="xPTAT98T2Jd.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="seNDI6rguib">
+    <text value="Project: Procurement plans"/>
+    <type value="group"/>
+    <item id="seNDI6rguib.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="qF555AXehEn">
+    <text value="Project: Narrative"/>
+    <type value="group"/>
+    <item id="qF555AXehEn.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+</Questionnaire>

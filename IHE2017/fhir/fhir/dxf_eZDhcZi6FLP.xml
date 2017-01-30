@@ -1,0 +1,1847 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="eZDhcZi6FLP"/>
+  <status value="published"/>
+  <title value="Morbidity"/>
+  <item id="bBiAGF9UhUy">
+    <text value="Meningitis/severe bacterial infection follow-up"/>
+    <type value="group"/>
+    <item id="bBiAGF9UhUy.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="bBiAGF9UhUy.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="bBiAGF9UhUy.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="bBiAGF9UhUy.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tl03DMc49UT">
+    <text value="STI - Genital Discharge follow-up"/>
+    <type value="group"/>
+    <item id="tl03DMc49UT.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="tl03DMc49UT.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="tl03DMc49UT.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="tl03DMc49UT.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="i0vXh1P92m3">
+    <text value="Skin infection follow-up"/>
+    <type value="group"/>
+    <item id="i0vXh1P92m3.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="i0vXh1P92m3.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="i0vXh1P92m3.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="i0vXh1P92m3.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nymNRxmnj4z">
+    <text value="Diarrhoea with blood (Dysentery) new"/>
+    <type value="group"/>
+    <item id="nymNRxmnj4z.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="nymNRxmnj4z.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="nymNRxmnj4z.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="nymNRxmnj4z.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IeO1sWXVyp6">
+    <text value="STI - Genital Ulcer new"/>
+    <type value="group"/>
+    <item id="IeO1sWXVyp6.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="IeO1sWXVyp6.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="IeO1sWXVyp6.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="IeO1sWXVyp6.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ndb4fIRrQbM">
+    <text value="Diarrhoea with severe dehydration follow-up"/>
+    <type value="group"/>
+    <item id="ndb4fIRrQbM.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="ndb4fIRrQbM.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="ndb4fIRrQbM.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="ndb4fIRrQbM.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BvuQnfq1C4J">
+    <text value="Onchocerciasis follow-up"/>
+    <type value="group"/>
+    <item id="BvuQnfq1C4J.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="BvuQnfq1C4J.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="BvuQnfq1C4J.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="BvuQnfq1C4J.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FHD3wiSM7Sn">
+    <text value="ARI treated with antibiotics (pneumonia) follow-up"/>
+    <type value="group"/>
+    <item id="FHD3wiSM7Sn.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="FHD3wiSM7Sn.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="FHD3wiSM7Sn.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="FHD3wiSM7Sn.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iKGjnOOaPlE">
+    <text value="ARI treated with antibiotics (pneumonia) new"/>
+    <type value="group"/>
+    <item id="iKGjnOOaPlE.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="iKGjnOOaPlE.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="iKGjnOOaPlE.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="iKGjnOOaPlE.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Cj5rTc9nEvl">
+    <text value="Typhoid fever new"/>
+    <type value="group"/>
+    <item id="Cj5rTc9nEvl.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Cj5rTc9nEvl.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="Cj5rTc9nEvl.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Cj5rTc9nEvl.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sFMVaj1mHBk">
+    <text value="Neonatal Tetanus follow-up"/>
+    <type value="group"/>
+    <item id="sFMVaj1mHBk.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="sFMVaj1mHBk.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="sFMVaj1mHBk.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="sFMVaj1mHBk.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yqBkn9CWKih">
+    <text value="Anaemia referrals"/>
+    <type value="group"/>
+    <item id="yqBkn9CWKih.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="yqBkn9CWKih.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TQnDEASFsVH">
+    <text value="Malaria treated in community with ACT &lt;24 hrs f-up"/>
+    <type value="group"/>
+    <item id="TQnDEASFsVH.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="TQnDEASFsVH.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="TQnDEASFsVH.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="TQnDEASFsVH.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vLA3KVFcZIw">
+    <text value="Diarrhoea with blood (Dysentery) follow-up"/>
+    <type value="group"/>
+    <item id="vLA3KVFcZIw.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="vLA3KVFcZIw.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="vLA3KVFcZIw.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="vLA3KVFcZIw.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UfZcabJUVcZ">
+    <text value="Diarrhoea with severe dehydration new"/>
+    <type value="group"/>
+    <item id="UfZcabJUVcZ.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="UfZcabJUVcZ.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="UfZcabJUVcZ.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="UfZcabJUVcZ.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oLfWYAJhZb2">
+    <text value="ARI treated without antibiotics (cough) referrals"/>
+    <type value="group"/>
+    <item id="oLfWYAJhZb2.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="oLfWYAJhZb2.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NCteyX2xpMf">
+    <text value="Lassa fever new"/>
+    <type value="group"/>
+    <item id="NCteyX2xpMf.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="NCteyX2xpMf.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="NCteyX2xpMf.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="NCteyX2xpMf.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HQv1p570ldT">
+    <text value="Diarrhoea with blood (Dysentery) referrals"/>
+    <type value="group"/>
+    <item id="HQv1p570ldT.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HQv1p570ldT.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QYBJk7sqc1I">
+    <text value="Burns follow-up"/>
+    <type value="group"/>
+    <item id="QYBJk7sqc1I.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="QYBJk7sqc1I.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="QYBJk7sqc1I.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="QYBJk7sqc1I.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Qk9nnX0i7lZ">
+    <text value="Rapid diagnostic test for Malaria negative"/>
+    <type value="group"/>
+    <item id="Qk9nnX0i7lZ.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Qk9nnX0i7lZ.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="Qk9nnX0i7lZ.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Qk9nnX0i7lZ.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BQI18TPLR7W">
+    <text value="Eye infection new"/>
+    <type value="group"/>
+    <item id="BQI18TPLR7W.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="BQI18TPLR7W.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="BQI18TPLR7W.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="BQI18TPLR7W.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="madOetOj4Ye">
+    <text value="Tuberculosis follow-up"/>
+    <type value="group"/>
+    <item id="madOetOj4Ye.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="madOetOj4Ye.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="madOetOj4Ye.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="madOetOj4Ye.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h0BwBQO9XUf">
+    <text value="Hypertension follow-up"/>
+    <type value="group"/>
+    <item id="h0BwBQO9XUf.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="h0BwBQO9XUf.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="h0BwBQO9XUf.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="h0BwBQO9XUf.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="l76gpVSWoSE">
+    <text value="Schistosomiasis referrals"/>
+    <type value="group"/>
+    <item id="l76gpVSWoSE.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="l76gpVSWoSE.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hfuTiKOkuKs">
+    <text value="Meningitis/severe bacterial infection referrals"/>
+    <type value="group"/>
+    <item id="hfuTiKOkuKs.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="hfuTiKOkuKs.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ArS7VyuL95f">
+    <text value="Otitis media follow-up"/>
+    <type value="group"/>
+    <item id="ArS7VyuL95f.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="ArS7VyuL95f.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="ArS7VyuL95f.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="ArS7VyuL95f.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="saMXNnGMaBw">
+    <text value="STI - Genital Ulcer referrals"/>
+    <type value="group"/>
+    <item id="saMXNnGMaBw.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="saMXNnGMaBw.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wcwbN1jR0ar">
+    <text value="Neonatal Tetanus new"/>
+    <type value="group"/>
+    <item id="wcwbN1jR0ar.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="wcwbN1jR0ar.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="wcwbN1jR0ar.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="wcwbN1jR0ar.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="laZLQdnucV1">
+    <text value="All other referrals"/>
+    <type value="group"/>
+    <item id="laZLQdnucV1.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="laZLQdnucV1.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JMKtVQ5HasH">
+    <text value="Wounds/Trauma referrals"/>
+    <type value="group"/>
+    <item id="JMKtVQ5HasH.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="JMKtVQ5HasH.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gQAAvbLx8MM">
+    <text value="Yaws referrals"/>
+    <type value="group"/>
+    <item id="gQAAvbLx8MM.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gQAAvbLx8MM.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DrEOxW8mbbh">
+    <text value="Onchocerciasis new"/>
+    <type value="group"/>
+    <item id="DrEOxW8mbbh.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="DrEOxW8mbbh.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="DrEOxW8mbbh.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="DrEOxW8mbbh.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="U3jd8zVFKxY">
+    <text value="Diarrhoea without severe dehydration new"/>
+    <type value="group"/>
+    <item id="U3jd8zVFKxY.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="U3jd8zVFKxY.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="U3jd8zVFKxY.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="U3jd8zVFKxY.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HFw6q0jUFKI">
+    <text value="Neonatal Tetanus referrals"/>
+    <type value="group"/>
+    <item id="HFw6q0jUFKI.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HFw6q0jUFKI.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bVkFujnp3F2">
+    <text value="Malaria treated at PHU with ACT &gt; 24 hrs f-up"/>
+    <type value="group"/>
+    <item id="bVkFujnp3F2.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="bVkFujnp3F2.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="bVkFujnp3F2.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="bVkFujnp3F2.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j73ScVBTyP0">
+    <text value="Otitis media referrals"/>
+    <type value="group"/>
+    <item id="j73ScVBTyP0.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="j73ScVBTyP0.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Bc7pt6MgY0j">
+    <text value="Tetanus (not incl. 0-28 days) referrals"/>
+    <type value="group"/>
+    <item id="Bc7pt6MgY0j.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="Bc7pt6MgY0j.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rNi710XHPXY">
+    <text value="Typhoid fever follow-up"/>
+    <type value="group"/>
+    <item id="rNi710XHPXY.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="rNi710XHPXY.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="rNi710XHPXY.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="rNi710XHPXY.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iIBbZPAqnMt">
+    <text value="Malaria treated at PHU without ACT &lt; 24 hrs f-up"/>
+    <type value="group"/>
+    <item id="iIBbZPAqnMt.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="iIBbZPAqnMt.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="iIBbZPAqnMt.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="iIBbZPAqnMt.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pgi981WXhas">
+    <text value="Malaria treated at PHU without ACT &gt; 24 hrs f-up"/>
+    <type value="group"/>
+    <item id="pgi981WXhas.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="pgi981WXhas.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="pgi981WXhas.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="pgi981WXhas.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Cm4XUw6VAxv">
+    <text value="ARI treated without antibiotics (cough) new"/>
+    <type value="group"/>
+    <item id="Cm4XUw6VAxv.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Cm4XUw6VAxv.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="Cm4XUw6VAxv.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Cm4XUw6VAxv.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HLPuaFB7Frw">
+    <text value="Anaemia new"/>
+    <type value="group"/>
+    <item id="HLPuaFB7Frw.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="HLPuaFB7Frw.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="HLPuaFB7Frw.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="HLPuaFB7Frw.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Y4cFzB4A9ZQ">
+    <text value="Skin infection new"/>
+    <type value="group"/>
+    <item id="Y4cFzB4A9ZQ.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Y4cFzB4A9ZQ.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="Y4cFzB4A9ZQ.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Y4cFzB4A9ZQ.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FF3Ev33BuCh">
+    <text value="Yaws new"/>
+    <type value="group"/>
+    <item id="FF3Ev33BuCh.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="FF3Ev33BuCh.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="FF3Ev33BuCh.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="FF3Ev33BuCh.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AoVvYq5mtLL">
+    <text value="Skin infection referrals"/>
+    <type value="group"/>
+    <item id="AoVvYq5mtLL.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="AoVvYq5mtLL.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x8gsvCKjGdZ">
+    <text value="Malaria treated in community with ACT &lt;24 hrs new"/>
+    <type value="group"/>
+    <item id="x8gsvCKjGdZ.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="x8gsvCKjGdZ.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="x8gsvCKjGdZ.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="x8gsvCKjGdZ.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XTqOHygxDj5">
+    <text value="ARI treated with antibiotics (pneumonia) referrals"/>
+    <type value="group"/>
+    <item id="XTqOHygxDj5.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="XTqOHygxDj5.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RZNJFsg7fQp">
+    <text value="STI - Genital Ulcer follow-up"/>
+    <type value="group"/>
+    <item id="RZNJFsg7fQp.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="RZNJFsg7fQp.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="RZNJFsg7fQp.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="RZNJFsg7fQp.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wZwzzRnr9N4">
+    <text value="Rapid diagnostic test for Malaria positive"/>
+    <type value="group"/>
+    <item id="wZwzzRnr9N4.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="wZwzzRnr9N4.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="wZwzzRnr9N4.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="wZwzzRnr9N4.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GCvqIM3IzN0">
+    <text value="Measles new"/>
+    <type value="group"/>
+    <item id="GCvqIM3IzN0.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="GCvqIM3IzN0.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="GCvqIM3IzN0.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="GCvqIM3IzN0.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Uoj2wmnr5Dw">
+    <text value="Tetanus (not incl. 0-28 days) new"/>
+    <type value="group"/>
+    <item id="Uoj2wmnr5Dw.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Uoj2wmnr5Dw.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="Uoj2wmnr5Dw.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Uoj2wmnr5Dw.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bcxWMsa1ZwU">
+    <text value="STI - Genital Discharge referrals"/>
+    <type value="group"/>
+    <item id="bcxWMsa1ZwU.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="bcxWMsa1ZwU.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kqqgh0EOlcA">
+    <text value="Leprosy follow-up"/>
+    <type value="group"/>
+    <item id="kqqgh0EOlcA.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="kqqgh0EOlcA.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="kqqgh0EOlcA.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="kqqgh0EOlcA.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uz8dqEzuxyc">
+    <text value="Lassa fever referrals"/>
+    <type value="group"/>
+    <item id="uz8dqEzuxyc.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="uz8dqEzuxyc.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UXW5hWW8dE1">
+    <text value="Hypertension new"/>
+    <type value="group"/>
+    <item id="UXW5hWW8dE1.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="UXW5hWW8dE1.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="UXW5hWW8dE1.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="UXW5hWW8dE1.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XWU1Huh0Luy">
+    <text value="Yellow fever new"/>
+    <type value="group"/>
+    <item id="XWU1Huh0Luy.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="XWU1Huh0Luy.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="XWU1Huh0Luy.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="XWU1Huh0Luy.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kcbTUfABUck">
+    <text value="Malaria treated in community with ACT &gt;24 hrs new"/>
+    <type value="group"/>
+    <item id="kcbTUfABUck.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="kcbTUfABUck.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="kcbTUfABUck.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="kcbTUfABUck.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LaTxwutQILW">
+    <text value="Typhoid fever referrals"/>
+    <type value="group"/>
+    <item id="LaTxwutQILW.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="LaTxwutQILW.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uCVKV6PGGNB">
+    <text value="Measles follow-up"/>
+    <type value="group"/>
+    <item id="uCVKV6PGGNB.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="uCVKV6PGGNB.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="uCVKV6PGGNB.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="uCVKV6PGGNB.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P3jJH5Tu5VC">
+    <text value="Acute Flaccid Paralysis (AFP) follow-up"/>
+    <type value="group"/>
+    <item id="P3jJH5Tu5VC.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="P3jJH5Tu5VC.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="P3jJH5Tu5VC.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="P3jJH5Tu5VC.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DWLCM68Q7Zl">
+    <text value="Otitis media new"/>
+    <type value="group"/>
+    <item id="DWLCM68Q7Zl.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="DWLCM68Q7Zl.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="DWLCM68Q7Zl.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="DWLCM68Q7Zl.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CecywZWejT3">
+    <text value="Malaria treated at PHU with ACT &lt; 24 hrs f-up"/>
+    <type value="group"/>
+    <item id="CecywZWejT3.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="CecywZWejT3.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="CecywZWejT3.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="CecywZWejT3.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nmh0BSu3vaV">
+    <text value="Malaria treated at PHU without ACT &lt; 24 hrs new"/>
+    <type value="group"/>
+    <item id="nmh0BSu3vaV.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="nmh0BSu3vaV.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="nmh0BSu3vaV.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="nmh0BSu3vaV.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RF4VFVGdFRO">
+    <text value="ARI treated without antibiotics (cough) follow-up"/>
+    <type value="group"/>
+    <item id="RF4VFVGdFRO.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="RF4VFVGdFRO.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="RF4VFVGdFRO.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="RF4VFVGdFRO.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GYm08KsVDOz">
+    <text value="Schistosomiasis follow-up"/>
+    <type value="group"/>
+    <item id="GYm08KsVDOz.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="GYm08KsVDOz.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="GYm08KsVDOz.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="GYm08KsVDOz.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FQ2o8UBlcrS">
+    <text value="Acute Flaccid Paralysis (AFP) new"/>
+    <type value="group"/>
+    <item id="FQ2o8UBlcrS.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="FQ2o8UBlcrS.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="FQ2o8UBlcrS.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="FQ2o8UBlcrS.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Y7Oq71I3ASg">
+    <text value="Schistosomiasis new"/>
+    <type value="group"/>
+    <item id="Y7Oq71I3ASg.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Y7Oq71I3ASg.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="Y7Oq71I3ASg.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Y7Oq71I3ASg.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nvkbuPrYmDd">
+    <text value="Diarrhoea without severe dehydration follow-up"/>
+    <type value="group"/>
+    <item id="nvkbuPrYmDd.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="nvkbuPrYmDd.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="nvkbuPrYmDd.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="nvkbuPrYmDd.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="A2VfEfPflHV">
+    <text value="All other new"/>
+    <type value="group"/>
+    <item id="A2VfEfPflHV.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="A2VfEfPflHV.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="A2VfEfPflHV.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="A2VfEfPflHV.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eomLLbWJfcx">
+    <text value="Measles referrals"/>
+    <type value="group"/>
+    <item id="eomLLbWJfcx.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="eomLLbWJfcx.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hdHLjKFmxB4">
+    <text value="Tuberculosis referrals"/>
+    <type value="group"/>
+    <item id="hdHLjKFmxB4.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="hdHLjKFmxB4.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Usk9Asj5DED">
+    <text value="Worm infestation new"/>
+    <type value="group"/>
+    <item id="Usk9Asj5DED.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Usk9Asj5DED.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="Usk9Asj5DED.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="Usk9Asj5DED.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RUv0hqER0zV">
+    <text value="All other follow-ups"/>
+    <type value="group"/>
+    <item id="RUv0hqER0zV.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="RUv0hqER0zV.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="RUv0hqER0zV.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="RUv0hqER0zV.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zSJF2b48kOg">
+    <text value="Yellow fever referrals"/>
+    <type value="group"/>
+    <item id="zSJF2b48kOg.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zSJF2b48kOg.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QV7HsRncdCz">
+    <text value="Eye infection follow-up"/>
+    <type value="group"/>
+    <item id="QV7HsRncdCz.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="QV7HsRncdCz.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="QV7HsRncdCz.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="QV7HsRncdCz.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oNyB0VOXIM8">
+    <text value="Clinical Malnutrition referrals"/>
+    <type value="group"/>
+    <item id="oNyB0VOXIM8.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="oNyB0VOXIM8.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zAW6b5Owalk">
+    <text value="Leprosy new"/>
+    <type value="group"/>
+    <item id="zAW6b5Owalk.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="zAW6b5Owalk.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="zAW6b5Owalk.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="zAW6b5Owalk.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="E62UwxnYf26">
+    <text value="Worm infestation follow-up"/>
+    <type value="group"/>
+    <item id="E62UwxnYf26.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="E62UwxnYf26.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="E62UwxnYf26.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="E62UwxnYf26.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z9dYcQ2DlBG">
+    <text value="Tuberculosis new"/>
+    <type value="group"/>
+    <item id="z9dYcQ2DlBG.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="z9dYcQ2DlBG.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="z9dYcQ2DlBG.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="z9dYcQ2DlBG.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hvdCBRWUk80">
+    <text value="Yellow fever follow-up"/>
+    <type value="group"/>
+    <item id="hvdCBRWUk80.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="hvdCBRWUk80.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="hvdCBRWUk80.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="hvdCBRWUk80.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KAXjpSLFlhB">
+    <text value="Leprosy referrals"/>
+    <type value="group"/>
+    <item id="KAXjpSLFlhB.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="KAXjpSLFlhB.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XfsVSt4zciP">
+    <text value="Eye infection referrals"/>
+    <type value="group"/>
+    <item id="XfsVSt4zciP.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="XfsVSt4zciP.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dVdxnTNL2jZ">
+    <text value="Lassa fever follow-up"/>
+    <type value="group"/>
+    <item id="dVdxnTNL2jZ.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="dVdxnTNL2jZ.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="dVdxnTNL2jZ.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="dVdxnTNL2jZ.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JFFUt8yR2iW">
+    <text value="Meningitis/severe bacterial infection new"/>
+    <type value="group"/>
+    <item id="JFFUt8yR2iW.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="JFFUt8yR2iW.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="JFFUt8yR2iW.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="JFFUt8yR2iW.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HpM1I5qc3Pb">
+    <text value="Diarrhoea with severe dehydration referrals"/>
+    <type value="group"/>
+    <item id="HpM1I5qc3Pb.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HpM1I5qc3Pb.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FJs8ZjlQE6f">
+    <text value="Wounds/Trauma new"/>
+    <type value="group"/>
+    <item id="FJs8ZjlQE6f.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="FJs8ZjlQE6f.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="FJs8ZjlQE6f.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="FJs8ZjlQE6f.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VmoPqzwBgkx">
+    <text value="Worm infestation referrals"/>
+    <type value="group"/>
+    <item id="VmoPqzwBgkx.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="VmoPqzwBgkx.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vzcahelbU5s">
+    <text value="Malaria treated in community with ACT &gt;24 hrs f-up"/>
+    <type value="group"/>
+    <item id="vzcahelbU5s.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzcahelbU5s.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzcahelbU5s.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzcahelbU5s.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zMGEd921xd3">
+    <text value="Burns new"/>
+    <type value="group"/>
+    <item id="zMGEd921xd3.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="zMGEd921xd3.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="zMGEd921xd3.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="zMGEd921xd3.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jmWyJFtE7Af">
+    <text value="Anaemia follow-up"/>
+    <type value="group"/>
+    <item id="jmWyJFtE7Af.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="jmWyJFtE7Af.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="jmWyJFtE7Af.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="jmWyJFtE7Af.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EGUJY3jQdJ6">
+    <text value="Malaria treated at PHU without ACT &gt; 24 hrs new"/>
+    <type value="group"/>
+    <item id="EGUJY3jQdJ6.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="EGUJY3jQdJ6.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="EGUJY3jQdJ6.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="EGUJY3jQdJ6.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q9AIeFQD7zj">
+    <text value="Onchocerciasis referrals"/>
+    <type value="group"/>
+    <item id="q9AIeFQD7zj.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="q9AIeFQD7zj.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CN9Oxawn7bD">
+    <text value="STI - Genital Discharge new"/>
+    <type value="group"/>
+    <item id="CN9Oxawn7bD.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="CN9Oxawn7bD.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="CN9Oxawn7bD.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="CN9Oxawn7bD.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="d92E7cpMvdl">
+    <text value="Malaria treated at PHU with ACT &gt; 24 hrs new"/>
+    <type value="group"/>
+    <item id="d92E7cpMvdl.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="d92E7cpMvdl.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="d92E7cpMvdl.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="d92E7cpMvdl.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AFM5H0wNq3t">
+    <text value="Malaria treated at PHU with ACT &lt; 24 hrs new"/>
+    <type value="group"/>
+    <item id="AFM5H0wNq3t.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="AFM5H0wNq3t.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="AFM5H0wNq3t.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="AFM5H0wNq3t.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nG0tBc37z0q">
+    <text value="Tetanus (not incl. 0-28 days) follow-up"/>
+    <type value="group"/>
+    <item id="nG0tBc37z0q.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="nG0tBc37z0q.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="nG0tBc37z0q.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="nG0tBc37z0q.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="plfo9ai1jtW">
+    <text value="Yaws follow-up"/>
+    <type value="group"/>
+    <item id="plfo9ai1jtW.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="plfo9ai1jtW.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="plfo9ai1jtW.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="plfo9ai1jtW.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BHvVPwWrrLC">
+    <text value="Burns referrals"/>
+    <type value="group"/>
+    <item id="BHvVPwWrrLC.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="BHvVPwWrrLC.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TBbCcJfZ91x">
+    <text value="Clinical Malnutrition new"/>
+    <type value="group"/>
+    <item id="TBbCcJfZ91x.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="TBbCcJfZ91x.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="TBbCcJfZ91x.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="TBbCcJfZ91x.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HJulLfnIAE3">
+    <text value="Clinical Malnutrition follow-up"/>
+    <type value="group"/>
+    <item id="HJulLfnIAE3.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJulLfnIAE3.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJulLfnIAE3.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJulLfnIAE3.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yJwdE6XJbrF">
+    <text value="Wounds/Trauma follow-up"/>
+    <type value="group"/>
+    <item id="yJwdE6XJbrF.S34ULMcHMca">
+      <text value="0-11m"/>
+      <type value="integer"/>
+    </item>
+    <item id="yJwdE6XJbrF.jOkIbJVhECg">
+      <text value="15y+"/>
+      <type value="integer"/>
+    </item>
+    <item id="yJwdE6XJbrF.wHBMVthqIX4">
+      <text value="12-59m"/>
+      <type value="integer"/>
+    </item>
+    <item id="yJwdE6XJbrF.SdOUI2yT46H">
+      <text value="5-14y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hnwWyM4gDSg">
+    <text value="Malaria referrals"/>
+    <type value="group"/>
+    <item id="hnwWyM4gDSg.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="hnwWyM4gDSg.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="X5GbcxQCasr">
+    <text value="Hypertension referrals"/>
+    <type value="group"/>
+    <item id="X5GbcxQCasr.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="X5GbcxQCasr.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M62VHgYT2n0">
+    <text value="Acute Flaccid Paralysis (AFP) referrals"/>
+    <type value="group"/>
+    <item id="M62VHgYT2n0.o2gxEt6Ek2C">
+      <text value="0-4y"/>
+      <type value="integer"/>
+    </item>
+    <item id="M62VHgYT2n0.ba1FkzknqS8">
+      <text value="5y+"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

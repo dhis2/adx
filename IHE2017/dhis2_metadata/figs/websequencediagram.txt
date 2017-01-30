@@ -1,0 +1,17 @@
+https://www.websequencediagrams.com/
+===
+title Post ADX Dataset
+
+ContentCreator->ContentConsumer: POST ADX Data
+ContentConsumer->Backend: process data message
+Backend->Backend: Validate\n dataset envelope
+loop for each datavalue
+  Backend->Backend: Validate and Store
+  end
+Backend-->ContentConsumer: response with\n validation and storage results
+
+ContentConsumer-->ContentCreator: Status response message
+
+note right of Backend: Backend activitiies are implicit\n and not specified in ADX profile
+===
+

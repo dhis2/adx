@@ -1,0 +1,18 @@
+#!/bin/bash
+
+DATASETID=$1
+
+#DATASETID="vXK2IApyj6g"
+CREDENTIALS="admin:district"
+BASE="https://play.dhis2.org/dev"
+
+#Query fragments
+CATEGORIES="categories\[displayName,categoryOptions\[displayName\]\]\]"
+CATCOMBO="categoryCombo\[id\,categoryOptionCombos\[name,id,categoryOptions\[name,categories\[name\]\]\]\]"
+DATAELEMENT="dataElement\[id,displayName,valueType,$CATCOMBO\]"
+
+QUERY="fields=id,code,displayName,version,periodType,dataSetElements\[$DATAELEMENT,$CATCOMBO\]"
+
+# fire away ...
+curl -u $CREDENTIALS "$BASE/api/dataSets/$DATASETID.xml?$QUERY" |xmllint --format - 
+

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSet xmlns="http://dhis2.org/schema/dxf/2.0" code="DS_1153709" id="ULowA8V3ucd">
+  <periodType>Monthly</periodType>
+  <displayName>Life-Saving Commodities</displayName>
+  <version>31</version>
+  <dataSetElements>
+    <dataSetElement>
+      <dataElement id="TCfIC3NDgQK">
+        <displayName>Commodities - Zinc</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Lz8MM2Y9DNh">
+        <displayName>Commodities - Oral Rehydration Salts</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Dkapzovo8Ll">
+        <displayName>Commodities - Implants</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="dY4OCwl0Y7Y">
+        <displayName>Commodities - Female Condoms</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="W1XtQhP6BGd">
+        <displayName>Commodities - Resuscitation Equipment</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="o15CyZiTvxa">
+        <displayName>Commodities - Magnesium Sulfate</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="WjDoIR27f31">
+        <displayName>Commodities - Chlorhexidine</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Boy3QwztgeZ">
+        <displayName>Commodities - Amoxicillin</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="f27B1G7B3m3">
+        <displayName>Commodities - Misoprostol</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="JIazHXNSnFJ">
+        <displayName>Commodities - Injectable Antibiotics</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="d9vZ3HOlzAd">
+        <displayName>Commodities - Antenatal Corticosteroids</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hJNC4Bu2Mkv">
+        <displayName>Commodities - Oxytocin</displayName>
+        <valueType>INTEGER_ZERO_OR_POSITIVE</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="BXgDHhPdFVU">
+        <displayName>Commodities - Emergency Contraception</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="gbvX3pogf7p">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Consumption" id="J2Qf1jtZuj8">
+              <categoryOptions>
+                <categoryOption name="Consumption">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Quantity to be ordered" id="KPP63zJPkOu">
+              <categoryOptions>
+                <categoryOption name="Quantity to be ordered">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="End Balance" id="rQLFnNXXIL0">
+              <categoryOptions>
+                <categoryOption name="End Balance">
+                  <categories>
+                    <category name="Commodities"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+  </dataSetElements>
+</dataSet>

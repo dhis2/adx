@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSet xmlns="http://dhis2.org/schema/dxf/2.0" id="vXK2IApyj6g">
+  <periodType>Monthly</periodType>
+  <displayName>HTN test</displayName>
+  <version>0</version>
+  <dataSetElements>
+    <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="s46m5MS0hxu">
+        <displayName>BCG doses given</displayName>
+        <valueType>INTEGER</valueType>
+        <categoryCombo id="dzjKKQq0cSO">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="WA3HunbaGt0">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Expired" id="fsFN9T4ck3E">
+            <categoryOptions>
+              <categoryOption name="Expired">
+                <categories>
+                  <category name="Stock discarded"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Damages" id="pn1upwnbxfn">
+            <categoryOptions>
+              <categoryOption name="Damages">
+                <categories>
+                  <category name="Stock discarded"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="VVM Change" id="TxaWpw1pN5G">
+            <categoryOptions>
+              <categoryOption name="VVM Change">
+                <categories>
+                  <category name="Stock discarded"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="WVrH6j3Wfye">
+        <displayName>Stock PHU discarded OPV</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="WA3HunbaGt0">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Expired" id="fsFN9T4ck3E">
+              <categoryOptions>
+                <categoryOption name="Expired">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Damages" id="pn1upwnbxfn">
+              <categoryOptions>
+                <categoryOption name="Damages">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="VVM Change" id="TxaWpw1pN5G">
+              <categoryOptions>
+                <categoryOption name="VVM Change">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="jCNGsC2NawV">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+            <categoryOptions>
+              <categoryOption name="Male">
+                <categories>
+                  <category name="Gender"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="25-49y">
+                <categories>
+                  <category name="HIV age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+            <categoryOptions>
+              <categoryOption name="Female">
+                <categories>
+                  <category name="Gender"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="25-49y">
+                <categories>
+                  <category name="HIV age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+            <categoryOptions>
+              <categoryOption name="Male">
+                <categories>
+                  <category name="Gender"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;49y">
+                <categories>
+                  <category name="HIV age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+            <categoryOptions>
+              <categoryOption name="Male">
+                <categories>
+                  <category name="Gender"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="15-24y">
+                <categories>
+                  <category name="HIV age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+            <categoryOptions>
+              <categoryOption name="Female">
+                <categories>
+                  <category name="Gender"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="15-24y">
+                <categories>
+                  <category name="HIV age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+            <categoryOptions>
+              <categoryOption name="Female">
+                <categories>
+                  <category name="Gender"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;49y">
+                <categories>
+                  <category name="HIV age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+            <categoryOptions>
+              <categoryOption name="Male">
+                <categories>
+                  <category name="Gender"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;15y">
+                <categories>
+                  <category name="HIV age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+            <categoryOptions>
+              <categoryOption name="Female">
+                <categories>
+                  <category name="Gender"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;15y">
+                <categories>
+                  <category name="HIV age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="oxht1VLqF6x">
+        <displayName>PLHIVs with a positive TB result</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="p0KPaWEg3cf">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="default" id="bRowv6yZOF2">
+            <categoryOptions>
+              <categoryOption name="default">
+                <categories>
+                  <category name="default"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="o5USc1zH5mA">
+        <displayName>CMC Visiting team members (name and organization)</displayName>
+        <valueType>LONG_TEXT</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="z7duEFcpApd">
+        <displayName>LLITN given at Penta3</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="dzjKKQq0cSO">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="p0KPaWEg3cf">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="default" id="bRowv6yZOF2">
+            <categoryOptions>
+              <categoryOption name="default">
+                <categories>
+                  <category name="default"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="rxt7nvPyRUi">
+        <displayName>All access routes are clearly marked and safe</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="p0KPaWEg3cf">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="default" id="bRowv6yZOF2">
+            <categoryOptions>
+              <categoryOption name="default">
+                <categories>
+                  <category name="default"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="rTYZHPHVULr">
+        <displayName>CMC Facility receives FP referrals from community health workers</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="p0KPaWEg3cf">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="default" id="bRowv6yZOF2">
+            <categoryOptions>
+              <categoryOption name="default">
+                <categories>
+                  <category name="default"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="zHaIxBfQMZk">
+        <displayName>WP1</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="t3aNCvHsoSn">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+            <categoryOptions>
+              <categoryOption name="0-11m">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+            <categoryOptions>
+              <categoryOption name="15y+">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+            <categoryOptions>
+              <categoryOption name="12-59m">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+            <categoryOptions>
+              <categoryOption name="5-14y">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="h0BwBQO9XUf">
+        <displayName>Hypertension follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="t3aNCvHsoSn">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+            <categoryOptions>
+              <categoryOption name="0-11m">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+            <categoryOptions>
+              <categoryOption name="15y+">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+            <categoryOptions>
+              <categoryOption name="12-59m">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+            <categoryOptions>
+              <categoryOption name="5-14y">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="wcwbN1jR0ar">
+        <displayName>Neonatal Tetanus new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="p0KPaWEg3cf">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="default" id="bRowv6yZOF2">
+            <categoryOptions>
+              <categoryOption name="default">
+                <categories>
+                  <category name="default"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="MqeQ222wxN8">
+        <displayName>CMC Post-abortion FP methods provided in CAC unit - Male condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="t3aNCvHsoSn">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+            <categoryOptions>
+              <categoryOption name="0-11m">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+            <categoryOptions>
+              <categoryOption name="15y+">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+            <categoryOptions>
+              <categoryOption name="12-59m">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+            <categoryOptions>
+              <categoryOption name="5-14y">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="ndb4fIRrQbM">
+        <displayName>Diarrhoea with severe dehydration follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="p0KPaWEg3cf">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="default" id="bRowv6yZOF2">
+            <categoryOptions>
+              <categoryOption name="default">
+                <categories>
+                  <category name="default"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="kxcIr99QcAO">
+        <displayName>Shift to AZT 300mg / 3TC 150mg + NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="t3aNCvHsoSn">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+            <categoryOptions>
+              <categoryOption name="0-11m">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+            <categoryOptions>
+              <categoryOption name="15y+">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+            <categoryOptions>
+              <categoryOption name="12-59m">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+            <categoryOptions>
+              <categoryOption name="5-14y">
+                <categories>
+                  <category name="Morbidity Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="Cm4XUw6VAxv">
+        <displayName>ARI treated without antibiotics (cough) new</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="t3aNCvHsoSn">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-11m" id="S34ULMcHMca">
+              <categoryOptions>
+                <categoryOption name="0-11m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15y+" id="jOkIbJVhECg">
+              <categoryOptions>
+                <categoryOption name="15y+">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="12-59m" id="wHBMVthqIX4">
+              <categoryOptions>
+                <categoryOption name="12-59m">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5-14y" id="SdOUI2yT46H">
+              <categoryOptions>
+                <categoryOption name="5-14y">
+                  <categories>
+                    <category name="Morbidity Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="ck7mRNwGDjP">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+            <categoryOptions>
+              <categoryOption name="0-4y">
+                <categories>
+                  <category name="Referrals Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+            <categoryOptions>
+              <categoryOption name="5y+">
+                <categories>
+                  <category name="Referrals Age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="yqBkn9CWKih">
+        <displayName>Anaemia referrals</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="ck7mRNwGDjP">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="0-4y" id="o2gxEt6Ek2C">
+              <categoryOptions>
+                <categoryOption name="0-4y">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="5y+" id="ba1FkzknqS8">
+              <categoryOptions>
+                <categoryOption name="5y+">
+                  <categories>
+                    <category name="Referrals Age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="aN8uN5b15YG">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Not on salary" id="R23h9QZRbRt">
+            <categoryOptions>
+              <categoryOption name="Not on salary">
+                <categories>
+                  <category name="Staffing"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="On salary" id="DOC7emLzyRi">
+            <categoryOptions>
+              <categoryOption name="On salary">
+                <categories>
+                  <category name="Staffing"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="Nz5YtOpDyuV">
+        <displayName>Vaccinator</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="aN8uN5b15YG">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Not on salary" id="R23h9QZRbRt">
+              <categoryOptions>
+                <categoryOption name="Not on salary">
+                  <categories>
+                    <category name="Staffing"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="On salary" id="DOC7emLzyRi">
+              <categoryOptions>
+                <categoryOption name="On salary">
+                  <categories>
+                    <category name="Staffing"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="p0KPaWEg3cf">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="default" id="bRowv6yZOF2">
+            <categoryOptions>
+              <categoryOption name="default">
+                <categories>
+                  <category name="default"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="U7v0q0amJqi">
+        <displayName>All sterilisation equipment is validated / licensed</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="aN8uN5b15YG">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Not on salary" id="R23h9QZRbRt">
+            <categoryOptions>
+              <categoryOption name="Not on salary">
+                <categories>
+                  <category name="Staffing"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="On salary" id="DOC7emLzyRi">
+            <categoryOptions>
+              <categoryOption name="On salary">
+                <categories>
+                  <category name="Staffing"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="zgeAdnpSY5K">
+        <displayName>Porter</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="aN8uN5b15YG">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Not on salary" id="R23h9QZRbRt">
+              <categoryOptions>
+                <categoryOption name="Not on salary">
+                  <categories>
+                    <category name="Staffing"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="On salary" id="DOC7emLzyRi">
+              <categoryOptions>
+                <categoryOption name="On salary">
+                  <categories>
+                    <category name="Staffing"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+  </dataSetElements>
+</dataSet>

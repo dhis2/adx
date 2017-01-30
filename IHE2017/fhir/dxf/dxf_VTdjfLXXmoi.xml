@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSet xmlns="http://dhis2.org/schema/dxf/2.0" code="DS_217115" id="VTdjfLXXmoi">
+  <periodType>SixMonthly</periodType>
+  <displayName>Clinical Monitoring Checklist </displayName>
+  <version>10</version>
+  <dataSetElements>
+    <dataSetElement>
+      <dataElement id="NKoGfjnFWcE">
+        <displayName>CMC FP services available - Injectables (DMPA)</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FNa6RHwtpuV">
+        <displayName>CMC FP services available - Male condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ozL7F7k4l0S">
+        <displayName>CMC IUD REMOVAL KITS (functional and in good condition) available</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="rZiGA1lv7Ah">
+        <displayName>CMC FP and CAC commodity requests correctly based on previous consumption / stock at hand</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="OZGgl38Z7tC">
+        <displayName>CMC Provider teams trained and certified PMs</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="rTYZHPHVULr">
+        <displayName>CMC Facility receives FP referrals from community health workers</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="J6KG9poh1WL">
+        <displayName>CMC Post-abortion FP methods provided in CAC unit - IUD</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="UysSLXGhwrC">
+        <displayName>CMC FP services available - Contraceptive pills</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="AX2JjzrU0oU">
+        <displayName>CMC National guidelines and standards for FP and CAC service provision available</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="QxYJoKrJTZx">
+        <displayName>CMC Safe abortion related services available - MVA Post-abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="eDO63WfftUO">
+        <displayName>CMC Incentives for staff in the FP or CAC service units to provide FP exist</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Els0dBuHtWJ">
+        <displayName>CMC MVA KITS (functional and in good condition) available</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="dupnnRrJB9g">
+        <displayName>CMC FP services available - Male Sterilization</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ILtncREADfd">
+        <displayName>CMC Providers trained in youth-friendly services in addition to CC or CAC services</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="wpEO1pvc4oS">
+        <displayName>CMC Post-abortion FP methods provided through referrals - Female condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="xV8nAovXuOF">
+        <displayName>CMC Support provided ABRI III - CC and CAC support</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="VEsHW11Ee9u">
+        <displayName>CMC IMPLANT INSERTION KITS (functional and in good condition) available</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="iyLG1s9EAQ8">
+        <displayName>CMC Sterilization/HLD mechanism in place, such as sterilizer, boiler, autoclave available in FP and CAC</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="OutJUTjR21E">
+        <displayName>CMC Post-abortion FP referred other facility - Injectables (DMPA)</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="wokFPoIO3NK">
+        <displayName>CMC Facility part of health care finance (HCF) board scheme</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="sIZsJrOtJ8S">
+        <displayName>CMC Post-abortion FP methods provided through referrals - IUD</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="k7vxGJER2SH">
+        <displayName>CMC FP services available - Jadelle or Sino-Implant</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="P7jdTXzh4ut">
+        <displayName>CMC Staff in the FP, CAC and pharmacy units have been oriented on use of the IPLS for FP and CAC</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="jhz73zxjuuy">
+        <displayName>CMC IUD KITS (functional and in good condition) available</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="CsORyrmcScJ">
+        <displayName>CMC Stock-out - Implanon</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="weKxnsPrnTB">
+        <displayName>CMC Post-abortion FP methods provided through referrals - Injectables (DMPA)</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ShRC4KSdfcw">
+        <displayName>CMC Leak-proof and puncture-proof containers in FP and CAC exist</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="HcQqfCPHC79">
+        <displayName>CMC Post-abortion FP methods provided in CAC unit - Jadelle or Sino-Implant</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="lFEc4Weo8Uw">
+        <displayName>CMC Post abortion related services available - MVA Abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="GaDscQKVYrw">
+        <displayName>CMC Post abortion related services available - MA Post-abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="bZgd4FWFsQI">
+        <displayName>CMC Stock-out - Contraceptive pills</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="nECT8BcbdF6">
+        <displayName>CMC Post-abortion FP referred other facility - Female condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="c30icyuh08j">
+        <displayName>CMC Providers trained and certified comprehensive contraception (CC)</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="fmQ8ORZ0eaz">
+        <displayName>CMC Safe abortion related services available - MA Post-abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="h0RS9WyBGPh">
+        <displayName>CMC Stock-out - Male condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="lLl7dD5jRhg">
+        <displayName>CMC Post-abortion FP methods provided in CAC unit - Implanon</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="XktwbHEcOZ5">
+        <displayName>CMC Post-abortion FP methods provided through referrals - Other (specify)</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="H5q0J5EeytP">
+        <displayName>CMC Post-abortion FP methods provided in CAC unit - Female condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="edTAupzSt8B">
+        <displayName>CMC Safe abortion related services available - E&amp;C/D&amp;C Post-abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="A1wdvOOktNI">
+        <displayName>CMC Post-abortion FP referred other facility - Implanon</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="aEgcSZrUD1j">
+        <displayName>CMC Post-abortion FP methods provided through referrals - Contraceptive pills</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="aponpM6fnJe">
+        <displayName>CMC Post-abortion FP methods provided through referrals - Jadelle or Sino-Implant</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="aPRMs8ZWoQe">
+        <displayName>CMC Post-abortion FP referred other facility - Male condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Fo8lG6JORup">
+        <displayName>CMC Post abortion related services available - MVA Post-abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="sgcewfdjRRq">
+        <displayName>CMC Support provided ABRI III - Service integration</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="LHXqz53TmPe">
+        <displayName>CMC Clients offered information on range of methods exist</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="x6Cc96XcRjT">
+        <displayName>CMC Post-abortion FP referred other facility - Other (specify)</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="xqlapchAEVR">
+        <displayName>CMC FP services available - Implanon</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="otxWZ2s0Iyg">
+        <displayName>CMC Post-abortion FP methods provided in CAC unit - Other (specify)</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="TD9EmYHnJcZ">
+        <displayName>CMC Post-abortion FP referred other facility - Contraceptive pills</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="KKEYwCcGvfl">
+        <displayName>CMC NSV KITS (functional and in good condition) available</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="GvSDEPwzn1l">
+        <displayName>CMC Post-abortion FP referred other facility - Jadelle or Sino-Implant</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ylTxB8pDdW6">
+        <displayName>CMC Procedure rooms in FP and CAC service units ensure client privacy and confidentiality</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="uCSDy69GLVl">
+        <displayName>CMC Support provided ABRI III - PPIUD</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="XPyixxRoRFF">
+        <displayName>CMC FP services available - IUD</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="k5YaukDVwcu">
+        <displayName>CMC Targets or quotas for service providers in the FP or CAC exist</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="fuhMFSpMGzx">
+        <displayName>CMC Stock-out - Jadelle or Sino-Implant</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="x7UR3a7PnFC">
+        <displayName>CMC IMPLANT REMOVAL KITS (functional and in good condition) available</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="wwh5ng6o81Z">
+        <displayName>CMC Stock-out - IUD</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="tY33H1Xmbiq">
+        <displayName>CMC Functioning set-up for decontamination in both FP and CAC service units exist</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="xxgP9Pbe70o">
+        <displayName>CMC Support provided ABRI III - PM (FS &amp; NSV)</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="XcP6HTlP7Nt">
+        <displayName>CMC Post abortion related services available - E&amp;C/D&amp;C Abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="e4r6eLK76M9">
+        <displayName>CMC Infection prevention protocol charts are posted in both FP and CAC service units</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="yEPjrf4pvLF">
+        <displayName>CMC Post-abortion FP methods provided through referrals - Implanon</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FAZsjrqfaYk">
+        <displayName>CMC Post abortion related services available - MA Abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="nC6ZrPp6F7B">
+        <displayName>CMC Signed consent forms for all PM and CAC procedures conducted during the past two months</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ZVqZ600pgzC">
+        <displayName>CMC FP services available - Female condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="OJSkJXzhdU1">
+        <displayName>CMC COPE has been introduced at the facility and staff conducted a COPE exercise during the past quarter</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="W87PJK0RlJa">
+        <displayName>CMC MINILAPAROTOMY KITS (functional and in good condition) available</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="s5gk8w06vif">
+        <displayName>CMC Staff in FP/CAC units received a facilitative supervision visit from supervisor past six months</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="drDdShUJJzi">
+        <displayName>CMC Support provided ABRI III - Youth-friendly services</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="MqeQ222wxN8">
+        <displayName>CMC Post-abortion FP methods provided in CAC unit - Male condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="PNAudHvnC29">
+        <displayName>CMC Post-abortion FP referred other facility - IUD</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="SDQMvEIFZJH">
+        <displayName>CMC Stock-out - Female condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="sjir9Ki2vuA">
+        <displayName>CMC Most recent delivery of FP and CAC commodities match the request made through the RRF</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="KPxUIT1OtGW">
+        <displayName>CMC Support provided ABRI III - Community referral linkages</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="VX6qaS9JEGv">
+        <displayName>CMC Post-abortion FP methods provided through referrals - Male condoms</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="MYVHFFkdTYi">
+        <displayName>CMC Safe abortion related services available - MA Abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="heGCGPwVxfU">
+        <displayName>CMC Support provided ABRI III - Others, specify</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="R8X9WHD6Ta9">
+        <displayName>CMC Post-abortion FP methods provided in CAC unit - Injectables (DMPA)</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="X4SRfUAnrHD">
+        <displayName>CMC FP services available - Female Sterilization</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="J6hufb5lO0k">
+        <displayName>CMC Providers trained and certified postpartum IUD insertion</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="es9P4K9xRCF">
+        <displayName>CMC Stock-out - Other (specify)</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="xN2F50KrWOs">
+        <displayName>CMC Safe abortion related services available - E&amp;C/D&amp;C Abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="mU3ywrD2d24">
+        <displayName>CMC Providers trained and certified comprehensive abortion care (CAC)</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="LadMythncw2">
+        <displayName>CMC FP and CAC service units have dedicated hours or space for youth clients</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="x3cG1nQrV0d">
+        <displayName>CMC Post abortion related services available - E&amp;C/D&amp;C Post-abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="o5USc1zH5mA">
+        <displayName>CMC Visiting team members (name and organization)</displayName>
+        <valueType>LONG_TEXT</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="mrCQ760kGUu">
+        <displayName>CMC Providers trained and certified both CAC and CC</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="EonDTYTVXxM">
+        <displayName>CMC FP and CAC procedure rooms have adequate lighting for the performance of all procedures</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="lZEg2kLmHnz">
+        <displayName>CMC Stock-out - Injectables (DMPA)</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="DF0B07U2lPZ">
+        <displayName>CMC Counseling rooms in FP and CAC service units ensure client privacy and confidentiality</displayName>
+        <valueType>BOOLEAN</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="A4R8Ns0wtJk">
+        <displayName>CMC Post-abortion FP methods provided in CAC unit - Contraceptive pills</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="rkAZZFGFEQ7">
+        <displayName>CMC Date of clinical monitoring visit</displayName>
+        <valueType>DATE</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="EQbayB0ysYj">
+        <displayName>CMC Safe abortion related services available - MVA Abortion</displayName>
+        <valueType>TRUE_ONLY</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+  </dataSetElements>
+</dataSet>

@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSet xmlns="http://dhis2.org/schema/dxf/2.0" code="DS_363642" id="Rl58JxmKJo2">
+  <periodType>Monthly</periodType>
+  <displayName>PMTCT monthly summary</displayName>
+  <version>2</version>
+  <dataSetElements>
+    <dataSetElement>
+      <dataElement id="HdQ2QsgMtCc">
+        <displayName>PMTCT infant who received ZDV &amp; Lamivudine</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="u6yhzgWPIsj">
+        <displayName>HIV positive women assessed for ART eligibility by CD4 counting</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="kfSFuD4Q8rF">
+        <displayName>PMTCT women counselled for infant feeding</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="HPZd1WtTArI">
+        <displayName>PMTCT women received ZDV &amp; 3CT after delivery</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FGdTDgQrsBy">
+        <displayName>PMTCT reported mother death</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="WqbXHjN95Xw">
+        <displayName>PMTCT male partners tested for HIV</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="CwnEqKR0ebt">
+        <displayName>HIV positive women assessed for ART eligibility by clinical staging</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="yMtFhLsbZaL">
+        <displayName>PMTCT discordant partners or couples</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="dWqQVwKJTSu">
+        <displayName>PMTCT HIV positive women received ZDV at ANC</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="OCU92ttHmic">
+        <displayName>PMTCT women received post test counselling and result</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="RoCtZpDLVS7">
+        <displayName>PMTCT No HIV women who delivered in the health facility (CS)</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="wZqi8EXN5x4">
+        <displayName>PMTCT infant who received NVP within 72hrs</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="tAQe5dZ6wRv">
+        <displayName>PMTCT No HIV women who delivered in the health facility (Normal)</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="aO5TCNZ4OOr">
+        <displayName>PMTCT total expected preg. women for the month</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="rFTnRXMFgxC">
+        <displayName>PMTCT No of expected HIV exposed children</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ONgKakbp7wR">
+        <displayName>PMTCT women seen for 1st ANC</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="e87Gl0315MV">
+        <displayName>PMTCT women received NVP during labour</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hQkv3NaAjqv">
+        <displayName>PMTCT women HIV2</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="gnKnwQbY3UK">
+        <displayName>PMTCT HIV positive w. received ART for own health</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="fxOM6VBQhBy">
+        <displayName>PMTCT women tested for HIV</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="WQqSx9H0RDf">
+        <displayName>PMTCT women received complete ARV for PMTCT</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="CJKrsPzuY8R">
+        <displayName>PMTCT women received pre- test counselling</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="MIKpDxt5ZvE">
+        <displayName>PMTCT male partners tested HIV positive</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="fQ46YRJj7Yq">
+        <displayName>PMTCT women HIV1</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="f3vP3dSjUrS">
+        <displayName>PMTCT women lost to contact</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="x0PshcPLSk1">
+        <displayName>PMTCT HIV exposed children registered during the course of the month</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="TvQ1myd6oTE">
+        <displayName>PMTCT women HIV positve</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="yhrP2vizKlf">
+        <displayName>PMTCT women HIV1 and HIV2</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="zCPMzMGWyHU">
+        <displayName>PMTCT positive w. referred for FP from ANC</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ZFC9MdnFHFJ">
+        <displayName>PMTCT expected delivery among HIV+ women</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="L4G4X567SeK">
+        <displayName>PMTCT positive w. offered FP during ANC/Post natal</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hxh8X16Gvip">
+        <displayName>PMTCT HIV positive Women received ZDV and 3TC during labor</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="Wfan7UwK8CQ">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="&lt;15y" id="YBhrfw1dP2J">
+              <categoryOptions>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="25-49y" id="LbkJRbDblhe">
+              <categoryOptions>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="15-24y" id="u5fU9rr67xo">
+              <categoryOptions>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="&gt;49y" id="z858fbdqWwF">
+              <categoryOptions>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+  </dataSetElements>
+</dataSet>

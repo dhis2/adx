@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="Rl58JxmKJo2"/>
+  <status value="published"/>
+  <title value="PMTCT monthly summary"/>
+  <item id="HdQ2QsgMtCc">
+    <text value="PMTCT infant who received ZDV &amp; Lamivudine"/>
+    <type value="group"/>
+    <item id="HdQ2QsgMtCc.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="u6yhzgWPIsj">
+    <text value="HIV positive women assessed for ART eligibility by CD4 counting"/>
+    <type value="group"/>
+    <item id="u6yhzgWPIsj.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="u6yhzgWPIsj.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="u6yhzgWPIsj.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="u6yhzgWPIsj.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kfSFuD4Q8rF">
+    <text value="PMTCT women counselled for infant feeding"/>
+    <type value="group"/>
+    <item id="kfSFuD4Q8rF.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="kfSFuD4Q8rF.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="kfSFuD4Q8rF.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="kfSFuD4Q8rF.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HPZd1WtTArI">
+    <text value="PMTCT women received ZDV &amp; 3CT after delivery"/>
+    <type value="group"/>
+    <item id="HPZd1WtTArI.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HPZd1WtTArI.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HPZd1WtTArI.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="HPZd1WtTArI.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FGdTDgQrsBy">
+    <text value="PMTCT reported mother death"/>
+    <type value="group"/>
+    <item id="FGdTDgQrsBy.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="FGdTDgQrsBy.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="FGdTDgQrsBy.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="FGdTDgQrsBy.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WqbXHjN95Xw">
+    <text value="PMTCT male partners tested for HIV"/>
+    <type value="group"/>
+    <item id="WqbXHjN95Xw.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="WqbXHjN95Xw.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="WqbXHjN95Xw.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="WqbXHjN95Xw.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CwnEqKR0ebt">
+    <text value="HIV positive women assessed for ART eligibility by clinical staging"/>
+    <type value="group"/>
+    <item id="CwnEqKR0ebt.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CwnEqKR0ebt.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CwnEqKR0ebt.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CwnEqKR0ebt.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yMtFhLsbZaL">
+    <text value="PMTCT discordant partners or couples"/>
+    <type value="group"/>
+    <item id="yMtFhLsbZaL.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="yMtFhLsbZaL.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="yMtFhLsbZaL.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="yMtFhLsbZaL.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dWqQVwKJTSu">
+    <text value="PMTCT HIV positive women received ZDV at ANC"/>
+    <type value="group"/>
+    <item id="dWqQVwKJTSu.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="dWqQVwKJTSu.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="dWqQVwKJTSu.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="dWqQVwKJTSu.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OCU92ttHmic">
+    <text value="PMTCT women received post test counselling and result"/>
+    <type value="group"/>
+    <item id="OCU92ttHmic.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="OCU92ttHmic.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="OCU92ttHmic.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="OCU92ttHmic.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RoCtZpDLVS7">
+    <text value="PMTCT No HIV women who delivered in the health facility (CS)"/>
+    <type value="group"/>
+    <item id="RoCtZpDLVS7.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="RoCtZpDLVS7.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="RoCtZpDLVS7.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="RoCtZpDLVS7.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wZqi8EXN5x4">
+    <text value="PMTCT infant who received NVP within 72hrs"/>
+    <type value="group"/>
+    <item id="wZqi8EXN5x4.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tAQe5dZ6wRv">
+    <text value="PMTCT No HIV women who delivered in the health facility (Normal)"/>
+    <type value="group"/>
+    <item id="tAQe5dZ6wRv.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="tAQe5dZ6wRv.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="tAQe5dZ6wRv.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="tAQe5dZ6wRv.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aO5TCNZ4OOr">
+    <text value="PMTCT total expected preg. women for the month"/>
+    <type value="group"/>
+    <item id="aO5TCNZ4OOr.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rFTnRXMFgxC">
+    <text value="PMTCT No of expected HIV exposed children"/>
+    <type value="group"/>
+    <item id="rFTnRXMFgxC.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ONgKakbp7wR">
+    <text value="PMTCT women seen for 1st ANC"/>
+    <type value="group"/>
+    <item id="ONgKakbp7wR.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ONgKakbp7wR.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ONgKakbp7wR.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="ONgKakbp7wR.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e87Gl0315MV">
+    <text value="PMTCT women received NVP during labour"/>
+    <type value="group"/>
+    <item id="e87Gl0315MV.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="e87Gl0315MV.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="e87Gl0315MV.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="e87Gl0315MV.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hQkv3NaAjqv">
+    <text value="PMTCT women HIV2"/>
+    <type value="group"/>
+    <item id="hQkv3NaAjqv.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="hQkv3NaAjqv.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="hQkv3NaAjqv.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="hQkv3NaAjqv.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gnKnwQbY3UK">
+    <text value="PMTCT HIV positive w. received ART for own health"/>
+    <type value="group"/>
+    <item id="gnKnwQbY3UK.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gnKnwQbY3UK.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gnKnwQbY3UK.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="gnKnwQbY3UK.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fxOM6VBQhBy">
+    <text value="PMTCT women tested for HIV"/>
+    <type value="group"/>
+    <item id="fxOM6VBQhBy.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxOM6VBQhBy.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxOM6VBQhBy.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxOM6VBQhBy.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WQqSx9H0RDf">
+    <text value="PMTCT women received complete ARV for PMTCT"/>
+    <type value="group"/>
+    <item id="WQqSx9H0RDf.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="WQqSx9H0RDf.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="WQqSx9H0RDf.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="WQqSx9H0RDf.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CJKrsPzuY8R">
+    <text value="PMTCT women received pre- test counselling"/>
+    <type value="group"/>
+    <item id="CJKrsPzuY8R.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CJKrsPzuY8R.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CJKrsPzuY8R.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="CJKrsPzuY8R.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MIKpDxt5ZvE">
+    <text value="PMTCT male partners tested HIV positive"/>
+    <type value="group"/>
+    <item id="MIKpDxt5ZvE.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="MIKpDxt5ZvE.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="MIKpDxt5ZvE.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="MIKpDxt5ZvE.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fQ46YRJj7Yq">
+    <text value="PMTCT women HIV1"/>
+    <type value="group"/>
+    <item id="fQ46YRJj7Yq.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="fQ46YRJj7Yq.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="fQ46YRJj7Yq.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="fQ46YRJj7Yq.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="f3vP3dSjUrS">
+    <text value="PMTCT women lost to contact"/>
+    <type value="group"/>
+    <item id="f3vP3dSjUrS.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="f3vP3dSjUrS.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="f3vP3dSjUrS.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="f3vP3dSjUrS.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x0PshcPLSk1">
+    <text value="PMTCT HIV exposed children registered during the course of the month"/>
+    <type value="group"/>
+    <item id="x0PshcPLSk1.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TvQ1myd6oTE">
+    <text value="PMTCT women HIV positve"/>
+    <type value="group"/>
+    <item id="TvQ1myd6oTE.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="TvQ1myd6oTE.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="TvQ1myd6oTE.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="TvQ1myd6oTE.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yhrP2vizKlf">
+    <text value="PMTCT women HIV1 and HIV2"/>
+    <type value="group"/>
+    <item id="yhrP2vizKlf.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="yhrP2vizKlf.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="yhrP2vizKlf.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="yhrP2vizKlf.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zCPMzMGWyHU">
+    <text value="PMTCT positive w. referred for FP from ANC"/>
+    <type value="group"/>
+    <item id="zCPMzMGWyHU.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zCPMzMGWyHU.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zCPMzMGWyHU.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="zCPMzMGWyHU.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZFC9MdnFHFJ">
+    <text value="PMTCT expected delivery among HIV+ women"/>
+    <type value="group"/>
+    <item id="ZFC9MdnFHFJ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L4G4X567SeK">
+    <text value="PMTCT positive w. offered FP during ANC/Post natal"/>
+    <type value="group"/>
+    <item id="L4G4X567SeK.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="L4G4X567SeK.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="L4G4X567SeK.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="L4G4X567SeK.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hxh8X16Gvip">
+    <text value="PMTCT HIV positive Women received ZDV and 3TC during labor"/>
+    <type value="group"/>
+    <item id="hxh8X16Gvip.YBhrfw1dP2J">
+      <text value="&lt;15y"/>
+      <type value="integer"/>
+    </item>
+    <item id="hxh8X16Gvip.LbkJRbDblhe">
+      <text value="25-49y"/>
+      <type value="integer"/>
+    </item>
+    <item id="hxh8X16Gvip.u5fU9rr67xo">
+      <text value="15-24y"/>
+      <type value="integer"/>
+    </item>
+    <item id="hxh8X16Gvip.z858fbdqWwF">
+      <text value="&gt;49y"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

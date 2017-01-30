@@ -1,0 +1,767 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="VTdjfLXXmoi"/>
+  <status value="published"/>
+  <title value="Clinical Monitoring Checklist "/>
+  <item id="NKoGfjnFWcE">
+    <text value="CMC FP services available - Injectables (DMPA)"/>
+    <type value="group"/>
+    <item id="NKoGfjnFWcE.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="FNa6RHwtpuV">
+    <text value="CMC FP services available - Male condoms"/>
+    <type value="group"/>
+    <item id="FNa6RHwtpuV.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ozL7F7k4l0S">
+    <text value="CMC IUD REMOVAL KITS (functional and in good condition) available"/>
+    <type value="group"/>
+    <item id="ozL7F7k4l0S.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rZiGA1lv7Ah">
+    <text value="CMC FP and CAC commodity requests correctly based on previous consumption / stock at hand"/>
+    <type value="group"/>
+    <item id="rZiGA1lv7Ah.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="OZGgl38Z7tC">
+    <text value="CMC Provider teams trained and certified PMs"/>
+    <type value="group"/>
+    <item id="OZGgl38Z7tC.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rTYZHPHVULr">
+    <text value="CMC Facility receives FP referrals from community health workers"/>
+    <type value="group"/>
+    <item id="rTYZHPHVULr.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="J6KG9poh1WL">
+    <text value="CMC Post-abortion FP methods provided in CAC unit - IUD"/>
+    <type value="group"/>
+    <item id="J6KG9poh1WL.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="UysSLXGhwrC">
+    <text value="CMC FP services available - Contraceptive pills"/>
+    <type value="group"/>
+    <item id="UysSLXGhwrC.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="AX2JjzrU0oU">
+    <text value="CMC National guidelines and standards for FP and CAC service provision available"/>
+    <type value="group"/>
+    <item id="AX2JjzrU0oU.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="QxYJoKrJTZx">
+    <text value="CMC Safe abortion related services available - MVA Post-abortion"/>
+    <type value="group"/>
+    <item id="QxYJoKrJTZx.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="eDO63WfftUO">
+    <text value="CMC Incentives for staff in the FP or CAC service units to provide FP exist"/>
+    <type value="group"/>
+    <item id="eDO63WfftUO.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Els0dBuHtWJ">
+    <text value="CMC MVA KITS (functional and in good condition) available"/>
+    <type value="group"/>
+    <item id="Els0dBuHtWJ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dupnnRrJB9g">
+    <text value="CMC FP services available - Male Sterilization"/>
+    <type value="group"/>
+    <item id="dupnnRrJB9g.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ILtncREADfd">
+    <text value="CMC Providers trained in youth-friendly services in addition to CC or CAC services"/>
+    <type value="group"/>
+    <item id="ILtncREADfd.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wpEO1pvc4oS">
+    <text value="CMC Post-abortion FP methods provided through referrals - Female condoms"/>
+    <type value="group"/>
+    <item id="wpEO1pvc4oS.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="xV8nAovXuOF">
+    <text value="CMC Support provided ABRI III - CC and CAC support"/>
+    <type value="group"/>
+    <item id="xV8nAovXuOF.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="VEsHW11Ee9u">
+    <text value="CMC IMPLANT INSERTION KITS (functional and in good condition) available"/>
+    <type value="group"/>
+    <item id="VEsHW11Ee9u.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iyLG1s9EAQ8">
+    <text value="CMC Sterilization/HLD mechanism in place, such as sterilizer, boiler, autoclave available in FP and CAC"/>
+    <type value="group"/>
+    <item id="iyLG1s9EAQ8.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OutJUTjR21E">
+    <text value="CMC Post-abortion FP referred other facility - Injectables (DMPA)"/>
+    <type value="group"/>
+    <item id="OutJUTjR21E.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="wokFPoIO3NK">
+    <text value="CMC Facility part of health care finance (HCF) board scheme"/>
+    <type value="group"/>
+    <item id="wokFPoIO3NK.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="sIZsJrOtJ8S">
+    <text value="CMC Post-abortion FP methods provided through referrals - IUD"/>
+    <type value="group"/>
+    <item id="sIZsJrOtJ8S.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="k7vxGJER2SH">
+    <text value="CMC FP services available - Jadelle or Sino-Implant"/>
+    <type value="group"/>
+    <item id="k7vxGJER2SH.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="P7jdTXzh4ut">
+    <text value="CMC Staff in the FP, CAC and pharmacy units have been oriented on use of the IPLS for FP and CAC"/>
+    <type value="group"/>
+    <item id="P7jdTXzh4ut.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="jhz73zxjuuy">
+    <text value="CMC IUD KITS (functional and in good condition) available"/>
+    <type value="group"/>
+    <item id="jhz73zxjuuy.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CsORyrmcScJ">
+    <text value="CMC Stock-out - Implanon"/>
+    <type value="group"/>
+    <item id="CsORyrmcScJ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="weKxnsPrnTB">
+    <text value="CMC Post-abortion FP methods provided through referrals - Injectables (DMPA)"/>
+    <type value="group"/>
+    <item id="weKxnsPrnTB.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ShRC4KSdfcw">
+    <text value="CMC Leak-proof and puncture-proof containers in FP and CAC exist"/>
+    <type value="group"/>
+    <item id="ShRC4KSdfcw.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="HcQqfCPHC79">
+    <text value="CMC Post-abortion FP methods provided in CAC unit - Jadelle or Sino-Implant"/>
+    <type value="group"/>
+    <item id="HcQqfCPHC79.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="lFEc4Weo8Uw">
+    <text value="CMC Post abortion related services available - MVA Abortion"/>
+    <type value="group"/>
+    <item id="lFEc4Weo8Uw.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="GaDscQKVYrw">
+    <text value="CMC Post abortion related services available - MA Post-abortion"/>
+    <type value="group"/>
+    <item id="GaDscQKVYrw.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="bZgd4FWFsQI">
+    <text value="CMC Stock-out - Contraceptive pills"/>
+    <type value="group"/>
+    <item id="bZgd4FWFsQI.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="nECT8BcbdF6">
+    <text value="CMC Post-abortion FP referred other facility - Female condoms"/>
+    <type value="group"/>
+    <item id="nECT8BcbdF6.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="c30icyuh08j">
+    <text value="CMC Providers trained and certified comprehensive contraception (CC)"/>
+    <type value="group"/>
+    <item id="c30icyuh08j.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fmQ8ORZ0eaz">
+    <text value="CMC Safe abortion related services available - MA Post-abortion"/>
+    <type value="group"/>
+    <item id="fmQ8ORZ0eaz.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="h0RS9WyBGPh">
+    <text value="CMC Stock-out - Male condoms"/>
+    <type value="group"/>
+    <item id="h0RS9WyBGPh.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="lLl7dD5jRhg">
+    <text value="CMC Post-abortion FP methods provided in CAC unit - Implanon"/>
+    <type value="group"/>
+    <item id="lLl7dD5jRhg.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="XktwbHEcOZ5">
+    <text value="CMC Post-abortion FP methods provided through referrals - Other (specify)"/>
+    <type value="group"/>
+    <item id="XktwbHEcOZ5.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="H5q0J5EeytP">
+    <text value="CMC Post-abortion FP methods provided in CAC unit - Female condoms"/>
+    <type value="group"/>
+    <item id="H5q0J5EeytP.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="edTAupzSt8B">
+    <text value="CMC Safe abortion related services available - E&amp;C/D&amp;C Post-abortion"/>
+    <type value="group"/>
+    <item id="edTAupzSt8B.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="A1wdvOOktNI">
+    <text value="CMC Post-abortion FP referred other facility - Implanon"/>
+    <type value="group"/>
+    <item id="A1wdvOOktNI.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="aEgcSZrUD1j">
+    <text value="CMC Post-abortion FP methods provided through referrals - Contraceptive pills"/>
+    <type value="group"/>
+    <item id="aEgcSZrUD1j.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="aponpM6fnJe">
+    <text value="CMC Post-abortion FP methods provided through referrals - Jadelle or Sino-Implant"/>
+    <type value="group"/>
+    <item id="aponpM6fnJe.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="aPRMs8ZWoQe">
+    <text value="CMC Post-abortion FP referred other facility - Male condoms"/>
+    <type value="group"/>
+    <item id="aPRMs8ZWoQe.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Fo8lG6JORup">
+    <text value="CMC Post abortion related services available - MVA Post-abortion"/>
+    <type value="group"/>
+    <item id="Fo8lG6JORup.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="sgcewfdjRRq">
+    <text value="CMC Support provided ABRI III - Service integration"/>
+    <type value="group"/>
+    <item id="sgcewfdjRRq.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="LHXqz53TmPe">
+    <text value="CMC Clients offered information on range of methods exist"/>
+    <type value="group"/>
+    <item id="LHXqz53TmPe.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="x6Cc96XcRjT">
+    <text value="CMC Post-abortion FP referred other facility - Other (specify)"/>
+    <type value="group"/>
+    <item id="x6Cc96XcRjT.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="xqlapchAEVR">
+    <text value="CMC FP services available - Implanon"/>
+    <type value="group"/>
+    <item id="xqlapchAEVR.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="otxWZ2s0Iyg">
+    <text value="CMC Post-abortion FP methods provided in CAC unit - Other (specify)"/>
+    <type value="group"/>
+    <item id="otxWZ2s0Iyg.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="TD9EmYHnJcZ">
+    <text value="CMC Post-abortion FP referred other facility - Contraceptive pills"/>
+    <type value="group"/>
+    <item id="TD9EmYHnJcZ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="KKEYwCcGvfl">
+    <text value="CMC NSV KITS (functional and in good condition) available"/>
+    <type value="group"/>
+    <item id="KKEYwCcGvfl.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GvSDEPwzn1l">
+    <text value="CMC Post-abortion FP referred other facility - Jadelle or Sino-Implant"/>
+    <type value="group"/>
+    <item id="GvSDEPwzn1l.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ylTxB8pDdW6">
+    <text value="CMC Procedure rooms in FP and CAC service units ensure client privacy and confidentiality"/>
+    <type value="group"/>
+    <item id="ylTxB8pDdW6.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="uCSDy69GLVl">
+    <text value="CMC Support provided ABRI III - PPIUD"/>
+    <type value="group"/>
+    <item id="uCSDy69GLVl.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="XPyixxRoRFF">
+    <text value="CMC FP services available - IUD"/>
+    <type value="group"/>
+    <item id="XPyixxRoRFF.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="k5YaukDVwcu">
+    <text value="CMC Targets or quotas for service providers in the FP or CAC exist"/>
+    <type value="group"/>
+    <item id="k5YaukDVwcu.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="fuhMFSpMGzx">
+    <text value="CMC Stock-out - Jadelle or Sino-Implant"/>
+    <type value="group"/>
+    <item id="fuhMFSpMGzx.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="x7UR3a7PnFC">
+    <text value="CMC IMPLANT REMOVAL KITS (functional and in good condition) available"/>
+    <type value="group"/>
+    <item id="x7UR3a7PnFC.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wwh5ng6o81Z">
+    <text value="CMC Stock-out - IUD"/>
+    <type value="group"/>
+    <item id="wwh5ng6o81Z.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="tY33H1Xmbiq">
+    <text value="CMC Functioning set-up for decontamination in both FP and CAC service units exist"/>
+    <type value="group"/>
+    <item id="tY33H1Xmbiq.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="xxgP9Pbe70o">
+    <text value="CMC Support provided ABRI III - PM (FS &amp; NSV)"/>
+    <type value="group"/>
+    <item id="xxgP9Pbe70o.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="XcP6HTlP7Nt">
+    <text value="CMC Post abortion related services available - E&amp;C/D&amp;C Abortion"/>
+    <type value="group"/>
+    <item id="XcP6HTlP7Nt.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="e4r6eLK76M9">
+    <text value="CMC Infection prevention protocol charts are posted in both FP and CAC service units"/>
+    <type value="group"/>
+    <item id="e4r6eLK76M9.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="yEPjrf4pvLF">
+    <text value="CMC Post-abortion FP methods provided through referrals - Implanon"/>
+    <type value="group"/>
+    <item id="yEPjrf4pvLF.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="FAZsjrqfaYk">
+    <text value="CMC Post abortion related services available - MA Abortion"/>
+    <type value="group"/>
+    <item id="FAZsjrqfaYk.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="nC6ZrPp6F7B">
+    <text value="CMC Signed consent forms for all PM and CAC procedures conducted during the past two months"/>
+    <type value="group"/>
+    <item id="nC6ZrPp6F7B.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ZVqZ600pgzC">
+    <text value="CMC FP services available - Female condoms"/>
+    <type value="group"/>
+    <item id="ZVqZ600pgzC.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="OJSkJXzhdU1">
+    <text value="CMC COPE has been introduced at the facility and staff conducted a COPE exercise during the past quarter"/>
+    <type value="group"/>
+    <item id="OJSkJXzhdU1.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="W87PJK0RlJa">
+    <text value="CMC MINILAPAROTOMY KITS (functional and in good condition) available"/>
+    <type value="group"/>
+    <item id="W87PJK0RlJa.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s5gk8w06vif">
+    <text value="CMC Staff in FP/CAC units received a facilitative supervision visit from supervisor past six months"/>
+    <type value="group"/>
+    <item id="s5gk8w06vif.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="drDdShUJJzi">
+    <text value="CMC Support provided ABRI III - Youth-friendly services"/>
+    <type value="group"/>
+    <item id="drDdShUJJzi.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="MqeQ222wxN8">
+    <text value="CMC Post-abortion FP methods provided in CAC unit - Male condoms"/>
+    <type value="group"/>
+    <item id="MqeQ222wxN8.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="PNAudHvnC29">
+    <text value="CMC Post-abortion FP referred other facility - IUD"/>
+    <type value="group"/>
+    <item id="PNAudHvnC29.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="SDQMvEIFZJH">
+    <text value="CMC Stock-out - Female condoms"/>
+    <type value="group"/>
+    <item id="SDQMvEIFZJH.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="sjir9Ki2vuA">
+    <text value="CMC Most recent delivery of FP and CAC commodities match the request made through the RRF"/>
+    <type value="group"/>
+    <item id="sjir9Ki2vuA.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="KPxUIT1OtGW">
+    <text value="CMC Support provided ABRI III - Community referral linkages"/>
+    <type value="group"/>
+    <item id="KPxUIT1OtGW.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="VX6qaS9JEGv">
+    <text value="CMC Post-abortion FP methods provided through referrals - Male condoms"/>
+    <type value="group"/>
+    <item id="VX6qaS9JEGv.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="MYVHFFkdTYi">
+    <text value="CMC Safe abortion related services available - MA Abortion"/>
+    <type value="group"/>
+    <item id="MYVHFFkdTYi.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="heGCGPwVxfU">
+    <text value="CMC Support provided ABRI III - Others, specify"/>
+    <type value="group"/>
+    <item id="heGCGPwVxfU.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="R8X9WHD6Ta9">
+    <text value="CMC Post-abortion FP methods provided in CAC unit - Injectables (DMPA)"/>
+    <type value="group"/>
+    <item id="R8X9WHD6Ta9.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="X4SRfUAnrHD">
+    <text value="CMC FP services available - Female Sterilization"/>
+    <type value="group"/>
+    <item id="X4SRfUAnrHD.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="J6hufb5lO0k">
+    <text value="CMC Providers trained and certified postpartum IUD insertion"/>
+    <type value="group"/>
+    <item id="J6hufb5lO0k.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="es9P4K9xRCF">
+    <text value="CMC Stock-out - Other (specify)"/>
+    <type value="group"/>
+    <item id="es9P4K9xRCF.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="xN2F50KrWOs">
+    <text value="CMC Safe abortion related services available - E&amp;C/D&amp;C Abortion"/>
+    <type value="group"/>
+    <item id="xN2F50KrWOs.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="mU3ywrD2d24">
+    <text value="CMC Providers trained and certified comprehensive abortion care (CAC)"/>
+    <type value="group"/>
+    <item id="mU3ywrD2d24.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LadMythncw2">
+    <text value="CMC FP and CAC service units have dedicated hours or space for youth clients"/>
+    <type value="group"/>
+    <item id="LadMythncw2.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="x3cG1nQrV0d">
+    <text value="CMC Post abortion related services available - E&amp;C/D&amp;C Post-abortion"/>
+    <type value="group"/>
+    <item id="x3cG1nQrV0d.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="o5USc1zH5mA">
+    <text value="CMC Visiting team members (name and organization)"/>
+    <type value="group"/>
+    <item id="o5USc1zH5mA.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="text"/>
+    </item>
+  </item>
+  <item id="mrCQ760kGUu">
+    <text value="CMC Providers trained and certified both CAC and CC"/>
+    <type value="group"/>
+    <item id="mrCQ760kGUu.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EonDTYTVXxM">
+    <text value="CMC FP and CAC procedure rooms have adequate lighting for the performance of all procedures"/>
+    <type value="group"/>
+    <item id="EonDTYTVXxM.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="lZEg2kLmHnz">
+    <text value="CMC Stock-out - Injectables (DMPA)"/>
+    <type value="group"/>
+    <item id="lZEg2kLmHnz.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="DF0B07U2lPZ">
+    <text value="CMC Counseling rooms in FP and CAC service units ensure client privacy and confidentiality"/>
+    <type value="group"/>
+    <item id="DF0B07U2lPZ.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="A4R8Ns0wtJk">
+    <text value="CMC Post-abortion FP methods provided in CAC unit - Contraceptive pills"/>
+    <type value="group"/>
+    <item id="A4R8Ns0wtJk.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="rkAZZFGFEQ7">
+    <text value="CMC Date of clinical monitoring visit"/>
+    <type value="group"/>
+    <item id="rkAZZFGFEQ7.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="EQbayB0ysYj">
+    <text value="CMC Safe abortion related services available - MVA Abortion"/>
+    <type value="group"/>
+    <item id="EQbayB0ysYj.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+</Questionnaire>

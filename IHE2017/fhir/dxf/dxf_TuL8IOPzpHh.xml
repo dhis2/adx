@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSet xmlns="http://dhis2.org/schema/dxf/2.0" code="DS_1149441" id="TuL8IOPzpHh">
+  <periodType>Monthly</periodType>
+  <displayName>EPI Stock</displayName>
+  <version>35</version>
+  <dataSetElements>
+    <dataSetElement>
+      <dataElement id="vEAo4KwsAzl">
+        <displayName>Stock PHU start balance Measles</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="axVhq1itoQD">
+        <displayName>Stock PHU received  BCG</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="iuSIObmKutb">
+        <displayName>Stock PHU start balance OPV</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="cZnQDuF3IDz">
+        <displayName>Stock PHU discarded BCG</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="WA3HunbaGt0">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Expired" id="fsFN9T4ck3E">
+              <categoryOptions>
+                <categoryOption name="Expired">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Damages" id="pn1upwnbxfn">
+              <categoryOptions>
+                <categoryOption name="Damages">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="VVM Change" id="TxaWpw1pN5G">
+              <categoryOptions>
+                <categoryOption name="VVM Change">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="t99PL3gUxIl">
+        <displayName>Stock PHU start balance BCG</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FTINmL2lehN">
+        <displayName>Stock PHU dispensed OPV</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FvKdfA2SuWI">
+        <displayName>Stock PHU discarded Measles</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="WA3HunbaGt0">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Expired" id="fsFN9T4ck3E">
+              <categoryOptions>
+                <categoryOption name="Expired">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Damages" id="pn1upwnbxfn">
+              <categoryOptions>
+                <categoryOption name="Damages">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="VVM Change" id="TxaWpw1pN5G">
+              <categoryOptions>
+                <categoryOption name="VVM Change">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="WVrH6j3Wfye">
+        <displayName>Stock PHU discarded OPV</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="WA3HunbaGt0">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Expired" id="fsFN9T4ck3E">
+              <categoryOptions>
+                <categoryOption name="Expired">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Damages" id="pn1upwnbxfn">
+              <categoryOptions>
+                <categoryOption name="Damages">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="VVM Change" id="TxaWpw1pN5G">
+              <categoryOptions>
+                <categoryOption name="VVM Change">
+                  <categories>
+                    <category name="Stock discarded"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="p1MDHOT6ENy">
+        <displayName>Stock PHU dispensed  BCG</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="XNrjXqZrHD8">
+        <displayName>Stock PHU received Measles</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="nGCLjZDn0Q4">
+        <displayName>Stock PHU received OPV</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="lVknokmR4Ip">
+        <displayName>Stock PHU dispensed Measles</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+  </dataSetElements>
+</dataSet>

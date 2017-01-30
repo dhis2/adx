@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- mapping of dhis2 dataelement types to fhir -->
+<!-- TODO:  look at constraint extensions to be more precise -->
+<map xmlns="http://dhis2.org/schema/dxf/2.0">
+    <type dhis='TEXT' fhir='string'/>
+    <type dhis='LONG_TEXT' fhir='text'/>
+    <type dhis='LETTER' fhir='string'/>
+    <type dhis='PHONE_NUMBER' fhir='string'/>
+    <type dhis='EMAIL' fhir='string'/>
+    <type dhis='BOOLEAN' fhir='boolean'/>
+    <type dhis='TRUE_ONLY' fhir='boolean'/>
+    <type dhis='DATE' fhir='date'/>
+    <type dhis='DATETIME' fhir='datetime'/>
+    <type dhis='TIME' fhir='datetime'/>
+    <type dhis='NUMBER' fhir='integer'/>
+    <type dhis='UNIT_INTERVAL' fhir=''/>
+    <type dhis='PERCENTAGE' fhir='decimal'/>
+    <type dhis='INTEGER' fhir='integer'/>
+    <type dhis='INTEGER_POSITIVE' fhir='integer'/>
+    <type dhis='INTEGER_NEGATIVE' fhir='integer'/>
+    <type dhis='INTEGER_ZERO_OR_POSITIVE' fhir='integer'/>
+    <type dhis='TRACKER_ASSOCIATE' fhir='string'/>
+    <type dhis='USERNAME' fhir='string'/>
+    <type dhis='FILE_RESOURCE' fhir='string'/>
+    <type dhis='COORDINATE' fhir='string'/>
+</map>

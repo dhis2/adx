@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="EKWVBc5C0ms"/>
+  <status value="published"/>
+  <title value="MNCH Quarterly Report"/>
+  <item id="WQSdEl9xUMA">
+    <text value="MNCH ANC Attendance"/>
+    <type value="group"/>
+    <item id="WQSdEl9xUMA.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QhKQD2wHowC">
+    <text value="MNCH Cases of anaemia during ANC"/>
+    <type value="group"/>
+    <item id="QhKQD2wHowC.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DosHq4vnsYv">
+    <text value="MNCH Caesarean section deliveries"/>
+    <type value="group"/>
+    <item id="DosHq4vnsYv.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aLF5wmCZrKF">
+    <text value="MNCH Heamoglobin checks performed during ANC"/>
+    <type value="group"/>
+    <item id="aLF5wmCZrKF.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Q8lOv2CAUjf">
+    <text value="MNCH Destructive operations delivery"/>
+    <type value="group"/>
+    <item id="Q8lOv2CAUjf.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SqvCDfGBFzM">
+    <text value="MNCH Normal deliveries"/>
+    <type value="group"/>
+    <item id="SqvCDfGBFzM.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iYCGteGcr6Q">
+    <text value="MNCH ANC registrants"/>
+    <type value="group"/>
+    <item id="iYCGteGcr6Q.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="g9Tso8plX88">
+    <text value="MNCH vacuum/forceps delivery"/>
+    <type value="group"/>
+    <item id="g9Tso8plX88.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ijIsjbvXFJL">
+    <text value="MNCH Breech/shoulder delivery"/>
+    <type value="group"/>
+    <item id="ijIsjbvXFJL.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

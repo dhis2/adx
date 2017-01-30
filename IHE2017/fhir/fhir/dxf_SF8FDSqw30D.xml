@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="SF8FDSqw30D"/>
+  <status value="published"/>
+  <title value="TB Facility Reporting Form"/>
+  <item id="JFJfrQRwKUH">
+    <text value="TB Cohort new SS+ completed"/>
+    <type value="group"/>
+    <item id="JFJfrQRwKUH.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QmqSvR8y1VP">
+    <text value="TB Smear not done"/>
+    <type value="group"/>
+    <item id="QmqSvR8y1VP.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DfxIW8gECPb">
+    <text value="TB Self referral"/>
+    <type value="group"/>
+    <item id="DfxIW8gECPb.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BexcJLSBmoI">
+    <text value="TB Referred by private provider"/>
+    <type value="group"/>
+    <item id="BexcJLSBmoI.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ax9QMVVaWzT">
+    <text value="TB Cohort new SS+ registered"/>
+    <type value="group"/>
+    <item id="ax9QMVVaWzT.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NzUztyjtUm2">
+    <text value="TB Smear Negative"/>
+    <type value="group"/>
+    <item id="NzUztyjtUm2.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Vacgoqzb0a9">
+    <text value="TB Referred by community member"/>
+    <type value="group"/>
+    <item id="Vacgoqzb0a9.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="auVPuAdFCmY">
+    <text value="TB Smear Positve Failure"/>
+    <type value="group"/>
+    <item id="auVPuAdFCmY.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LvVagpDFHVd">
+    <text value="TB Cohort new SS+ trans. in"/>
+    <type value="group"/>
+    <item id="LvVagpDFHVd.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HihtAAbmIKd">
+    <text value="TB Referred by public facility"/>
+    <type value="group"/>
+    <item id="HihtAAbmIKd.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LwqtuNuXzMO">
+    <text value="TB Cohort new SS+ cured"/>
+    <type value="group"/>
+    <item id="LwqtuNuXzMO.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tHFKyPb1db7">
+    <text value="TB Extra pulmonary TB"/>
+    <type value="group"/>
+    <item id="tHFKyPb1db7.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PcdVnX3EthS">
+    <text value="TB New SS+ cases"/>
+    <type value="group"/>
+    <item id="PcdVnX3EthS.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zg2HS37R0S0">
+    <text value="TB Cohort new SS+ trans out"/>
+    <type value="group"/>
+    <item id="zg2HS37R0S0.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iwKQb6AzcyA">
+    <text value="TB Cohort new SS+ died"/>
+    <type value="group"/>
+    <item id="iwKQb6AzcyA.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sVDDqpaKwBH">
+    <text value="TB No. of suspects screened"/>
+    <type value="group"/>
+    <item id="sVDDqpaKwBH.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uwbLjPhducc">
+    <text value="TB Smear Positve Relapse"/>
+    <type value="group"/>
+    <item id="uwbLjPhducc.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iM7agdDyMAv">
+    <text value="TB Cohort new SS+ failed"/>
+    <type value="group"/>
+    <item id="iM7agdDyMAv.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x4KonEdVrf4">
+    <text value="TB Referred by other"/>
+    <type value="group"/>
+    <item id="x4KonEdVrf4.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iGWmygJhJ0W">
+    <text value="TB Cohort new SS+ defaulted"/>
+    <type value="group"/>
+    <item id="iGWmygJhJ0W.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NRmkLQkTbHw">
+    <text value="TB Smear Positive T.A.I"/>
+    <type value="group"/>
+    <item id="NRmkLQkTbHw.bRowv6yZOF2">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

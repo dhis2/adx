@@ -1,0 +1,4714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSet xmlns="http://dhis2.org/schema/dxf/2.0" code="DS_394131" id="lyLU2wR22tC">
+  <periodType>Monthly</periodType>
+  <displayName>ART monthly summary</displayName>
+  <version>22</version>
+  <dataSetElements>
+    <dataSetElement>
+      <dataElement id="QrhlrvV6Xs8">
+        <displayName>ART new clients started on ARV</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="YgsAnqU3I7B">
+        <displayName>Shift to AZT + 3TC + NVP 300mg + 150mg + 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="YIDKw3om85t">
+        <displayName>New on d4T / 3TC / NVP 12mg/60mg/100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="pVImQlMAla4">
+        <displayName>New on AZT + 3TC + NVP 300mg + 150mg + 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hUSSNufoUQz">
+        <displayName>Shift to ABC 300mg + ddI 200mg + IDV 400mg + r 100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FTy5pcJZ3yX">
+        <displayName>ART entry point: No walk in</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="fDkcJaO15aQ">
+        <displayName>New on d4T 40mg + 3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hI7NM78r3Rg">
+        <displayName>Shift from ABC 300mg + ddI 200mg + IDV 400mg + r 100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FDpeT1lFQMM">
+        <displayName>Prev. month on AZT + 3TC 300mg + 150mg for 7 days</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="soACnRV9gOI">
+        <displayName>ART entry point: No transfer out</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="t6YgakIbFif">
+        <displayName>Shift from AZT 10mg/ml + 3TC 10mg/ml + NVP 10mg/ml</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="CUVDjGzRmmU">
+        <displayName>Prev. month on NVP + AZT + 3TC 10mg/ml (2mg/kg) + 10mg/ml + 10mg/ml for 7 days</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="yXZd6HTew4q">
+        <displayName>Prev. month on AZT 10mg/ml + 3TC 10mg/ml + NVP 10mg/ml</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="AyLbN9fhY4W">
+        <displayName>Shift to AZT 300mg at 28 wks</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="nvsNqhfSSxd">
+        <displayName>New on AZT + 3TC 300mg + 150mg for 7 days after 36 weeks</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="F53rTVTmSuF">
+        <displayName>ART No clients with change of regimen due to drug toxicity</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="wIQ5ugpWYUH">
+        <displayName>New on AZT 300mg + 3TC 150mg + TDF 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="HDZOFvdXsqE">
+        <displayName>ART entry point: No transfer in</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="vhT3YzTev3B">
+        <displayName>Shift to AZT 10mg/ml + 3TC 10mg/ml + NVP 10mg/ml</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="oYZug9IEm3Q">
+        <displayName>Prev. month on d4T 30mg + 3TC 100mg + ABC 300mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="gyudBBtgGCv">
+        <displayName>Prev. month on d4T / 3TC / NVP 12mg/60mg/100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="rNEpbBxSyu7">
+        <displayName>ART No clients with new adverse drug reaction</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="AzwEuYfWAtN">
+        <displayName>Shift from AZT + 3TC + NVP 300mg + 150mg + 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ZecQS9lx4j9">
+        <displayName>Prev. month on d4T 30mg / 3TC 150mg / NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="kxcIr99QcAO">
+        <displayName>Shift to AZT 300mg / 3TC 150mg + NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="D33rH8UHKlZ">
+        <displayName>Prev. month on ABC 300mg + ddI 200mg + IDV 400mg + r 100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="BVU4XA3aL0Y">
+        <displayName>Prev. month on AZT 300mg + 3TC 150mg + ABC 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="jYYxzqd1dqM">
+        <displayName>Shift to AZT + 3TC 300mg + 150mg for 7 days after 36w</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ZgIaamZjBjz">
+        <displayName>Shift to TDF 300mg + ddI 200mg + IDV 400mg + r 100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="eRwOwCpMzyP">
+        <displayName>ART enrollment stage 3</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="GMd99K8gVut">
+        <displayName>ART No clients who stopped TRT due to TRT failure</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="mmHNj6THZNH">
+        <displayName>Shift from d4T 30mg / 3TC 150mg / NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="NV0OXpHu6x4">
+        <displayName>Shift to AZT 300mg + 3TC 150mg + TDF 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="NJnhOzjaLYk">
+        <displayName>ART clients with new adverse clinical event</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="XVzfK55tu7h">
+        <displayName>Prev. month on d4T 40mg + 3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="TyQ1vOHM6JO">
+        <displayName>ART treatment stopped due to loss to follow-up</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="tnDQ80ycQus">
+        <displayName>New on TDF 300mg + ddI 200mg + IDV 400mg + r 100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="DlZORv7kWSl">
+        <displayName>Shift to ART other regimen</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="kVOiLDV4OC6">
+        <displayName>ART entry point: No PMTCT</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="wfKKFhBn0Q0">
+        <displayName>ART No clients who stopped TRT due to adverse clinical status/event</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FQhY9n5Ft7t">
+        <displayName>Prev. month on d4T 30mg + 3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="CxlYcbqio4v">
+        <displayName>ART No started Opportunist Infection prophylaxis</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="YX1MQLgAD92">
+        <displayName>New on AZT 300mg / 3TC 150mg + NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="xrbIG3L9DdO">
+        <displayName>New on AZT 10mg/ml + 3TC 10mg/ml + NVP 10mg/ml</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="cQxY2T8GenX">
+        <displayName>Prev. month on TDF 300mg + ddI 200mg + LPV/r 133.3mg/33.3mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="BtXmKYNBc3k">
+        <displayName>Shift from d4T 40mg + 3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="o44j6gPqFlA">
+        <displayName>New on d4T 30mg / 3TC 150mg / NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="w1554hhXNcq">
+        <displayName>New on TDF 300mg + ddI 200mg + LPV/r 133.3mg/33.3mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="n91IylSb1JQ">
+        <displayName>Prev. month on TDF 300mg + ddI 200mg + IDV 400mg + r 100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="pgzNTiQwMES">
+        <displayName>Prev. month on AZT 300mg / 3TC 150mg + NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Sdfo0RBu1W3">
+        <displayName>Prev. month on d4T 40mg / 3TC 150mg / NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="obbSEvaKTyW">
+        <displayName>Prev. month on ABC 300mg + ddI 200mg + LPV/r 133.3/33.3mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Yf4u4QOIdsi">
+        <displayName>ART entry point: TB</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="pq4msirdtpr">
+        <displayName>New on d4T / 3TC / NVP 6mg/30mg/50mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="BOSZApCrBni">
+        <displayName>ART enrollment stage 1</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="LVaUdM3CERi">
+        <displayName>ART entry point: No old patients</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="zYkwbCBALhn">
+        <displayName>ART enrollment stage 4</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="jHxFwWMbXT2">
+        <displayName>Shift from AZT 300mg /  3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="uN64b5MivTO">
+        <displayName>New on Infant NVP 10mg/ml (2mg/kg)</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="I5MLuG16arn">
+        <displayName>ART entry point: No diagnostic testing</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ZGKUt190yEn">
+        <displayName>Shift from d4T 30mg + 3TC 100mg + ABC 300mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="aJ9oon0aJ87">
+        <displayName>Shift to TDF 300mg + ddI 200mg + LPV/r 133.3mg/33.3mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="oJLoUSMs3Ud">
+        <displayName>Shift from TDF 300mg + ddI 200mg + LPV/r 133.3mg/33.3mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="PNlOOplRNOp">
+        <displayName>Shift to AZT 300mg + 3TC 150mg + ABC 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ksGURIlASZB">
+        <displayName>Shift from d4T 30mg + 3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="VZPWjoT6Iyb">
+        <displayName>Prev. month on ART other regimen</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="KD5UjA5V16r">
+        <displayName>Prev. month on d4T 30mg + 3TC 100mg + TDF 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="D4PywWuIwy0">
+        <displayName>New on NVP + AZT + 3TC 10mg/ml (2mg/kg) + 10mg/ml + 10mg/ml for 7 days</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="iCGDtgPA28k">
+        <displayName>Shift from d4T / 3TC / NVP 12mg/60mg/100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="BI5CBuRJVSV">
+        <displayName>Prev. month on AZT + 3TC 300mg + 150mg on labour</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="eCIPNNYj9ZM">
+        <displayName>Shift to d4T / 3TC / NVP 6mg/30mg/50mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="xETRo03ZfOM">
+        <displayName>New on AZT 300mg + 3TC 150mg + ABC 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="tlSucW8wn23">
+        <displayName>Shift from d4T / 3TC / NVP 6mg/30mg/50mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="a7Pue4ht1n1">
+        <displayName>Shift from d4T 30mg + 3TC 100mg + TDF 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="SLcj0Swq8rD">
+        <displayName>New on d4T 30mg + 3TC 100mg + TDF 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="x98jMXibptT">
+        <displayName>New on d4T 30mg + 3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="qUY0i7PnaLS">
+        <displayName>Shift to d4T 30mg + 3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="PBXQFnb2AOk">
+        <displayName>Shift to ABC 300mg + ddI 200mg + LPV/r 133.3/33.3mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="YTmhoGBxE2m">
+        <displayName>Shift to d4T 30mg + 3TC 100mg + ABC 300mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="y6noHe7ltxY">
+        <displayName>Shift from TDF 300mg + ddI 200mg + IDV 400mg + r 100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="gVfwyHBGWec">
+        <displayName>Received treatment for both TB and HIV</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="GNY9KvEmRjy">
+        <displayName>New on AZT + 3TC 300mg + 150mg for 7 days</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="E7QJ0voitk7">
+        <displayName>Shift to Infant NVP 10mg/ml (2mg/kg)</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ibL7BD2vn2C">
+        <displayName>ART treatment stopped due to death</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="GgsWqA0YETj">
+        <displayName>New on AZT 300mg at 28 wks</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="pSHgU0Wf4ir">
+        <displayName>Shift from AZT 300mg / 3TC 150mg + NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="la1f7sqY9sb">
+        <displayName>New on ABC 300mg + ddI 200mg + LPV/r 133.3/33.3mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="EEEu3r8z1Rg">
+        <displayName>Shift to d4T / 3TC / NVP 12mg/60mg/100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="HmBwa7GWGRG">
+        <displayName>Shift from NVP + AZT + 3TC 10mg/ml (2mg/kg) + 10mg/ml + 10mg/ml for 7 days</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="q9CskFaFGE6">
+        <displayName>Shift from AZT + 3TC 300mg + 150mg on labour</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="IJ4yZ027EmK">
+        <displayName>Shift to AZT + 3TC 300mg + 150mg on labour</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="a5MxE5H7d3q">
+        <displayName>Shift to d4T 40mg + 3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="hoj1wTJT6ZW">
+        <displayName>New on d4T 30mg + 3TC 100mg + ABC 300mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="un5mkYkVKqV">
+        <displayName>Shift to NVP + AZT + 3TC 10mg/ml (2mg/kg) + 10mg/ml + 10mg/ml for 7 days</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="dAnZOL5kxlK">
+        <displayName>Shift from d4T 40mg / 3TC 150mg / NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="tZLjsE0VXrL">
+        <displayName>New on AZT 300mg /  3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="dGdeotKpRed">
+        <displayName>ART enrollment stage 2</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="gSD3Znye1hY">
+        <displayName>Shift from AZT 300mg + 3TC 150mg + ABC 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="V651s5yIbnR">
+        <displayName>Shift to d4T 30mg / 3TC 150mg / NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="deGkTqbpTlS">
+        <displayName>Prev. month on AZT + 3TC 300mg + 150mg for 7 days after 36w</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="vJSPn2R6gVe">
+        <displayName>ART entry point: No other</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="XMsORYe4ZcA">
+        <displayName>Shift to AZT 300mg /  3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="rFkRvm5Ns4a">
+        <displayName>Prev. month on AZT 300mg /  3TC 150mg + EFV 600mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Z5uEjG9zJNK">
+        <displayName>Shift from Infant NVP 10mg/ml (2mg/kg)</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="e1eDe6JsE9j">
+        <displayName>Prev. month on AZT + 3TC + NVP 300mg + 150mg + 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="PxT44IblPCq">
+        <displayName>New on ABC 300mg + ddI 200mg + IDV 400mg + r 100mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="MeAvt39JtqN">
+        <displayName>Shift from AZT 300mg + 3TC 150mg + TDF 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="LJBV91hapop">
+        <displayName>Shift from AZT 300mg at 28 wks</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="FOWABOOZtPg">
+        <displayName>Prev. month on AZT 300mg + 3TC 150mg + TDF 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ReljOufQV11">
+        <displayName>Prev. month on AZT 300mg at 28 wks</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="lmj0xtl5P6C">
+        <displayName>New on ART other regimen</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="ozmEltb5V8d">
+        <displayName>New on AZT + 3TC 300mg + 150mg on labour</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Mow8dnhE6FJ">
+        <displayName>Shift from AZT + 3TC 300mg + 150mg for 7 days</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="supsI55QU7E">
+        <displayName>Shift from AZT + 3TC 300mg + 150mg for 7 days after 36w</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="xUNvvqqhNwz">
+        <displayName>New on d4T 40mg / 3TC 150mg / NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="C6yhZddXLCX">
+        <displayName>Shift to d4T 40mg / 3TC 150mg / NVP 200mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="lznF009R6XI">
+        <displayName>Shift from ABC 300mg + ddI 200mg + LPV/r 133.3/33.3mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="YknvQAH4LnL">
+        <displayName>Prev. month on d4T / 3TC / NVP 6mg/30mg/50mg</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="yB3qDR4Mlqk">
+        <displayName>Shift to d4T 30mg + 3TC 100mg + TDF 300mg </displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="aIJZ2d2QgVV">
+        <displayName>ART defaulters</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="jCNGsC2NawV">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Male, 25-49y" id="uX9yDetTdOp">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 25-49y" id="qa0VqgYlgtN">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="25-49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &gt;49y" id="GuJESuyOCMW">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, 15-24y" id="zPpvbvpmkxN">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, 15-24y" id="LbeIlyHEhKr">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="15-24y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &gt;49y" id="rCMUTmcreqP">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;49y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Male, &lt;15y" id="TkDhg29x18A">
+              <categoryOptions>
+                <categoryOption name="Male">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Female, &lt;15y" id="qNCMOhkoQju">
+              <categoryOptions>
+                <categoryOption name="Female">
+                  <categories>
+                    <category name="Gender"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;15y">
+                  <categories>
+                    <category name="HIV age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="Jw8BIUYVMGE">
+        <displayName>Shift from ART other regimen</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="zTWitarSrae">
+        <displayName>Shift to AZT + 3TC 300mg + 150mg for 7 days</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <dataElement id="iri7NSiuRc3">
+        <displayName>Prev. month on Infant NVP 10mg/ml (2mg/kg)</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+  </dataSetElements>
+</dataSet>
