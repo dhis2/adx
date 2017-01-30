@@ -1,5 +1,14 @@
-# ADX definition, samples and tests
+# ADX version 2 - Using FHIR
 
+In 2015 we defined a profile for aggregate data exchange which was loosely 
+based on SDMX,  In this 2017 cycle the QRPH Technical Committee was tasked
+with updating ADX to cater for (i) the specification of a transport mechanism and
+and (ii) the specification of a fully descriptive exchange of metadata required
+for ADX data exchange.
+
+Early discussuion suggested we might look to FHIR for things like ValueSets.
+That investigation into FHIR has led to a 
+ 
 Using FHIR Questionnaire resource
 
 ## What is here?
