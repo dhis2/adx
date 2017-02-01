@@ -5,6 +5,102 @@
   <version>49</version>
   <dataSetElements>
     <dataSetElement>
+      <categoryCombo id="p0KPaWEg3cf">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="default" id="bRowv6yZOF2">
+            <categoryOptions>
+              <categoryOption name="default">
+                <categories>
+                  <category name="default"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="hsGPp5n6Vmd">
+        <displayName>test-data-element</displayName>
+        <valueType>TEXT</valueType>
+        <categoryCombo id="p0KPaWEg3cf">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="default" id="bRowv6yZOF2">
+              <categoryOptions>
+                <categoryOption name="default">
+                  <categories>
+                    <category name="default"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="Rmixc9wJl0G">
         <displayName>Q_LLITN given at time of 2nd Vit A dose</displayName>
         <valueType>NUMBER</valueType>
@@ -75,6 +171,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="pEOVd4Z3TAS">
         <displayName>Q_Exclusive breastfeeding at time of Penta 3</displayName>
         <valueType>NUMBER</valueType>
@@ -145,6 +305,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="pikOziyCXbM">
         <displayName>OPV1 doses given</displayName>
         <valueType>NUMBER</valueType>
@@ -215,6 +439,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="s46m5MS0hxu">
         <displayName>BCG doses given</displayName>
         <valueType>INTEGER</valueType>
@@ -285,6 +573,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="qw2sIef52Fu">
         <displayName>Children getting therapeutic feeding</displayName>
         <valueType>NUMBER</valueType>
@@ -355,6 +707,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="Y53Jcc9LBYh">
         <displayName>Children supplied with food supplemements</displayName>
         <valueType>NUMBER</valueType>
@@ -425,6 +841,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="UOlfIjgN8X6">
         <displayName>Fully Immunized child</displayName>
         <valueType>NUMBER</valueType>
@@ -495,6 +975,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="vI2csg55S9C">
         <displayName>OPV3 doses given</displayName>
         <valueType>NUMBER</valueType>
@@ -565,6 +1109,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="NLnXLV5YpZF">
         <displayName>Weight for age on or above middle line (green)</displayName>
         <valueType>NUMBER</valueType>
@@ -635,6 +1243,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="ca8lfO062zg">
         <displayName>Q_Vitamin A received 4-6 months ago at 12-59 dose</displayName>
         <valueType>NUMBER</valueType>
@@ -705,6 +1377,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="pnL2VG8Bn7N">
         <displayName>Weight for height 70-79 percent</displayName>
         <valueType>NUMBER</valueType>
@@ -775,6 +1511,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="ldGXl6SEdqf">
         <displayName>Weight for age between middle and lower line (yellow)</displayName>
         <valueType>NUMBER</valueType>
@@ -845,6 +1645,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="x3Do5e7g4Qo">
         <displayName>OPV0 doses given</displayName>
         <valueType>NUMBER</valueType>
@@ -915,146 +1779,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
-      <dataElement id="n6aMJNLdvep">
-        <displayName>Penta3 doses given</displayName>
-        <valueType>NUMBER</valueType>
-        <categoryCombo id="dzjKKQq0cSO">
-          <categoryOptionCombos>
-            <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
-              <categoryOptions>
-                <categoryOption name="Outreach">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&gt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
-              <categoryOptions>
-                <categoryOption name="Fixed">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&gt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
-              <categoryOptions>
-                <categoryOption name="Outreach">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&lt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
-              <categoryOptions>
-                <categoryOption name="Fixed">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&lt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-          </categoryOptionCombos>
-        </categoryCombo>
-      </dataElement>
-    </dataSetElement>
-    <dataSetElement>
-      <dataElement id="dU0GquGkGQr">
-        <displayName>Q_Early breastfeeding (within 1 hr after delivery) at BCG</displayName>
-        <valueType>NUMBER</valueType>
-        <categoryCombo id="dzjKKQq0cSO">
-          <categoryOptionCombos>
-            <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
-              <categoryOptions>
-                <categoryOption name="Outreach">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&gt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
-              <categoryOptions>
-                <categoryOption name="Fixed">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&gt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
-              <categoryOptions>
-                <categoryOption name="Outreach">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&lt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
-              <categoryOptions>
-                <categoryOption name="Fixed">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&lt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-          </categoryOptionCombos>
-        </categoryCombo>
-      </dataElement>
-    </dataSetElement>
-    <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="mGN1az8Xub6">
         <displayName>PCV2 doses given</displayName>
         <valueType>NUMBER</valueType>
@@ -1125,6 +1913,338 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="dU0GquGkGQr">
+        <displayName>Q_Early breastfeeding (within 1 hr after delivery) at BCG</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="dzjKKQq0cSO">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="n6aMJNLdvep">
+        <displayName>Penta3 doses given</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="dzjKKQq0cSO">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="l6byfWFUGaP">
         <displayName>Yellow Fever doses given</displayName>
         <valueType>NUMBER</valueType>
@@ -1195,6 +2315,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="tU7GixyHhsv">
         <displayName>Vitamin A given to &lt; 5y</displayName>
         <valueType>NUMBER</valueType>
@@ -1265,146 +2449,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
-      <dataElement id="lVsbKXoF0zX">
-        <displayName>Weight for height below 70 percent</displayName>
-        <valueType>NUMBER</valueType>
-        <categoryCombo id="dzjKKQq0cSO">
-          <categoryOptionCombos>
-            <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
-              <categoryOptions>
-                <categoryOption name="Outreach">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&gt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
-              <categoryOptions>
-                <categoryOption name="Fixed">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&gt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
-              <categoryOptions>
-                <categoryOption name="Outreach">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&lt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
-              <categoryOptions>
-                <categoryOption name="Fixed">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&lt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-          </categoryOptionCombos>
-        </categoryCombo>
-      </dataElement>
-    </dataSetElement>
-    <dataSetElement>
-      <dataElement id="xc8gmAKfO95">
-        <displayName>PCV1 doses given</displayName>
-        <valueType>NUMBER</valueType>
-        <categoryCombo id="dzjKKQq0cSO">
-          <categoryOptionCombos>
-            <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
-              <categoryOptions>
-                <categoryOption name="Outreach">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&gt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
-              <categoryOptions>
-                <categoryOption name="Fixed">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&gt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
-              <categoryOptions>
-                <categoryOption name="Outreach">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&lt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-            <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
-              <categoryOptions>
-                <categoryOption name="Fixed">
-                  <categories>
-                    <category name="Location Fixed/Outreach"/>
-                    <category name="Point of service"/>
-                  </categories>
-                </categoryOption>
-                <categoryOption name="&lt;1y">
-                  <categories>
-                    <category name="EPI/nutrition age"/>
-                  </categories>
-                </categoryOption>
-              </categoryOptions>
-            </categoryOptionCombo>
-          </categoryOptionCombos>
-        </categoryCombo>
-      </dataElement>
-    </dataSetElement>
-    <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="L2kxa2IA2cs">
         <displayName>PCV3 doses given</displayName>
         <valueType>NUMBER</valueType>
@@ -1475,6 +2583,338 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="xc8gmAKfO95">
+        <displayName>PCV1 doses given</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="dzjKKQq0cSO">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
+      <dataElement id="lVsbKXoF0zX">
+        <displayName>Weight for height below 70 percent</displayName>
+        <valueType>NUMBER</valueType>
+        <categoryCombo id="dzjKKQq0cSO">
+          <categoryOptionCombos>
+            <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&gt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+              <categoryOptions>
+                <categoryOption name="Outreach">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+            <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+              <categoryOptions>
+                <categoryOption name="Fixed">
+                  <categories>
+                    <category name="Location Fixed/Outreach"/>
+                    <category name="Point of service"/>
+                  </categories>
+                </categoryOption>
+                <categoryOption name="&lt;1y">
+                  <categories>
+                    <category name="EPI/nutrition age"/>
+                  </categories>
+                </categoryOption>
+              </categoryOptions>
+            </categoryOptionCombo>
+          </categoryOptionCombos>
+        </categoryCombo>
+      </dataElement>
+    </dataSetElement>
+    <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="z7duEFcpApd">
         <displayName>LLITN given at Penta3</displayName>
         <valueType>NUMBER</valueType>
@@ -1545,6 +2985,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="YtbsuPPo010">
         <displayName>Measles doses given</displayName>
         <valueType>NUMBER</valueType>
@@ -1615,6 +3119,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="O05mAByOgAv">
         <displayName>OPV2 doses given</displayName>
         <valueType>NUMBER</valueType>
@@ -1685,6 +3253,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="qPVDd87kS9Z">
         <displayName>Weight for height 80 percent and above</displayName>
         <valueType>NUMBER</valueType>
@@ -1755,6 +3387,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="d5xTg3WR3DP">
         <displayName>Mebendazole/Albendazole (for children 12-59 months)</displayName>
         <valueType>NUMBER</valueType>
@@ -1825,6 +3521,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="bTcRDVjC66S">
         <displayName>Weight for age below lower line (red)</displayName>
         <valueType>NUMBER</valueType>
@@ -1895,6 +3655,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="fClA2Erf6IO">
         <displayName>Penta1 doses given</displayName>
         <valueType>NUMBER</valueType>
@@ -1965,6 +3789,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="GCGfEY82Wz6">
         <displayName>Q_Slept under LLIN last night Measles</displayName>
         <valueType>NUMBER</valueType>
@@ -2035,6 +3923,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="DUSpd8Jq3M7">
         <displayName>Newborn protected at birth against tetanus (TT2+)</displayName>
         <valueType>NUMBER</valueType>
@@ -2105,6 +4057,70 @@
       </dataElement>
     </dataSetElement>
     <dataSetElement>
+      <categoryCombo id="dzjKKQq0cSO">
+        <categoryOptionCombos>
+          <categoryOptionCombo name="Outreach, &gt;1y" id="hEFKSsPV5et">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &gt;1y" id="psbwp3CQEhs">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&gt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Outreach, &lt;1y" id="V6L425pT3A0">
+            <categoryOptions>
+              <categoryOption name="Outreach">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+          <categoryOptionCombo name="Fixed, &lt;1y" id="Prlt0C1RF0s">
+            <categoryOptions>
+              <categoryOption name="Fixed">
+                <categories>
+                  <category name="Location Fixed/Outreach"/>
+                  <category name="Point of service"/>
+                </categories>
+              </categoryOption>
+              <categoryOption name="&lt;1y">
+                <categories>
+                  <category name="EPI/nutrition age"/>
+                </categories>
+              </categoryOption>
+            </categoryOptions>
+          </categoryOptionCombo>
+        </categoryOptionCombos>
+      </categoryCombo>
       <dataElement id="I78gJm4KBo7">
         <displayName>Penta2 doses given</displayName>
         <valueType>NUMBER</valueType>

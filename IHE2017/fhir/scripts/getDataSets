@@ -1,2 +1,14 @@
-for ds in $(curl -u "admin:district" "https://play.dhis2.org/dev/api/dataSets.xml" 2>/dev/null|xmllint --format - |xpath -e '//@id' 2>/dev/null |sed 's/id=\"\(.*\)\"/\1/'); do ./getDataSet $ds > ../dxf/dxf_$ds.xml; done
+#!/bin/bash
+
+CREDENTIALS='admin:district'
+BASE='https://play.dhis2.org/dev'
+
+# get all the dxf datasets from demo server
+DATASETS=$(curl -s -u $CREDENTIALS "$BASE/api/dataSets.xml" 2>/dev/null|xpath -e '//@id' 2>/dev/null |sed 's/id=\"\(.*\)\"/\1/');
+
+for ds in $DATASETS
+do 
+   echo "Fetching $ds"
+   ./getDataSet $ds > ../dxf/dxf_$ds.xml; 
+done
 
