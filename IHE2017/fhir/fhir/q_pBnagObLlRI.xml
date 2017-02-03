@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="pBnagObLlRI"/>
+  <status value="published"/>
+  <title value="TB_Infection Control Evaluation form"/>
+  <item id="R38b1SsDpbx">
+    <text value="TB_Keeping doors and windows open in TB and ARV services "/>
+    <type value="group"/>
+    <item id="R38b1SsDpbx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GqcjZdBAiZ8">
+    <text value="TB_Facility staff trainned  on the infection control best practices in last year"/>
+    <type value="group"/>
+    <item id="GqcjZdBAiZ8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iGNgutNeznI">
+    <text value="TB_TPM positive hospitalized cases isolated from other patients"/>
+    <type value="group"/>
+    <item id="iGNgutNeznI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yXq9Ya7Rju6">
+    <text value="TB_IEC sessions on cough hygiene done in waiting halls"/>
+    <type value="group"/>
+    <item id="yXq9Ya7Rju6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="f5NLZfkKXM4">
+    <text value="TB_Triage and separation  of coughers  or TPM positive regularly done in Hospitalization waiting hall"/>
+    <type value="group"/>
+    <item id="f5NLZfkKXM4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wwW77OtzEZY">
+    <text value="TB_Existence of infection control plan"/>
+    <type value="group"/>
+    <item id="wwW77OtzEZY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="A7lbBWIljMz">
+    <text value="TB_Keeping doors and windows open in hospitalization halls"/>
+    <type value="group"/>
+    <item id="A7lbBWIljMz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nqbqOliYjX3">
+    <text value="TB_Keeping doors and windows open in consultation room"/>
+    <type value="group"/>
+    <item id="nqbqOliYjX3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ppFHcOxaTn1">
+    <text value="TB_Triage and separation  of coughers  or TPM Plus regularly done in counsltation waiting hall"/>
+    <type value="group"/>
+    <item id="ppFHcOxaTn1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WJUIWFpR5Bd">
+    <text value="TB_Triage and separation  of coughers  or TPM positive regularly done in ARV waiting hall"/>
+    <type value="group"/>
+    <item id="WJUIWFpR5Bd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NIpbDxCRsK8">
+    <text value="TB_infection control  focal Person appointed"/>
+    <type value="group"/>
+    <item id="NIpbDxCRsK8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

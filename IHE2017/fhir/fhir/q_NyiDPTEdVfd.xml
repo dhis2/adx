@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="NyiDPTEdVfd"/>
+  <status value="published"/>
+  <title value="MDR-TB Registration and by Case category and by HIV status"/>
+  <item id="olPVDNRj945">
+    <text value="Extra Pulmonary"/>
+    <type value="group"/>
+    <item id="olPVDNRj945.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="olPVDNRj945.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ikpVwQBEJbd">
+    <text value="Cat 2 positive at 3 months on treatment"/>
+    <type value="group"/>
+    <item id="ikpVwQBEJbd.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="ikpVwQBEJbd.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="O57Ri5TWSZS">
+    <text value="MDR-TB patients under 15 years  HIV positive "/>
+    <type value="group"/>
+    <item id="O57Ri5TWSZS.iqQrQU4PTqq">
+      <text value="Bacteriologically Confirmed, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="O57Ri5TWSZS.lrJ1uIcKmle">
+      <text value="Clinically Diagnosed , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="O57Ri5TWSZS.PrNq1EwCLbj">
+      <text value="Clinically Diagnosed , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="O57Ri5TWSZS.QellWxumGgg">
+      <text value="Bacteriologically Confirmed, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aQIJRwtnxjL">
+    <text value="MDR-TB patients under 15 years"/>
+    <type value="group"/>
+    <item id="aQIJRwtnxjL.iqQrQU4PTqq">
+      <text value="Bacteriologically Confirmed, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aQIJRwtnxjL.lrJ1uIcKmle">
+      <text value="Clinically Diagnosed , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aQIJRwtnxjL.PrNq1EwCLbj">
+      <text value="Clinically Diagnosed , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aQIJRwtnxjL.QellWxumGgg">
+      <text value="Bacteriologically Confirmed, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zAAcNf0CqR6">
+    <text value="Relapse"/>
+    <type value="group"/>
+    <item id="zAAcNf0CqR6.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="zAAcNf0CqR6.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="B51ULnkEoKT">
+    <text value="Cat 1 positive at 2 months on treatment"/>
+    <type value="group"/>
+    <item id="B51ULnkEoKT.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="B51ULnkEoKT.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sR6JTx7rO0r">
+    <text value="MDR-TB Patients diagnosed "/>
+    <type value="group"/>
+    <item id="sR6JTx7rO0r.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="sR6JTx7rO0r.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rqZaSTfRlzF">
+    <text value="MDR-TB patients under 15 years  HIV Tested"/>
+    <type value="group"/>
+    <item id="rqZaSTfRlzF.iqQrQU4PTqq">
+      <text value="Bacteriologically Confirmed, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rqZaSTfRlzF.lrJ1uIcKmle">
+      <text value="Clinically Diagnosed , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rqZaSTfRlzF.PrNq1EwCLbj">
+      <text value="Clinically Diagnosed , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rqZaSTfRlzF.QellWxumGgg">
+      <text value="Bacteriologically Confirmed, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="URAsAfJQS5L">
+    <text value="MDR-TB patients HIV Tested"/>
+    <type value="group"/>
+    <item id="URAsAfJQS5L.iqQrQU4PTqq">
+      <text value="Bacteriologically Confirmed, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="URAsAfJQS5L.lrJ1uIcKmle">
+      <text value="Clinically Diagnosed , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="URAsAfJQS5L.PrNq1EwCLbj">
+      <text value="Clinically Diagnosed , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="URAsAfJQS5L.QellWxumGgg">
+      <text value="Bacteriologically Confirmed, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wYuRkIruWL5">
+    <text value="Failure Cat 2"/>
+    <type value="group"/>
+    <item id="wYuRkIruWL5.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="wYuRkIruWL5.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oTWY5HqeKga">
+    <text value="MDR-TB patients who initiated treatment"/>
+    <type value="group"/>
+    <item id="oTWY5HqeKga.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="oTWY5HqeKga.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qyaNBuFyanC">
+    <text value="Others (MDR-TB)"/>
+    <type value="group"/>
+    <item id="qyaNBuFyanC.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="qyaNBuFyanC.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RAIYJdrEQg0">
+    <text value="MDR-TB patients HIV Positive"/>
+    <type value="group"/>
+    <item id="RAIYJdrEQg0.iqQrQU4PTqq">
+      <text value="Bacteriologically Confirmed, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="RAIYJdrEQg0.lrJ1uIcKmle">
+      <text value="Clinically Diagnosed , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="RAIYJdrEQg0.PrNq1EwCLbj">
+      <text value="Clinically Diagnosed , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="RAIYJdrEQg0.QellWxumGgg">
+      <text value="Bacteriologically Confirmed, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yQSyPeoVx2v">
+    <text value="MDR-TB patients HIV positive on ART"/>
+    <type value="group"/>
+    <item id="yQSyPeoVx2v.iqQrQU4PTqq">
+      <text value="Bacteriologically Confirmed, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yQSyPeoVx2v.lrJ1uIcKmle">
+      <text value="Clinically Diagnosed , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yQSyPeoVx2v.PrNq1EwCLbj">
+      <text value="Clinically Diagnosed , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yQSyPeoVx2v.QellWxumGgg">
+      <text value="Bacteriologically Confirmed, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b9H8thM1ryK">
+    <text value="MDR-TB - Extensively Drug Resistance"/>
+    <type value="group"/>
+    <item id="b9H8thM1ryK.iqQrQU4PTqq">
+      <text value="Bacteriologically Confirmed, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b9H8thM1ryK.lrJ1uIcKmle">
+      <text value="Clinically Diagnosed , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="b9H8thM1ryK.PrNq1EwCLbj">
+      <text value="Clinically Diagnosed , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b9H8thM1ryK.QellWxumGgg">
+      <text value="Bacteriologically Confirmed, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Pav0w9tsTqP">
+    <text value="Return after lost to follow up"/>
+    <type value="group"/>
+    <item id="Pav0w9tsTqP.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="Pav0w9tsTqP.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b8HvKplhGTn">
+    <text value="MDR-TB patients under 15 years  HIV positive on ART"/>
+    <type value="group"/>
+    <item id="b8HvKplhGTn.iqQrQU4PTqq">
+      <text value="Bacteriologically Confirmed, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b8HvKplhGTn.lrJ1uIcKmle">
+      <text value="Clinically Diagnosed , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="b8HvKplhGTn.PrNq1EwCLbj">
+      <text value="Clinically Diagnosed , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b8HvKplhGTn.QellWxumGgg">
+      <text value="Bacteriologically Confirmed, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Q0wQUIkFkMq">
+    <text value="NTPB Positive"/>
+    <type value="group"/>
+    <item id="Q0wQUIkFkMq.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="Q0wQUIkFkMq.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ia47dEJwHeE">
+    <text value="MDR-TB patients"/>
+    <type value="group"/>
+    <item id="ia47dEJwHeE.iqQrQU4PTqq">
+      <text value="Bacteriologically Confirmed, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ia47dEJwHeE.lrJ1uIcKmle">
+      <text value="Clinically Diagnosed , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ia47dEJwHeE.PrNq1EwCLbj">
+      <text value="Clinically Diagnosed , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ia47dEJwHeE.QellWxumGgg">
+      <text value="Bacteriologically Confirmed, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="edKgvrJ6t7p">
+    <text value="Failure Cat 1"/>
+    <type value="group"/>
+    <item id="edKgvrJ6t7p.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="edKgvrJ6t7p.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ly0bjkWVdPv">
+    <text value="Relapse Cat 4"/>
+    <type value="group"/>
+    <item id="Ly0bjkWVdPv.LpZxgtqV1d4">
+      <text value="Bacteriologically Confirmed"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ly0bjkWVdPv.QXjvLFRAHDR">
+      <text value="Clinically Diagnosed "/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="QpHpeEdW033"/>
+  <status value="published"/>
+  <title value="Finance"/>
+  <item id="mH3I2vo5bqq">
+    <text value="Purchase of medicines medical materials"/>
+    <type value="group"/>
+    <item id="mH3I2vo5bqq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KG0oU0X0Ixv">
+    <text value="Employee bonuses"/>
+    <type value="group"/>
+    <item id="KG0oU0X0Ixv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WCdTz9BI3KK">
+    <text value="Minor Surgery Finance"/>
+    <type value="group"/>
+    <item id="WCdTz9BI3KK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Zk36fXRdwSo">
+    <text value="Communication_Telephone_Internet"/>
+    <type value="group"/>
+    <item id="Zk36fXRdwSo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cmXKR6b3wQ4">
+    <text value="Issue of Medical-Legal Documents"/>
+    <type value="group"/>
+    <item id="cmXKR6b3wQ4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TckD9t07ne5">
+    <text value="Debts at the beginning of the month"/>
+    <type value="group"/>
+    <item id="TckD9t07ne5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M8LuSccOY6g">
+    <text value="Maintenance and repair of infrastructure"/>
+    <type value="group"/>
+    <item id="M8LuSccOY6g.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wj6vs7b9U40">
+    <text value="Reimbursements this month "/>
+    <type value="group"/>
+    <item id="wj6vs7b9U40.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="l0zlhdSOopY">
+    <text value="Other Insurance Payment for medication"/>
+    <type value="group"/>
+    <item id="l0zlhdSOopY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Fzemzop4yoX">
+    <text value="Preventive Care"/>
+    <type value="group"/>
+    <item id="Fzemzop4yoX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CTvQB8hSRIE">
+    <text value="Office supplies_printed materials_medical records"/>
+    <type value="group"/>
+    <item id="CTvQB8hSRIE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OAYhtzunJPG">
+    <text value="Payment received from CHW"/>
+    <type value="group"/>
+    <item id="OAYhtzunJPG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YliMsoIAOXx">
+    <text value="Costs associated with indigents"/>
+    <type value="group"/>
+    <item id="YliMsoIAOXx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j47gOrB0p3x">
+    <text value="Total debts this month "/>
+    <type value="group"/>
+    <item id="j47gOrB0p3x.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MWudXF9N4dt">
+    <text value="Training"/>
+    <type value="group"/>
+    <item id="MWudXF9N4dt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hNP9zGSWFh0">
+    <text value="Community health account"/>
+    <type value="group"/>
+    <item id="hNP9zGSWFh0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bFKtpXQ3qlr">
+    <text value="Additional credits during the month"/>
+    <type value="group"/>
+    <item id="bFKtpXQ3qlr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TW7Lj8na4Vx">
+    <text value="Deliveries_finance"/>
+    <type value="group"/>
+    <item id="TW7Lj8na4Vx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Q4aUE4lqqzB">
+    <text value="Other expenses "/>
+    <type value="group"/>
+    <item id="Q4aUE4lqqzB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UQWTQp7vW8b">
+    <text value="Maintenance and repair of non-medical equipment"/>
+    <type value="group"/>
+    <item id="UQWTQp7vW8b.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z5PmfltP0l1">
+    <text value="Travel expenses "/>
+    <type value="group"/>
+    <item id="z5PmfltP0l1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JvFbhmKp1zL">
+    <text value="Other receipts"/>
+    <type value="group"/>
+    <item id="JvFbhmKp1zL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="evca5iht3zg">
+    <text value="From the population"/>
+    <type value="group"/>
+    <item id="evca5iht3zg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xMmwedQM6Qc">
+    <text value="Total available at the beginning of the month "/>
+    <type value="group"/>
+    <item id="xMmwedQM6Qc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bh86R3a9dIL">
+    <text value="Maintenance and repair of medical equipment"/>
+    <type value="group"/>
+    <item id="bh86R3a9dIL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tgFgTblLgjE">
+    <text value="Purchase transport"/>
+    <type value="group"/>
+    <item id="tgFgTblLgjE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mgjmIVs6J7I">
+    <text value="General cash on hand"/>
+    <type value="group"/>
+    <item id="mgjmIVs6J7I.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fthqFduHXQT">
+    <text value="Transport of patients "/>
+    <type value="group"/>
+    <item id="fthqFduHXQT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gqpgxXJo7Bu">
+    <text value="Sale of medicines_supplies"/>
+    <type value="group"/>
+    <item id="gqpgxXJo7Bu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yfhDSMFLO6R">
+    <text value="Mutuelle Payment for medication"/>
+    <type value="group"/>
+    <item id="yfhDSMFLO6R.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TXEsIh21dXV">
+    <text value="Pharmacy cash on hand"/>
+    <type value="group"/>
+    <item id="TXEsIh21dXV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gSk3JsPz1UU">
+    <text value="Other non-paying clients"/>
+    <type value="group"/>
+    <item id="gSk3JsPz1UU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xyRLQe0jMf7">
+    <text value="Sale of patient records_forms"/>
+    <type value="group"/>
+    <item id="xyRLQe0jMf7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PkU2WU4m4Yf">
+    <text value="Indigents "/>
+    <type value="group"/>
+    <item id="PkU2WU4m4Yf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M10LIoLevkt">
+    <text value="Mutuelle Payment for care"/>
+    <type value="group"/>
+    <item id="M10LIoLevkt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iqXgstWJVKq">
+    <text value="Performance Based Financing"/>
+    <type value="group"/>
+    <item id="iqXgstWJVKq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h7Qfo2GCqZo">
+    <text value="Curative care"/>
+    <type value="group"/>
+    <item id="h7Qfo2GCqZo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NnVS8yLD3ww">
+    <text value="Bank interest"/>
+    <type value="group"/>
+    <item id="NnVS8yLD3ww.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aDl5vlHaYDe">
+    <text value="Purchase non-medical equipment"/>
+    <type value="group"/>
+    <item id="aDl5vlHaYDe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fNMn6FK94Km">
+    <text value="Credits at the beginning of the month "/>
+    <type value="group"/>
+    <item id="fNMn6FK94Km.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="giPR49i4MXw">
+    <text value="Laboratory"/>
+    <type value="group"/>
+    <item id="giPR49i4MXw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oLWRZosq6BX">
+    <text value="Other Insurance Co-payments"/>
+    <type value="group"/>
+    <item id="oLWRZosq6BX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SjqdjeAIclf">
+    <text value="Water and Electricity"/>
+    <type value="group"/>
+    <item id="SjqdjeAIclf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G85OXC4chGh">
+    <text value="Fuel and motor oil"/>
+    <type value="group"/>
+    <item id="G85OXC4chGh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xi7GvaUACe7">
+    <text value="Mutuelle Co-payments"/>
+    <type value="group"/>
+    <item id="xi7GvaUACe7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kyryIymkjRn">
+    <text value="Maintenance and repair of transport"/>
+    <type value="group"/>
+    <item id="kyryIymkjRn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="du552wXDDSj">
+    <text value="Reimbursements during the month "/>
+    <type value="group"/>
+    <item id="du552wXDDSj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ih4UvAkocZu">
+    <text value="Purchase medical equipment"/>
+    <type value="group"/>
+    <item id="ih4UvAkocZu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SUR0CU7lilq">
+    <text value="Maintenance_cleaning supplies"/>
+    <type value="group"/>
+    <item id="SUR0CU7lilq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Fh6I87hqeJU">
+    <text value="Number of LLINs distributed mass campaigns"/>
+    <type value="group"/>
+    <item id="Fh6I87hqeJU.YGSnNHhYAr8">
+      <text value="Household"/>
+      <type value="integer"/>
+    </item>
+    <item id="Fh6I87hqeJU.JupCBUb1R0l">
+      <text value="Poorest"/>
+      <type value="integer"/>
+    </item>
+    <item id="Fh6I87hqeJU.fswNAsydDTp">
+      <text value="PVVIH"/>
+      <type value="integer"/>
+    </item>
+    <item id="Fh6I87hqeJU.oFd7Zr7KcbO">
+      <text value="In patients wards"/>
+      <type value="integer"/>
+    </item>
+    <item id="Fh6I87hqeJU.AAq8XzHE5BP">
+      <text value="Boarding school"/>
+      <type value="integer"/>
+    </item>
+    <item id="Fh6I87hqeJU.c011ZI8FDBb">
+      <text value="U5 children"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Tg8sxRRUibn">
+    <text value="Pharmacy bank account"/>
+    <type value="group"/>
+    <item id="Tg8sxRRUibn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MXi7KsbJVey">
+    <text value="Other Insurance Payment for care"/>
+    <type value="group"/>
+    <item id="MXi7KsbJVey.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JOS4VS6k6bQ">
+    <text value="Credits for goods and services during the month"/>
+    <type value="group"/>
+    <item id="JOS4VS6k6bQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fU5CSKbVtvL">
+    <text value="General bank account "/>
+    <type value="group"/>
+    <item id="fU5CSKbVtvL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dLkbNYjBasv">
+    <text value="Salaries social security professional taxes personnel payments"/>
+    <type value="group"/>
+    <item id="dLkbNYjBasv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s5UTM2jyPSe">
+    <text value="Other State Subsidies "/>
+    <type value="group"/>
+    <item id="s5UTM2jyPSe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BCbKKi8G9nM">
+    <text value="Contributions from other donors"/>
+    <type value="group"/>
+    <item id="BCbKKi8G9nM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

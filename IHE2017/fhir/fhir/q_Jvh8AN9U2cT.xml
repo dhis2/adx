@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="Jvh8AN9U2cT"/>
+  <status value="published"/>
+  <title value="DH Cancer screening"/>
+  <item id="QyKKiIBBoHZ">
+    <text value="Women referred for breast mass"/>
+    <type value="group"/>
+    <item id="QyKKiIBBoHZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="weXQsZpBYuH">
+    <text value="Women tested VIA positive and referred for treatment"/>
+    <type value="group"/>
+    <item id="weXQsZpBYuH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="le3TEgVp79t">
+    <text value="Women tested VIA positive during cervical cancer screening"/>
+    <type value="group"/>
+    <item id="le3TEgVp79t.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="biBmIro5aKL">
+    <text value="Biopsies collected for all types of cancer"/>
+    <type value="group"/>
+    <item id="biBmIro5aKL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DXh9JsIYGob">
+    <text value="Women screened for cervical cancer"/>
+    <type value="group"/>
+    <item id="DXh9JsIYGob.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gHTgE3FsGJY">
+    <text value="Women tested VIA positive and treated with Cryotherapy"/>
+    <type value="group"/>
+    <item id="gHTgE3FsGJY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gcPa7C6m5FI">
+    <text value="Women screened for breast cancer_breast mass"/>
+    <type value="group"/>
+    <item id="gcPa7C6m5FI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="OTbUHfMzfXH"/>
+  <status value="published"/>
+  <title value="MDR-TB case management-Bacteriological Conversion-Treatment Outcomes"/>
+  <item id="uGIh2qszRYg">
+    <text value="MDR-TB Lost to follow up before 6 months of Treatment"/>
+    <type value="group"/>
+    <item id="uGIh2qszRYg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qEwsszwcVya">
+    <text value="MDR-TB death cases  in the quarter in the specialized unit "/>
+    <type value="group"/>
+    <item id="qEwsszwcVya.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PqeMOOYZqpa">
+    <text value="MDR-TB cases transferred out in ambulatory during the quarter in the specialized unit "/>
+    <type value="group"/>
+    <item id="PqeMOOYZqpa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MxsHoL6Oa35">
+    <text value="MDR-TB Negative smear and culture at 6 months of treatment"/>
+    <type value="group"/>
+    <item id="MxsHoL6Oa35.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EHocxhtYtlS">
+    <text value="MDR-TB patients evaluated at 6 months of treatment"/>
+    <type value="group"/>
+    <item id="EHocxhtYtlS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TsaX1X8CdUb">
+    <text value="MDR-TB Patients Treatment failed"/>
+    <type value="group"/>
+    <item id="TsaX1X8CdUb.nUSwYcXTZWC">
+      <text value="Long regimen (24 M ago)"/>
+      <type value="integer"/>
+    </item>
+    <item id="TsaX1X8CdUb.L4KxNeryc0Y">
+      <text value="Short regimen (12M ago)"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M4QujliX88t">
+    <text value="MDR-TB Patients Lost to follow up"/>
+    <type value="group"/>
+    <item id="M4QujliX88t.nUSwYcXTZWC">
+      <text value="Long regimen (24 M ago)"/>
+      <type value="integer"/>
+    </item>
+    <item id="M4QujliX88t.L4KxNeryc0Y">
+      <text value="Short regimen (12M ago)"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D67xdVkFBJ2">
+    <text value="MDR-TB Patients with more than 1 positive smear and - or culture at 6 months of treatment"/>
+    <type value="group"/>
+    <item id="D67xdVkFBJ2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sjwXMqeQlWQ">
+    <text value="MDR-TB Registered Patients"/>
+    <type value="group"/>
+    <item id="sjwXMqeQlWQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sC5xIvXhaNy">
+    <text value="MDR-TB Patients with smear and-or culture not done at 6 months of treatment"/>
+    <type value="group"/>
+    <item id="sC5xIvXhaNy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZllIXeEKuff">
+    <text value="MDR-TB Cases on treatment at the beginning  of the quarter in the specialized unit "/>
+    <type value="group"/>
+    <item id="ZllIXeEKuff.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KSWx0pnPzne">
+    <text value="MDR-TB Patients Not evaluated"/>
+    <type value="group"/>
+    <item id="KSWx0pnPzne.nUSwYcXTZWC">
+      <text value="Long regimen (24 M ago)"/>
+      <type value="integer"/>
+    </item>
+    <item id="KSWx0pnPzne.L4KxNeryc0Y">
+      <text value="Short regimen (12M ago)"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VWSIGoKYXgm">
+    <text value="MDR-TB cases transferred in during the quarter in the specialized unit "/>
+    <type value="group"/>
+    <item id="VWSIGoKYXgm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DPB3FTrS9Wq">
+    <text value="MDR-TB Patients Treatment completed"/>
+    <type value="group"/>
+    <item id="DPB3FTrS9Wq.nUSwYcXTZWC">
+      <text value="Long regimen (24 M ago)"/>
+      <type value="integer"/>
+    </item>
+    <item id="DPB3FTrS9Wq.L4KxNeryc0Y">
+      <text value="Short regimen (12M ago)"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Bi3KNrhVDjq">
+    <text value="MDR-TB Total patients bacteriologically confirmed 9 months ago"/>
+    <type value="group"/>
+    <item id="Bi3KNrhVDjq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oGt3WmJctEK">
+    <text value="MDR-TB Patients Cured"/>
+    <type value="group"/>
+    <item id="oGt3WmJctEK.nUSwYcXTZWC">
+      <text value="Long regimen (24 M ago)"/>
+      <type value="integer"/>
+    </item>
+    <item id="oGt3WmJctEK.L4KxNeryc0Y">
+      <text value="Short regimen (12M ago)"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kJyWNKP7K8g">
+    <text value="MDR-TB Patients Died"/>
+    <type value="group"/>
+    <item id="kJyWNKP7K8g.nUSwYcXTZWC">
+      <text value="Long regimen (24 M ago)"/>
+      <type value="integer"/>
+    </item>
+    <item id="kJyWNKP7K8g.L4KxNeryc0Y">
+      <text value="Short regimen (12M ago)"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J2suLI2bVKA">
+    <text value="MDR-TB Registered patients who initiated the treatment"/>
+    <type value="group"/>
+    <item id="J2suLI2bVKA.nUSwYcXTZWC">
+      <text value="Long regimen (24 M ago)"/>
+      <type value="integer"/>
+    </item>
+    <item id="J2suLI2bVKA.L4KxNeryc0Y">
+      <text value="Short regimen (12M ago)"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pETpwjhSBkM">
+    <text value="MDR-TB cases on treatment at the end of the quarter in the specialized unit "/>
+    <type value="group"/>
+    <item id="pETpwjhSBkM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UlMxg8TVCs0">
+    <text value="MDR-TB Deaths before 6 months of treatment"/>
+    <type value="group"/>
+    <item id="UlMxg8TVCs0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s4JRddE9pxn">
+    <text value="MDR-TB Cases registered during the quarter in the specialized unit "/>
+    <type value="group"/>
+    <item id="s4JRddE9pxn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PMpU8vJcbx6">
+    <text value="MDR-TB Patients Contaminated culture at 6 months of treatment"/>
+    <type value="group"/>
+    <item id="PMpU8vJcbx6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

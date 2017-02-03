@@ -1,0 +1,1519 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="fDnb4hBxIwT"/>
+  <status value="published"/>
+  <title value="Nutrition Screening and Rehab HC"/>
+  <item id="zGCRAFuglF1">
+    <text value="Malnutrition chronic severe_stunting_PCME"/>
+    <type value="group"/>
+    <item id="zGCRAFuglF1.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="zGCRAFuglF1.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="zGCRAFuglF1.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JTc79NHBFrq">
+    <text value="Malnutrition chronic moderate stunting in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="JTc79NHBFrq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OReulioePQv">
+    <text value="Mebendazole distributed during routine de-worming_6 month doses"/>
+    <type value="group"/>
+    <item id="OReulioePQv.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="OReulioePQv.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="OReulioePQv.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="OReulioePQv.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="OReulioePQv.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="OReulioePQv.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZRGnh52SoPX">
+    <text value="Chronically Malnourished Severe Discharged Referred"/>
+    <type value="group"/>
+    <item id="ZRGnh52SoPX.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZRGnh52SoPX.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NLQZEvAlFnA">
+    <text value="Chronically Malnourished Severe Discharged Cured"/>
+    <type value="group"/>
+    <item id="NLQZEvAlFnA.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="NLQZEvAlFnA.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uc1Wh0L56h3">
+    <text value="Acutely Malnourished Severe Discharged Abandoned"/>
+    <type value="group"/>
+    <item id="uc1Wh0L56h3.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="uc1Wh0L56h3.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="N9094smTK9W">
+    <text value="Malnutrition acute severe with complications_EPI 0-59months"/>
+    <type value="group"/>
+    <item id="N9094smTK9W.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BmP8fqcUlfV">
+    <text value="Malnutrition chronic moderate_stunting_PCME"/>
+    <type value="group"/>
+    <item id="BmP8fqcUlfV.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="BmP8fqcUlfV.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="BmP8fqcUlfV.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LV3YyHVHLfi">
+    <text value="Malnourished total in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="LV3YyHVHLfi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qB0dvKFH5C7">
+    <text value="Underweight moderate in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="qB0dvKFH5C7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fsyAbGIZZ8l">
+    <text value="Screened for malnutrition_PCME"/>
+    <type value="group"/>
+    <item id="fsyAbGIZZ8l.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="fsyAbGIZZ8l.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="fsyAbGIZZ8l.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ojhDw6cWMH8">
+    <text value="Malnutrition acute moderate with_complications IMNCI 0-59"/>
+    <type value="group"/>
+    <item id="ojhDw6cWMH8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="junnN26sUIf">
+    <text value="Screened for malnutrition_EPI"/>
+    <type value="group"/>
+    <item id="junnN26sUIf.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="junnN26sUIf.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="junnN26sUIf.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="l4nu7gUhjPo">
+    <text value="Mebendazole/albendazole distributed during routine de-worming (6 month doses)  in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="l4nu7gUhjPo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XllAUwV3svq">
+    <text value="Referred to outpatient malnutrition program_EPI"/>
+    <type value="group"/>
+    <item id="XllAUwV3svq.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="XllAUwV3svq.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="XllAUwV3svq.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GQpXORAigYs">
+    <text value="Acutely Malnourished Moderate Present at the end of the month"/>
+    <type value="group"/>
+    <item id="GQpXORAigYs.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQpXORAigYs.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AYIG97hL11A">
+    <text value="Malnutrition chronic moderate_stunting"/>
+    <type value="group"/>
+    <item id="AYIG97hL11A.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="AYIG97hL11A.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="AYIG97hL11A.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="AYIG97hL11A.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="AYIG97hL11A.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="AYIG97hL11A.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MxeGPMpq1JF">
+    <text value="Acutely Malnourished Severe present at beginning of the month"/>
+    <type value="group"/>
+    <item id="MxeGPMpq1JF.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="MxeGPMpq1JF.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Vl8DlyN0des">
+    <text value="Underweight severe in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="Vl8DlyN0des.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pOmlqKkqMFa">
+    <text value="Lactating Malnourished Present at end of month"/>
+    <type value="group"/>
+    <item id="pOmlqKkqMFa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S0VMB3vaSnH">
+    <text value="Malnutrition acute severe in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="S0VMB3vaSnH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BnLCwRy8LIr">
+    <text value="Underweight moderate in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="BnLCwRy8LIr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Tna1kCEAhAM">
+    <text value="Malnutrition chronic severe stunting in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="Tna1kCEAhAM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ULzA3fVJIKX">
+    <text value="Malnutrition chronic severe stunting in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="ULzA3fVJIKX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pHTjDtQyWEk">
+    <text value="Malnutrition acute moderate with complications_PCME"/>
+    <type value="group"/>
+    <item id="pHTjDtQyWEk.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="pHTjDtQyWEk.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="pHTjDtQyWEk.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dlOzUhH0r64">
+    <text value="Malnutrition acute moderate in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="dlOzUhH0r64.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pbSD7Z8ImvA">
+    <text value="Pregnant Malnourished Discharged Abandoned"/>
+    <type value="group"/>
+    <item id="pbSD7Z8ImvA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZJz48BZ0J9l">
+    <text value="Acutely Malnourished Moderate present at beginning of the month"/>
+    <type value="group"/>
+    <item id="ZJz48BZ0J9l.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZJz48BZ0J9l.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pGgHf7vcoVa">
+    <text value="Screened for malnutrition"/>
+    <type value="group"/>
+    <item id="pGgHf7vcoVa.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="pGgHf7vcoVa.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="pGgHf7vcoVa.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="pGgHf7vcoVa.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="pGgHf7vcoVa.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="pGgHf7vcoVa.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qNfNaIh7Pbq">
+    <text value="Referred to outpatient malnutrition program  in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="qNfNaIh7Pbq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Bkg9J2dfOng">
+    <text value="Malnutrition acute moderate with complications_EPI"/>
+    <type value="group"/>
+    <item id="Bkg9J2dfOng.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="Bkg9J2dfOng.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="Bkg9J2dfOng.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J0JHVdzKY9c">
+    <text value="Natural or man-made disasters_epidemics earthquakes OPD etc"/>
+    <type value="group"/>
+    <item id="J0JHVdzKY9c.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OcIFdtoxihj">
+    <text value="Referred to inpatient malnutrition program_DH"/>
+    <type value="group"/>
+    <item id="OcIFdtoxihj.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="OcIFdtoxihj.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="OcIFdtoxihj.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="OcIFdtoxihj.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="OcIFdtoxihj.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="OcIFdtoxihj.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ojh9kTAswEs">
+    <text value="Malnutrition acute severe_without complications_EPI"/>
+    <type value="group"/>
+    <item id="Ojh9kTAswEs.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ojh9kTAswEs.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ojh9kTAswEs.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z54qfAFwNgR">
+    <text value="Underweight moderate_PCME"/>
+    <type value="group"/>
+    <item id="z54qfAFwNgR.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="z54qfAFwNgR.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="z54qfAFwNgR.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hSYv8MSVUX7">
+    <text value="Malnutrition acute moderate in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="hSYv8MSVUX7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ys3OrXWtpZS">
+    <text value="Goitre"/>
+    <type value="group"/>
+    <item id="ys3OrXWtpZS.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="ys3OrXWtpZS.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="ys3OrXWtpZS.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="ys3OrXWtpZS.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="ys3OrXWtpZS.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="ys3OrXWtpZS.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p2GCZqwDPzd">
+    <text value="Chronically Malnourished Severe Discharged Abandoned"/>
+    <type value="group"/>
+    <item id="p2GCZqwDPzd.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="p2GCZqwDPzd.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DdCaUZ0e94F">
+    <text value="Malnutrition acute moderate without complications"/>
+    <type value="group"/>
+    <item id="DdCaUZ0e94F.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="DdCaUZ0e94F.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="DdCaUZ0e94F.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="DdCaUZ0e94F.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="DdCaUZ0e94F.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="DdCaUZ0e94F.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lmfkeVPBJXh">
+    <text value="Lactating Malnourished Discharges Died"/>
+    <type value="group"/>
+    <item id="lmfkeVPBJXh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b4uVJU2w1WB">
+    <text value="Acutely Malnourished Severe Admissions Relapsed Cases"/>
+    <type value="group"/>
+    <item id="b4uVJU2w1WB.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="b4uVJU2w1WB.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xy1uiNuBty7">
+    <text value="Chronically Malnourished present at the beginning of month"/>
+    <type value="group"/>
+    <item id="Xy1uiNuBty7.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xy1uiNuBty7.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gNEGIMMFAmH">
+    <text value="Natural or man-made disasters_Deaths_epidemic earthquakewar victims etc_Hosp_RH"/>
+    <type value="group"/>
+    <item id="gNEGIMMFAmH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UiHG17Q9SsU">
+    <text value="Acutely Malnourished Moderate Discharged Died"/>
+    <type value="group"/>
+    <item id="UiHG17Q9SsU.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="UiHG17Q9SsU.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LdMuPLswA1g">
+    <text value="Malnutrition acute severe with complications_EPI"/>
+    <type value="group"/>
+    <item id="LdMuPLswA1g.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="LdMuPLswA1g.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="LdMuPLswA1g.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AvBA5nNqDZ7">
+    <text value="Underweight severe in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="AvBA5nNqDZ7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mgPxg1vbpH6">
+    <text value="Malnutrition acute moderate without complications_EPI 0-59months"/>
+    <type value="group"/>
+    <item id="mgPxg1vbpH6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VTZyj02cGa8">
+    <text value="Referred to outpatient malnutrition program"/>
+    <type value="group"/>
+    <item id="VTZyj02cGa8.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="VTZyj02cGa8.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="VTZyj02cGa8.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="VTZyj02cGa8.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="VTZyj02cGa8.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="VTZyj02cGa8.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="T4X4J09vBBJ">
+    <text value="Malnutrition chronic moderate stunting  in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="T4X4J09vBBJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jTEwkrS1UVl">
+    <text value="Pregnant Malnourished Discharged Died"/>
+    <type value="group"/>
+    <item id="jTEwkrS1UVl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z1dj9eVHsbj">
+    <text value="Chronically Malnourished Severe Discharged Died"/>
+    <type value="group"/>
+    <item id="z1dj9eVHsbj.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="z1dj9eVHsbj.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rgr2KeFFKYh">
+    <text value="Vitamin A deficiency_Night blindness"/>
+    <type value="group"/>
+    <item id="rgr2KeFFKYh.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="rgr2KeFFKYh.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="rgr2KeFFKYh.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="rgr2KeFFKYh.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="rgr2KeFFKYh.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="rgr2KeFFKYh.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Gw65m14JnIk">
+    <text value="Pregnant Malnourished Admissions Relapsed Cases"/>
+    <type value="group"/>
+    <item id="Gw65m14JnIk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="upYAXuWjjdg">
+    <text value="Vitamin A distributed during routine supplementation_6 month doses"/>
+    <type value="group"/>
+    <item id="upYAXuWjjdg.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="upYAXuWjjdg.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="upYAXuWjjdg.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="upYAXuWjjdg.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="upYAXuWjjdg.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="upYAXuWjjdg.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="owc7ESxk9Zs">
+    <text value="Malnutrition acute moderate with complications"/>
+    <type value="group"/>
+    <item id="owc7ESxk9Zs.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="owc7ESxk9Zs.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="owc7ESxk9Zs.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="owc7ESxk9Zs.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="owc7ESxk9Zs.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="owc7ESxk9Zs.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S9WAxZn8k10">
+    <text value="Pregnant Malnourished Present at the end of the month"/>
+    <type value="group"/>
+    <item id="S9WAxZn8k10.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w23acZ54Qhj">
+    <text value="Chronically Malnourished Severe Admissions Relapsed Cases"/>
+    <type value="group"/>
+    <item id="w23acZ54Qhj.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="w23acZ54Qhj.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nPPQ5GNWW78">
+    <text value="Acutely Malnourished Moderate Admissions New Cases"/>
+    <type value="group"/>
+    <item id="nPPQ5GNWW78.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="nPPQ5GNWW78.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="woE019uaSi8">
+    <text value="Chronically Malnourished Severe Present at the end of the month"/>
+    <type value="group"/>
+    <item id="woE019uaSi8.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="woE019uaSi8.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PANXqrPDTrq">
+    <text value="Acutely Malnourished Severe Present at the end of the month"/>
+    <type value="group"/>
+    <item id="PANXqrPDTrq.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="PANXqrPDTrq.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wgGdT0F3Pyt">
+    <text value="Malnutrition acute severe in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="wgGdT0F3Pyt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YrCCTIEJQ1V">
+    <text value="Epilepsy_NewCases"/>
+    <type value="group"/>
+    <item id="YrCCTIEJQ1V.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YrCCTIEJQ1V.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YrCCTIEJQ1V.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="YrCCTIEJQ1V.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wmzwtJE6hZX">
+    <text value="Malnourished total in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="wmzwtJE6hZX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HGyY38JNqXl">
+    <text value="Malnutrition acute severe with complications"/>
+    <type value="group"/>
+    <item id="HGyY38JNqXl.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="HGyY38JNqXl.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="HGyY38JNqXl.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="HGyY38JNqXl.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="HGyY38JNqXl.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="HGyY38JNqXl.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rZtlrK0cpcK">
+    <text value="Mebendazole/albendazole distributed during routine de-worming (6 month doses)  in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="rZtlrK0cpcK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aeDZqwmW7KL">
+    <text value="Malnutrition chronic moderate_stunting_EPI"/>
+    <type value="group"/>
+    <item id="aeDZqwmW7KL.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="aeDZqwmW7KL.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="aeDZqwmW7KL.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wXTZAmcQlH3">
+    <text value="Pregnant Malnourished Present at beginning of month"/>
+    <type value="group"/>
+    <item id="wXTZAmcQlH3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aUKIhpWyUk4">
+    <text value="Lactating Malnourished Admissions New Cases"/>
+    <type value="group"/>
+    <item id="aUKIhpWyUk4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lTQWXZtjowZ">
+    <text value="Underweight severe"/>
+    <type value="group"/>
+    <item id="lTQWXZtjowZ.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="lTQWXZtjowZ.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="lTQWXZtjowZ.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="lTQWXZtjowZ.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="lTQWXZtjowZ.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="lTQWXZtjowZ.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sMbLdlbi5Vz">
+    <text value="Acutely Malnourished Moderate Admissions Relapsed Cases"/>
+    <type value="group"/>
+    <item id="sMbLdlbi5Vz.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="sMbLdlbi5Vz.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lEtCYvIdLoS">
+    <text value="Lactating Malnourished Admissions present beginning of Month"/>
+    <type value="group"/>
+    <item id="lEtCYvIdLoS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UCUiXlHpgRw">
+    <text value="Underweight moderate_EPI"/>
+    <type value="group"/>
+    <item id="UCUiXlHpgRw.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="UCUiXlHpgRw.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="UCUiXlHpgRw.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gQSLSN33HSD">
+    <text value="Acutely Malnourished Severe Admissions New Cases"/>
+    <type value="group"/>
+    <item id="gQSLSN33HSD.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="gQSLSN33HSD.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jPnUvNb0UuF">
+    <text value="Acutely Malnourished Severe Discharged Died"/>
+    <type value="group"/>
+    <item id="jPnUvNb0UuF.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="jPnUvNb0UuF.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QgvYgdEMtGH">
+    <text value="Lactating Malnourished Admissions Relapsed Cases"/>
+    <type value="group"/>
+    <item id="QgvYgdEMtGH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cDQA50RxZkA">
+    <text value="Acutely Malnourished Severe Discharged Cured"/>
+    <type value="group"/>
+    <item id="cDQA50RxZkA.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="cDQA50RxZkA.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qkdKuDma99e">
+    <text value="Referred to inpatient malnutrition program (District Hospital)  in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="qkdKuDma99e.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gHurUMs63PV">
+    <text value="Vitamin A distributed during routine supplementation (6 month doses)  in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="gHurUMs63PV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lX3WkfDZYQb">
+    <text value="Malnutrition chronic severe_stunting"/>
+    <type value="group"/>
+    <item id="lX3WkfDZYQb.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="lX3WkfDZYQb.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="lX3WkfDZYQb.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="lX3WkfDZYQb.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="lX3WkfDZYQb.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="lX3WkfDZYQb.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xa8gDsfgYeK">
+    <text value="Malnutrition acute severe without complications"/>
+    <type value="group"/>
+    <item id="Xa8gDsfgYeK.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="Xa8gDsfgYeK.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="Xa8gDsfgYeK.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xa8gDsfgYeK.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xa8gDsfgYeK.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="Xa8gDsfgYeK.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YXhso3N3AI7">
+    <text value="Referred to inpatient malnutrition program (District Hospital)  in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="YXhso3N3AI7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eFMKa7ceKlr">
+    <text value="Malnutrition chronic severe_stunting_EPI"/>
+    <type value="group"/>
+    <item id="eFMKa7ceKlr.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="eFMKa7ceKlr.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="eFMKa7ceKlr.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="C4cmhB6AiWf">
+    <text value="Malnutrition acute moderate without complications_IMNCI 0-59"/>
+    <type value="group"/>
+    <item id="C4cmhB6AiWf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o8o8NNNhwWW">
+    <text value="Malnutrition acute moderate_without complications_EPI"/>
+    <type value="group"/>
+    <item id="o8o8NNNhwWW.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="o8o8NNNhwWW.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="o8o8NNNhwWW.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RESFdUf7Zae">
+    <text value="Lactating Malnourished Discharges Cured"/>
+    <type value="group"/>
+    <item id="RESFdUf7Zae.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mhPVW5raKCS">
+    <text value="Malnourished children_total"/>
+    <type value="group"/>
+    <item id="mhPVW5raKCS.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="mhPVW5raKCS.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="mhPVW5raKCS.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="mhPVW5raKCS.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="mhPVW5raKCS.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="mhPVW5raKCS.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="opE5hMcBMXC">
+    <text value="Pregnant Malnourished Admissions New Cases"/>
+    <type value="group"/>
+    <item id="opE5hMcBMXC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vsaDNkMX0JX">
+    <text value="Referred to outpatient malnutrition program  in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="vsaDNkMX0JX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OtM4il8bE41">
+    <text value="Acutely Malnourished Moderate Discharged Cured"/>
+    <type value="group"/>
+    <item id="OtM4il8bE41.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="OtM4il8bE41.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wMkYSqT35x0">
+    <text value="Malnutrition acute moderate_without complications"/>
+    <type value="group"/>
+    <item id="wMkYSqT35x0.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="wMkYSqT35x0.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="wMkYSqT35x0.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="wMkYSqT35x0.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="wMkYSqT35x0.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="wMkYSqT35x0.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jUvNgxUooxj">
+    <text value="Malnutrition acute severe_without complications_PCME"/>
+    <type value="group"/>
+    <item id="jUvNgxUooxj.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="jUvNgxUooxj.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="jUvNgxUooxj.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mfpo36WvU0o">
+    <text value="screened for malnutrition in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="mfpo36WvU0o.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JxXBfL5rJTu">
+    <text value="Pregnant Malnourished Discharged Cured"/>
+    <type value="group"/>
+    <item id="JxXBfL5rJTu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qxA3NsjNnvD">
+    <text value="Natural or man-made disasters_Admissions_epidemic earthquakewar victims etc_Hosp_RH"/>
+    <type value="group"/>
+    <item id="qxA3NsjNnvD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sYvmwJQoSXB">
+    <text value="Pregnant Malnourished Discharged Referred"/>
+    <type value="group"/>
+    <item id="sYvmwJQoSXB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IGDOZdfOezz">
+    <text value="Malnutrition acute severe"/>
+    <type value="group"/>
+    <item id="IGDOZdfOezz.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="IGDOZdfOezz.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="IGDOZdfOezz.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="IGDOZdfOezz.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="IGDOZdfOezz.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="IGDOZdfOezz.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dIK6QPTca69">
+    <text value="Lactating Malnourished Discharges Referred"/>
+    <type value="group"/>
+    <item id="dIK6QPTca69.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TsUy3kDFQeO">
+    <text value="Chronically Malnourished Severe Admissions New Cases"/>
+    <type value="group"/>
+    <item id="TsUy3kDFQeO.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="TsUy3kDFQeO.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b0kA9h3NWB3">
+    <text value="Epilepsy_OldCases"/>
+    <type value="group"/>
+    <item id="b0kA9h3NWB3.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b0kA9h3NWB3.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b0kA9h3NWB3.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="b0kA9h3NWB3.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QR8LVQAtHVi">
+    <text value="Referred to outpatient malnutrition program_PCME"/>
+    <type value="group"/>
+    <item id="QR8LVQAtHVi.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="QR8LVQAtHVi.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="QR8LVQAtHVi.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bygwmxayAkQ">
+    <text value="Acutely Malnourished Moderate Discharged Abandoned"/>
+    <type value="group"/>
+    <item id="bygwmxayAkQ.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="bygwmxayAkQ.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nt93OwNR28Y">
+    <text value="Malnutrition acute severe with complications_IMNCI 0-59months"/>
+    <type value="group"/>
+    <item id="nt93OwNR28Y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zvbL2EYTMqn">
+    <text value="Acutely Malnourished Severe Discharged Referred"/>
+    <type value="group"/>
+    <item id="zvbL2EYTMqn.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="zvbL2EYTMqn.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fRYatynFVzH">
+    <text value="Malnutrition acute severe with complications_PCME"/>
+    <type value="group"/>
+    <item id="fRYatynFVzH.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="fRYatynFVzH.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="fRYatynFVzH.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BDDAZvHvCbE">
+    <text value="Underweight moderate"/>
+    <type value="group"/>
+    <item id="BDDAZvHvCbE.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="BDDAZvHvCbE.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="BDDAZvHvCbE.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="BDDAZvHvCbE.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="BDDAZvHvCbE.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="BDDAZvHvCbE.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w7rNLg9Ddea">
+    <text value="Malnutrition acute moderate with_complications EPI 0-59"/>
+    <type value="group"/>
+    <item id="w7rNLg9Ddea.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Mcudv9MNhXM">
+    <text value="Lactating Malnourished Discharges Abandoned"/>
+    <type value="group"/>
+    <item id="Mcudv9MNhXM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fSUvrJFUbYw">
+    <text value="Acutely Malnourished Moderate Discharged Referred"/>
+    <type value="group"/>
+    <item id="fSUvrJFUbYw.e6Ucbjb8jMX">
+      <text value="&gt;= 5 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="fSUvrJFUbYw.ogpshxtAJcX">
+      <text value="&lt;5 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tULqmWlvKub">
+    <text value="Vitamin A distributed during routine supplementation (6 month doses)  in EPI 0-59 months"/>
+    <type value="group"/>
+    <item id="tULqmWlvKub.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cdLTQtiEQpk">
+    <text value="Malnutrition acute moderate_without complications_PCME"/>
+    <type value="group"/>
+    <item id="cdLTQtiEQpk.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="cdLTQtiEQpk.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="cdLTQtiEQpk.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w9yXAwMvke2">
+    <text value="screened for malnutrition in IMNCI 0-59 months"/>
+    <type value="group"/>
+    <item id="w9yXAwMvke2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

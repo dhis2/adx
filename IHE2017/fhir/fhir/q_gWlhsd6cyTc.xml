@@ -1,0 +1,1095 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="gWlhsd6cyTc"/>
+  <status value="published"/>
+  <title value="Mental Health Tracer Drugs"/>
+  <item id="mzpab01zVTV">
+    <text value="MH_Levodopa-carbidopa tablet 250+25mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="mzpab01zVTV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DKZqLhznguK">
+    <text value="Ciprofloxacine tab 500mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="DKZqLhznguK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q2edwwpZWAn">
+    <text value="MH_Artesunate poudre_60mg_StkEOM"/>
+    <type value="group"/>
+    <item id="q2edwwpZWAn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rMHYtxWuS7p">
+    <text value="MH_Gentamycine_80mg/2ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="rMHYtxWuS7p.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Npi05rugHFV">
+    <text value="MH_Ibuprofen ces_400mg_StkLoss"/>
+    <type value="group"/>
+    <item id="Npi05rugHFV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wZnQFZv4DYN">
+    <text value="MH_Povidone_1l_StkOutDays"/>
+    <type value="group"/>
+    <item id="wZnQFZv4DYN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="m3tZ5Kpb6Lv">
+    <text value="MH_Sel de rehydratation oral_StkLoss"/>
+    <type value="group"/>
+    <item id="m3tZ5Kpb6Lv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CUfhLncVf9e">
+    <text value="MH_Sodium Valproate 200mg_StkEOM"/>
+    <type value="group"/>
+    <item id="CUfhLncVf9e.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rWtp0AjHTOO">
+    <text value="MH_COARTEM 6X 4_BLISTER_StkDist"/>
+    <type value="group"/>
+    <item id="rWtp0AjHTOO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hcAqTelLOGS">
+    <text value="MH_Lidocaine 2% solution_StkOutDays"/>
+    <type value="group"/>
+    <item id="hcAqTelLOGS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NlXiDYJbbu4">
+    <text value="MH_Carbamazepine_200mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="NlXiDYJbbu4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IAORajbeNcP">
+    <text value="MH_COARTEM 6X 4_BLISTER_StkOutDays"/>
+    <type value="group"/>
+    <item id="IAORajbeNcP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FSiFqxMtL5U">
+    <text value="MH_Sel de rehydratation oral_StkEOM"/>
+    <type value="group"/>
+    <item id="FSiFqxMtL5U.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CHuH8OEh7NZ">
+    <text value="MH_Ampicilline poudre_500mg_StkLoss"/>
+    <type value="group"/>
+    <item id="CHuH8OEh7NZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QgDfem4IySo">
+    <text value="MH_Biperiden tablet_2mg_StkLoss"/>
+    <type value="group"/>
+    <item id="QgDfem4IySo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QNfX1lXCDXb">
+    <text value="MH_Haloperidol Tab 5 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="QNfX1lXCDXb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KjpSmNf7ww7">
+    <text value="MH_Asp&#xE9;gic poudre_500mg/5ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="KjpSmNf7ww7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="A0eBJ2tWR7e">
+    <text value="Paracetamol tab 500mg_StkDist"/>
+    <type value="group"/>
+    <item id="A0eBJ2tWR7e.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q4NkBgZNrRh">
+    <text value="MH_Citalopram Hydrobromide_(blisters)_20mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="q4NkBgZNrRh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="B99Olk5QRfZ">
+    <text value="MH_Serum physiologique 0.9%_500ml_StkEOM"/>
+    <type value="group"/>
+    <item id="B99Olk5QRfZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Il3ZaZfnStS">
+    <text value="MH_Pipamperon (Dipiperon) tablet 40mg_StkLoss"/>
+    <type value="group"/>
+    <item id="Il3ZaZfnStS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lLK0EWf67iT">
+    <text value="MH_Sel de rehydratation oral_StkOutDays"/>
+    <type value="group"/>
+    <item id="lLK0EWf67iT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LrFttKunTPz">
+    <text value="MH_Serum physiologique 0.9%_500ml_StkLoss"/>
+    <type value="group"/>
+    <item id="LrFttKunTPz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WNZkAcuEHm1">
+    <text value="MH_Pipamperon (Dipiperon) tablet 40mg_StkEOM"/>
+    <type value="group"/>
+    <item id="WNZkAcuEHm1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="inDI1bHSUvs">
+    <text value="MH_Fluanxol tablet 1mg_StkLoss"/>
+    <type value="group"/>
+    <item id="inDI1bHSUvs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TyWYUyjaMnN">
+    <text value="MH_Haloperidol decanoas_50mg./ml. 1 ml_StkDist"/>
+    <type value="group"/>
+    <item id="TyWYUyjaMnN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rgYvgtJBUOS">
+    <text value="MH_Risperidone tablet 2mg. f /c_StkOutDays"/>
+    <type value="group"/>
+    <item id="rgYvgtJBUOS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AknKscUp0Mv">
+    <text value="MH_Serum Ringer Lactate_500ml_StkEOM"/>
+    <type value="group"/>
+    <item id="AknKscUp0Mv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EyAtdhoZLYA">
+    <text value="MH_Haloperidol decanoas_50mg./ml. 1 ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="EyAtdhoZLYA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xBDaoffL9HV">
+    <text value="MH_Lidocaine 2% solution_StkEOM"/>
+    <type value="group"/>
+    <item id="xBDaoffL9HV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Zokp0f8HdO2">
+    <text value="MH_Carbamazepine_200mg_StkDist"/>
+    <type value="group"/>
+    <item id="Zokp0f8HdO2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hVbzBJldOT7">
+    <text value="MH_Eau de Dilution 10ml_StkLoss"/>
+    <type value="group"/>
+    <item id="hVbzBJldOT7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="K6s5SqRRr52">
+    <text value="MH_Haloperidol Inj 5 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="K6s5SqRRr52.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DXhcjlBNQtZ">
+    <text value="MH_Serum Glucose 5%_500ml_StkDist"/>
+    <type value="group"/>
+    <item id="DXhcjlBNQtZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bsPTkQDz0zU">
+    <text value="MH_Diazepam tablet 5mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="bsPTkQDz0zU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bhvNhC7Kdms">
+    <text value="MH_Ampicilline poudre_500mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="bhvNhC7Kdms.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OXUCXfkhicj">
+    <text value="MH_Amitriptyline hydrochloride tablet_25mg_StkDist"/>
+    <type value="group"/>
+    <item id="OXUCXfkhicj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jLjq8MaaMVN">
+    <text value="MH_Diazepam tablet 5mg_StkDist"/>
+    <type value="group"/>
+    <item id="jLjq8MaaMVN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nWD5rcVMX4M">
+    <text value="MH_Eau de Dilution 10ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="nWD5rcVMX4M.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zPWcp2AQ7Ug">
+    <text value="MH_Clomipramine Hydrochloride_25mg_StkEOM"/>
+    <type value="group"/>
+    <item id="zPWcp2AQ7Ug.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P6gRBTVZ2zV">
+    <text value="MH_Gentamycine_80mg/2ml_StkLoss"/>
+    <type value="group"/>
+    <item id="P6gRBTVZ2zV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oNxxGbelXtC">
+    <text value="MH_Haloperidol decanoas_50mg./ml. 1 ml_StkEOM"/>
+    <type value="group"/>
+    <item id="oNxxGbelXtC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ipGOWY6wOrb">
+    <text value="MH_Carbamazepine_200mg_StkEOM"/>
+    <type value="group"/>
+    <item id="ipGOWY6wOrb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pC7Y0stE69s">
+    <text value="MH_Chlorpromazine hydrochloride tablet 100mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="pC7Y0stE69s.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rEENRjahEvw">
+    <text value="MH_Citalopram Hydrobromide_(blisters)_20mg_StkLoss"/>
+    <type value="group"/>
+    <item id="rEENRjahEvw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XIjTQt0gsv3">
+    <text value="MH_Chlorpromazine hydrochloride tablet_25mg/ 2ml_StkLoss"/>
+    <type value="group"/>
+    <item id="XIjTQt0gsv3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dxvVb3ZjFEn">
+    <text value="MH_Chlorpromazine hydrochloride tablet_25mg /2ml_StkDist"/>
+    <type value="group"/>
+    <item id="dxvVb3ZjFEn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ycrxb2lEnqq">
+    <text value="MH_Levomepromazine tablet 100mg_StkLoss"/>
+    <type value="group"/>
+    <item id="ycrxb2lEnqq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fLIx5GCLqWu">
+    <text value="MH _Chlorpromazine hydrochloride tablet_100mg_StkEOM"/>
+    <type value="group"/>
+    <item id="fLIx5GCLqWu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZzHBekDUeD7">
+    <text value="MH_Diazepam_5mg/ml, 2 ml_StkDist"/>
+    <type value="group"/>
+    <item id="ZzHBekDUeD7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="njN7gsnXOAU">
+    <text value="MH_Biperiden tablet_2mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="njN7gsnXOAU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vaorn1Cn66z">
+    <text value="MH_Chlorpromazine hydrochloride tablet  25mg/ 2ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="vaorn1Cn66z.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Eq2s6C8Aaju">
+    <text value="MH_Diazepam_5mg/ml, 2 ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="Eq2s6C8Aaju.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UFwwyX6EYDs">
+    <text value="MH_Sodium Valproate 200mg_StkLoss"/>
+    <type value="group"/>
+    <item id="UFwwyX6EYDs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c8XSrHecmxb">
+    <text value="MH_Sodium Valproate 200mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="c8XSrHecmxb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tzauMStVPr3">
+    <text value="MH_Pipamperon (Dipiperon) tablet 40mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="tzauMStVPr3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LgEytdvzbwf">
+    <text value="MH_Haloperidol Inj 5 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="LgEytdvzbwf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ym4KNVsHyLF">
+    <text value="MH_Serum Glucose 5%_500ml_StkLoss"/>
+    <type value="group"/>
+    <item id="Ym4KNVsHyLF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mDoTyZRGWtZ">
+    <text value="MH_Asp&#xE9;gic poudre_500mg/5ml_StkEOM"/>
+    <type value="group"/>
+    <item id="mDoTyZRGWtZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Hi0MTWCF0M9">
+    <text value="MH_Chlorpromazine hydrochloride tablet_100mg_StkLoss"/>
+    <type value="group"/>
+    <item id="Hi0MTWCF0M9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KkbT9M1Y9P6">
+    <text value="MH_Ampicilline poudre_500mg_StkEOM"/>
+    <type value="group"/>
+    <item id="KkbT9M1Y9P6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vzJvdOaKI86">
+    <text value="MH_Chlorpromazine hydrochloride tablet  25mg/ 2ml _StkEOM"/>
+    <type value="group"/>
+    <item id="vzJvdOaKI86.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NUQoFJ8ISkZ">
+    <text value="MH_Ibuprofen ces_400mg_StkDist"/>
+    <type value="group"/>
+    <item id="NUQoFJ8ISkZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qNKl8jl8c5y">
+    <text value="MH_Serum Ringer Lactate_500ml_StkDist"/>
+    <type value="group"/>
+    <item id="qNKl8jl8c5y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MYFkDQWAuyp">
+    <text value="MH_Levodopa-carbidopa tablet 250+25mg _StkLoss"/>
+    <type value="group"/>
+    <item id="MYFkDQWAuyp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dZ9UOqy1Htn">
+    <text value="MH_Cloxacilline ces_250mg_StkEOM"/>
+    <type value="group"/>
+    <item id="dZ9UOqy1Htn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L48IQWmgGH3">
+    <text value="MH_Carbamazepine_200mg_StkLoss"/>
+    <type value="group"/>
+    <item id="L48IQWmgGH3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NXZCzIE3Gps">
+    <text value="MH_Fluanxol tablet 1mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="NXZCzIE3Gps.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IOhNXYSBlIg">
+    <text value="MH_Serum physiologique 0.9%_500ml_StkDist"/>
+    <type value="group"/>
+    <item id="IOhNXYSBlIg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fWfOYDiZzIx">
+    <text value="MH_Serum physiologique 0.9%_500ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="fWfOYDiZzIx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hwAD4x2ENzq">
+    <text value="MH_Haloperidol Tab 5 mg_StkDist"/>
+    <type value="group"/>
+    <item id="hwAD4x2ENzq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bKMO5OLmTO3">
+    <text value="MH_Risperidone tablet 2mg. f /c_StkEOM"/>
+    <type value="group"/>
+    <item id="bKMO5OLmTO3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YSbgyKu9Lyk">
+    <text value="Paracetamol tab 500mg_StkEOM"/>
+    <type value="group"/>
+    <item id="YSbgyKu9Lyk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WIfEFqgHzqZ">
+    <text value="MH_Amitriptyline hydrochloride tablet_25mg_StkLoss"/>
+    <type value="group"/>
+    <item id="WIfEFqgHzqZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UC9TnyjaUNY">
+    <text value="Ciprofloxacine tab 500mg_StkDist"/>
+    <type value="group"/>
+    <item id="UC9TnyjaUNY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gZoHJjuUc4Y">
+    <text value="MH_Gentamycine_80mg/2ml_StkEOM"/>
+    <type value="group"/>
+    <item id="gZoHJjuUc4Y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DTHPpSGdwvD">
+    <text value="MH_Risperidone tablet 2mg. f /c_StkLoss"/>
+    <type value="group"/>
+    <item id="DTHPpSGdwvD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vNVXsVPABea">
+    <text value="MH_Ibuprofen ces_400mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="vNVXsVPABea.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FDjBGj2N1u7">
+    <text value="Paracetamol tab 500mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="FDjBGj2N1u7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MG86kxtlu8T">
+    <text value="MH_Cloxacilline ces_250mg_StkDist"/>
+    <type value="group"/>
+    <item id="MG86kxtlu8T.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="THEKaiiceex">
+    <text value="MH_Diazepam tablet 5mg_StkEOM"/>
+    <type value="group"/>
+    <item id="THEKaiiceex.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xSK9Ldej0Oh">
+    <text value="MH_Artesunate poudre_60mg_StkLoss"/>
+    <type value="group"/>
+    <item id="xSK9Ldej0Oh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vIylEnopys8">
+    <text value="MH_Pipamperon (Dipiperon) tablet 40mg_StkDist"/>
+    <type value="group"/>
+    <item id="vIylEnopys8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oDwqsQXSfKh">
+    <text value="MH_Povidone_1l_StkLoss"/>
+    <type value="group"/>
+    <item id="oDwqsQXSfKh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="O0IXkslpNdQ">
+    <text value="MH_Diazepam tablet 5mg_StkLoss"/>
+    <type value="group"/>
+    <item id="O0IXkslpNdQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QYeUs2V38Ov">
+    <text value="MH_Eau de Dilution 10ml_StkDist"/>
+    <type value="group"/>
+    <item id="QYeUs2V38Ov.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w4Zb7ESIPzY">
+    <text value="MH_Fluanxol tablet 1mg_StkDist"/>
+    <type value="group"/>
+    <item id="w4Zb7ESIPzY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="liFlYunrWFt">
+    <text value="Ciprofloxacine tab 500mg_StkLoss"/>
+    <type value="group"/>
+    <item id="liFlYunrWFt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BNwooQGsxBq">
+    <text value="MH_COARTEM 6X 4_BLISTER_StkLoss"/>
+    <type value="group"/>
+    <item id="BNwooQGsxBq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Bfyz2lAiJWC">
+    <text value="MH_Citalopram Hydrobromide_(blisters)_20mg_StkDist"/>
+    <type value="group"/>
+    <item id="Bfyz2lAiJWC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o5JIvbRAkKE">
+    <text value="MH_Serum Ringer Lactate_500ml_StkLoss"/>
+    <type value="group"/>
+    <item id="o5JIvbRAkKE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vZlcoQ6CK3z">
+    <text value="MH_Levomepromazine tablet 100mg_StkEOM"/>
+    <type value="group"/>
+    <item id="vZlcoQ6CK3z.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xKEuSueeXAJ">
+    <text value="MH_Amitriptyline hydrochloride tablet_25mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="xKEuSueeXAJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CSmE9DvBYiP">
+    <text value="MH_Serum Ringer Lactate_500ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="CSmE9DvBYiP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Uop3JiiIzgT">
+    <text value="MH_Haloperidol Tab 5 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="Uop3JiiIzgT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sGujDBHnm26">
+    <text value="MH_COARTEM 6X 4_BLISTER_StkEOM"/>
+    <type value="group"/>
+    <item id="sGujDBHnm26.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Dlgs6FbaaQ4">
+    <text value="MH_Haloperidol Inj 5 mg_StkDist"/>
+    <type value="group"/>
+    <item id="Dlgs6FbaaQ4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NJxmbDVXeDW">
+    <text value="MH_Citalopram Hydrobromide_(blisters)_20mg_StkEOM"/>
+    <type value="group"/>
+    <item id="NJxmbDVXeDW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="E715n5fz9qa">
+    <text value="MH_Gentamycine_80mg/2ml_StkDist"/>
+    <type value="group"/>
+    <item id="E715n5fz9qa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cx3qxB5xj3r">
+    <text value="MH_Lidocaine 2% solution_StkDist"/>
+    <type value="group"/>
+    <item id="cx3qxB5xj3r.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IGkMlFKdnC3">
+    <text value="MH_Risperidone tablet 2mg. f /c_StkDist"/>
+    <type value="group"/>
+    <item id="IGkMlFKdnC3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bbluepa5ROd">
+    <text value="MH_Clomipramine Hydrochloride_25mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="bbluepa5ROd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z0bdx0NVnPE">
+    <text value="MH_Sel de rehydratation oral_StkDist"/>
+    <type value="group"/>
+    <item id="z0bdx0NVnPE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TU4olFUD9JI">
+    <text value="MH_Asp&#xE9;gic poudre_500mg/5ml_StkLoss"/>
+    <type value="group"/>
+    <item id="TU4olFUD9JI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bSJJOkFg5V2">
+    <text value="MH_Chlorpromazine hydrochloride tablet_100mg_StkDist"/>
+    <type value="group"/>
+    <item id="bSJJOkFg5V2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WWNzjwLxiHy">
+    <text value="MH_Povidone_1l_StkEOM"/>
+    <type value="group"/>
+    <item id="WWNzjwLxiHy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VwgVTqzS6Vc">
+    <text value="Paracetamol tab 500mg_StkLoss"/>
+    <type value="group"/>
+    <item id="VwgVTqzS6Vc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nKO6kX0g6d7">
+    <text value="MH_Biperiden tablet_2mg_StkEOM"/>
+    <type value="group"/>
+    <item id="nKO6kX0g6d7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BctoQx9iE6K">
+    <text value="MH_Artesunate poudre_60mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="BctoQx9iE6K.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jCWea1J99Kb">
+    <text value="MH_Fluanxol tablet 1mg_StkEOM"/>
+    <type value="group"/>
+    <item id="jCWea1J99Kb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FvU6Ilts9eE">
+    <text value="MH_Clomipramine Hydrochloride_25mg_StkDist"/>
+    <type value="group"/>
+    <item id="FvU6Ilts9eE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zRrZR0gXo5E">
+    <text value="MH_Sodium Valproate 200mg_StkDist"/>
+    <type value="group"/>
+    <item id="zRrZR0gXo5E.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cyTViPPth1U">
+    <text value="MH_Diazepam_5mg/ml, 2 ml_StkLoss"/>
+    <type value="group"/>
+    <item id="cyTViPPth1U.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mxsBIphc00X">
+    <text value="MH_Serum Glucose 5%_500ml_StkEOM"/>
+    <type value="group"/>
+    <item id="mxsBIphc00X.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ORM4YIaP4PK">
+    <text value="MH_Cloxacilline ces_250mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="ORM4YIaP4PK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FoVZbc2ELk6">
+    <text value="MH_Ibuprofen ces_400mg_StkEOM"/>
+    <type value="group"/>
+    <item id="FoVZbc2ELk6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kn7ml4TZ6q7">
+    <text value="MH_Levomepromazine tablet 100mg_StkDist"/>
+    <type value="group"/>
+    <item id="kn7ml4TZ6q7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="scF05CCLRYG">
+    <text value="MH_Haloperidol Tab 5 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="scF05CCLRYG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NRVFDuUDw0C">
+    <text value="MH_Biperiden tablet_2mg_StkDist"/>
+    <type value="group"/>
+    <item id="NRVFDuUDw0C.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WaNZvkSYJAd">
+    <text value="MH_Povidone_1l_StkDist"/>
+    <type value="group"/>
+    <item id="WaNZvkSYJAd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WpSnj0bqThA">
+    <text value="MH_Ampicilline poudre_500mg_StkDist"/>
+    <type value="group"/>
+    <item id="WpSnj0bqThA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fB7GmBxiJyx">
+    <text value="MH_Clomipramine Hydrochloride_25mg_StkLoss"/>
+    <type value="group"/>
+    <item id="fB7GmBxiJyx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eziDWKuY3Tt">
+    <text value="MH_Asp&#xE9;gic poudre_500mg/5ml_StkDist"/>
+    <type value="group"/>
+    <item id="eziDWKuY3Tt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h4vtSUoNmjD">
+    <text value="MH_Serum Glucose 5%_500ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="h4vtSUoNmjD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qlFxM3QhYXT">
+    <text value="MH_Amitriptyline hydrochloride tablet_25mg_StkEOM"/>
+    <type value="group"/>
+    <item id="qlFxM3QhYXT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qeO3kdwZTxl">
+    <text value="MH_Haloperidol decanoas_50mg./ml. 1 ml_StkLoss"/>
+    <type value="group"/>
+    <item id="qeO3kdwZTxl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Cjw7glmonJ6">
+    <text value="MH_Lidocaine 2% solution_StkLoss"/>
+    <type value="group"/>
+    <item id="Cjw7glmonJ6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="F65q2lfh4aj">
+    <text value="MH_Levodopa-carbidopa tablet 250+25mg_StkDist"/>
+    <type value="group"/>
+    <item id="F65q2lfh4aj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qr7DriwiK2h">
+    <text value="MH_Levodopa-carbidopa tablet 250+25mg_StkEOM"/>
+    <type value="group"/>
+    <item id="qr7DriwiK2h.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MMahRgm27Nu">
+    <text value="MH_Artesunate poudre_60mg_StkDist"/>
+    <type value="group"/>
+    <item id="MMahRgm27Nu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qFzDea9agdf">
+    <text value="Ciprofloxacine tab 500mg_StkEOM"/>
+    <type value="group"/>
+    <item id="qFzDea9agdf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Sa63k1NEx0V">
+    <text value="MH_Eau de Dilution 10ml_StkEOM"/>
+    <type value="group"/>
+    <item id="Sa63k1NEx0V.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vlTVQLjguCg">
+    <text value="MH_Levomepromazine tablet 100mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="vlTVQLjguCg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wtdrhjdCgKG">
+    <text value="MH_Diazepam_5mg/ml, 2 ml_StkEOM"/>
+    <type value="group"/>
+    <item id="wtdrhjdCgKG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TJLBi0dz6pa">
+    <text value="MH_Haloperidol Inj 5 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="TJLBi0dz6pa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xp72cD206AI">
+    <text value="MH_Cloxacilline ces_250mg_StkLoss"/>
+    <type value="group"/>
+    <item id="Xp72cD206AI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

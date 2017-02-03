@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="GAoXgNtiKur"/>
+  <status value="published"/>
+  <title value="Dermatology diagnoses"/>
+  <item id="ODmyicXSAZm">
+    <text value="Other Eczemas"/>
+    <type value="group"/>
+    <item id="ODmyicXSAZm.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ODmyicXSAZm.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ODmyicXSAZm.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ODmyicXSAZm.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ODmyicXSAZm.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ODmyicXSAZm.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ai6ZV5Ehad8">
+    <text value="Keloids"/>
+    <type value="group"/>
+    <item id="ai6ZV5Ehad8.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ai6ZV5Ehad8.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ai6ZV5Ehad8.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ai6ZV5Ehad8.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ai6ZV5Ehad8.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ai6ZV5Ehad8.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FKbyywD9wtR">
+    <text value="Atopic eczema"/>
+    <type value="group"/>
+    <item id="FKbyywD9wtR.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FKbyywD9wtR.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FKbyywD9wtR.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FKbyywD9wtR.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FKbyywD9wtR.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FKbyywD9wtR.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="K0Ko0Tcr8wo">
+    <text value="Vitiligo"/>
+    <type value="group"/>
+    <item id="K0Ko0Tcr8wo.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="K0Ko0Tcr8wo.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="K0Ko0Tcr8wo.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="K0Ko0Tcr8wo.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="K0Ko0Tcr8wo.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="K0Ko0Tcr8wo.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="do2qA5EQo2i">
+    <text value="Superficial fungal infections(Tinea)"/>
+    <type value="group"/>
+    <item id="do2qA5EQo2i.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="do2qA5EQo2i.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="do2qA5EQo2i.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="do2qA5EQo2i.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="do2qA5EQo2i.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="do2qA5EQo2i.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MmTcs01YE0w">
+    <text value="Qualification"/>
+    <type value="group"/>
+    <item id="MmTcs01YE0w.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="doArcQh2b1k">
+    <text value="Psoriasis"/>
+    <type value="group"/>
+    <item id="doArcQh2b1k.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="doArcQh2b1k.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="doArcQh2b1k.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="doArcQh2b1k.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="doArcQh2b1k.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="doArcQh2b1k.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y22TsZxtbWR">
+    <text value="Urticaria"/>
+    <type value="group"/>
+    <item id="y22TsZxtbWR.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y22TsZxtbWR.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y22TsZxtbWR.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y22TsZxtbWR.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y22TsZxtbWR.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y22TsZxtbWR.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e6PTVrMvImZ">
+    <text value="Molluscum contagiosum"/>
+    <type value="group"/>
+    <item id="e6PTVrMvImZ.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="e6PTVrMvImZ.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="e6PTVrMvImZ.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="e6PTVrMvImZ.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="e6PTVrMvImZ.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="e6PTVrMvImZ.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="luhjpmh5pbq">
+    <text value="Name"/>
+    <type value="group"/>
+    <item id="luhjpmh5pbq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GtMy2hmgfKN">
+    <text value="Acne vulgaris"/>
+    <type value="group"/>
+    <item id="GtMy2hmgfKN.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GtMy2hmgfKN.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GtMy2hmgfKN.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GtMy2hmgfKN.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GtMy2hmgfKN.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GtMy2hmgfKN.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qbDyJhpCzRs">
+    <text value="Warts"/>
+    <type value="group"/>
+    <item id="qbDyJhpCzRs.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qbDyJhpCzRs.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qbDyJhpCzRs.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qbDyJhpCzRs.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qbDyJhpCzRs.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qbDyJhpCzRs.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

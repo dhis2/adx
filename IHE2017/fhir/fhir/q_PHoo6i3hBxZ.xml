@@ -1,0 +1,2515 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="PHoo6i3hBxZ"/>
+  <status value="published"/>
+  <title value="DH Outpatient Consultations"/>
+  <item id="XnTgGzEfdCP">
+    <text value="Insured_Mutuelle or other insurance members"/>
+    <type value="group"/>
+    <item id="XnTgGzEfdCP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xWfsy3NymxK">
+    <text value="Genital ulcers_OPDDH"/>
+    <type value="group"/>
+    <item id="xWfsy3NymxK.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xWfsy3NymxK.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xWfsy3NymxK.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xWfsy3NymxK.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xWfsy3NymxK.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xWfsy3NymxK.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="I6vaD2rliJ7">
+    <text value="Eye problem other_OPDDH"/>
+    <type value="group"/>
+    <item id="I6vaD2rliJ7.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="I6vaD2rliJ7.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="I6vaD2rliJ7.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="I6vaD2rliJ7.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="I6vaD2rliJ7.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="I6vaD2rliJ7.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ue0CF6NyjTE">
+    <text value="Gastritis and duodenitis_OPDDH"/>
+    <type value="group"/>
+    <item id="Ue0CF6NyjTE.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ue0CF6NyjTE.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ue0CF6NyjTE.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ue0CF6NyjTE.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ue0CF6NyjTE.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ue0CF6NyjTE.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gGYS8eZ4dAt">
+    <text value="Eye problem Trachoma"/>
+    <type value="group"/>
+    <item id="gGYS8eZ4dAt.voy43lfaZy7">
+      <text value="5 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gGYS8eZ4dAt.h1wOgaKG4Nm">
+      <text value="20 yrs and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gGYS8eZ4dAt.Kvn9W76QP6O">
+      <text value="20 yrs and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gGYS8eZ4dAt.J8xvu9sVDLU">
+      <text value="5 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uwtdB0qcx7i">
+    <text value="Intestinal parasites_OPDDH"/>
+    <type value="group"/>
+    <item id="uwtdB0qcx7i.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uwtdB0qcx7i.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uwtdB0qcx7i.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uwtdB0qcx7i.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uwtdB0qcx7i.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uwtdB0qcx7i.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bkRVBRE9us5">
+    <text value="Discharge Vaginal_OPDDH"/>
+    <type value="group"/>
+    <item id="bkRVBRE9us5.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bkRVBRE9us5.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bkRVBRE9us5.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="bkRVBRE9us5.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bkRVBRE9us5.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="bkRVBRE9us5.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y0XTbZplwPT">
+    <text value="Dental caries_OPD"/>
+    <type value="group"/>
+    <item id="y0XTbZplwPT.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0XTbZplwPT.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0XTbZplwPT.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0XTbZplwPT.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0XTbZplwPT.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0XTbZplwPT.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wV1XYzLmB1V">
+    <text value="Acute Flaccid Paralysis cases_Suspected polio_OPD"/>
+    <type value="group"/>
+    <item id="wV1XYzLmB1V.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wV1XYzLmB1V.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wV1XYzLmB1V.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wV1XYzLmB1V.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wV1XYzLmB1V.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wV1XYzLmB1V.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L0ptcFuRR9A">
+    <text value="Non-Paying New cases"/>
+    <type value="group"/>
+    <item id="L0ptcFuRR9A.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D51rg247zAM">
+    <text value="Urinary Tract Infections_OPDDH"/>
+    <type value="group"/>
+    <item id="D51rg247zAM.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="D51rg247zAM.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="D51rg247zAM.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="D51rg247zAM.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="D51rg247zAM.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="D51rg247zAM.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nktTGpEFZ9b">
+    <text value="Gynecological problems_OPDDH"/>
+    <type value="group"/>
+    <item id="nktTGpEFZ9b.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nktTGpEFZ9b.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nktTGpEFZ9b.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nktTGpEFZ9b.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nktTGpEFZ9b.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nktTGpEFZ9b.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qRE3plpilGM">
+    <text value="Anemia_confirmed_OPDDH"/>
+    <type value="group"/>
+    <item id="qRE3plpilGM.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qRE3plpilGM.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qRE3plpilGM.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qRE3plpilGM.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qRE3plpilGM.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qRE3plpilGM.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SQudvTO8kuG">
+    <text value="Ascaris lumbricoides_OPD"/>
+    <type value="group"/>
+    <item id="SQudvTO8kuG.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SQudvTO8kuG.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SQudvTO8kuG.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="SQudvTO8kuG.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SQudvTO8kuG.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="SQudvTO8kuG.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hNSdPcq93j3">
+    <text value="Teeth and gum Infections other_OPDDH"/>
+    <type value="group"/>
+    <item id="hNSdPcq93j3.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hNSdPcq93j3.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hNSdPcq93j3.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hNSdPcq93j3.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hNSdPcq93j3.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hNSdPcq93j3.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="f6HIkceQiz0">
+    <text value="Schistosomiasis_OPD"/>
+    <type value="group"/>
+    <item id="f6HIkceQiz0.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="f6HIkceQiz0.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="f6HIkceQiz0.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="f6HIkceQiz0.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="f6HIkceQiz0.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="f6HIkceQiz0.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tJSrZYc6srk">
+    <text value="Eye problem other_OPDnew"/>
+    <type value="group"/>
+    <item id="tJSrZYc6srk.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tJSrZYc6srk.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tJSrZYc6srk.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tJSrZYc6srk.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tJSrZYc6srk.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tJSrZYc6srk.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UjgrsydnTRq">
+    <text value="Herpes simplex infections_OPDDH"/>
+    <type value="group"/>
+    <item id="UjgrsydnTRq.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UjgrsydnTRq.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UjgrsydnTRq.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UjgrsydnTRq.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UjgrsydnTRq.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UjgrsydnTRq.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lv6FmihIxOt">
+    <text value="Fever Greater or equal to 37 C_all causes_OPD"/>
+    <type value="group"/>
+    <item id="lv6FmihIxOt.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lv6FmihIxOt.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lv6FmihIxOt.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lv6FmihIxOt.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lv6FmihIxOt.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lv6FmihIxOt.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mDvOm7TGwtB">
+    <text value="Ear infections_OPDDH"/>
+    <type value="group"/>
+    <item id="mDvOm7TGwtB.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mDvOm7TGwtB.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mDvOm7TGwtB.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mDvOm7TGwtB.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mDvOm7TGwtB.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mDvOm7TGwtB.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rvwJyApem9E">
+    <text value="Malaria confirmed simple in pregnancy_OPDDH"/>
+    <type value="group"/>
+    <item id="rvwJyApem9E.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rvwJyApem9E.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rvwJyApem9E.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rvwJyApem9E.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rvwJyApem9E.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rvwJyApem9E.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yHt5zh0jJTD">
+    <text value="Eye problem Refractive Errors_DH"/>
+    <type value="group"/>
+    <item id="yHt5zh0jJTD.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yHt5zh0jJTD.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yHt5zh0jJTD.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yHt5zh0jJTD.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yHt5zh0jJTD.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yHt5zh0jJTD.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sreK0bMzMko">
+    <text value="Other Teeth and gum infections_OPDnew"/>
+    <type value="group"/>
+    <item id="sreK0bMzMko.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sreK0bMzMko.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sreK0bMzMko.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sreK0bMzMko.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sreK0bMzMko.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sreK0bMzMko.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="obAejJdhvc9">
+    <text value="Repeat_Old cases"/>
+    <type value="group"/>
+    <item id="obAejJdhvc9.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="obAejJdhvc9.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="obAejJdhvc9.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="obAejJdhvc9.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="obAejJdhvc9.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="obAejJdhvc9.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zo8e7aINn6H">
+    <text value="Giardia_OPD"/>
+    <type value="group"/>
+    <item id="zo8e7aINn6H.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="zo8e7aINn6H.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="zo8e7aINn6H.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="zo8e7aINn6H.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="zo8e7aINn6H.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="zo8e7aINn6H.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lPpGsdC4NAM">
+    <text value="Fever Chronic_&gt; 1 month_OPDDH"/>
+    <type value="group"/>
+    <item id="lPpGsdC4NAM.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lPpGsdC4NAM.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lPpGsdC4NAM.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lPpGsdC4NAM.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lPpGsdC4NAM.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lPpGsdC4NAM.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e5vbdJToTJ4">
+    <text value="Ulcers_OPDDH"/>
+    <type value="group"/>
+    <item id="e5vbdJToTJ4.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="e5vbdJToTJ4.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="e5vbdJToTJ4.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="e5vbdJToTJ4.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="e5vbdJToTJ4.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="e5vbdJToTJ4.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Dir2aqXjQH8">
+    <text value="Periodontal disease_OPD"/>
+    <type value="group"/>
+    <item id="Dir2aqXjQH8.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dir2aqXjQH8.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dir2aqXjQH8.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dir2aqXjQH8.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dir2aqXjQH8.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dir2aqXjQH8.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y43ImqcK4u8">
+    <text value="Abscesses_OPDDH"/>
+    <type value="group"/>
+    <item id="y43ImqcK4u8.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y43ImqcK4u8.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y43ImqcK4u8.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y43ImqcK4u8.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y43ImqcK4u8.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y43ImqcK4u8.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="If2c2zPp3Nj">
+    <text value="Malaria confirmed simple_not pregnant_OPDDH"/>
+    <type value="group"/>
+    <item id="If2c2zPp3Nj.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="If2c2zPp3Nj.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="If2c2zPp3Nj.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="If2c2zPp3Nj.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="If2c2zPp3Nj.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="If2c2zPp3Nj.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GvEnpCMMHCt">
+    <text value="Measles suspected_OPD"/>
+    <type value="group"/>
+    <item id="GvEnpCMMHCt.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GvEnpCMMHCt.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GvEnpCMMHCt.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GvEnpCMMHCt.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GvEnpCMMHCt.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GvEnpCMMHCt.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rkO9r9tLGyw">
+    <text value="Diarrhoea with Dehydration_OPDDH"/>
+    <type value="group"/>
+    <item id="rkO9r9tLGyw.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rkO9r9tLGyw.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rkO9r9tLGyw.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rkO9r9tLGyw.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rkO9r9tLGyw.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rkO9r9tLGyw.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ar2OQCEUZwR">
+    <text value="Pinguecula_OPD"/>
+    <type value="group"/>
+    <item id="Ar2OQCEUZwR.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ar2OQCEUZwR.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ar2OQCEUZwR.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ar2OQCEUZwR.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ar2OQCEUZwR.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ar2OQCEUZwR.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ck1QaxpJPnB">
+    <text value="Eye trauma_OPD"/>
+    <type value="group"/>
+    <item id="Ck1QaxpJPnB.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ck1QaxpJPnB.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ck1QaxpJPnB.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ck1QaxpJPnB.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ck1QaxpJPnB.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ck1QaxpJPnB.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sF9pFihMO6t">
+    <text value="Physical traumas other than fractures_OPDDH"/>
+    <type value="group"/>
+    <item id="sF9pFihMO6t.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sF9pFihMO6t.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sF9pFihMO6t.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sF9pFihMO6t.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sF9pFihMO6t.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sF9pFihMO6t.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iAbH7xnY5XJ">
+    <text value="Eye problem Trachoma_OPDDH"/>
+    <type value="group"/>
+    <item id="iAbH7xnY5XJ.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iAbH7xnY5XJ.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iAbH7xnY5XJ.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iAbH7xnY5XJ.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iAbH7xnY5XJ.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iAbH7xnY5XJ.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wf9Igjj5ifU">
+    <text value="Skin Infection Fungal_mycoses_superficial_OPDDH"/>
+    <type value="group"/>
+    <item id="wf9Igjj5ifU.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wf9Igjj5ifU.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wf9Igjj5ifU.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wf9Igjj5ifU.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wf9Igjj5ifU.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wf9Igjj5ifU.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vXwpoA3iex2">
+    <text value="Referred to other levels"/>
+    <type value="group"/>
+    <item id="vXwpoA3iex2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EwOOlIAgUpk">
+    <text value="Refractive error_OPD"/>
+    <type value="group"/>
+    <item id="EwOOlIAgUpk.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EwOOlIAgUpk.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EwOOlIAgUpk.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EwOOlIAgUpk.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EwOOlIAgUpk.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EwOOlIAgUpk.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SQYRsJBiV1N">
+    <text value="Bubo_scrotal swelling_OPDDH"/>
+    <type value="group"/>
+    <item id="SQYRsJBiV1N.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SQYRsJBiV1N.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SQYRsJBiV1N.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="SQYRsJBiV1N.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SQYRsJBiV1N.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="SQYRsJBiV1N.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Oxsa9WyptUT">
+    <text value="Rubella confirmed cases_OPD"/>
+    <type value="group"/>
+    <item id="Oxsa9WyptUT.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Oxsa9WyptUT.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Oxsa9WyptUT.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Oxsa9WyptUT.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Oxsa9WyptUT.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Oxsa9WyptUT.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MZjTEH8EBNQ">
+    <text value="Eye problem diabetic retinopathyDH"/>
+    <type value="group"/>
+    <item id="MZjTEH8EBNQ.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MZjTEH8EBNQ.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MZjTEH8EBNQ.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MZjTEH8EBNQ.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MZjTEH8EBNQ.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MZjTEH8EBNQ.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lOXudKWq5UU">
+    <text value="Discharge Urethral Male_OPDDH"/>
+    <type value="group"/>
+    <item id="lOXudKWq5UU.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lOXudKWq5UU.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lOXudKWq5UU.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lOXudKWq5UU.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lOXudKWq5UU.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lOXudKWq5UU.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ki5aaw9ExY7">
+    <text value="Skin Infections Other_OPDDH"/>
+    <type value="group"/>
+    <item id="Ki5aaw9ExY7.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ki5aaw9ExY7.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ki5aaw9ExY7.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ki5aaw9ExY7.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ki5aaw9ExY7.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ki5aaw9ExY7.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xy5dCHGJ9C4">
+    <text value="Respiratory infections acute other_OPDDH"/>
+    <type value="group"/>
+    <item id="xy5dCHGJ9C4.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xy5dCHGJ9C4.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xy5dCHGJ9C4.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xy5dCHGJ9C4.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xy5dCHGJ9C4.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xy5dCHGJ9C4.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s2B8oyLEYxF">
+    <text value="Hookworm_OPD"/>
+    <type value="group"/>
+    <item id="s2B8oyLEYxF.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="s2B8oyLEYxF.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="s2B8oyLEYxF.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="s2B8oyLEYxF.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="s2B8oyLEYxF.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="s2B8oyLEYxF.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gUND3nokW3R">
+    <text value="Diarrhoea Chronic opportunistic infections_OPDDH"/>
+    <type value="group"/>
+    <item id="gUND3nokW3R.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gUND3nokW3R.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gUND3nokW3R.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gUND3nokW3R.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gUND3nokW3R.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gUND3nokW3R.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MdHi3dRXbgN">
+    <text value="Eye problem Conjunctivitis_DH"/>
+    <type value="group"/>
+    <item id="MdHi3dRXbgN.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdHi3dRXbgN.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdHi3dRXbgN.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdHi3dRXbgN.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdHi3dRXbgN.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdHi3dRXbgN.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rgr2KeFFKYh">
+    <text value="Vitamin A deficiency_Night blindness"/>
+    <type value="group"/>
+    <item id="rgr2KeFFKYh.ASjrRns4MOP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="rgr2KeFFKYh.IECI9VkzjMh">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="rgr2KeFFKYh.MU58pmz6ReG">
+      <text value="0-59months"/>
+      <type value="integer"/>
+    </item>
+    <item id="rgr2KeFFKYh.zPpiJoO2wmc">
+      <text value="15 + years"/>
+      <type value="integer"/>
+    </item>
+    <item id="rgr2KeFFKYh.KrEmsRAFYFd">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="rgr2KeFFKYh.mq4QQqG6wgm">
+      <text value="5-14 years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SDGEst4B1HB">
+    <text value="Food poisoning_OPDDH"/>
+    <type value="group"/>
+    <item id="SDGEst4B1HB.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SDGEst4B1HB.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SDGEst4B1HB.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="SDGEst4B1HB.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SDGEst4B1HB.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="SDGEst4B1HB.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HGXAVfA5Uqi">
+    <text value="Leprosy_MB plus PB"/>
+    <type value="group"/>
+    <item id="HGXAVfA5Uqi.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="HGXAVfA5Uqi.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="HGXAVfA5Uqi.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="HGXAVfA5Uqi.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="HGXAVfA5Uqi.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="HGXAVfA5Uqi.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iKkD3Bii8lf">
+    <text value="Glaucoma_OPD"/>
+    <type value="group"/>
+    <item id="iKkD3Bii8lf.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iKkD3Bii8lf.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iKkD3Bii8lf.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iKkD3Bii8lf.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iKkD3Bii8lf.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iKkD3Bii8lf.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vSXPBNn6gHK">
+    <text value="Vitamin A deficiency_Night blindness OPDHD"/>
+    <type value="group"/>
+    <item id="vSXPBNn6gHK.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vSXPBNn6gHK.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vSXPBNn6gHK.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vSXPBNn6gHK.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vSXPBNn6gHK.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vSXPBNn6gHK.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J0JHVdzKY9c">
+    <text value="Natural or man-made disasters_epidemics earthquakes OPD etc"/>
+    <type value="group"/>
+    <item id="J0JHVdzKY9c.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RLdizxiv7IX">
+    <text value="Pneumonia_OPDDH"/>
+    <type value="group"/>
+    <item id="RLdizxiv7IX.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="RLdizxiv7IX.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="RLdizxiv7IX.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="RLdizxiv7IX.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="RLdizxiv7IX.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="RLdizxiv7IX.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xKfIgGPdatR">
+    <text value="Bone and Joint disorder other than fractures_OPDDH"/>
+    <type value="group"/>
+    <item id="xKfIgGPdatR.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xKfIgGPdatR.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xKfIgGPdatR.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xKfIgGPdatR.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xKfIgGPdatR.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xKfIgGPdatR.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cite614Plid">
+    <text value="Eye problem Cataract"/>
+    <type value="group"/>
+    <item id="cite614Plid.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cite614Plid.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cite614Plid.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cite614Plid.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cite614Plid.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cite614Plid.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yZvUkwUI80D">
+    <text value="Herpes Zoster_Zona_shingles-OPDDH"/>
+    <type value="group"/>
+    <item id="yZvUkwUI80D.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yZvUkwUI80D.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yZvUkwUI80D.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yZvUkwUI80D.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yZvUkwUI80D.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yZvUkwUI80D.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xs8yYf3DEfO">
+    <text value="Diabetic retinopathy_OPD"/>
+    <type value="group"/>
+    <item id="Xs8yYf3DEfO.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xs8yYf3DEfO.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xs8yYf3DEfO.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xs8yYf3DEfO.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xs8yYf3DEfO.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xs8yYf3DEfO.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="i1R8rWvcFtz">
+    <text value="Skin Infection Scabies_OPDDH"/>
+    <type value="group"/>
+    <item id="i1R8rWvcFtz.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="i1R8rWvcFtz.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="i1R8rWvcFtz.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="i1R8rWvcFtz.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="i1R8rWvcFtz.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="i1R8rWvcFtz.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w8WEcFxsJbV">
+    <text value="Malaria confirmed with minor digestive symptoms in pregnancy_opdDH"/>
+    <type value="group"/>
+    <item id="w8WEcFxsJbV.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="w8WEcFxsJbV.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="w8WEcFxsJbV.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="w8WEcFxsJbV.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="w8WEcFxsJbV.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="w8WEcFxsJbV.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WouabXaNTL4">
+    <text value="Eye problem Corneal scars"/>
+    <type value="group"/>
+    <item id="WouabXaNTL4.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="WouabXaNTL4.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="WouabXaNTL4.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="WouabXaNTL4.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="WouabXaNTL4.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="WouabXaNTL4.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eKj33FBXWTC">
+    <text value="Taenia_OPD"/>
+    <type value="group"/>
+    <item id="eKj33FBXWTC.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eKj33FBXWTC.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eKj33FBXWTC.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eKj33FBXWTC.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eKj33FBXWTC.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eKj33FBXWTC.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eg6A1iT9EWm">
+    <text value="Eye problem Glaucoma"/>
+    <type value="group"/>
+    <item id="eg6A1iT9EWm.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg6A1iT9EWm.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg6A1iT9EWm.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg6A1iT9EWm.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg6A1iT9EWm.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg6A1iT9EWm.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZyoQKlgAn5e">
+    <text value="Candidiasis oral_OPDDH"/>
+    <type value="group"/>
+    <item id="ZyoQKlgAn5e.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZyoQKlgAn5e.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZyoQKlgAn5e.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZyoQKlgAn5e.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZyoQKlgAn5e.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZyoQKlgAn5e.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tcSKFIWmD62">
+    <text value="Heart Disease Acute_OPDDH"/>
+    <type value="group"/>
+    <item id="tcSKFIWmD62.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tcSKFIWmD62.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tcSKFIWmD62.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tcSKFIWmD62.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tcSKFIWmD62.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tcSKFIWmD62.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GpQ2x3ZDHTe">
+    <text value="Counter referrals received"/>
+    <type value="group"/>
+    <item id="GpQ2x3ZDHTe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xQmpuXW9NQq">
+    <text value="Diarrhoea with no dehydration_OPDDH"/>
+    <type value="group"/>
+    <item id="xQmpuXW9NQq.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xQmpuXW9NQq.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xQmpuXW9NQq.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xQmpuXW9NQq.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xQmpuXW9NQq.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xQmpuXW9NQq.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OBVaGTkhDOa">
+    <text value="Needle stick injuries_or other health worker HIV exposure_OPDDH"/>
+    <type value="group"/>
+    <item id="OBVaGTkhDOa.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="OBVaGTkhDOa.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="OBVaGTkhDOa.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="OBVaGTkhDOa.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="OBVaGTkhDOa.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="OBVaGTkhDOa.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="g5bdvJDhjSQ">
+    <text value="Road traffic accidents OPD"/>
+    <type value="group"/>
+    <item id="g5bdvJDhjSQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hXbVAtt6qw9">
+    <text value="Meningitis Suspect_OPDDH"/>
+    <type value="group"/>
+    <item id="hXbVAtt6qw9.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hXbVAtt6qw9.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hXbVAtt6qw9.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hXbVAtt6qw9.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hXbVAtt6qw9.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hXbVAtt6qw9.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sOXjcgk31XK">
+    <text value="New cases_hors zone"/>
+    <type value="group"/>
+    <item id="sOXjcgk31XK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pSjq1mlQzB5">
+    <text value="Eye problem Trichiasis_OPDDH"/>
+    <type value="group"/>
+    <item id="pSjq1mlQzB5.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pSjq1mlQzB5.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pSjq1mlQzB5.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pSjq1mlQzB5.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pSjq1mlQzB5.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pSjq1mlQzB5.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XloatWmjPjF">
+    <text value="Eye problem Trauma"/>
+    <type value="group"/>
+    <item id="XloatWmjPjF.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="XloatWmjPjF.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="XloatWmjPjF.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="XloatWmjPjF.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="XloatWmjPjF.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="XloatWmjPjF.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iRyZP6BOZf3">
+    <text value="Skin Infection opportunistic_OPDDH"/>
+    <type value="group"/>
+    <item id="iRyZP6BOZf3.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iRyZP6BOZf3.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iRyZP6BOZf3.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iRyZP6BOZf3.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iRyZP6BOZf3.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iRyZP6BOZf3.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z2qaaE1SBSC">
+    <text value="Measles confirmed cases_OPD"/>
+    <type value="group"/>
+    <item id="z2qaaE1SBSC.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="z2qaaE1SBSC.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="z2qaaE1SBSC.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="z2qaaE1SBSC.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="z2qaaE1SBSC.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="z2qaaE1SBSC.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vMYIjHqHHep">
+    <text value="Other Teeth and gum infections_OPDDH"/>
+    <type value="group"/>
+    <item id="vMYIjHqHHep.aG58shPJ2dZ">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="vMYIjHqHHep.v8TtMqcEYgB">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="vMYIjHqHHep.fhjjrLMdWXP">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="vMYIjHqHHep.ldo3siIyPvA">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="vMYIjHqHHep.LKrUSuWUKuf">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+    <item id="vMYIjHqHHep.zXbv4t7KMpr">
+      <text value=""/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oDJmIQ36vnR">
+    <text value="Periodontal disease"/>
+    <type value="group"/>
+    <item id="oDJmIQ36vnR.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oDJmIQ36vnR.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oDJmIQ36vnR.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oDJmIQ36vnR.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oDJmIQ36vnR.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oDJmIQ36vnR.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AIJ7DqYEDOh">
+    <text value="Cough Chronic_&gt;15 days_OPDDH"/>
+    <type value="group"/>
+    <item id="AIJ7DqYEDOh.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="AIJ7DqYEDOh.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="AIJ7DqYEDOh.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="AIJ7DqYEDOh.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="AIJ7DqYEDOh.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="AIJ7DqYEDOh.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SYt1ApDLxLY">
+    <text value="Fever OPD &gt;=37.5 C_all causes"/>
+    <type value="group"/>
+    <item id="SYt1ApDLxLY.voy43lfaZy7">
+      <text value="5 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SYt1ApDLxLY.h1wOgaKG4Nm">
+      <text value="20 yrs and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="SYt1ApDLxLY.Kvn9W76QP6O">
+      <text value="20 yrs and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="SYt1ApDLxLY.J8xvu9sVDLU">
+      <text value="5 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rN2T8h4OOhh">
+    <text value="AIDS clinical_OPDDH"/>
+    <type value="group"/>
+    <item id="rN2T8h4OOhh.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rN2T8h4OOhh.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rN2T8h4OOhh.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rN2T8h4OOhh.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rN2T8h4OOhh.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rN2T8h4OOhh.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pYo2EBO849A">
+    <text value="Malaria confirmed with minor digestive symptoms_Not pregnant_OPDDH"/>
+    <type value="group"/>
+    <item id="pYo2EBO849A.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pYo2EBO849A.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pYo2EBO849A.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pYo2EBO849A.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pYo2EBO849A.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pYo2EBO849A.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AOZ2dY9o00n">
+    <text value="Entamoeba_OPD"/>
+    <type value="group"/>
+    <item id="AOZ2dY9o00n.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="AOZ2dY9o00n.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="AOZ2dY9o00n.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="AOZ2dY9o00n.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="AOZ2dY9o00n.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="AOZ2dY9o00n.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AjZdnOx3hvs">
+    <text value="Number of Indigents of non-paying new cases"/>
+    <type value="group"/>
+    <item id="AjZdnOx3hvs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vWt2FTXggkW">
+    <text value="Diarrhoea bloody_dysentery_OPDDH"/>
+    <type value="group"/>
+    <item id="vWt2FTXggkW.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vWt2FTXggkW.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vWt2FTXggkW.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vWt2FTXggkW.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vWt2FTXggkW.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vWt2FTXggkW.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qyvH5Y73w85">
+    <text value="New cases from the catchment area_zone"/>
+    <type value="group"/>
+    <item id="qyvH5Y73w85.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Gy0QgnogSsS">
+    <text value="Trichuris trichiura_OPD"/>
+    <type value="group"/>
+    <item id="Gy0QgnogSsS.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gy0QgnogSsS.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gy0QgnogSsS.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gy0QgnogSsS.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gy0QgnogSsS.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gy0QgnogSsS.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="njR24sanQ5C">
+    <text value="International patients_hors pays"/>
+    <type value="group"/>
+    <item id="njR24sanQ5C.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sHLLuf6oDdM">
+    <text value="New cases_OPD"/>
+    <type value="group"/>
+    <item id="sHLLuf6oDdM.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sHLLuf6oDdM.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sHLLuf6oDdM.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sHLLuf6oDdM.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sHLLuf6oDdM.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sHLLuf6oDdM.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KdotxuqVMmj">
+    <text value="Fractures_OPDDH"/>
+    <type value="group"/>
+    <item id="KdotxuqVMmj.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="KdotxuqVMmj.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="KdotxuqVMmj.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="KdotxuqVMmj.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="KdotxuqVMmj.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="KdotxuqVMmj.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TafHDiDB6Pe">
+    <text value="Workplace injuries_OPD"/>
+    <type value="group"/>
+    <item id="TafHDiDB6Pe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QkN6CuomGAk">
+    <text value="Goitre OPDHD"/>
+    <type value="group"/>
+    <item id="QkN6CuomGAk.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="QkN6CuomGAk.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="QkN6CuomGAk.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="QkN6CuomGAk.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="QkN6CuomGAk.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="QkN6CuomGAk.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vyad4pATc8I">
+    <text value="Malaria_presumptive all cases_OPDDH"/>
+    <type value="group"/>
+    <item id="vyad4pATc8I.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vyad4pATc8I.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vyad4pATc8I.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vyad4pATc8I.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vyad4pATc8I.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vyad4pATc8I.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CSsngmKuMLm">
+    <text value="Tuberculosis AFB sputum+_OPDDH"/>
+    <type value="group"/>
+    <item id="CSsngmKuMLm.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="CSsngmKuMLm.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="CSsngmKuMLm.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="CSsngmKuMLm.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="CSsngmKuMLm.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="CSsngmKuMLm.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Lc9tHWcMgvy">
+    <text value="Conjunctivitis_OPD"/>
+    <type value="group"/>
+    <item id="Lc9tHWcMgvy.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Lc9tHWcMgvy.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Lc9tHWcMgvy.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Lc9tHWcMgvy.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Lc9tHWcMgvy.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Lc9tHWcMgvy.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="U8CRxlniaaV">
+    <text value="Cataract_OPD"/>
+    <type value="group"/>
+    <item id="U8CRxlniaaV.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U8CRxlniaaV.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U8CRxlniaaV.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U8CRxlniaaV.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U8CRxlniaaV.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U8CRxlniaaV.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fGg16FaXK9y">
+    <text value="Dental caries_OPDnew"/>
+    <type value="group"/>
+    <item id="fGg16FaXK9y.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fGg16FaXK9y.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fGg16FaXK9y.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fGg16FaXK9y.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fGg16FaXK9y.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fGg16FaXK9y.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="paQpaEQ0POH">
+    <text value="Uveitis_OPD"/>
+    <type value="group"/>
+    <item id="paQpaEQ0POH.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="paQpaEQ0POH.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="paQpaEQ0POH.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="paQpaEQ0POH.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="paQpaEQ0POH.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="paQpaEQ0POH.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

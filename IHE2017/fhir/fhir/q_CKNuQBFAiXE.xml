@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="CKNuQBFAiXE"/>
+  <status value="published"/>
+  <title value="Weekly Child Mortality report"/>
+  <item id="FLTGkp6fClo">
+    <text value="Morts nes_wkly"/>
+    <type value="group"/>
+    <item id="FLTGkp6fClo.egVOn1jHNQI">
+      <text value="Morts nes Frais"/>
+      <type value="integer"/>
+    </item>
+    <item id="FLTGkp6fClo.DwtXIHcFsCi">
+      <text value="Morts nes maceres"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="N0wVrCQJzXR">
+    <text value="Mortalite infanto juvenile _wkly"/>
+    <type value="group"/>
+    <item id="N0wVrCQJzXR.tsBHbTv5hqm">
+      <text value="Age&gt;12mois-5ans"/>
+      <type value="integer"/>
+    </item>
+    <item id="N0wVrCQJzXR.bM4VEIMt5nq">
+      <text value="Age&gt;28jr-12mois"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x5dDt2gwFLK">
+    <text value="Mortalite neonatale_wkly"/>
+    <type value="group"/>
+    <item id="x5dDt2gwFLK.rooXVFDcDRM">
+      <text value="Neonatals ne a terme"/>
+      <type value="integer"/>
+    </item>
+    <item id="x5dDt2gwFLK.UG1K5eVGVD4">
+      <text value="Neonatals prematures"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

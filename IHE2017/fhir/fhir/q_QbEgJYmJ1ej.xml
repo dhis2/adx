@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="QbEgJYmJ1ej"/>
+  <status value="published"/>
+  <title value="TB - Presumptive examined by microscopy techniques(CDT only)"/>
+  <item id="Idicgw2oTBq">
+    <text value="Ziehl-Nelsen_Microscopie optique Presumptive TB"/>
+    <type value="group"/>
+    <item id="Idicgw2oTBq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BBrc0ss6wTR">
+    <text value="Ziehl-Nelsen_Microscopie optique Bacilloscopie positive"/>
+    <type value="group"/>
+    <item id="BBrc0ss6wTR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XIbZKh3YdRT">
+    <text value="LED_Microscopie a Fluorescence Presumptive TB"/>
+    <type value="group"/>
+    <item id="XIbZKh3YdRT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Wk4jMht1AaZ">
+    <text value="LED Microscopie a Fluorescence Bacilloscopie positive"/>
+    <type value="group"/>
+    <item id="Wk4jMht1AaZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

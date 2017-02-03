@@ -1,0 +1,735 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="AFfYUoMthe8"/>
+  <status value="published"/>
+  <title value="DH Cardiovascular and Kidney diseases"/>
+  <item id="mxYHvbSk8vU">
+    <text value="Other Cardiovascular diseases Cardiovascular_New cases 2015"/>
+    <type value="group"/>
+    <item id="mxYHvbSk8vU.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mxYHvbSk8vU.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mxYHvbSk8vU.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mxYHvbSk8vU.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mxYHvbSk8vU.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mxYHvbSk8vU.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qEskQVTQjxz">
+    <text value="Post heart surgery Cardiovascular_New cases 2015"/>
+    <type value="group"/>
+    <item id="qEskQVTQjxz.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qEskQVTQjxz.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qEskQVTQjxz.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qEskQVTQjxz.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qEskQVTQjxz.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qEskQVTQjxz.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YYCKCiSnOry">
+    <text value="Heart failure Cardiovascular_Deaths 2015"/>
+    <type value="group"/>
+    <item id="YYCKCiSnOry.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YYCKCiSnOry.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YYCKCiSnOry.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YYCKCiSnOry.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="YYCKCiSnOry.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="YYCKCiSnOry.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M60pRfgpkht">
+    <text value="Cardiomyopathies_new cases 2015"/>
+    <type value="group"/>
+    <item id="M60pRfgpkht.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="M60pRfgpkht.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="M60pRfgpkht.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="M60pRfgpkht.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="M60pRfgpkht.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="M60pRfgpkht.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yLQLOq0hlDw">
+    <text value="Congenital heart disease Cardiovascular_New cases 2015"/>
+    <type value="group"/>
+    <item id="yLQLOq0hlDw.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yLQLOq0hlDw.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yLQLOq0hlDw.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yLQLOq0hlDw.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yLQLOq0hlDw.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yLQLOq0hlDw.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pQnU7WCnWsh">
+    <text value="Pericardial disease Cardiovascular_Deaths 2015"/>
+    <type value="group"/>
+    <item id="pQnU7WCnWsh.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pQnU7WCnWsh.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pQnU7WCnWsh.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pQnU7WCnWsh.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pQnU7WCnWsh.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pQnU7WCnWsh.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GjdeVfx2Gxp">
+    <text value="Other chronic kidney diseases Cardiovascular_New cases 2015"/>
+    <type value="group"/>
+    <item id="GjdeVfx2Gxp.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GjdeVfx2Gxp.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GjdeVfx2Gxp.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GjdeVfx2Gxp.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GjdeVfx2Gxp.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GjdeVfx2Gxp.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rwk6apihOoR">
+    <text value="Renal failure Cardiovascular_Deaths 2015"/>
+    <type value="group"/>
+    <item id="rwk6apihOoR.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rwk6apihOoR.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rwk6apihOoR.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rwk6apihOoR.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rwk6apihOoR.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rwk6apihOoR.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tAi03Ld3Jms">
+    <text value="Coronary artery disease Cardiovascular_Deaths 2015"/>
+    <type value="group"/>
+    <item id="tAi03Ld3Jms.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tAi03Ld3Jms.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tAi03Ld3Jms.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tAi03Ld3Jms.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tAi03Ld3Jms.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tAi03Ld3Jms.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hcRWmNpcCHa">
+    <text value="Other chronic kidney diseases Cardiovascular_Deaths 2015"/>
+    <type value="group"/>
+    <item id="hcRWmNpcCHa.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hcRWmNpcCHa.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hcRWmNpcCHa.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hcRWmNpcCHa.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hcRWmNpcCHa.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hcRWmNpcCHa.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LcIKFm9JcFR">
+    <text value="Thyroid Disease Cardiovascular_New cases"/>
+    <type value="group"/>
+    <item id="LcIKFm9JcFR.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="LcIKFm9JcFR.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="LcIKFm9JcFR.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="LcIKFm9JcFR.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="LcIKFm9JcFR.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="LcIKFm9JcFR.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y3R1Vm2SE4m">
+    <text value="Heart failure Cardiovascular_New cases 2015"/>
+    <type value="group"/>
+    <item id="y3R1Vm2SE4m.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y3R1Vm2SE4m.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y3R1Vm2SE4m.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y3R1Vm2SE4m.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y3R1Vm2SE4m.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y3R1Vm2SE4m.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="etOS6fdNfHA">
+    <text value="Coronary artery disease Cardiovascular_New cases 2015"/>
+    <type value="group"/>
+    <item id="etOS6fdNfHA.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="etOS6fdNfHA.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="etOS6fdNfHA.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="etOS6fdNfHA.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="etOS6fdNfHA.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="etOS6fdNfHA.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uvRjBr6omrp">
+    <text value="Rheumatic heart disease Cardiovascular-Deaths 2015"/>
+    <type value="group"/>
+    <item id="uvRjBr6omrp.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uvRjBr6omrp.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uvRjBr6omrp.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uvRjBr6omrp.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uvRjBr6omrp.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uvRjBr6omrp.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q9bquedk8bd">
+    <text value="Other endocrine and metabolic diseases Cardiovascular_Deaths"/>
+    <type value="group"/>
+    <item id="q9bquedk8bd.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="q9bquedk8bd.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="q9bquedk8bd.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="q9bquedk8bd.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="q9bquedk8bd.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="q9bquedk8bd.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sEswlAC0iQM">
+    <text value="Other Cardiovascular diseases Cardiovascular_Deaths 2015"/>
+    <type value="group"/>
+    <item id="sEswlAC0iQM.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sEswlAC0iQM.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sEswlAC0iQM.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sEswlAC0iQM.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sEswlAC0iQM.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sEswlAC0iQM.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tiLMVQbU1nJ">
+    <text value="Other endocrine and metabolic diseases Cardiovascular_New cases"/>
+    <type value="group"/>
+    <item id="tiLMVQbU1nJ.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tiLMVQbU1nJ.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tiLMVQbU1nJ.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tiLMVQbU1nJ.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tiLMVQbU1nJ.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tiLMVQbU1nJ.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lthQg6IYhAf">
+    <text value="Stroke_TIA_New cases 2015"/>
+    <type value="group"/>
+    <item id="lthQg6IYhAf.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lthQg6IYhAf.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lthQg6IYhAf.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lthQg6IYhAf.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lthQg6IYhAf.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lthQg6IYhAf.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CtvdzJWlnsT">
+    <text value="Renal failure Cardiovascular_New cases 2015"/>
+    <type value="group"/>
+    <item id="CtvdzJWlnsT.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="CtvdzJWlnsT.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="CtvdzJWlnsT.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="CtvdzJWlnsT.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="CtvdzJWlnsT.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="CtvdzJWlnsT.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lwgkPLvLxu5">
+    <text value="Rheumatic heart disease_New cases 2015"/>
+    <type value="group"/>
+    <item id="lwgkPLvLxu5.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lwgkPLvLxu5.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lwgkPLvLxu5.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lwgkPLvLxu5.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lwgkPLvLxu5.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lwgkPLvLxu5.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iUgVjrrf6qY">
+    <text value="Congenital heart disease Cardiovascular_Deaths 2015"/>
+    <type value="group"/>
+    <item id="iUgVjrrf6qY.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iUgVjrrf6qY.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iUgVjrrf6qY.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iUgVjrrf6qY.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iUgVjrrf6qY.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iUgVjrrf6qY.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MfAYJpEXYiN">
+    <text value="Pericardial disease Cardiovascular_New cases 2015"/>
+    <type value="group"/>
+    <item id="MfAYJpEXYiN.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MfAYJpEXYiN.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MfAYJpEXYiN.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MfAYJpEXYiN.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MfAYJpEXYiN.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MfAYJpEXYiN.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aJLL3Oun8U7">
+    <text value="Post heart surgery Cardiovascular_Deaths 2015"/>
+    <type value="group"/>
+    <item id="aJLL3Oun8U7.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aJLL3Oun8U7.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aJLL3Oun8U7.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aJLL3Oun8U7.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aJLL3Oun8U7.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aJLL3Oun8U7.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cY7E3WwHJl5">
+    <text value="Stroke_TIA_Deaths 2015"/>
+    <type value="group"/>
+    <item id="cY7E3WwHJl5.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cY7E3WwHJl5.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cY7E3WwHJl5.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cY7E3WwHJl5.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cY7E3WwHJl5.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cY7E3WwHJl5.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UUnN1w8WpLA">
+    <text value="Cardiomyopathies_Deaths 2015"/>
+    <type value="group"/>
+    <item id="UUnN1w8WpLA.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UUnN1w8WpLA.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UUnN1w8WpLA.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UUnN1w8WpLA.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UUnN1w8WpLA.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UUnN1w8WpLA.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xeX6Ww8qAY3">
+    <text value="Thyroid Disease Cardiovascular_Deaths"/>
+    <type value="group"/>
+    <item id="xeX6Ww8qAY3.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xeX6Ww8qAY3.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xeX6Ww8qAY3.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xeX6Ww8qAY3.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xeX6Ww8qAY3.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xeX6Ww8qAY3.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

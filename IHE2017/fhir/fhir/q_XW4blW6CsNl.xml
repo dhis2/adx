@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="XW4blW6CsNl"/>
+  <status value="published"/>
+  <title value="Leprosy notification and detection"/>
+  <item id="gcFJa76i4iE">
+    <text value="Number of persons suspected to have leprosy followed up for later leprosy diagnosis _Nbre de personnes suspecte d'avoir la lepre et suivi pour le diagnosis ulterieur"/>
+    <type value="group"/>
+    <item id="gcFJa76i4iE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DOx3sHwPARj">
+    <text value="Number of persons wih patches_Nbre de personne ayant les taches"/>
+    <type value="group"/>
+    <item id="DOx3sHwPARj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bMidrRZLLLd">
+    <text value="Leprosy MB New cases "/>
+    <type value="group"/>
+    <item id="bMidrRZLLLd.TQxVrPPUkxd">
+      <text value="Grade 0, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.u4iCMZeAcb2">
+      <text value="Grade 2, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.dOsnlHOnUnX">
+      <text value="Grade 1, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.AufnkBxktil">
+      <text value="Grade 1, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.Eh61oOZz3MF">
+      <text value="Grade 0, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.z1etwZZbQP3">
+      <text value="Grade 2, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.YZVK5HF1qEx">
+      <text value="Grade 0, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.OUtwDmw6FAt">
+      <text value="Grade 2, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.JeolXQyDDyb">
+      <text value="Grade 2, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.aIXlZKW2bch">
+      <text value="Grade 1, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.kInZrxFzDR9">
+      <text value="Grade 0, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="bMidrRZLLLd.hhBACX6IYVj">
+      <text value="Grade 1, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b1O9r0higcV">
+    <text value="Number of  all contacts living with a confirmed leprosy  screened_Nbre de contacts examin&#xE9;s de la l&#xE8;pre"/>
+    <type value="group"/>
+    <item id="b1O9r0higcV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MtiMteRTXvf">
+    <text value="Leprosy PB Relapse"/>
+    <type value="group"/>
+    <item id="MtiMteRTXvf.TQxVrPPUkxd">
+      <text value="Grade 0, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.u4iCMZeAcb2">
+      <text value="Grade 2, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.dOsnlHOnUnX">
+      <text value="Grade 1, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.AufnkBxktil">
+      <text value="Grade 1, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.Eh61oOZz3MF">
+      <text value="Grade 0, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.z1etwZZbQP3">
+      <text value="Grade 2, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.YZVK5HF1qEx">
+      <text value="Grade 0, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.OUtwDmw6FAt">
+      <text value="Grade 2, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.JeolXQyDDyb">
+      <text value="Grade 2, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.aIXlZKW2bch">
+      <text value="Grade 1, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.kInZrxFzDR9">
+      <text value="Grade 0, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="MtiMteRTXvf.hhBACX6IYVj">
+      <text value="Grade 1, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XHn6E4DttOh">
+    <text value="Leprosy cases identified during active case finding_Cas de l&#xE8;pre identifi&#xE9; lors du d&#xE9;pistage actif"/>
+    <type value="group"/>
+    <item id="XHn6E4DttOh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="doQ5I3JpuZi">
+    <text value="Leprosy MB Relapse"/>
+    <type value="group"/>
+    <item id="doQ5I3JpuZi.TQxVrPPUkxd">
+      <text value="Grade 0, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.u4iCMZeAcb2">
+      <text value="Grade 2, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.dOsnlHOnUnX">
+      <text value="Grade 1, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.AufnkBxktil">
+      <text value="Grade 1, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.Eh61oOZz3MF">
+      <text value="Grade 0, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.z1etwZZbQP3">
+      <text value="Grade 2, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.YZVK5HF1qEx">
+      <text value="Grade 0, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.OUtwDmw6FAt">
+      <text value="Grade 2, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.JeolXQyDDyb">
+      <text value="Grade 2, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.aIXlZKW2bch">
+      <text value="Grade 1, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.kInZrxFzDR9">
+      <text value="Grade 0, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="doQ5I3JpuZi.hhBACX6IYVj">
+      <text value="Grade 1, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qZnbLLJs3t0">
+    <text value="Leprosy PB Defaults"/>
+    <type value="group"/>
+    <item id="qZnbLLJs3t0.TQxVrPPUkxd">
+      <text value="Grade 0, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.u4iCMZeAcb2">
+      <text value="Grade 2, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.dOsnlHOnUnX">
+      <text value="Grade 1, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.AufnkBxktil">
+      <text value="Grade 1, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.Eh61oOZz3MF">
+      <text value="Grade 0, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.z1etwZZbQP3">
+      <text value="Grade 2, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.YZVK5HF1qEx">
+      <text value="Grade 0, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.OUtwDmw6FAt">
+      <text value="Grade 2, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.JeolXQyDDyb">
+      <text value="Grade 2, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.aIXlZKW2bch">
+      <text value="Grade 1, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.kInZrxFzDR9">
+      <text value="Grade 0, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="qZnbLLJs3t0.hhBACX6IYVj">
+      <text value="Grade 1, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="npXBSksUAW7">
+    <text value="Number of  all contacts living with confirmed leprosy case_Nbre total des contacts recens&#xE9;s  durant le trimestre evalue"/>
+    <type value="group"/>
+    <item id="npXBSksUAW7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qoS0RrKEKW0">
+    <text value="Number of leprosy cases among contacts screened_Nbre de cas de lepre parmi les contacts examines"/>
+    <type value="group"/>
+    <item id="qoS0RrKEKW0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FPHNG5VUuc1">
+    <text value="Number of leprosy patients initiated on treatment_Nbre de cas lepreux mis au traitement"/>
+    <type value="group"/>
+    <item id="FPHNG5VUuc1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gEDQxlNDOd3">
+    <text value="Leprosy PB New cases "/>
+    <type value="group"/>
+    <item id="gEDQxlNDOd3.TQxVrPPUkxd">
+      <text value="Grade 0, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.u4iCMZeAcb2">
+      <text value="Grade 2, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.dOsnlHOnUnX">
+      <text value="Grade 1, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.AufnkBxktil">
+      <text value="Grade 1, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.Eh61oOZz3MF">
+      <text value="Grade 0, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.z1etwZZbQP3">
+      <text value="Grade 2, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.YZVK5HF1qEx">
+      <text value="Grade 0, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.OUtwDmw6FAt">
+      <text value="Grade 2, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.JeolXQyDDyb">
+      <text value="Grade 2, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.aIXlZKW2bch">
+      <text value="Grade 1, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.kInZrxFzDR9">
+      <text value="Grade 0, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="gEDQxlNDOd3.hhBACX6IYVj">
+      <text value="Grade 1, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xLAjJw9uR78">
+    <text value="Leprosy MB Defaults"/>
+    <type value="group"/>
+    <item id="xLAjJw9uR78.TQxVrPPUkxd">
+      <text value="Grade 0, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.u4iCMZeAcb2">
+      <text value="Grade 2, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.dOsnlHOnUnX">
+      <text value="Grade 1, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.AufnkBxktil">
+      <text value="Grade 1, Male, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.Eh61oOZz3MF">
+      <text value="Grade 0, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.z1etwZZbQP3">
+      <text value="Grade 2, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.YZVK5HF1qEx">
+      <text value="Grade 0, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.OUtwDmw6FAt">
+      <text value="Grade 2, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.JeolXQyDDyb">
+      <text value="Grade 2, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.aIXlZKW2bch">
+      <text value="Grade 1, Female, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.kInZrxFzDR9">
+      <text value="Grade 0, Female, Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="xLAjJw9uR78.hhBACX6IYVj">
+      <text value="Grade 1, Male, 15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CfdXXoxUia4">
+    <text value="Number of persons with sensitive patches_Nbre de personnes avec des taches sensibles"/>
+    <type value="group"/>
+    <item id="CfdXXoxUia4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ksILWrfugfC">
+    <text value="Number of leprosy cases identified_Nbre de cas de lepre identifies"/>
+    <type value="group"/>
+    <item id="ksILWrfugfC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aHsd0C6WQDY">
+    <text value="Number of persons with others signs of leprosy _Nbre de personne avec d&#x2019;autres signes relativement &#xE0; la l&#xE8;pre"/>
+    <type value="group"/>
+    <item id="aHsd0C6WQDY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

@@ -1,0 +1,1479 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="zwZeLxZoWnM"/>
+  <status value="published"/>
+  <title value="DH Stock Of Tracer Drugs"/>
+  <item id="pr63PcD7Lfd">
+    <text value="Insulin Inj lente 100 UI_ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="pr63PcD7Lfd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mSpn2hJa2B2">
+    <text value="Morphine hcl tab 10mg stckEOM"/>
+    <type value="group"/>
+    <item id="mSpn2hJa2B2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="C3hBMnAkZVM">
+    <text value="Mebendazole syrup 100mg/5ml_StkEOM"/>
+    <type value="group"/>
+    <item id="C3hBMnAkZVM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QIUNmRYLyRX">
+    <text value="Ketamine vial 50mg/ml_StkDist"/>
+    <type value="group"/>
+    <item id="QIUNmRYLyRX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="I9qrn8FDhGy">
+    <text value="Doxycyclin tab 100mg_StkDist"/>
+    <type value="group"/>
+    <item id="I9qrn8FDhGy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fPncqfN9vFJ">
+    <text value="Oral Rehydration Salts packet_StkOutDays"/>
+    <type value="group"/>
+    <item id="fPncqfN9vFJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PGXfqDi5rRa">
+    <text value="Cloxacillin tab 250mg_StkDist"/>
+    <type value="group"/>
+    <item id="PGXfqDi5rRa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="m9LzBxD0il6">
+    <text value="Nifedipine tab Immediate&#x2010;release 10 mg stckQTexp"/>
+    <type value="group"/>
+    <item id="m9LzBxD0il6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sJjSbscOF1X">
+    <text value="Amoxycillin syrup 125mg/5ml_StkEOM"/>
+    <type value="group"/>
+    <item id="sJjSbscOF1X.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q3rOrPZOnQZ">
+    <text value="Metronidazole vial 500mg/ml_StkDist"/>
+    <type value="group"/>
+    <item id="q3rOrPZOnQZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LK0RV9NB0Qe">
+    <text value="Morphine 10 inj mg_ml stckQTexp"/>
+    <type value="group"/>
+    <item id="LK0RV9NB0Qe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sHYuAyjkIIp">
+    <text value="Diazepan tab 5mg_StkLoss"/>
+    <type value="group"/>
+    <item id="sHYuAyjkIIp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rj7NFK3COkp">
+    <text value="Mebendazole syrup 100mg/5ml_StkDist"/>
+    <type value="group"/>
+    <item id="rj7NFK3COkp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q25l5Avm08d">
+    <text value="Diazepan vial 5mg/ml_StkEOM"/>
+    <type value="group"/>
+    <item id="q25l5Avm08d.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sullGaQqp6m">
+    <text value="Valproic acid tab 300mg_StkLoss"/>
+    <type value="group"/>
+    <item id="sullGaQqp6m.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e9icCk9f2Ne">
+    <text value="Methyldopa1 tab 250 mg stckEOM"/>
+    <type value="group"/>
+    <item id="e9icCk9f2Ne.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vyBtfyQUcfX">
+    <text value="Insulin Inj lente 100 UI_ml_StkEOM"/>
+    <type value="group"/>
+    <item id="vyBtfyQUcfX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="coxHTHD5yNE">
+    <text value="Ketamine vial 50mg/ml_StkLoss"/>
+    <type value="group"/>
+    <item id="coxHTHD5yNE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PTY9RHwvucg">
+    <text value="Corn Soya Mix_CSM_ kilo_StkEOM"/>
+    <type value="group"/>
+    <item id="PTY9RHwvucg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L9RBuaEANPn">
+    <text value="Quinine vial 300 mgml_StkEOM"/>
+    <type value="group"/>
+    <item id="L9RBuaEANPn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BEI5XeoA2VN">
+    <text value="Lidocaine vial 2%_StkEOM"/>
+    <type value="group"/>
+    <item id="BEI5XeoA2VN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FpyhcupzhP3">
+    <text value="Iron sulfate _Folic Acid tab 200mg/0.25mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="FpyhcupzhP3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YpB0C9RhGy0">
+    <text value="Warfarin tab 1mg stckDstckout"/>
+    <type value="group"/>
+    <item id="YpB0C9RhGy0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="suhdGPNrhsj">
+    <text value="Metronidazol syrup 125mg/5ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="suhdGPNrhsj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YSbgyKu9Lyk">
+    <text value="Paracetamol tab 500mg_StkEOM"/>
+    <type value="group"/>
+    <item id="YSbgyKu9Lyk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FK3LJ1khcmP">
+    <text value="Milk therapeutic F100 bag 456 mg_StkDist"/>
+    <type value="group"/>
+    <item id="FK3LJ1khcmP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JphVxtZxvWU">
+    <text value="Iron sulfate _Folic Acid tab 200mg/0.25mg_StkLoss"/>
+    <type value="group"/>
+    <item id="JphVxtZxvWU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="W9GUYH23kai">
+    <text value="Amoxycillin syrup 125mg/5ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="W9GUYH23kai.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZMvJoWFLWWu">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x3 StkDist"/>
+    <type value="group"/>
+    <item id="ZMvJoWFLWWu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tpNjIlBd8q9">
+    <text value="Tetracycline ointment_StkDist"/>
+    <type value="group"/>
+    <item id="tpNjIlBd8q9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dqAZ4Gm61HM">
+    <text value="Milk therapeutic F75 bag 410 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="dqAZ4Gm61HM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ovauIpoalmQ">
+    <text value="Artemeter vial 20 mgml_StkOutDays"/>
+    <type value="group"/>
+    <item id="ovauIpoalmQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rCDM2T6USN9">
+    <text value="Metronidazole vial 500mg/ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="rCDM2T6USN9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GcagaNDi7WA">
+    <text value="Ampicillin vial 500mg_StkDist"/>
+    <type value="group"/>
+    <item id="GcagaNDi7WA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LrcPFMrn8YK">
+    <text value="Warfarin tab 1mg stckQTexp"/>
+    <type value="group"/>
+    <item id="LrcPFMrn8YK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c5I2PzAZ6UC">
+    <text value="Salbutamol tab 4mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="c5I2PzAZ6UC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sMj5CEa0UZE">
+    <text value="Ciprofloxacine tab 250mg_StkLoss"/>
+    <type value="group"/>
+    <item id="sMj5CEa0UZE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dkYil8003Oy">
+    <text value="Phenobarbital tab 30mg_StkLoss"/>
+    <type value="group"/>
+    <item id="dkYil8003Oy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S0qOMjRqwjW">
+    <text value="Diazepan vial 5mg/ml_StkDist"/>
+    <type value="group"/>
+    <item id="S0qOMjRqwjW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pccBOwjQ2rP">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x3 StkEOM"/>
+    <type value="group"/>
+    <item id="pccBOwjQ2rP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ffoiv0r3yZN">
+    <text value="Quinine vial 300 mgml_StkDist"/>
+    <type value="group"/>
+    <item id="Ffoiv0r3yZN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MfXlDsrATUM">
+    <text value="Ampicillin vial 500mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="MfXlDsrATUM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xez42UZ3REt">
+    <text value="Valproic acid tab 300mg_StkDist"/>
+    <type value="group"/>
+    <item id="xez42UZ3REt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yutP8EMTaQy">
+    <text value="Quinine vial 300 mgml_StkLoss"/>
+    <type value="group"/>
+    <item id="yutP8EMTaQy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vg26vrFDTK0">
+    <text value="Propanolol hydrochloride tab 40mg_StkDist"/>
+    <type value="group"/>
+    <item id="vg26vrFDTK0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LhJCtOXYmZ9">
+    <text value="Milk therapeutic F75 bag 410 mg_StkDist"/>
+    <type value="group"/>
+    <item id="LhJCtOXYmZ9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RU2yfZmQIi0">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x3 StkOutDays"/>
+    <type value="group"/>
+    <item id="RU2yfZmQIi0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Qs2agnbldmD">
+    <text value="Diazepan tab 5mg_StkEOM"/>
+    <type value="group"/>
+    <item id="Qs2agnbldmD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LJGCZlDWAlv">
+    <text value="Artemeter vial 20 mgml_StkDist"/>
+    <type value="group"/>
+    <item id="LJGCZlDWAlv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="exmAIdhsuCF">
+    <text value="Quinine tab 300 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="exmAIdhsuCF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qfMjfATFHlO">
+    <text value="Cloxacillin tab 250mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="qfMjfATFHlO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j3veRqYfbvj">
+    <text value="Plumpy nut bag 920 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="j3veRqYfbvj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JcuG4lu5z69">
+    <text value="Ocytocin vial 5ui_StkOutDays"/>
+    <type value="group"/>
+    <item id="JcuG4lu5z69.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="coKCWVE6LKd">
+    <text value="Artesunate vial 60mg/ml_StkLoss"/>
+    <type value="group"/>
+    <item id="coKCWVE6LKd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MgEAjP3p7ZP">
+    <text value="Amoxycillin syrup 125mg/5ml_StkDist"/>
+    <type value="group"/>
+    <item id="MgEAjP3p7ZP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BItd0Ie8aE0">
+    <text value="Insulin Inj Rapid 100 UI_ml_StkDist"/>
+    <type value="group"/>
+    <item id="BItd0Ie8aE0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fxiW00FbQNw">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x1 StkDist"/>
+    <type value="group"/>
+    <item id="fxiW00FbQNw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="czXt2W468Rz">
+    <text value="Tetracycline ointment_StkOutDays"/>
+    <type value="group"/>
+    <item id="czXt2W468Rz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kZqYEFZmW0D">
+    <text value="Insulin Inj lente 100 UI_ml_StkLoss"/>
+    <type value="group"/>
+    <item id="kZqYEFZmW0D.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yYQNnJEO99y">
+    <text value="Metronidazol syrup 125mg/5ml_StkEOM"/>
+    <type value="group"/>
+    <item id="yYQNnJEO99y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yuXzbsN2UEI">
+    <text value="Metronidazol syrup 125mg/5ml_StkLoss"/>
+    <type value="group"/>
+    <item id="yuXzbsN2UEI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PFfS3IAppYK">
+    <text value="Atenolol tab 25mg stckDstckout"/>
+    <type value="group"/>
+    <item id="PFfS3IAppYK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PtZsEarYuX2">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x4 StkLoss"/>
+    <type value="group"/>
+    <item id="PtZsEarYuX2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z1C0Iydq5Hf">
+    <text value="Oral Rehydration Salts packet_StkLoss"/>
+    <type value="group"/>
+    <item id="z1C0Iydq5Hf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LjmML2iEK4t">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x1 StkOutDays"/>
+    <type value="group"/>
+    <item id="LjmML2iEK4t.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IEjfa9gYPR1">
+    <text value="Quinine tab 300 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="IEjfa9gYPR1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gSJ3yqPbRLW">
+    <text value="Morphine 30 tab mg stckEOM"/>
+    <type value="group"/>
+    <item id="gSJ3yqPbRLW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uGbVD6Eh5vI">
+    <text value="Lidocaine vial 2%_StkOutDays"/>
+    <type value="group"/>
+    <item id="uGbVD6Eh5vI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uiFr8XWyiLX">
+    <text value="Insulin Inj Rapid 100 UI_ml_StkEOM"/>
+    <type value="group"/>
+    <item id="uiFr8XWyiLX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tm2hJQYoVF5">
+    <text value="Propanolol hydrochloride tab 40mg_StkLoss"/>
+    <type value="group"/>
+    <item id="tm2hJQYoVF5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EUKZvyg5MpW">
+    <text value="Diazepan tab 5mg_StkDist"/>
+    <type value="group"/>
+    <item id="EUKZvyg5MpW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="n0Mqj8uiHLr">
+    <text value="Atenolol tab 25mg stckQTdisp"/>
+    <type value="group"/>
+    <item id="n0Mqj8uiHLr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DddA51ikFuA">
+    <text value="Cloxacillin tab 250mg_StkEOM"/>
+    <type value="group"/>
+    <item id="DddA51ikFuA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aDCH7qTtkRl">
+    <text value="Iron sulfate _Folic Acid tab 200mg/0.25mg_StkEOM"/>
+    <type value="group"/>
+    <item id="aDCH7qTtkRl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rHV6UUXs0Do">
+    <text value="Mebendazole syrup 100mg/5ml_StkLoss"/>
+    <type value="group"/>
+    <item id="rHV6UUXs0Do.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OEdHA1klToq">
+    <text value="Cotrimoxazole tab 400 mg+80mg StkDist"/>
+    <type value="group"/>
+    <item id="OEdHA1klToq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o1draj1pcMs">
+    <text value="Milk therapeutic F100 bag 456 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="o1draj1pcMs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IWoE9WPSiUO">
+    <text value="Tetracycline ointment_StkLoss"/>
+    <type value="group"/>
+    <item id="IWoE9WPSiUO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IGG9FNjYK4H">
+    <text value="Insulin Inj Rapid 100 UI_ml_StkLoss"/>
+    <type value="group"/>
+    <item id="IGG9FNjYK4H.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uZYmLtrGTHN">
+    <text value="Hydrochlorothiazide Solid oral 25 mg stckEOM"/>
+    <type value="group"/>
+    <item id="uZYmLtrGTHN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b87UaMRNcVs">
+    <text value="Artesunate vial 60mg/ml_StkDist"/>
+    <type value="group"/>
+    <item id="b87UaMRNcVs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LUmtfJQ1bUg">
+    <text value="Warfarin tab 1mg stckEOM"/>
+    <type value="group"/>
+    <item id="LUmtfJQ1bUg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fhyOmpwu75E">
+    <text value="Oral Rehydration Salts packet_StkDist"/>
+    <type value="group"/>
+    <item id="fhyOmpwu75E.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VeXaGTeN5S8">
+    <text value="Quinine tab 300 mg_StkDist"/>
+    <type value="group"/>
+    <item id="VeXaGTeN5S8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="elDqAyiBP4h">
+    <text value="Valproic acid tab 300mg_StkEOM"/>
+    <type value="group"/>
+    <item id="elDqAyiBP4h.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gIuB8iLqyif">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x4 StkEOM"/>
+    <type value="group"/>
+    <item id="gIuB8iLqyif.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iJvxBimeomM">
+    <text value="Ketamine vial 50mg/ml_StkEOM"/>
+    <type value="group"/>
+    <item id="iJvxBimeomM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lSpvhziRdMf">
+    <text value="Artesunate vial 60mg/ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="lSpvhziRdMf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dHLKyyDLsxv">
+    <text value="Captopril tab 25 mg stckDstckout"/>
+    <type value="group"/>
+    <item id="dHLKyyDLsxv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TVQHQE0S1a7">
+    <text value="Metronidazol syrup 125mg/5ml_StkDist"/>
+    <type value="group"/>
+    <item id="TVQHQE0S1a7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CoajC45NOnC">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x1 StkLoss"/>
+    <type value="group"/>
+    <item id="CoajC45NOnC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HAWvAiVXB8J">
+    <text value="Diazepan vial 5mg/ml_StkLoss"/>
+    <type value="group"/>
+    <item id="HAWvAiVXB8J.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="d0oUJ9YRznQ">
+    <text value="Morphine hcl tab 10mg stckQTexp"/>
+    <type value="group"/>
+    <item id="d0oUJ9YRznQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tMKlfR8d9da">
+    <text value="Morphine 30 tab mg stckQTexp"/>
+    <type value="group"/>
+    <item id="tMKlfR8d9da.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DbXXGG9iqvK">
+    <text value="Atenolol tab 25mg stckEOM"/>
+    <type value="group"/>
+    <item id="DbXXGG9iqvK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tN27hhZzOha">
+    <text value="Hydrochlorothiazide Solid oral 25 mg stckQTdisp"/>
+    <type value="group"/>
+    <item id="tN27hhZzOha.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NtQwaAQaFyZ">
+    <text value="Corn Soya Mix_CSM_ kilo_StkDist"/>
+    <type value="group"/>
+    <item id="NtQwaAQaFyZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HayOiqJyvXG">
+    <text value="Propanolol hydrochloride tab 40mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="HayOiqJyvXG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VhWzoHcdpYW">
+    <text value="Morphine 30 tab mg stckQTdisp"/>
+    <type value="group"/>
+    <item id="VhWzoHcdpYW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="flIwCaQcOpl">
+    <text value="Morphine 30 tab mg stckDstckout"/>
+    <type value="group"/>
+    <item id="flIwCaQcOpl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ybbFRlsfaoo">
+    <text value="Quinine tab 300 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="ybbFRlsfaoo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pMXk7c2cJrw">
+    <text value="Corn Soya Mix_CSM_ kilo_StkLoss"/>
+    <type value="group"/>
+    <item id="pMXk7c2cJrw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AC6NpwEqxAC">
+    <text value="Corn Soya Mix_CSM_ kilo_StkOutDays"/>
+    <type value="group"/>
+    <item id="AC6NpwEqxAC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xtRDnnJvScx">
+    <text value="Morphine hcl tab 10mg stckDstckout"/>
+    <type value="group"/>
+    <item id="xtRDnnJvScx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c8OJn0hBSd7">
+    <text value="Ocytocin vial 5ui_StkEOM"/>
+    <type value="group"/>
+    <item id="c8OJn0hBSd7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eTIVDRIXk5G">
+    <text value="Ocytocin vial 5ui_StkLoss"/>
+    <type value="group"/>
+    <item id="eTIVDRIXk5G.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ehDU5vpcqQq">
+    <text value="Morphine 10 inj mg_ml stckQTdisp"/>
+    <type value="group"/>
+    <item id="ehDU5vpcqQq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Mc0XkvWqWnm">
+    <text value="Methyldopa1 tab 250 mg stckQTdisp"/>
+    <type value="group"/>
+    <item id="Mc0XkvWqWnm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IvFdKAzLw5M">
+    <text value="Lidocaine vial 2%_StkDist"/>
+    <type value="group"/>
+    <item id="IvFdKAzLw5M.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vczxSYG6G9T">
+    <text value="Captopril tab 25 mg stckEOM"/>
+    <type value="group"/>
+    <item id="vczxSYG6G9T.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="okrLZQ3f7Rd">
+    <text value="Oral Rehydration Salts packet_StkEOM"/>
+    <type value="group"/>
+    <item id="okrLZQ3f7Rd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J1WVn19pZQE">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x2 StkOutDays"/>
+    <type value="group"/>
+    <item id="J1WVn19pZQE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tpZAkLxQsDQ">
+    <text value="Atenolol tab 25mg stckQTexp"/>
+    <type value="group"/>
+    <item id="tpZAkLxQsDQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PjR4AV4mDI3">
+    <text value="Morphine 10 inj mg_ml stckDstckout"/>
+    <type value="group"/>
+    <item id="PjR4AV4mDI3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bIS1ZPbS7IQ">
+    <text value="Captopril tab 25 mg stckQTexp"/>
+    <type value="group"/>
+    <item id="bIS1ZPbS7IQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KlKEvi4hqkY">
+    <text value="Morphine hcl tab 10mg stckQTdisp"/>
+    <type value="group"/>
+    <item id="KlKEvi4hqkY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EO51Fvcy3Kq">
+    <text value="Iron sulfate _Folic Acid tab 200mg/0.25mg_StkDist"/>
+    <type value="group"/>
+    <item id="EO51Fvcy3Kq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gehIKckAe7O">
+    <text value="Doxycyclin tab 100mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="gehIKckAe7O.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="N3ScCH97Rt1">
+    <text value="Lidocaine vial 2%_StkLoss"/>
+    <type value="group"/>
+    <item id="N3ScCH97Rt1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZoZi1d6dIUE">
+    <text value="Phenobarbital tab 30mg_StkEOM"/>
+    <type value="group"/>
+    <item id="ZoZi1d6dIUE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZdVAagc3OZr">
+    <text value="Nifedipine tab Immediate&#x2010;release 10 mg stckQTdisp"/>
+    <type value="group"/>
+    <item id="ZdVAagc3OZr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="F87Y9KouqOW">
+    <text value="Propanolol hydrochloride tab 40mg_StkEOM"/>
+    <type value="group"/>
+    <item id="F87Y9KouqOW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jJVPzUf5NWE">
+    <text value="Artesunate vial 60mg/ml_StkEOM"/>
+    <type value="group"/>
+    <item id="jJVPzUf5NWE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BvWmJF91L7M">
+    <text value="Gentamycin vial 40mg/ml_StkLoss"/>
+    <type value="group"/>
+    <item id="BvWmJF91L7M.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FEo62Ia6pG5">
+    <text value="Plumpy nut bag 920 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="FEo62Ia6pG5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eoXcyW9JQdc">
+    <text value="Ciprofloxacine tab 250mg_StkEOM"/>
+    <type value="group"/>
+    <item id="eoXcyW9JQdc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XOye8Z1eQ5w">
+    <text value="Plumpy nut bag 920 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="XOye8Z1eQ5w.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TUX16CvEHg1">
+    <text value="Cloxacillin tab 250mg_StkLoss"/>
+    <type value="group"/>
+    <item id="TUX16CvEHg1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TieQZ3kQYk4">
+    <text value="Nifedipine tab Immediate&#x2010;release 10 mg stckDstckout"/>
+    <type value="group"/>
+    <item id="TieQZ3kQYk4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WIns3WhhNhE">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x4 StkDist"/>
+    <type value="group"/>
+    <item id="WIns3WhhNhE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jtrWS8M2zbY">
+    <text value="Warfarin tab 1mg stckQTdisp"/>
+    <type value="group"/>
+    <item id="jtrWS8M2zbY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p8Ro1bXyrcH">
+    <text value="Doxycyclin tab 100mg_StkLoss"/>
+    <type value="group"/>
+    <item id="p8Ro1bXyrcH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FDjBGj2N1u7">
+    <text value="Paracetamol tab 500mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="FDjBGj2N1u7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nkZufgixyx0">
+    <text value="Insulin Inj Rapid 100 UI_ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="nkZufgixyx0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SNDgo51xlyZ">
+    <text value="Gentamycin vial 40mg/ml_StkEOM"/>
+    <type value="group"/>
+    <item id="SNDgo51xlyZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vW82uScYVWZ">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x2 StkDist"/>
+    <type value="group"/>
+    <item id="vW82uScYVWZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zzQeTaJAgTq">
+    <text value="Valproic acid tab 300mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="zzQeTaJAgTq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Eb2mzhNmaym">
+    <text value="Metronidazole vial 500mg/ml_StkLoss"/>
+    <type value="group"/>
+    <item id="Eb2mzhNmaym.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GrOptpvcGRi">
+    <text value="Cotrimoxazole tab 400 mg+80mg StkLoss"/>
+    <type value="group"/>
+    <item id="GrOptpvcGRi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fPygxZVJ7ZM">
+    <text value="Hydrochlorothiazide Solid oral 25 mg stckDstckout"/>
+    <type value="group"/>
+    <item id="fPygxZVJ7ZM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UGtqoInDzym">
+    <text value="Milk therapeutic F100 bag 456 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="UGtqoInDzym.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HC64a4JIPjj">
+    <text value="Diazepan vial 5mg/ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="HC64a4JIPjj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w1YRmOLLTvW">
+    <text value="Salbutamol tab 4mg_StkDist"/>
+    <type value="group"/>
+    <item id="w1YRmOLLTvW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xWtuS4M2JtT">
+    <text value="Cotrimoxazole tab 400 mg+80mg StkEOM"/>
+    <type value="group"/>
+    <item id="xWtuS4M2JtT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="R13jIoQYNAP">
+    <text value="Cotrimoxazole tab 400 mg+80mg StkOutDays"/>
+    <type value="group"/>
+    <item id="R13jIoQYNAP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jk2EmJ3sDGK">
+    <text value="Milk therapeutic F75 bag 410 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="jk2EmJ3sDGK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="maGLLRDktsW">
+    <text value="Insulin Inj lente 100 UI_ml_StkDist"/>
+    <type value="group"/>
+    <item id="maGLLRDktsW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NKloSLWVuoL">
+    <text value="Ciprofloxacine tab 250mg_StkDist"/>
+    <type value="group"/>
+    <item id="NKloSLWVuoL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZF5cpmZr40I">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x4 StkOutDays"/>
+    <type value="group"/>
+    <item id="ZF5cpmZr40I.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nItOZnJSZU6">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x3 StkLoss"/>
+    <type value="group"/>
+    <item id="nItOZnJSZU6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="A0eBJ2tWR7e">
+    <text value="Paracetamol tab 500mg_StkDist"/>
+    <type value="group"/>
+    <item id="A0eBJ2tWR7e.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jFxPmJ2i9vV">
+    <text value="Phenobarbital tab 30mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="jFxPmJ2i9vV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ujP53fJdUIM">
+    <text value="Gentamycin vial 40mg/ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="ujP53fJdUIM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ci8VeGEvSz8">
+    <text value="Ampicillin vial 500mg_StkLoss"/>
+    <type value="group"/>
+    <item id="ci8VeGEvSz8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="C69XYKwVZ03">
+    <text value="Captopril tab 25 mg stckQTdisp"/>
+    <type value="group"/>
+    <item id="C69XYKwVZ03.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="amrpI4Gc28c">
+    <text value="Ketamine vial 50mg/ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="amrpI4Gc28c.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BRdfoxGwaVj">
+    <text value="Gentamycin vial 40mg/ml_StkDist"/>
+    <type value="group"/>
+    <item id="BRdfoxGwaVj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hqrIv6xsOpu">
+    <text value="Doxycyclin tab 100mg_StkEOM"/>
+    <type value="group"/>
+    <item id="hqrIv6xsOpu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IKn9YuzY6bR">
+    <text value="Artemeter vial 20 mgml_StkEOM"/>
+    <type value="group"/>
+    <item id="IKn9YuzY6bR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PAV7jXO9xX3">
+    <text value="Diazepan tab 5mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="PAV7jXO9xX3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sviwx77bbEV">
+    <text value="Quinine vial 300 mgml_StkOutDays"/>
+    <type value="group"/>
+    <item id="sviwx77bbEV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JKW5zsJgDfg">
+    <text value="Phenobarbital tab 30mg_StkDist"/>
+    <type value="group"/>
+    <item id="JKW5zsJgDfg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sFjCHz1OhMl">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x1 StkEOM"/>
+    <type value="group"/>
+    <item id="sFjCHz1OhMl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QFQWixo11SW">
+    <text value="Methyldopa1 tab 250 mg stckQTexp"/>
+    <type value="group"/>
+    <item id="QFQWixo11SW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zfr7q24hXkb">
+    <text value="Ciprofloxacine tab 250mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="zfr7q24hXkb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j9PrvQkYYXK">
+    <text value="Ocytocin vial 5ui_StkDist"/>
+    <type value="group"/>
+    <item id="j9PrvQkYYXK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qYnTgFSd1xg">
+    <text value="Methyldopa1 tab 250 mg stckDstckout"/>
+    <type value="group"/>
+    <item id="qYnTgFSd1xg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EgP1c7TlluZ">
+    <text value="Milk therapeutic F100 bag 456 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="EgP1c7TlluZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UZySHUndhxu">
+    <text value="Mebendazole syrup 100mg/5ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="UZySHUndhxu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kh8NdM48EbY">
+    <text value="Ampicillin vial 500mg_StkEOM"/>
+    <type value="group"/>
+    <item id="kh8NdM48EbY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IQ0iXfgQwnw">
+    <text value="Amoxycillin syrup 125mg/5ml_StkLoss"/>
+    <type value="group"/>
+    <item id="IQ0iXfgQwnw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="F0Vf0oPhWjt">
+    <text value="Plumpy nut bag 920 mg_StkDist"/>
+    <type value="group"/>
+    <item id="F0Vf0oPhWjt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EYkU7JJwj7T">
+    <text value="Tetracycline ointment_StkEOM"/>
+    <type value="group"/>
+    <item id="EYkU7JJwj7T.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WLrOjWeLcl2">
+    <text value="Salbutamol tab 4mg_StkEOM"/>
+    <type value="group"/>
+    <item id="WLrOjWeLcl2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="u7HfmZcXrCo">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x2 StkEOM"/>
+    <type value="group"/>
+    <item id="u7HfmZcXrCo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dHdCtLWnZkr">
+    <text value="Metronidazole vial 500mg/ml_StkEOM"/>
+    <type value="group"/>
+    <item id="dHdCtLWnZkr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VwgVTqzS6Vc">
+    <text value="Paracetamol tab 500mg_StkLoss"/>
+    <type value="group"/>
+    <item id="VwgVTqzS6Vc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TeNsafwfHSf">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x2 StkLoss"/>
+    <type value="group"/>
+    <item id="TeNsafwfHSf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j6icyHCKrE5">
+    <text value="Nifedipine tab Immediate&#x2010;release 10 mg stckEOM"/>
+    <type value="group"/>
+    <item id="j6icyHCKrE5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oLgsuJaLubz">
+    <text value="Artemeter vial 20 mgml_StkLoss"/>
+    <type value="group"/>
+    <item id="oLgsuJaLubz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b5vUWrStI9M">
+    <text value="Milk therapeutic F75 bag 410 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="b5vUWrStI9M.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ScDhrChyTrv">
+    <text value="Hydrochlorothiazide Solid oral 25 mg stckQTexp"/>
+    <type value="group"/>
+    <item id="ScDhrChyTrv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ULrzb3WvRja">
+    <text value="Salbutamol tab 4mg_StkLoss"/>
+    <type value="group"/>
+    <item id="ULrzb3WvRja.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q6PHe3dmrCm">
+    <text value="Morphine 10 inj mg_ml stckEOM"/>
+    <type value="group"/>
+    <item id="q6PHe3dmrCm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

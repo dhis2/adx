@@ -1,0 +1,1215 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="QJFJI6MqI2n"/>
+  <status value="published"/>
+  <title value="Mental Health_Laboratory"/>
+  <item id="yd06DBJWqfK">
+    <text value="LabBacteriology_Urethral swab_Gram_Total"/>
+    <type value="group"/>
+    <item id="yd06DBJWqfK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ze504QkmLVw">
+    <text value="MH_Total and free T4 Lab"/>
+    <type value="group"/>
+    <item id="Ze504QkmLVw.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ze504QkmLVw.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pBB4I0SE4g9">
+    <text value="MH_Alchool screening test_negative"/>
+    <type value="group"/>
+    <item id="pBB4I0SE4g9.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="pBB4I0SE4g9.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eauKqg8IvWP">
+    <text value="MH_Carbamazepine Lab"/>
+    <type value="group"/>
+    <item id="eauKqg8IvWP.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="eauKqg8IvWP.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cv7QNYSfSm8">
+    <text value="LabUrine_Albumin_Total"/>
+    <type value="group"/>
+    <item id="cv7QNYSfSm8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="biolB0qicCk">
+    <text value="MH_Labtest Alpha fetoprotein_Tot"/>
+    <type value="group"/>
+    <item id="biolB0qicCk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Tdx8t9mj4En">
+    <text value="MH_Tetrahydrocannabis Lab"/>
+    <type value="group"/>
+    <item id="Tdx8t9mj4En.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="Tdx8t9mj4En.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qz4EZbU4mvC">
+    <text value="LabUrine_Pregnancy test"/>
+    <type value="group"/>
+    <item id="qz4EZbU4mvC.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="qz4EZbU4mvC.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KvkkfnyXO9U">
+    <text value="LabBloodSmears_Micro-filaria"/>
+    <type value="group"/>
+    <item id="KvkkfnyXO9U.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="KvkkfnyXO9U.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lrJqDtapCSc">
+    <text value="MH_Amphetamin_total"/>
+    <type value="group"/>
+    <item id="lrJqDtapCSc.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="lrJqDtapCSc.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="r2cenwZztPJ">
+    <text value="LabBacteriology_Vaginal swab_Diploccocus Gram_Total"/>
+    <type value="group"/>
+    <item id="r2cenwZztPJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="g2sE0JIpktd">
+    <text value="LabBacteriology_Urethral swab Fresh_Total"/>
+    <type value="group"/>
+    <item id="g2sE0JIpktd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o1dKWKfbPba">
+    <text value="MH_Benzoylecgonine Lab"/>
+    <type value="group"/>
+    <item id="o1dKWKfbPba.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="o1dKWKfbPba.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ejo6dcAv0X9">
+    <text value="MH_Labtest Prostate-specific antigen"/>
+    <type value="group"/>
+    <item id="Ejo6dcAv0X9.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ejo6dcAv0X9.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UdErvTYWzbJ">
+    <text value="MH_Rheumatoid Factor Lab"/>
+    <type value="group"/>
+    <item id="UdErvTYWzbJ.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="UdErvTYWzbJ.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AIwScXIpZ0s">
+    <text value="LabBacteriology_Vaginal swab Fresh"/>
+    <type value="group"/>
+    <item id="AIwScXIpZ0s.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="AIwScXIpZ0s.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dKRpKJNVb1R">
+    <text value="Lab_Rapid Diagnostic Tests for Malaria"/>
+    <type value="group"/>
+    <item id="dKRpKJNVb1R.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="dKRpKJNVb1R.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BM4sHhrQdw1">
+    <text value="MH_LabBlood_Urea_Tot"/>
+    <type value="group"/>
+    <item id="BM4sHhrQdw1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ASSbq3HMGY0">
+    <text value="LabBlood_Blood glucose_glycemie"/>
+    <type value="group"/>
+    <item id="ASSbq3HMGY0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="r1TiuVQkqTh">
+    <text value="MH_phenytoine_negative"/>
+    <type value="group"/>
+    <item id="r1TiuVQkqTh.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="r1TiuVQkqTh.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ijkh1sp8uer">
+    <text value="MH_Potentiel evoqu&#xE9;s_Medical Imagery"/>
+    <type value="group"/>
+    <item id="Ijkh1sp8uer.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ULYwjSgiDOo">
+    <text value="MH_Toxoplasmosis screening IgG &amp; IgM Lab_Tot"/>
+    <type value="group"/>
+    <item id="ULYwjSgiDOo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YRuwXBSGnpz">
+    <text value="LabStools_Giardia"/>
+    <type value="group"/>
+    <item id="YRuwXBSGnpz.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="YRuwXBSGnpz.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bXEONV8KXCm">
+    <text value="MH_Creactive Proteine (CRP) Lab"/>
+    <type value="group"/>
+    <item id="bXEONV8KXCm.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="bXEONV8KXCm.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cAm8ULIABOk">
+    <text value="LabStools_Entamoeba histolytica"/>
+    <type value="group"/>
+    <item id="cAm8ULIABOk.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="cAm8ULIABOk.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dGj56SGnCnI">
+    <text value="LabBloodSmears_Plasmodium"/>
+    <type value="group"/>
+    <item id="dGj56SGnCnI.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="dGj56SGnCnI.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VukaapVo0hA">
+    <text value="MH_Carbamazepine Lab_Tot"/>
+    <type value="group"/>
+    <item id="VukaapVo0hA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hJM8TFNtq0R">
+    <text value="LabBacteriology_Vaginal swab Gram_Total"/>
+    <type value="group"/>
+    <item id="hJM8TFNtq0R.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o6RaWn2HUQ9">
+    <text value="LabBlood_Pregnancy test"/>
+    <type value="group"/>
+    <item id="o6RaWn2HUQ9.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="o6RaWn2HUQ9.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YOuCc5NQqYe">
+    <text value="MH_Anti-streptolysin O Lab"/>
+    <type value="group"/>
+    <item id="YOuCc5NQqYe.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="YOuCc5NQqYe.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aJs8CLo9zce">
+    <text value="Lab_Stools_number of samples analyzed"/>
+    <type value="group"/>
+    <item id="aJs8CLo9zce.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="aJs8CLo9zce.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eKG2bHY6kyW">
+    <text value="MH_Amphetamin_positive"/>
+    <type value="group"/>
+    <item id="eKG2bHY6kyW.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="eKG2bHY6kyW.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mkSRXV02tFJ">
+    <text value="LabBlood_Full Blood Count_FBC_NFS"/>
+    <type value="group"/>
+    <item id="mkSRXV02tFJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Cs5QEvATzYq">
+    <text value="MH_Human chorionic gonadotropin Lab_Total"/>
+    <type value="group"/>
+    <item id="Cs5QEvATzYq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LZLk0u6Ok5n">
+    <text value="MH_Human chorionic gonadotropin Lab"/>
+    <type value="group"/>
+    <item id="LZLk0u6Ok5n.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="LZLk0u6Ok5n.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zi7mHBsnCYG">
+    <text value="MH_Total and free T3 Lab_Total"/>
+    <type value="group"/>
+    <item id="zi7mHBsnCYG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FNX9me6QYlF">
+    <text value="MH_Buprenotphine- beta3-Gluculonide Lab"/>
+    <type value="group"/>
+    <item id="FNX9me6QYlF.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="FNX9me6QYlF.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NWxqiZdL6ZY">
+    <text value="MH_Follicle stimulating hormone Lab"/>
+    <type value="group"/>
+    <item id="NWxqiZdL6ZY.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="NWxqiZdL6ZY.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kq5iPZjuVw4">
+    <text value="MH_Thyroid stimulating hormone Lab"/>
+    <type value="group"/>
+    <item id="kq5iPZjuVw4.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="kq5iPZjuVw4.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DpYJ6poRQ7J">
+    <text value="MH_Valprioc acid Lab_Tot"/>
+    <type value="group"/>
+    <item id="DpYJ6poRQ7J.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TRuAndTDhEw">
+    <text value="MH_Alchool screening test_Total"/>
+    <type value="group"/>
+    <item id="TRuAndTDhEw.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="TRuAndTDhEw.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="edhjxHOKP3F">
+    <text value="LabOtherLiquids_Cerebro Spinal flui_total"/>
+    <type value="group"/>
+    <item id="edhjxHOKP3F.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="edhjxHOKP3F.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UFSRT5og69p">
+    <text value="LabStools_Trichuris"/>
+    <type value="group"/>
+    <item id="UFSRT5og69p.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="UFSRT5og69p.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DyFX7hYdaZ7">
+    <text value="LabStools_Ascariasis"/>
+    <type value="group"/>
+    <item id="DyFX7hYdaZ7.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="DyFX7hYdaZ7.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bFJKkpQtoNS">
+    <text value="MH_Labtest Alpha fetoprotein"/>
+    <type value="group"/>
+    <item id="bFJKkpQtoNS.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="bFJKkpQtoNS.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sVeQGmQoFBu">
+    <text value="LabBlood_RPR&#xA0;"/>
+    <type value="group"/>
+    <item id="sVeQGmQoFBu.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="sVeQGmQoFBu.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zfzWLa86JnL">
+    <text value="MH_Other medical imagery_Medical Imagery"/>
+    <type value="group"/>
+    <item id="zfzWLa86JnL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="m7cbdhQ8lGQ">
+    <text value="MH_Labtest B12 Vitamins_Tot"/>
+    <type value="group"/>
+    <item id="m7cbdhQ8lGQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="my3uyVdomdn">
+    <text value="Rapid Diagnostic Tests for Malaria_Labo_Total"/>
+    <type value="group"/>
+    <item id="my3uyVdomdn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iuQlGDTNjgl">
+    <text value="MH_phenytoine_total"/>
+    <type value="group"/>
+    <item id="iuQlGDTNjgl.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="iuQlGDTNjgl.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TbZ8EQqQ5RX">
+    <text value="MH_EMG_Medical Imagery"/>
+    <type value="group"/>
+    <item id="TbZ8EQqQ5RX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qJzXPo4AUbE">
+    <text value="LabBloodSmears_Borellia"/>
+    <type value="group"/>
+    <item id="qJzXPo4AUbE.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="qJzXPo4AUbE.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YN2V2ITFxNT">
+    <text value="Blood Smears_labo_Total"/>
+    <type value="group"/>
+    <item id="YN2V2ITFxNT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fk6e9OwaNIp">
+    <text value="LabUrine_Pregnancy test_Total"/>
+    <type value="group"/>
+    <item id="fk6e9OwaNIp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ejR7WhrcV1U">
+    <text value="MH_Hepatitis  B Screening Lab_Tot"/>
+    <type value="group"/>
+    <item id="ejR7WhrcV1U.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hgqYxfbRm3s">
+    <text value="MH_Total and free T4 Lab_Total"/>
+    <type value="group"/>
+    <item id="hgqYxfbRm3s.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EWgN5w47ipa">
+    <text value="LabBlood_Pregnancy test_Total"/>
+    <type value="group"/>
+    <item id="EWgN5w47ipa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="B0OsFgKVnv4">
+    <text value="MH_phenytoine_positive"/>
+    <type value="group"/>
+    <item id="B0OsFgKVnv4.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="B0OsFgKVnv4.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DjuxD7rigHj">
+    <text value="LabStools_Other parasites"/>
+    <type value="group"/>
+    <item id="DjuxD7rigHj.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="DjuxD7rigHj.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mf57zt8Zpgr">
+    <text value="LabBlood_HIV final result"/>
+    <type value="group"/>
+    <item id="mf57zt8Zpgr.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="mf57zt8Zpgr.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EP5i60qLUvq">
+    <text value="LabBacteriology_Urethral swab_Gram"/>
+    <type value="group"/>
+    <item id="EP5i60qLUvq.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="EP5i60qLUvq.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vzpd2M35yKO">
+    <text value="MH_Buprenotphine- beta3-Gluculonide Lab_Tot"/>
+    <type value="group"/>
+    <item id="vzpd2M35yKO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BsxnIT2viOX">
+    <text value="MH_Toxoplasmosis screening IgG &amp; IgM Lab"/>
+    <type value="group"/>
+    <item id="BsxnIT2viOX.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="BsxnIT2viOX.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UkBoT3Ab1Yd">
+    <text value="LabBloodSmears_Trypanosoma"/>
+    <type value="group"/>
+    <item id="UkBoT3Ab1Yd.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="UkBoT3Ab1Yd.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NMJOaJkJg1A">
+    <text value="LabBlood_Creatinine"/>
+    <type value="group"/>
+    <item id="NMJOaJkJg1A.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UWdEnqYGDwC">
+    <text value="Lab_Urine_Total"/>
+    <type value="group"/>
+    <item id="UWdEnqYGDwC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="X4lungW3KYc">
+    <text value="MH_Hepatitis  C Screening Lab_Tot"/>
+    <type value="group"/>
+    <item id="X4lungW3KYc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wPT227koSq9">
+    <text value="LabBlood_RPR_Total"/>
+    <type value="group"/>
+    <item id="wPT227koSq9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Y2enIhapJdR">
+    <text value="MH_Phenebarbital Lab_Tot"/>
+    <type value="group"/>
+    <item id="Y2enIhapJdR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vGVMUv5AuSW">
+    <text value="MH_Alchool screening test_positive"/>
+    <type value="group"/>
+    <item id="vGVMUv5AuSW.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="vGVMUv5AuSW.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RbZsq9GYXvm">
+    <text value="LabBlood_ESR_VS&#xA0;"/>
+    <type value="group"/>
+    <item id="RbZsq9GYXvm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ea6E2SI29Zt">
+    <text value="LabBacteriology_Urethral swab Gram Of which diploccocus gram (-)"/>
+    <type value="group"/>
+    <item id="Ea6E2SI29Zt.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ea6E2SI29Zt.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FRu5Fceqxuz">
+    <text value="LabStools_Schistosoma"/>
+    <type value="group"/>
+    <item id="FRu5Fceqxuz.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="FRu5Fceqxuz.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cVMX64GUv1H">
+    <text value="LabStools_Entamoeba coli"/>
+    <type value="group"/>
+    <item id="cVMX64GUv1H.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="cVMX64GUv1H.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="f0AC4b8GEKI">
+    <text value="MH_Amphetamin_negative"/>
+    <type value="group"/>
+    <item id="f0AC4b8GEKI.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="f0AC4b8GEKI.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WJE7lOOlfEP">
+    <text value="LabBlood_ALAT_GPT"/>
+    <type value="group"/>
+    <item id="WJE7lOOlfEP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OAtkSOcV9eb">
+    <text value="MH_AST(GOT) Lab"/>
+    <type value="group"/>
+    <item id="OAtkSOcV9eb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fcmJMAbXoIS">
+    <text value="MH_Thyroid stimulating hormone Lab_Total"/>
+    <type value="group"/>
+    <item id="fcmJMAbXoIS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ul2Z0TAbBL6">
+    <text value="MH_Tetrahydrocannabis Lab_Tot"/>
+    <type value="group"/>
+    <item id="ul2Z0TAbBL6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SLgV7kWALn7">
+    <text value="LabBacteriology_Urethral swab_Diploccocus gram_Total"/>
+    <type value="group"/>
+    <item id="SLgV7kWALn7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pQIQRrj58Ga">
+    <text value="LabBlood_Amylase"/>
+    <type value="group"/>
+    <item id="pQIQRrj58Ga.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RRaTlwwFQnC">
+    <text value="Lab_tests_other"/>
+    <type value="group"/>
+    <item id="RRaTlwwFQnC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cWdAZ8eJ8RH">
+    <text value="MH_Valprioc acid Lab"/>
+    <type value="group"/>
+    <item id="cWdAZ8eJ8RH.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="cWdAZ8eJ8RH.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aYFFtJBDFex">
+    <text value="MH_Follicle stimulating hormone Lab_Total"/>
+    <type value="group"/>
+    <item id="aYFFtJBDFex.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="idXl7BRhjkS">
+    <text value="MH_Labtest S-100 (Brain damage)_Tot"/>
+    <type value="group"/>
+    <item id="idXl7BRhjkS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HiwCjMe0mR6">
+    <text value="LabBlood_CD4"/>
+    <type value="group"/>
+    <item id="HiwCjMe0mR6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P1n5nQxJchC">
+    <text value="MH_Phenebarbital Lab"/>
+    <type value="group"/>
+    <item id="P1n5nQxJchC.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="P1n5nQxJchC.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="enBTXtDXJkk">
+    <text value="Lab_Urine"/>
+    <type value="group"/>
+    <item id="enBTXtDXJkk.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="enBTXtDXJkk.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mf5rqAepZEF">
+    <text value="MH_Creactive Proteine (CRP) Lab_Tot"/>
+    <type value="group"/>
+    <item id="mf5rqAepZEF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mqCd40jMnlW">
+    <text value="MH_Oxazepam Lab_Tot"/>
+    <type value="group"/>
+    <item id="mqCd40jMnlW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rrTz0tdAXLn">
+    <text value="LabBacteriology_Vaginal swab_Gram Of which diplococcus gram (-)"/>
+    <type value="group"/>
+    <item id="rrTz0tdAXLn.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="rrTz0tdAXLn.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SKWP1Vunxif">
+    <text value="MH_Rheumatoid Factor Lab_Tot"/>
+    <type value="group"/>
+    <item id="SKWP1Vunxif.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XuP28WxTGvQ">
+    <text value="MH_ECG_Medical Imagery"/>
+    <type value="group"/>
+    <item id="XuP28WxTGvQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wKWF0I7JWJg">
+    <text value="Lab_Blood Smears_Negative"/>
+    <type value="group"/>
+    <item id="wKWF0I7JWJg.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="wKWF0I7JWJg.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="g9DycTFvQ1x">
+    <text value="MH_Total and free T3 Lab"/>
+    <type value="group"/>
+    <item id="g9DycTFvQ1x.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="g9DycTFvQ1x.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tIzq1Myj1CP">
+    <text value="MH_Hepatitis  C Screening Lab"/>
+    <type value="group"/>
+    <item id="tIzq1Myj1CP.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="tIzq1Myj1CP.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="l6p3gB6OLiz">
+    <text value="MH_EEG_Medical Imagery"/>
+    <type value="group"/>
+    <item id="l6p3gB6OLiz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="K3uM4zTQbxF">
+    <text value="LabUrine_Sugar"/>
+    <type value="group"/>
+    <item id="K3uM4zTQbxF.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="K3uM4zTQbxF.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UXu6XDeVVDj">
+    <text value="MH_Oxazepam Lab"/>
+    <type value="group"/>
+    <item id="UXu6XDeVVDj.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="UXu6XDeVVDj.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aJBbhcmklAa">
+    <text value="LabOtherLiquids_Cerebro Spinal flui_negative"/>
+    <type value="group"/>
+    <item id="aJBbhcmklAa.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="aJBbhcmklAa.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Gt48Nt0zUFK">
+    <text value="MH_Hepatitis  B Screening Lab"/>
+    <type value="group"/>
+    <item id="Gt48Nt0zUFK.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gt48Nt0zUFK.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DfyvbxycjOy">
+    <text value="LabBacteriology_Urethral swab Fresh"/>
+    <type value="group"/>
+    <item id="DfyvbxycjOy.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="DfyvbxycjOy.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="T6YII5MJ5IP">
+    <text value="MH_Benzoylecgonine Lab_Tot"/>
+    <type value="group"/>
+    <item id="T6YII5MJ5IP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NEOCGBXqT2F">
+    <text value="LabStools_Taenia"/>
+    <type value="group"/>
+    <item id="NEOCGBXqT2F.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="NEOCGBXqT2F.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cMBBJhdmh0P">
+    <text value="LabStools_Ankylostomiasis_hookworms"/>
+    <type value="group"/>
+    <item id="cMBBJhdmh0P.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="cMBBJhdmh0P.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XZHuyibAmdc">
+    <text value="LabBacteriology_Vaginal swab_Gram"/>
+    <type value="group"/>
+    <item id="XZHuyibAmdc.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="XZHuyibAmdc.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LCkX4TwPHlb">
+    <text value="MH_Labtest B12 Vitamins"/>
+    <type value="group"/>
+    <item id="LCkX4TwPHlb.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="LCkX4TwPHlb.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DfGc79rVHbA">
+    <text value="LabUrine_Sugar_Total"/>
+    <type value="group"/>
+    <item id="DfGc79rVHbA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zHPNQAG1Ysk">
+    <text value="Stools_number of samples analyzed_Labo_Total"/>
+    <type value="group"/>
+    <item id="zHPNQAG1Ysk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aCNvQZImSbn">
+    <text value="MH_Lithium Lab"/>
+    <type value="group"/>
+    <item id="aCNvQZImSbn.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="aCNvQZImSbn.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OsFYWgcA0r8">
+    <text value="LabBacteriology_Vaginal swab Fresh_Total"/>
+    <type value="group"/>
+    <item id="OsFYWgcA0r8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SNHhRabQAYw">
+    <text value="MH_Labtest S-100 (Brain damage)"/>
+    <type value="group"/>
+    <item id="SNHhRabQAYw.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="SNHhRabQAYw.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gn4TGQVoNhs">
+    <text value="MH_Anti-streptolysin O Lab_Tot"/>
+    <type value="group"/>
+    <item id="gn4TGQVoNhs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Qzd0tY4aFV4">
+    <text value="MH_Lithium Lab_Tot"/>
+    <type value="group"/>
+    <item id="Qzd0tY4aFV4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nFaGLRQBGjk">
+    <text value="LabBlood_HIV final result_Total"/>
+    <type value="group"/>
+    <item id="nFaGLRQBGjk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="E75Lz4QGjEE">
+    <text value="LabUrine_Albumin"/>
+    <type value="group"/>
+    <item id="E75Lz4QGjEE.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="E75Lz4QGjEE.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="W7GxcrsynYn">
+    <text value="LabOtherLiquids_Cerebro Spinal flui_positive"/>
+    <type value="group"/>
+    <item id="W7GxcrsynYn.DjH2G9hAwTx">
+      <text value="Positive"/>
+      <type value="integer"/>
+    </item>
+    <item id="W7GxcrsynYn.UcvynyjWX9K">
+      <text value="Negative"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rLjc3MOvpa7">
+    <text value="LabBlood_Hemoglobin"/>
+    <type value="group"/>
+    <item id="rLjc3MOvpa7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qeZBMfeLk6N">
+    <text value="MH_Labtest Prostate-specific antigen_Tot"/>
+    <type value="group"/>
+    <item id="qeZBMfeLk6N.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

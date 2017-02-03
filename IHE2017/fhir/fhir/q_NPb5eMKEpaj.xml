@@ -1,0 +1,4007 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="NPb5eMKEpaj"/>
+  <status value="published"/>
+  <title value="Annual Report Infrastructure"/>
+  <item id="GArQ6YSnyLb">
+    <text value="Piped water supply in facility_AR"/>
+    <type value="group"/>
+    <item id="GArQ6YSnyLb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="eRVShy1aXyD">
+    <text value="Refrigerator_AR"/>
+    <type value="group"/>
+    <item id="eRVShy1aXyD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="I97ufPzu2YQ">
+    <text value="Incinerator 1-chamber drum/brick_AR"/>
+    <type value="group"/>
+    <item id="I97ufPzu2YQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hjbUFpYtQLz">
+    <text value="bicycles_AR"/>
+    <type value="group"/>
+    <item id="hjbUFpYtQLz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iq7YzssalQu">
+    <text value="Laboratory_AR"/>
+    <type value="group"/>
+    <item id="iq7YzssalQu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ymfQLJ9tPem">
+    <text value="Circumcision_AR"/>
+    <type value="group"/>
+    <item id="ymfQLJ9tPem.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="rAGRSeh9SI7">
+    <text value="Behavior Change Communication_Health Education_AR"/>
+    <type value="group"/>
+    <item id="rAGRSeh9SI7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="sSEZpNVIo8H">
+    <text value="Oxygen cylinders_AR"/>
+    <type value="group"/>
+    <item id="sSEZpNVIo8H.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e3OzzqkZZYg">
+    <text value="Waste pits covered_AR"/>
+    <type value="group"/>
+    <item id="e3OzzqkZZYg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VnvQnzX4x9J">
+    <text value="Catchment area population_AR"/>
+    <type value="group"/>
+    <item id="VnvQnzX4x9J.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jhTczSgCtPp">
+    <text value="Days per week the facility is open_AR"/>
+    <type value="group"/>
+    <item id="jhTczSgCtPp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RcNH3YfCl1x">
+    <text value="Composting toilet_AR"/>
+    <type value="group"/>
+    <item id="RcNH3YfCl1x.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uV2y5s7D3T2">
+    <text value="File_application Server_AR"/>
+    <type value="group"/>
+    <item id="uV2y5s7D3T2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ymAZKq1yyLs">
+    <text value="Delivery pack_AR"/>
+    <type value="group"/>
+    <item id="ymAZKq1yyLs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fVvzabPkrzc">
+    <text value="Hospitalization_Inpatient care_AR"/>
+    <type value="group"/>
+    <item id="fVvzabPkrzc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="rvoYR7CY1fP">
+    <text value="Obstetrics and management of dystocic pregnancies_AR"/>
+    <type value="group"/>
+    <item id="rvoYR7CY1fP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="PPuZbW9vX3j">
+    <text value="Post Natal Consultation_AR"/>
+    <type value="group"/>
+    <item id="PPuZbW9vX3j.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ovNZpREmulk">
+    <text value="Hours per day the facility is open_AR"/>
+    <type value="group"/>
+    <item id="ovNZpREmulk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Rhmt4nv804k">
+    <text value="Rain water reservoir_AR"/>
+    <type value="group"/>
+    <item id="Rhmt4nv804k.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="UTy6CBml0kv">
+    <text value="Ventilated improved pit latrines _VIP _AR"/>
+    <type value="group"/>
+    <item id="UTy6CBml0kv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vq95jYppVO1">
+    <text value="Medico-Legal documentation_AR"/>
+    <type value="group"/>
+    <item id="vq95jYppVO1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="kfi4OhBp9hs">
+    <text value="Desktop_AR"/>
+    <type value="group"/>
+    <item id="kfi4OhBp9hs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yse7ERZFkFR">
+    <text value="Vaccination_Immunization_AR"/>
+    <type value="group"/>
+    <item id="yse7ERZFkFR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ALrctagp4AO">
+    <text value="No regular water source_AR"/>
+    <type value="group"/>
+    <item id="ALrctagp4AO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Mx36AEWbOMr">
+    <text value="HIV antibody testing kit by ELISA_AR"/>
+    <type value="group"/>
+    <item id="Mx36AEWbOMr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FOeqObN0I7z">
+    <text value="Printer_AR"/>
+    <type value="group"/>
+    <item id="FOeqObN0I7z.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mfUJm5Iqohl">
+    <text value="Mental Health Services and Psychological support_AR"/>
+    <type value="group"/>
+    <item id="mfUJm5Iqohl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="yWwsqp86ezf">
+    <text value="Toilets &#x2013;for staff_AR"/>
+    <type value="group"/>
+    <item id="yWwsqp86ezf.GE2qUY5nsux">
+      <text value="Points functional"/>
+      <type value="integer"/>
+    </item>
+    <item id="yWwsqp86ezf.AOecEBi0Bi8">
+      <text value="Number of facilities"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xQj9FVIENOF">
+    <text value="Growth Monitoring_Nutrition Surveillance_AR"/>
+    <type value="group"/>
+    <item id="xQj9FVIENOF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="OBulXHvTqEV">
+    <text value="Capacity building_Partner_AR"/>
+    <type value="group"/>
+    <item id="OBulXHvTqEV.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="OBulXHvTqEV.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="qSYSEIAk8yF">
+    <text value="ECG_Electro_Cardio Graph_AR"/>
+    <type value="group"/>
+    <item id="qSYSEIAk8yF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bjoby5yIXcm">
+    <text value="Number of maternity beds_AR"/>
+    <type value="group"/>
+    <item id="bjoby5yIXcm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oyFggPFBNlA">
+    <text value="Newborn care_AR"/>
+    <type value="group"/>
+    <item id="oyFggPFBNlA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="lJEG6kQYS82">
+    <text value="Other_Donors_specify_AR"/>
+    <type value="group"/>
+    <item id="lJEG6kQYS82.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="lJEG6kQYS82.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="HnU32fMpjBz">
+    <text value="Short wave radios_AR"/>
+    <type value="group"/>
+    <item id="HnU32fMpjBz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mV1K0WNDGc9">
+    <text value="Midwives_AR"/>
+    <type value="group"/>
+    <item id="mV1K0WNDGc9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DmyEPIqaC1V">
+    <text value="General Health Promotion Activities_AR"/>
+    <type value="group"/>
+    <item id="DmyEPIqaC1V.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="zW2twHyoVpH">
+    <text value="Unqualified Support Staff_AR"/>
+    <type value="group"/>
+    <item id="zW2twHyoVpH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eKlPFpZoYNv">
+    <text value="Post-abortion care_AR"/>
+    <type value="group"/>
+    <item id="eKlPFpZoYNv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="foipjZR5L4D">
+    <text value="Medical Imagery_x-ray_AR"/>
+    <type value="group"/>
+    <item id="foipjZR5L4D.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="AKGUvr1H03d">
+    <text value="Community outreach_Partner_AR"/>
+    <type value="group"/>
+    <item id="AKGUvr1H03d.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="AKGUvr1H03d.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="xbjieYC90WN">
+    <text value="ANC module_EMRModule_AR"/>
+    <type value="group"/>
+    <item id="xbjieYC90WN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="fGLC3NYbqth">
+    <text value="Ante-natal consultation_AR"/>
+    <type value="group"/>
+    <item id="fGLC3NYbqth.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Ki9IosVVIHh">
+    <text value="Doctors_Specialist_AR"/>
+    <type value="group"/>
+    <item id="Ki9IosVVIHh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Zg9EOORFWD0">
+    <text value="Deliveries_normal_AR"/>
+    <type value="group"/>
+    <item id="Zg9EOORFWD0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="cCC1Wydzpx7">
+    <text value="Dentistry_AR"/>
+    <type value="group"/>
+    <item id="cCC1Wydzpx7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="qi38Syosxle">
+    <text value="Binocular/Microscope_AR"/>
+    <type value="group"/>
+    <item id="qi38Syosxle.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FZiuCeBV0wt">
+    <text value="Kitchens_AR"/>
+    <type value="group"/>
+    <item id="FZiuCeBV0wt.GE2qUY5nsux">
+      <text value="Points functional"/>
+      <type value="integer"/>
+    </item>
+    <item id="FZiuCeBV0wt.AOecEBi0Bi8">
+      <text value="Number of facilities"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WaN6NgWpF2S">
+    <text value="Delivery bed_AR"/>
+    <type value="group"/>
+    <item id="WaN6NgWpF2S.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b2Jkl16mwqs">
+    <text value="Diabetes and other chronic disease management_AR"/>
+    <type value="group"/>
+    <item id="b2Jkl16mwqs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="EJa9Gx7VByK">
+    <text value="Hygiene and environmental health_AR"/>
+    <type value="group"/>
+    <item id="EJa9Gx7VByK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="RZBjzeKI1JL">
+    <text value="Tech Assist_Donors_AR"/>
+    <type value="group"/>
+    <item id="RZBjzeKI1JL.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="RZBjzeKI1JL.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="GWQ4TzlzGgq">
+    <text value="Cell phone_AR"/>
+    <type value="group"/>
+    <item id="GWQ4TzlzGgq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="nk0eHR5P7my">
+    <text value="motorcycles_AR"/>
+    <type value="group"/>
+    <item id="nk0eHR5P7my.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WxmndB7wwhe">
+    <text value="Peak flow meters_AR"/>
+    <type value="group"/>
+    <item id="WxmndB7wwhe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pXAopLsXWEA">
+    <text value="Total number of rooms_clinical and administrative _AR"/>
+    <type value="group"/>
+    <item id="pXAopLsXWEA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vrUPRRpNPgj">
+    <text value="Does the facility have a computer network_AR"/>
+    <type value="group"/>
+    <item id="vrUPRRpNPgj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ujfhZmjW5Bn">
+    <text value="Protected well_AR"/>
+    <type value="group"/>
+    <item id="ujfhZmjW5Bn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="TQkkT5v9YG3">
+    <text value="Infant weighing scale_100 g graduation_AR"/>
+    <type value="group"/>
+    <item id="TQkkT5v9YG3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="V7G4p80pc8T">
+    <text value="Suction apparatus_mucus extractor_AR"/>
+    <type value="group"/>
+    <item id="V7G4p80pc8T.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QAkqB4JUFwm">
+    <text value="Health Auxiliaries_AR"/>
+    <type value="group"/>
+    <item id="QAkqB4JUFwm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yJgImNTTDrh">
+    <text value="Primary Outpatient Curative Consultation_CPC_AR"/>
+    <type value="group"/>
+    <item id="yJgImNTTDrh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="SFDe8woUrxR">
+    <text value="Date inaugurated_AR"/>
+    <type value="group"/>
+    <item id="SFDe8woUrxR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="PnlOJ0DNnH1">
+    <text value="Clinical services_Partner_AR"/>
+    <type value="group"/>
+    <item id="PnlOJ0DNnH1.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="PnlOJ0DNnH1.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Ry3ZRI9zv5G">
+    <text value="Unprotected well_borehole_AR"/>
+    <type value="group"/>
+    <item id="Ry3ZRI9zv5G.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="CQZatL85Fy7">
+    <text value="Minor surgical interventions_AR"/>
+    <type value="group"/>
+    <item id="CQZatL85Fy7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="tDhbFG1h2vh">
+    <text value="Solar panels_SecSourceElectricity_AR"/>
+    <type value="group"/>
+    <item id="tDhbFG1h2vh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="jOrpLXMT0fk">
+    <text value="Cell_AR"/>
+    <type value="group"/>
+    <item id="jOrpLXMT0fk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="l3AlVNFkBSq">
+    <text value="Vector and Zoonosis control_AR"/>
+    <type value="group"/>
+    <item id="l3AlVNFkBSq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="jzaRrgsS4SM">
+    <text value="CD4 counter_AR"/>
+    <type value="group"/>
+    <item id="jzaRrgsS4SM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IzqAKx8IXHJ">
+    <text value="Ultrasound_AR"/>
+    <type value="group"/>
+    <item id="IzqAKx8IXHJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="hVGYooAedhc">
+    <text value="Cardiovascular care and treatment_AR"/>
+    <type value="group"/>
+    <item id="hVGYooAedhc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="lXb5BD1ab8l">
+    <text value="Autoclave electric_AR"/>
+    <type value="group"/>
+    <item id="lXb5BD1ab8l.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wsTxbZPim2h">
+    <text value="Intravenous infusion kits_AR"/>
+    <type value="group"/>
+    <item id="wsTxbZPim2h.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wYhaLbOpZDG">
+    <text value="Other_Partner_specify)_AR"/>
+    <type value="group"/>
+    <item id="wYhaLbOpZDG.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="wYhaLbOpZDG.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="uHdLILOyZs9">
+    <text value="Wards_AR"/>
+    <type value="group"/>
+    <item id="uHdLILOyZs9.GE2qUY5nsux">
+      <text value="Points functional"/>
+      <type value="integer"/>
+    </item>
+    <item id="uHdLILOyZs9.AOecEBi0Bi8">
+      <text value="Number of facilities"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cANnQ86fzB2">
+    <text value="Salary Support_Donors_AR"/>
+    <type value="group"/>
+    <item id="cANnQ86fzB2.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="cANnQ86fzB2.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="AsyFwp7HDK4">
+    <text value="How is mobile phone coverage at facility_AR"/>
+    <type value="group"/>
+    <item id="AsyFwp7HDK4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="dIUUfpI5tAH">
+    <text value="Source of population data_AR"/>
+    <type value="group"/>
+    <item id="dIUUfpI5tAH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="ZYUXhmUAy0y">
+    <text value="pickup_truck for goods transport_AR"/>
+    <type value="group"/>
+    <item id="ZYUXhmUAy0y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HkxOzrGAcvF">
+    <text value="Mobile phones_AR"/>
+    <type value="group"/>
+    <item id="HkxOzrGAcvF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LceQJOMpevZ">
+    <text value="Psychosocial support_AR"/>
+    <type value="group"/>
+    <item id="LceQJOMpevZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="NoqQjnbKf4e">
+    <text value="Incubator_AR"/>
+    <type value="group"/>
+    <item id="NoqQjnbKf4e.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mn0AcFFJN4B">
+    <text value="Number of Patient beds_excluding maternity_AR"/>
+    <type value="group"/>
+    <item id="mn0AcFFJN4B.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="goCJZAjMODo">
+    <text value="Blood bank_AR"/>
+    <type value="group"/>
+    <item id="goCJZAjMODo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="bd1tHmCxJRM">
+    <text value="No internet connection_AR"/>
+    <type value="group"/>
+    <item id="bd1tHmCxJRM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ooKMfmF65VM">
+    <text value="Colorimeter or haemoglobinometer_AR"/>
+    <type value="group"/>
+    <item id="ooKMfmF65VM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="F1vGDVYBMLY">
+    <text value="Pit latrine without slab/open pit _AR"/>
+    <type value="group"/>
+    <item id="F1vGDVYBMLY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zxPgc7e94Nw">
+    <text value="Integrated Management of Childhood Illness_AR"/>
+    <type value="group"/>
+    <item id="zxPgc7e94Nw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="xfmlixSrFmU">
+    <text value="No electricity_AR"/>
+    <type value="group"/>
+    <item id="xfmlixSrFmU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="mZw7FHYlTlz">
+    <text value="Length_height measuring equipment_AR"/>
+    <type value="group"/>
+    <item id="mZw7FHYlTlz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HOxF0qyGuyR">
+    <text value="Pre_marital Consultation_AR"/>
+    <type value="group"/>
+    <item id="HOxF0qyGuyR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="kHC62F8Z9FM">
+    <text value="Prosthetics_AR"/>
+    <type value="group"/>
+    <item id="kHC62F8Z9FM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="LHxrRJSFCJM">
+    <text value="Fluorescence microscope_AR"/>
+    <type value="group"/>
+    <item id="LHxrRJSFCJM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qYcglT8a7bL">
+    <text value="Health promotion_prevention_Partner_AR"/>
+    <type value="group"/>
+    <item id="qYcglT8a7bL.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="qYcglT8a7bL.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="HtKnqOEE8Zt">
+    <text value="Self inflating bag and mask paediatric_AR"/>
+    <type value="group"/>
+    <item id="HtKnqOEE8Zt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MC9ry3wpyYl">
+    <text value="Community mobilization_AR"/>
+    <type value="group"/>
+    <item id="MC9ry3wpyYl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Kab0M8fwsbq">
+    <text value="Nurses_AR"/>
+    <type value="group"/>
+    <item id="Kab0M8fwsbq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c3Q4hqTlEKG">
+    <text value="Blood chemistry analyzer_AR"/>
+    <type value="group"/>
+    <item id="c3Q4hqTlEKG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DHONhlVzvwU">
+    <text value="Pharmacy_AR"/>
+    <type value="group"/>
+    <item id="DHONhlVzvwU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="tzr8X8cYUnx">
+    <text value="Generator_specify KVA_SecSourceElectricity_AR"/>
+    <type value="group"/>
+    <item id="tzr8X8cYUnx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="MiKwsePYvej">
+    <text value="Nutritional Rehabilitation_AR"/>
+    <type value="group"/>
+    <item id="MiKwsePYvej.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="XnCc6BicGI9">
+    <text value="Cold packs_AR"/>
+    <type value="group"/>
+    <item id="XnCc6BicGI9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iutFnM4VzSP">
+    <text value="Catchment area type_AR"/>
+    <type value="group"/>
+    <item id="iutFnM4VzSP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="VgjoeiFrQJj">
+    <text value="Waste receptacle with lid_AR"/>
+    <type value="group"/>
+    <item id="VgjoeiFrQJj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eM4fKhJLNnS">
+    <text value="Primary Care module_EMRModule_AR"/>
+    <type value="group"/>
+    <item id="eM4fKhJLNnS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="q0XAcZbIxSK">
+    <text value="X-Ray_AR"/>
+    <type value="group"/>
+    <item id="q0XAcZbIxSK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eAaCxQ8XNHv">
+    <text value="Ambulance services_AR"/>
+    <type value="group"/>
+    <item id="eAaCxQ8XNHv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Qtl7A7L85Ce">
+    <text value="Lab module_EMRModule_AR"/>
+    <type value="group"/>
+    <item id="Qtl7A7L85Ce.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="tZAo5gtJn6v">
+    <text value="Piped water supply on facility grounds_AR"/>
+    <type value="group"/>
+    <item id="tZAo5gtJn6v.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="wJDZHdovmFo">
+    <text value="Autoclave non-electric_AR"/>
+    <type value="group"/>
+    <item id="wJDZHdovmFo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bbWcdBGIpAI">
+    <text value="Non_electric pot with cover for boiling_steam_AR"/>
+    <type value="group"/>
+    <item id="bbWcdBGIpAI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DtXPlmbH0Zk">
+    <text value="Thermometer_AR"/>
+    <type value="group"/>
+    <item id="DtXPlmbH0Zk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TaPtLo22IxC">
+    <text value="Sharps container_safety box_AR"/>
+    <type value="group"/>
+    <item id="TaPtLo22IxC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gShN4Z8R2cD">
+    <text value="Is there a water supply within 500 meters of the health facility_AR"/>
+    <type value="group"/>
+    <item id="gShN4Z8R2cD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="VH0eZVKtPT4">
+    <text value="Pharmacists_Pharmacy Assistants_AR"/>
+    <type value="group"/>
+    <item id="VH0eZVKtPT4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GuEoxUFRZMt">
+    <text value="Wireless Modem_MTN_Tigo_AR"/>
+    <type value="group"/>
+    <item id="GuEoxUFRZMt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Vk3a1vj3sX1">
+    <text value="Emergency care_AR"/>
+    <type value="group"/>
+    <item id="Vk3a1vj3sX1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Zz2zg1ZE6gk">
+    <text value="Glucometer_AR"/>
+    <type value="group"/>
+    <item id="Zz2zg1ZE6gk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Iww9JSSxGuG">
+    <text value="Prevention of Mother to Child Transmission_PMTCT_AR"/>
+    <type value="group"/>
+    <item id="Iww9JSSxGuG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="TRB2KOwAffv">
+    <text value="Street_AR"/>
+    <type value="group"/>
+    <item id="TRB2KOwAffv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="phqDvzcKphm">
+    <text value="Laptop_notebook_AR"/>
+    <type value="group"/>
+    <item id="phqDvzcKphm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="m2UfdWVisjK">
+    <text value="Generator_specify KVA _AR"/>
+    <type value="group"/>
+    <item id="m2UfdWVisjK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="fTu4wyskmSJ">
+    <text value="Does the facility use electronic medical records (EMR)_AR"/>
+    <type value="group"/>
+    <item id="fTu4wyskmSJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="wmX7Lvc1IJj">
+    <text value="Bar code printer_AR"/>
+    <type value="group"/>
+    <item id="wmX7Lvc1IJj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tNz4vuBQ9R3">
+    <text value="Centrifuge_AR"/>
+    <type value="group"/>
+    <item id="tNz4vuBQ9R3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="V2SdV126C2q">
+    <text value="Wired_Fixed Line_ADSL fibre_AR"/>
+    <type value="group"/>
+    <item id="V2SdV126C2q.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="VbebekmaOw8">
+    <text value="Vacuum aspirator or D and C kit_AR"/>
+    <type value="group"/>
+    <item id="VbebekmaOw8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lqiqYctUpr0">
+    <text value="Freezer_AR"/>
+    <type value="group"/>
+    <item id="lqiqYctUpr0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iEuyXBuKbGY">
+    <text value="Offices_AR"/>
+    <type value="group"/>
+    <item id="iEuyXBuKbGY.GE2qUY5nsux">
+      <text value="Points functional"/>
+      <type value="integer"/>
+    </item>
+    <item id="iEuyXBuKbGY.AOecEBi0Bi8">
+      <text value="Number of facilities"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xING0oj4kgg">
+    <text value="Bar code scanner_AR"/>
+    <type value="group"/>
+    <item id="xING0oj4kgg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="K1Rv1Ie4P9M">
+    <text value="Pit latrine with slab_AR"/>
+    <type value="group"/>
+    <item id="K1Rv1Ie4P9M.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oDu0XcN1XVL">
+    <text value="Neonatal bag and mask_AR"/>
+    <type value="group"/>
+    <item id="oDu0XcN1XVL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xhxW7fXOwGw">
+    <text value="PO box_AR"/>
+    <type value="group"/>
+    <item id="xhxW7fXOwGw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="HbDGvzUyCwx">
+    <text value="Toilets &#x2013; for patients_AR"/>
+    <type value="group"/>
+    <item id="HbDGvzUyCwx.GE2qUY5nsux">
+      <text value="Points functional"/>
+      <type value="integer"/>
+    </item>
+    <item id="HbDGvzUyCwx.AOecEBi0Bi8">
+      <text value="Number of facilities"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x0IO2ZMRamL">
+    <text value="Number of rooms with visual/auditory privacy for patient consultations_AR"/>
+    <type value="group"/>
+    <item id="x0IO2ZMRamL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jzsncYs9yuq">
+    <text value="Child weighing scale_250 g graduation_AR"/>
+    <type value="group"/>
+    <item id="jzsncYs9yuq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ftBAXGlGmna">
+    <text value="Voluntary Counseling and Testing_VCT_PIT__AR"/>
+    <type value="group"/>
+    <item id="ftBAXGlGmna.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="rP2aQRvElmT">
+    <text value="Email of titulaire/directo_AR"/>
+    <type value="group"/>
+    <item id="rP2aQRvElmT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="YeHFH186WFc">
+    <text value="No secondary source_AR"/>
+    <type value="group"/>
+    <item id="YeHFH186WFc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="e5wC2DNilpz">
+    <text value="Other_ specify_EMRModule_AR"/>
+    <type value="group"/>
+    <item id="e5wC2DNilpz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GAOlA5n8Emp">
+    <text value="Transport_Donors_AR"/>
+    <type value="group"/>
+    <item id="GAOlA5n8Emp.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="GAOlA5n8Emp.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="SWf22cuqE6V">
+    <text value="Organ transplants_AR"/>
+    <type value="group"/>
+    <item id="SWf22cuqE6V.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="UedktQ1oRoS">
+    <text value="Qualified Medical Technicians_AR"/>
+    <type value="group"/>
+    <item id="UedktQ1oRoS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vUBQJYroFOT">
+    <text value="Physical therapy_AR"/>
+    <type value="group"/>
+    <item id="vUBQJYroFOT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="CredI0bPBPK">
+    <text value="Fixed Telephone_AR"/>
+    <type value="group"/>
+    <item id="CredI0bPBPK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ICiAmTQOtcR">
+    <text value="Epidemiological Surveillance and Response_AR"/>
+    <type value="group"/>
+    <item id="ICiAmTQOtcR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="R6sJ7DW6HOI">
+    <text value="School Health_AR"/>
+    <type value="group"/>
+    <item id="R6sJ7DW6HOI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="aTPpuppDocm">
+    <text value="Solar panels_AR"/>
+    <type value="group"/>
+    <item id="aTPpuppDocm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="BRLaSyCLZeP">
+    <text value="Consultation rooms_AR"/>
+    <type value="group"/>
+    <item id="BRLaSyCLZeP.GE2qUY5nsux">
+      <text value="Points functional"/>
+      <type value="integer"/>
+    </item>
+    <item id="BRLaSyCLZeP.AOecEBi0Bi8">
+      <text value="Number of facilities"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VhR6gkCL2IR">
+    <text value="Electric dry heat sterilizer_AR"/>
+    <type value="group"/>
+    <item id="VhR6gkCL2IR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M5gXFbYAvLT">
+    <text value="Public tap_standpipe_AR"/>
+    <type value="group"/>
+    <item id="M5gXFbYAvLT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="TUC9OizbfcC">
+    <text value="ambulances_AR"/>
+    <type value="group"/>
+    <item id="TUC9OizbfcC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xqTH7rNViiG">
+    <text value="Oxygen concentrators_AR"/>
+    <type value="group"/>
+    <item id="xqTH7rNViiG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eobIYGPRgBQ">
+    <text value="Central supply/National Grid_SecSourceElectricity_AR"/>
+    <type value="group"/>
+    <item id="eobIYGPRgBQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="kily0cRQdQm">
+    <text value="cars_AR"/>
+    <type value="group"/>
+    <item id="kily0cRQdQm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nLCtiyPSNXi">
+    <text value="General Ophthalmology_AR"/>
+    <type value="group"/>
+    <item id="nLCtiyPSNXi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="afo9R4XN6Lz">
+    <text value="Name of titulaire_director_AR"/>
+    <type value="group"/>
+    <item id="afo9R4XN6Lz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="bKUoPgVBHHv">
+    <text value="Anesthesia machine_AR"/>
+    <type value="group"/>
+    <item id="bKUoPgVBHHv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Hf1gRTfgwNN">
+    <text value="Biogas_SecSourceElectricity_AR"/>
+    <type value="group"/>
+    <item id="Hf1gRTfgwNN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="XFFNMVpsyfW">
+    <text value="Electric boiler or steamer_no pressure_AR"/>
+    <type value="group"/>
+    <item id="XFFNMVpsyfW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wywkM4gSmEY">
+    <text value="Storage of vaccines_medicines_cold chain_AR"/>
+    <type value="group"/>
+    <item id="wywkM4gSmEY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="vlxbkwaio7u">
+    <text value="Echograph_Ultrasound equipment_AR"/>
+    <type value="group"/>
+    <item id="vlxbkwaio7u.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p7ghUefZtsY">
+    <text value="Surface water_river_lake_AR"/>
+    <type value="group"/>
+    <item id="p7ghUefZtsY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="cJtwukMcJez">
+    <text value="Haematology analyzer_AR"/>
+    <type value="group"/>
+    <item id="cJtwukMcJez.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HjX7IgQ0d0Z">
+    <text value="Biogas_AR"/>
+    <type value="group"/>
+    <item id="HjX7IgQ0d0Z.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="XvLxJoge2ER">
+    <text value="Flush Toilets_AR"/>
+    <type value="group"/>
+    <item id="XvLxJoge2ER.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RTkRmQy9bVw">
+    <text value="Incinerator_2-chamber industrial 800-1000+C_AR"/>
+    <type value="group"/>
+    <item id="RTkRmQy9bVw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eQsMPgnXVZm">
+    <text value="Other medical devices_AR"/>
+    <type value="group"/>
+    <item id="eQsMPgnXVZm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="OMMEXU6gaxc">
+    <text value="Care and treatment for persons living with HIV_AIDS_AR"/>
+    <type value="group"/>
+    <item id="OMMEXU6gaxc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="LC0l9u2iYaY">
+    <text value="Water Truck_AR"/>
+    <type value="group"/>
+    <item id="LC0l9u2iYaY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="iTa70x8eNCr">
+    <text value="Self inflating bag and mask- adult_AR"/>
+    <type value="group"/>
+    <item id="iTa70x8eNCr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VoHh4LJrtvm">
+    <text value="Stethoscope_AR"/>
+    <type value="group"/>
+    <item id="VoHh4LJrtvm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cMPXjWgoYPu">
+    <text value="Pharmacy module_EMRModule_AR"/>
+    <type value="group"/>
+    <item id="cMPXjWgoYPu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="AMu597FLuuD">
+    <text value="Central supply/National Grid_AR"/>
+    <type value="group"/>
+    <item id="AMu597FLuuD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="u97kaxdg0Co">
+    <text value="Family Planning_AR"/>
+    <type value="group"/>
+    <item id="u97kaxdg0Co.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Jc632sEgzZe">
+    <text value="Tubewell_Borehole_AR"/>
+    <type value="group"/>
+    <item id="Jc632sEgzZe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="gMOOuKPIksi">
+    <text value="Adult weighing scale_AR"/>
+    <type value="group"/>
+    <item id="gMOOuKPIksi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G24FTvxiyuh">
+    <text value="Administrative Personnel_AR"/>
+    <type value="group"/>
+    <item id="G24FTvxiyuh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xFzOmcTmvCa">
+    <text value="HemoCue_AR"/>
+    <type value="group"/>
+    <item id="xFzOmcTmvCa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oJtFhhb9ohD">
+    <text value="Non Medical Technical Personnel_AR"/>
+    <type value="group"/>
+    <item id="oJtFhhb9ohD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FZt3iqwgrhu">
+    <text value="Equipment_Donors_AR"/>
+    <type value="group"/>
+    <item id="FZt3iqwgrhu.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="FZt3iqwgrhu.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="CBrrld22HHE">
+    <text value="Other Non Communicable disease (NCD) management_AR"/>
+    <type value="group"/>
+    <item id="CBrrld22HHE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="fJVoQprOvA3">
+    <text value="Drugs_supplies_Donors_AR"/>
+    <type value="group"/>
+    <item id="fJVoQprOvA3.TARFhnuJ2AU">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.VNBvAdWLNDc">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.uqButKvqlWJ">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.ZW1y2OUeIYF">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.kCeMQ6eXvv7">
+      <text value="NORWEGIAN RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.qAaLdvNc8Me">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.LN5PCNyhbY5">
+      <text value="GLASER FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.tU2WDwJPdyX">
+      <text value="International Partnership for Microbicide_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.nw5fC8WesZq">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.HMQXApGuVgy">
+      <text value="Team heart and partners_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.hOTwvfT9VsO">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.GWm2Myi0mgU">
+      <text value="Rockefeller Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.Dk7QrWfqE8x">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.mDwed2NbTg8">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.zlasGtCiBiT">
+      <text value="General Electric (GE) Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.ly6ePqZshKU">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.afbAXfOB0O8">
+      <text value="FAO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.pitDJ9HJpg1">
+      <text value="Government of Luxembourg_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.jTVQts2PlTS">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.iYdGJI4TjTs">
+      <text value="US Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.r3S9Jq05bRA">
+      <text value="UNFPA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.xIvMvHE2oaP">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.IzKNFMnPgfx">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.rNGcxBj3roi">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.R70gq8Srs0F">
+      <text value="French Development Agency_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.vdgmByLKlmg">
+      <text value="Global Fund for AIDS, TB and Malaria_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.MxBa5C2AH8P">
+      <text value="ONE UN FUND_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.blq19JNoVep">
+      <text value="Belgian Government_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.ULbFClcvQQ9">
+      <text value="WaterAid UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.QGyfNMVtfS3">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.tcucbdF3x18">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.pTPsZdVFTjn">
+      <text value="Telethon funds/Norway_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.tcWv36If7m0">
+      <text value="UNAIDS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.VFCrOv28ofM">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.pkjW3swrX6Z">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.LvAwpZeL32B">
+      <text value="MAIA Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.ZswS4YeuTPY">
+      <text value="European Union_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.JFeiSrfpgdA">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.Wvc4kl7EAlT">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.z4qbj1hr1XJ">
+      <text value="Saving lives at birth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.hnuOqjsGvBl">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.pMupcg0U9yu">
+      <text value="UNICEF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.u06FfZu3EGw">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.IKpxerWSUQi">
+      <text value="GoR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.xJnno1RGl3p">
+      <text value="ELMA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.xy0M4yC8MYk">
+      <text value="Anne Duffey Community Foundation of New Jersey _AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.gXG0UGks7I1">
+      <text value="Community Health works_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.Ii29yhdKWxY">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.qtif9PzKqH2">
+      <text value="PACKARD FOUNDATION_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.H5X9MTjJRQx">
+      <text value="The Bill and Melinda Gates Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.oaxz165RIXU">
+      <text value="WHO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.K3dpjPtzKsX">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.JjMeVWWLw6G">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.ufWqrZPp5hS">
+      <text value="One family_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="fJVoQprOvA3.nEKfGs4Ys4h">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="LXsjtFWpNES">
+    <text value="Satellite_VSAT_AR"/>
+    <type value="group"/>
+    <item id="LXsjtFWpNES.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="o6Fp76z0owQ">
+    <text value="Deliveries - high risk_AR"/>
+    <type value="group"/>
+    <item id="o6Fp76z0owQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="AtIdJlmhMRK">
+    <text value="HIV module_EMRModule_AR"/>
+    <type value="group"/>
+    <item id="AtIdJlmhMRK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="vb8oQjq9VIU">
+    <text value="Manual vacuum extractor_AR"/>
+    <type value="group"/>
+    <item id="vb8oQjq9VIU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="m4mzTZmiGGv">
+    <text value="Vortex mixer_AR"/>
+    <type value="group"/>
+    <item id="m4mzTZmiGGv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o120yiXV5gY">
+    <text value="No Toilets/bush/field_AR"/>
+    <type value="group"/>
+    <item id="o120yiXV5gY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vyz8RYmyomo">
+    <text value="TB care and treatment_AR"/>
+    <type value="group"/>
+    <item id="vyz8RYmyomo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="ZEDpdzFFbOb">
+    <text value="Management of gender violence_AR"/>
+    <type value="group"/>
+    <item id="ZEDpdzFFbOb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="IWbTfqZYf4N">
+    <text value="Year of population estimate_AR"/>
+    <type value="group"/>
+    <item id="IWbTfqZYf4N.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FFMZMqkBoPW">
+    <text value="Major surgical interventions_AR"/>
+    <type value="group"/>
+    <item id="FFMZMqkBoPW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="SdJwVzeeprS">
+    <text value="Village_AR"/>
+    <type value="group"/>
+    <item id="SdJwVzeeprS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="VaIhjUvchWr">
+    <text value="Waste pits uncovered_AR"/>
+    <type value="group"/>
+    <item id="VaIhjUvchWr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eIGrVP8X1uN">
+    <text value="Blood pressure apparatus_Tensiometer_AR"/>
+    <type value="group"/>
+    <item id="eIGrVP8X1uN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NHCIkdbrHHj">
+    <text value="Doctors_Generalist_AR"/>
+    <type value="group"/>
+    <item id="NHCIkdbrHHj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MVEjkac8fuL">
+    <text value="Occupational Health and Safety_AR"/>
+    <type value="group"/>
+    <item id="MVEjkac8fuL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="A148BJue3Wn">
+    <text value="Wireless_WIMAX_AR"/>
+    <type value="group"/>
+    <item id="A148BJue3Wn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+</Questionnaire>

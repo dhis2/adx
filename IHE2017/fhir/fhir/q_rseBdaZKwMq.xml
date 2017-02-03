@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="rseBdaZKwMq"/>
+  <status value="published"/>
+  <title value="LLNN"/>
+  <item id="D41rd8CgGQv">
+    <text value="LLINs for Mass campaigns_Quantity received"/>
+    <type value="group"/>
+    <item id="D41rd8CgGQv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PB3NMNA9WgA">
+    <text value="LLINs for ANC_Quantity Dispensed"/>
+    <type value="group"/>
+    <item id="PB3NMNA9WgA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="f7IivowQjrP">
+    <text value="LLINs for ANC_Quantity received"/>
+    <type value="group"/>
+    <item id="f7IivowQjrP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OAp2ZVEgPTS">
+    <text value="LLINs for ANC_Stock at end of month"/>
+    <type value="group"/>
+    <item id="OAp2ZVEgPTS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TsOLDzxxUnr">
+    <text value="LLINs for Mass campaigns_Stock at end of month"/>
+    <type value="group"/>
+    <item id="TsOLDzxxUnr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oeYl1sprkI5">
+    <text value="LLINs for EPI_Quantity Dispensed"/>
+    <type value="group"/>
+    <item id="oeYl1sprkI5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ioI1T9xb4Ba">
+    <text value="LLINs for EPI_Stock at end of month"/>
+    <type value="group"/>
+    <item id="ioI1T9xb4Ba.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QfeqON1ZFsK">
+    <text value="LLINs for Mass campaigns_Quantity Dispensed"/>
+    <type value="group"/>
+    <item id="QfeqON1ZFsK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VZeHl7aSEIp">
+    <text value="LLINs for EPI_Quantity received"/>
+    <type value="group"/>
+    <item id="VZeHl7aSEIp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

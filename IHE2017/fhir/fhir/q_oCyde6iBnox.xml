@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="oCyde6iBnox"/>
+  <status value="published"/>
+  <title value="Vaccination"/>
+  <item id="gIdw0PNxq0F">
+    <text value="Measles Vaccination"/>
+    <type value="group"/>
+    <item id="gIdw0PNxq0F.OzfPTTKDjFu">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+    <item id="gIdw0PNxq0F.JSpOIcRdjMa">
+      <text value="15 Months"/>
+      <type value="integer"/>
+    </item>
+    <item id="gIdw0PNxq0F.SfP5UH4mO9G">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="gIdw0PNxq0F.dlKTr3PP2zP">
+      <text value="16 Months +"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NLAmAW1CHXz">
+    <text value="Pneumococus 1"/>
+    <type value="group"/>
+    <item id="NLAmAW1CHXz.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="NLAmAW1CHXz.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WjJQxDrx3fS">
+    <text value="DTP_HepB_Hib2 "/>
+    <type value="group"/>
+    <item id="WjJQxDrx3fS.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="WjJQxDrx3fS.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bvNuvyHV075">
+    <text value="Measles &amp; Rubella (MR)"/>
+    <type value="group"/>
+    <item id="bvNuvyHV075.IQAoIc1KmRR">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="bvNuvyHV075.HsmlPxyvCXf">
+      <text value="16 Months +"/>
+      <type value="integer"/>
+    </item>
+    <item id="bvNuvyHV075.qj5CYUZYCVQ">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+    <item id="bvNuvyHV075.z6rb8qfs087">
+      <text value="15 Months"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uoo3081vRRk">
+    <text value="Polio 2"/>
+    <type value="group"/>
+    <item id="uoo3081vRRk.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="uoo3081vRRk.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Kl8X0m4XLtl">
+    <text value="HPV 2 "/>
+    <type value="group"/>
+    <item id="Kl8X0m4XLtl.KoL1mZjYPzS">
+      <text value="12 Years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dLUJjIL6JQF">
+    <text value="Polio-Zero_P0"/>
+    <type value="group"/>
+    <item id="dLUJjIL6JQF.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="dLUJjIL6JQF.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WWnrog92o7M">
+    <text value="Polio 3"/>
+    <type value="group"/>
+    <item id="WWnrog92o7M.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="WWnrog92o7M.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YpnVGirXKnE">
+    <text value="HPV 1 "/>
+    <type value="group"/>
+    <item id="YpnVGirXKnE.KoL1mZjYPzS">
+      <text value="12 Years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Q1WnSKeaA4Z">
+    <text value="HPV 3 "/>
+    <type value="group"/>
+    <item id="Q1WnSKeaA4Z.KoL1mZjYPzS">
+      <text value="12 Years"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JPKqjSia1oc">
+    <text value="BCG"/>
+    <type value="group"/>
+    <item id="JPKqjSia1oc.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="JPKqjSia1oc.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Br4ShpoKxDP">
+    <text value="Rotavirus 2"/>
+    <type value="group"/>
+    <item id="Br4ShpoKxDP.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="Br4ShpoKxDP.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CnwLgmbEyuB">
+    <text value="DTP_HepB_Hib3 "/>
+    <type value="group"/>
+    <item id="CnwLgmbEyuB.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="CnwLgmbEyuB.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y6EdAlfLkgy">
+    <text value="DTP_HepB_Hib1"/>
+    <type value="group"/>
+    <item id="y6EdAlfLkgy.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="y6EdAlfLkgy.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZMSFsnYNedy">
+    <text value="Rotavirus 1"/>
+    <type value="group"/>
+    <item id="ZMSFsnYNedy.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZMSFsnYNedy.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UxP5opezMTd">
+    <text value="Polio 1"/>
+    <type value="group"/>
+    <item id="UxP5opezMTd.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="UxP5opezMTd.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b2o8MJSSbeM">
+    <text value="Pneumococus 2"/>
+    <type value="group"/>
+    <item id="b2o8MJSSbeM.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="b2o8MJSSbeM.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UzdDsZJaQC8">
+    <text value="Rotavirus 3"/>
+    <type value="group"/>
+    <item id="UzdDsZJaQC8.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="UzdDsZJaQC8.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qnp277OF8p2">
+    <text value="Pneumococus 3"/>
+    <type value="group"/>
+    <item id="qnp277OF8p2.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="qnp277OF8p2.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KcpKuZOYLF5">
+    <text value="Insecticide impregnated bed nets distributed "/>
+    <type value="group"/>
+    <item id="KcpKuZOYLF5.vFBTp0VGpcC">
+      <text value="0-11 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="KcpKuZOYLF5.yDTIYmjkv1D">
+      <text value="&gt;=1 year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

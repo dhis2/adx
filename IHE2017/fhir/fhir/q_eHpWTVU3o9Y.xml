@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="eHpWTVU3o9Y"/>
+  <status value="published"/>
+  <title value="Dental diagnoses and Dental procedures"/>
+  <item id="fqDVCNiJJFu">
+    <text value="Dentofacial anomalies _including malocclusion"/>
+    <type value="group"/>
+    <item id="fqDVCNiJJFu.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fqDVCNiJJFu.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fqDVCNiJJFu.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fqDVCNiJJFu.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fqDVCNiJJFu.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fqDVCNiJJFu.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MSiDnXexndm">
+    <text value="Therapeutic Tissue Conditioning"/>
+    <type value="group"/>
+    <item id="MSiDnXexndm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vvvvhqwlNIS">
+    <text value="Caries_Trauma_Pain Control"/>
+    <type value="group"/>
+    <item id="vvvvhqwlNIS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jkozSHLaPxz">
+    <text value="Removals_extractions_residual roots"/>
+    <type value="group"/>
+    <item id="jkozSHLaPxz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mu8vnsiC46D">
+    <text value="Other disorders of gingiva and edentulous alveolar ridge"/>
+    <type value="group"/>
+    <item id="mu8vnsiC46D.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mu8vnsiC46D.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mu8vnsiC46D.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mu8vnsiC46D.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mu8vnsiC46D.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mu8vnsiC46D.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D8sMp0HZBkp">
+    <text value="Examination and Diagnosis_Clinical Oral"/>
+    <type value="group"/>
+    <item id="D8sMp0HZBkp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CyiBOQOFlEK">
+    <text value="Periodontal Services_Surgical"/>
+    <type value="group"/>
+    <item id="CyiBOQOFlEK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iErbfjKVES0">
+    <text value="Polishing_Cleaning"/>
+    <type value="group"/>
+    <item id="iErbfjKVES0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ey4m4gOp53d">
+    <text value="Radiographs"/>
+    <type value="group"/>
+    <item id="Ey4m4gOp53d.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JiWneZwCE9b">
+    <text value="Other diseases of hard tissues of teeth"/>
+    <type value="group"/>
+    <item id="JiWneZwCE9b.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JiWneZwCE9b.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JiWneZwCE9b.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JiWneZwCE9b.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JiWneZwCE9b.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JiWneZwCE9b.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vFHzwj0iwtM">
+    <text value="Disorders of tooth development and eruption _Excl embedded and impacted teeth"/>
+    <type value="group"/>
+    <item id="vFHzwj0iwtM.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vFHzwj0iwtM.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vFHzwj0iwtM.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vFHzwj0iwtM.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vFHzwj0iwtM.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vFHzwj0iwtM.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="F5inj44DHc4">
+    <text value="Root planing_periodontal"/>
+    <type value="group"/>
+    <item id="F5inj44DHc4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="v9yHUJpG0io">
+    <text value="Removals_extractions_Erupted Teeth"/>
+    <type value="group"/>
+    <item id="v9yHUJpG0io.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yUPuXJzcwJ3">
+    <text value="Denture Complete"/>
+    <type value="group"/>
+    <item id="yUPuXJzcwJ3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="t7MZ8o2uKAh">
+    <text value="Restorations"/>
+    <type value="group"/>
+    <item id="t7MZ8o2uKAh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FWMRuawXIPQ">
+    <text value="Dentures_Repairs_Additions"/>
+    <type value="group"/>
+    <item id="FWMRuawXIPQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jvSk2wFFXBh">
+    <text value="Acute gingivitis"/>
+    <type value="group"/>
+    <item id="jvSk2wFFXBh.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jvSk2wFFXBh.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jvSk2wFFXBh.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jvSk2wFFXBh.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jvSk2wFFXBh.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jvSk2wFFXBh.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y0XTbZplwPT">
+    <text value="Dental caries_OPD"/>
+    <type value="group"/>
+    <item id="y0XTbZplwPT.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0XTbZplwPT.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0XTbZplwPT.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0XTbZplwPT.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0XTbZplwPT.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0XTbZplwPT.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hq9xR2klfat">
+    <text value="Diseases of pulp and periapical tissues"/>
+    <type value="group"/>
+    <item id="hq9xR2klfat.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hq9xR2klfat.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hq9xR2klfat.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hq9xR2klfat.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hq9xR2klfat.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hq9xR2klfat.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tO7vafjdp0r">
+    <text value="Embedded and impacted teeth "/>
+    <type value="group"/>
+    <item id="tO7vafjdp0r.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tO7vafjdp0r.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tO7vafjdp0r.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tO7vafjdp0r.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tO7vafjdp0r.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tO7vafjdp0r.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fxAaMDk0ePE">
+    <text value="Other disorders of teeth and gums"/>
+    <type value="group"/>
+    <item id="fxAaMDk0ePE.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxAaMDk0ePE.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxAaMDk0ePE.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxAaMDk0ePE.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxAaMDk0ePE.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxAaMDk0ePE.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

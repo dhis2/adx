@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="WIqs1KLFCll"/>
+  <status value="published"/>
+  <title value="DH Chronic Diseases"/>
+  <item id="MYEnI5xprxf">
+    <text value="Other Chronic obstructive pulmonary diseases_Old Cases2015"/>
+    <type value="group"/>
+    <item id="MYEnI5xprxf.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MYEnI5xprxf.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MYEnI5xprxf.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MYEnI5xprxf.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MYEnI5xprxf.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MYEnI5xprxf.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LVN3fgc0kQs">
+    <text value="Hypertension_New Cases2015"/>
+    <type value="group"/>
+    <item id="LVN3fgc0kQs.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVN3fgc0kQs.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVN3fgc0kQs.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVN3fgc0kQs.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVN3fgc0kQs.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="LVN3fgc0kQs.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RaX7YlNGPu5">
+    <text value="Asthma_Old Cases2015"/>
+    <type value="group"/>
+    <item id="RaX7YlNGPu5.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="RaX7YlNGPu5.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="RaX7YlNGPu5.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="RaX7YlNGPu5.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="RaX7YlNGPu5.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="RaX7YlNGPu5.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="R0LuWnXRhkW">
+    <text value="Other Chronic obstructive pulmonary diseases_Death2015"/>
+    <type value="group"/>
+    <item id="R0LuWnXRhkW.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="R0LuWnXRhkW.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="R0LuWnXRhkW.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="R0LuWnXRhkW.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="R0LuWnXRhkW.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="R0LuWnXRhkW.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oaVmhrGJQsF">
+    <text value="Diabetes gestational_Death2015"/>
+    <type value="group"/>
+    <item id="oaVmhrGJQsF.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oaVmhrGJQsF.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oaVmhrGJQsF.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oaVmhrGJQsF.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oaVmhrGJQsF.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oaVmhrGJQsF.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gkZquIcUgRt">
+    <text value="Diabetes gestational_New Cases2015"/>
+    <type value="group"/>
+    <item id="gkZquIcUgRt.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gkZquIcUgRt.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gkZquIcUgRt.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gkZquIcUgRt.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gkZquIcUgRt.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gkZquIcUgRt.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oXY22ha2Xw3">
+    <text value="Diabetes gestational_Old Cases2015"/>
+    <type value="group"/>
+    <item id="oXY22ha2Xw3.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oXY22ha2Xw3.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oXY22ha2Xw3.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oXY22ha2Xw3.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oXY22ha2Xw3.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oXY22ha2Xw3.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jcqBFeJ17y2">
+    <text value="Diabetes - Type 1_New Cases2015"/>
+    <type value="group"/>
+    <item id="jcqBFeJ17y2.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcqBFeJ17y2.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcqBFeJ17y2.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcqBFeJ17y2.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcqBFeJ17y2.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcqBFeJ17y2.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IzKNAA6retN">
+    <text value="Asthma_New Cases2015"/>
+    <type value="group"/>
+    <item id="IzKNAA6retN.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="IzKNAA6retN.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="IzKNAA6retN.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="IzKNAA6retN.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="IzKNAA6retN.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="IzKNAA6retN.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q6DtYbkThxy">
+    <text value="Diabetes - Type 2_Death2015"/>
+    <type value="group"/>
+    <item id="q6DtYbkThxy.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="q6DtYbkThxy.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="q6DtYbkThxy.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="q6DtYbkThxy.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="q6DtYbkThxy.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="q6DtYbkThxy.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fNyFbumDgVI">
+    <text value="Diabetes - Type 2_New Cases2015"/>
+    <type value="group"/>
+    <item id="fNyFbumDgVI.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fNyFbumDgVI.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fNyFbumDgVI.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fNyFbumDgVI.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fNyFbumDgVI.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fNyFbumDgVI.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Vtdm8yG0eOi">
+    <text value="Other Chronic obstructive pulmonary diseases_New Cases2015"/>
+    <type value="group"/>
+    <item id="Vtdm8yG0eOi.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Vtdm8yG0eOi.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Vtdm8yG0eOi.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Vtdm8yG0eOi.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Vtdm8yG0eOi.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Vtdm8yG0eOi.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wqIeFzCCxmo">
+    <text value="Diabetes - Type 1_Death2015"/>
+    <type value="group"/>
+    <item id="wqIeFzCCxmo.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wqIeFzCCxmo.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wqIeFzCCxmo.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wqIeFzCCxmo.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wqIeFzCCxmo.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wqIeFzCCxmo.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oeXguOoCWNq">
+    <text value="Diabetes - Type 1_Old Cases2015"/>
+    <type value="group"/>
+    <item id="oeXguOoCWNq.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oeXguOoCWNq.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oeXguOoCWNq.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oeXguOoCWNq.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oeXguOoCWNq.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oeXguOoCWNq.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ly5Qyuj4TQl">
+    <text value="Asthma_Death2015"/>
+    <type value="group"/>
+    <item id="ly5Qyuj4TQl.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ly5Qyuj4TQl.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ly5Qyuj4TQl.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ly5Qyuj4TQl.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ly5Qyuj4TQl.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ly5Qyuj4TQl.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rQyEp3hEtSQ">
+    <text value="Diabetes - Type 2_Old Cases2015"/>
+    <type value="group"/>
+    <item id="rQyEp3hEtSQ.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rQyEp3hEtSQ.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rQyEp3hEtSQ.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rQyEp3hEtSQ.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rQyEp3hEtSQ.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rQyEp3hEtSQ.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TBUXBeDQQ9F">
+    <text value="Hypertension_Old Cases2015"/>
+    <type value="group"/>
+    <item id="TBUXBeDQQ9F.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="TBUXBeDQQ9F.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="TBUXBeDQQ9F.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="TBUXBeDQQ9F.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="TBUXBeDQQ9F.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="TBUXBeDQQ9F.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

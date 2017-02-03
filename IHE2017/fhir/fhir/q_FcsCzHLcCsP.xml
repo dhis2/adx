@@ -1,0 +1,567 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="FcsCzHLcCsP"/>
+  <status value="published"/>
+  <title value="DH Mental Health"/>
+  <item id="aIF0vWi8mNu">
+    <text value="MH_Post-traumatic stress disorder_New Cases2015_OPD"/>
+    <type value="group"/>
+    <item id="aIF0vWi8mNu.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIF0vWi8mNu.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIF0vWi8mNu.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIF0vWi8mNu.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIF0vWi8mNu.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIF0vWi8mNu.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nd3evBtrPEy">
+    <text value="Epilepsy_Old Cases2015"/>
+    <type value="group"/>
+    <item id="nd3evBtrPEy.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nd3evBtrPEy.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nd3evBtrPEy.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nd3evBtrPEy.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nd3evBtrPEy.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nd3evBtrPEy.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qf5E1NVgpdU">
+    <text value="Behavior disorders not due to alcohol_drugs_Old Cases2015"/>
+    <type value="group"/>
+    <item id="qf5E1NVgpdU.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qf5E1NVgpdU.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qf5E1NVgpdU.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qf5E1NVgpdU.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qf5E1NVgpdU.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qf5E1NVgpdU.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pOuFi4iwEqk">
+    <text value="Psychosomatic problems_Old Cases2015"/>
+    <type value="group"/>
+    <item id="pOuFi4iwEqk.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pOuFi4iwEqk.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pOuFi4iwEqk.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pOuFi4iwEqk.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pOuFi4iwEqk.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pOuFi4iwEqk.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Grw8VQE8h2M">
+    <text value="MH_Neurological problems_New cases2015_OPD"/>
+    <type value="group"/>
+    <item id="Grw8VQE8h2M.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Grw8VQE8h2M.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Grw8VQE8h2M.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Grw8VQE8h2M.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Grw8VQE8h2M.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Grw8VQE8h2M.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DgaDrbEdKvD">
+    <text value="Suicide_attempted or successful_Old Cases2015"/>
+    <type value="group"/>
+    <item id="DgaDrbEdKvD.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="DgaDrbEdKvD.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="DgaDrbEdKvD.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="DgaDrbEdKvD.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="DgaDrbEdKvD.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="DgaDrbEdKvD.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aPOtTzt6unc">
+    <text value="MH_Schizophrenia and other psychoses_Old cases2015_OPD"/>
+    <type value="group"/>
+    <item id="aPOtTzt6unc.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aPOtTzt6unc.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aPOtTzt6unc.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aPOtTzt6unc.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aPOtTzt6unc.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aPOtTzt6unc.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="feVf5ArfBpY">
+    <text value="Suicide_attempted or successful_New Cases2015"/>
+    <type value="group"/>
+    <item id="feVf5ArfBpY.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="feVf5ArfBpY.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="feVf5ArfBpY.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="feVf5ArfBpY.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="feVf5ArfBpY.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="feVf5ArfBpY.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="u8v3OzIRwOi">
+    <text value="MH_Depression_Old Cases2015_OPD"/>
+    <type value="group"/>
+    <item id="u8v3OzIRwOi.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="u8v3OzIRwOi.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="u8v3OzIRwOi.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="u8v3OzIRwOi.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="u8v3OzIRwOi.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="u8v3OzIRwOi.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JDvRVLdEcnS">
+    <text value="Behavior disorders not due to alcohol_drugs_New Cases2015"/>
+    <type value="group"/>
+    <item id="JDvRVLdEcnS.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JDvRVLdEcnS.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JDvRVLdEcnS.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JDvRVLdEcnS.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JDvRVLdEcnS.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JDvRVLdEcnS.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PYmJTcmbVvD">
+    <text value="MH_Behavior disorders due to use of alcohol_drugs_Old Cases2015_OPD"/>
+    <type value="group"/>
+    <item id="PYmJTcmbVvD.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="PYmJTcmbVvD.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="PYmJTcmbVvD.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="PYmJTcmbVvD.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="PYmJTcmbVvD.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="PYmJTcmbVvD.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HosaHzBUQAy">
+    <text value="MH_Neurological problems_Old cases2015_OPD"/>
+    <type value="group"/>
+    <item id="HosaHzBUQAy.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="HosaHzBUQAy.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="HosaHzBUQAy.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="HosaHzBUQAy.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="HosaHzBUQAy.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="HosaHzBUQAy.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cvegTdKuHcl">
+    <text value="MH_Epilepsy_New Cases2015_OPD"/>
+    <type value="group"/>
+    <item id="cvegTdKuHcl.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cvegTdKuHcl.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cvegTdKuHcl.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cvegTdKuHcl.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cvegTdKuHcl.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cvegTdKuHcl.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JpxY1TInZP9">
+    <text value="Post-traumatic stress disorder_Old Cases2015"/>
+    <type value="group"/>
+    <item id="JpxY1TInZP9.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JpxY1TInZP9.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JpxY1TInZP9.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JpxY1TInZP9.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JpxY1TInZP9.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JpxY1TInZP9.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jltkzMrBMTS">
+    <text value="MH_Behavior disorders due to use of alcohol_drugs_New Cases2015_OPD"/>
+    <type value="group"/>
+    <item id="jltkzMrBMTS.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jltkzMrBMTS.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jltkzMrBMTS.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jltkzMrBMTS.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jltkzMrBMTS.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jltkzMrBMTS.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rDbbTHf6OQj">
+    <text value="MH_Other Psychological problems_New Cases2015_OPD"/>
+    <type value="group"/>
+    <item id="rDbbTHf6OQj.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rDbbTHf6OQj.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rDbbTHf6OQj.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rDbbTHf6OQj.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rDbbTHf6OQj.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rDbbTHf6OQj.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AbK1c28vrKA">
+    <text value="MH_Schizophrenia and other psychoses_New cases2015_OPD"/>
+    <type value="group"/>
+    <item id="AbK1c28vrKA.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="AbK1c28vrKA.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="AbK1c28vrKA.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="AbK1c28vrKA.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="AbK1c28vrKA.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="AbK1c28vrKA.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Peeoisr4pdU">
+    <text value="MH_Depression_New Cases2015_OPD"/>
+    <type value="group"/>
+    <item id="Peeoisr4pdU.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Peeoisr4pdU.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Peeoisr4pdU.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Peeoisr4pdU.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Peeoisr4pdU.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Peeoisr4pdU.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tSTaL7Uejqr">
+    <text value="MH_Other Psychological problems_Old Cases2015_OPD"/>
+    <type value="group"/>
+    <item id="tSTaL7Uejqr.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tSTaL7Uejqr.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tSTaL7Uejqr.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tSTaL7Uejqr.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tSTaL7Uejqr.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tSTaL7Uejqr.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pJUDFvD5qiv">
+    <text value="Psychosomatic problems_New Cases2015"/>
+    <type value="group"/>
+    <item id="pJUDFvD5qiv.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pJUDFvD5qiv.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pJUDFvD5qiv.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pJUDFvD5qiv.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pJUDFvD5qiv.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pJUDFvD5qiv.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

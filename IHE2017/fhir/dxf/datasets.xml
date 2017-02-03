@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="http://dhis2.org/schema/dxf/2.0">
+    <dataSets>
+        <dataSet id="ygTEbJWQhqf">
+            <displayName>ANC and PNC consultations</displayName>
+        </dataSet>
+        <dataSet id="xT2cpvNOl3E">
+            <displayName>Annual Report Donors</displayName>
+        </dataSet>
+        <dataSet id="LkHCCsR8zY2">
+            <displayName>Annual Report Implementing partners</displayName>
+        </dataSet>
+        <dataSet id="NPb5eMKEpaj">
+            <displayName>Annual Report Infrastructure</displayName>
+        </dataSet>
+        <dataSet id="KTDersZe3x8">
+            <displayName>Cancer screening</displayName>
+        </dataSet>
+        <dataSet id="NXTpxbBK5lf">
+            <displayName>Chronic Diseases</displayName>
+        </dataSet>
+        <dataSet id="P4jIcG8DhxA">
+            <displayName>Community Checkup</displayName>
+        </dataSet>
+        <dataSet id="AMTOBRmJPfe">
+            <displayName>Dashboard annual</displayName>
+        </dataSet>
+        <dataSet id="neIhgd23CEO">
+            <displayName>Dashboard monthly</displayName>
+        </dataSet>
+        <dataSet id="eHpWTVU3o9Y">
+            <displayName>Dental diagnoses and Dental procedures</displayName>
+        </dataSet>
+        <dataSet id="GAoXgNtiKur">
+            <displayName>Dermatology diagnoses</displayName>
+        </dataSet>
+        <dataSet id="inZPmEJe538">
+            <displayName>DH Blood bank security</displayName>
+        </dataSet>
+        <dataSet id="Jvh8AN9U2cT">
+            <displayName>DH Cancer screening</displayName>
+        </dataSet>
+        <dataSet id="AFfYUoMthe8">
+            <displayName>DH Cardiovascular and Kidney diseases</displayName>
+        </dataSet>
+        <dataSet id="WIqs1KLFCll">
+            <displayName>DH Chronic Diseases</displayName>
+        </dataSet>
+        <dataSet id="UwlihpMwvYp">
+            <displayName>DH Community Checkup</displayName>
+        </dataSet>
+        <dataSet id="DAC1J5fYmMV">
+            <displayName>DH Family Planning</displayName>
+        </dataSet>
+        <dataSet id="xIxYSfS2l82">
+            <displayName>DH Finance</displayName>
+        </dataSet>
+        <dataSet id="uhJg0WkacMO">
+            <displayName>DH Gender Based Violence</displayName>
+        </dataSet>
+        <dataSet id="wPqeU3nO0h3">
+            <displayName>DH Hospitalisation</displayName>
+        </dataSet>
+        <dataSet id="Rtf90nFnGdK">
+            <displayName>DH Injuries</displayName>
+        </dataSet>
+        <dataSet id="NgQVcJF8KvJ">
+            <displayName>DH Laboratory</displayName>
+        </dataSet>
+        <dataSet id="wTcbuL9PqaF">
+            <displayName>DH Medical Imagery</displayName>
+        </dataSet>
+        <dataSet id="FcsCzHLcCsP">
+            <displayName>DH Mental Health</displayName>
+        </dataSet>
+        <dataSet id="OpTvtrOtUA9">
+            <displayName>DH Neonatal section and Kangaroo</displayName>
+        </dataSet>
+        <dataSet id="oScCL7XYnE3">
+            <displayName>DH Nutrition</displayName>
+        </dataSet>
+        <dataSet id="TJt0KlNAkfk">
+            <displayName>DH Obstetric Complications and Deliveries</displayName>
+        </dataSet>
+        <dataSet id="PHoo6i3hBxZ">
+            <displayName>DH Outpatient Consultations</displayName>
+        </dataSet>
+        <dataSet id="xyoBhxUvThx">
+            <displayName>DH Palliative care</displayName>
+        </dataSet>
+        <dataSet id="H9NfvD1X5KC">
+            <displayName>DH Postnatal Care</displayName>
+        </dataSet>
+        <dataSet id="zwZeLxZoWnM">
+            <displayName>DH Stock Of Tracer Drugs</displayName>
+        </dataSet>
+        <dataSet id="zefkAgeFAep">
+            <displayName>DH Surgery and Anesthesia and Physiotherapy</displayName>
+        </dataSet>
+        <dataSet id="hwjh3sKR553">
+            <displayName>Eye Ophthalmological diagnoses</displayName>
+        </dataSet>
+        <dataSet id="wxFCawJXV06">
+            <displayName>Eye services and procedures</displayName>
+        </dataSet>
+        <dataSet id="fOOk2JjCxUU">
+            <displayName>Eye surgical procedures</displayName>
+        </dataSet>
+        <dataSet id="mQz27jjY9PM">
+            <displayName>Family Planning</displayName>
+        </dataSet>
+        <dataSet id="QpHpeEdW033">
+            <displayName>Finance</displayName>
+        </dataSet>
+        <dataSet id="Sqeh3yk05j8">
+            <displayName>Gender Based Violence</displayName>
+        </dataSet>
+        <dataSet id="miUlXYBfoO0">
+            <displayName>Hospitalisation</displayName>
+        </dataSet>
+        <dataSet id="LUTKOb3tvF2">
+            <displayName>Hospitalisation_Mental Health_RH</displayName>
+        </dataSet>
+        <dataSet id="RVjksPTMJ4I">
+            <displayName>IMCI Diseases</displayName>
+        </dataSet>
+        <dataSet id="Al7Ez5pIJXa">
+            <displayName>Injuries</displayName>
+        </dataSet>
+        <dataSet id="Rw3zqst94fM">
+            <displayName>Laboratory</displayName>
+        </dataSet>
+        <dataSet id="XW4blW6CsNl">
+            <displayName>Leprosy notification and detection</displayName>
+        </dataSet>
+        <dataSet id="dnX0j5yOqm0">
+            <displayName>Leprosy patients Under treatment-Treatment Outcome and Disability
+                assessment</displayName>
+        </dataSet>
+        <dataSet id="rseBdaZKwMq">
+            <displayName>LLNN</displayName>
+        </dataSet>
+        <dataSet id="lDllddzZtbA">
+            <displayName>MARPs AGHR</displayName>
+        </dataSet>
+        <dataSet id="efZrpLEEuse">
+            <displayName>MARPs AIMR</displayName>
+        </dataSet>
+        <dataSet id="BL19Qcaj9eq">
+            <displayName>MARPs APROFAPER</displayName>
+        </dataSet>
+        <dataSet id="yKchFS9BbHm">
+            <displayName>MARPs ARSEDI</displayName>
+        </dataSet>
+        <dataSet id="d5etbFi7lLK">
+            <displayName>MARPS ARTCF</displayName>
+        </dataSet>
+        <dataSet id="dehz7siwo4O">
+            <displayName>MARPS ASOFERWA</displayName>
+        </dataSet>
+        <dataSet id="cjQDzXlSeOK">
+            <displayName>MARPS COFEM</displayName>
+        </dataSet>
+        <dataSet id="YvjbumMNm2a">
+            <displayName>MARPS COODIPRIB</displayName>
+        </dataSet>
+        <dataSet id="wCF0PgQCjfc">
+            <displayName>MARPs COOPILAK</displayName>
+        </dataSet>
+        <dataSet id="DYpeIYqZRDw">
+            <displayName>MARPS DHR</displayName>
+        </dataSet>
+        <dataSet id="Ej0a7oedd42">
+            <displayName>MARPS FAITH VICTORY</displayName>
+        </dataSet>
+        <dataSet id="AAHY0wf3cAE">
+            <displayName>MARPS HPA</displayName>
+        </dataSet>
+        <dataSet id="l3YHv6AUOWD">
+            <displayName>MARPS ICAP</displayName>
+        </dataSet>
+        <dataSet id="mJvZVKgOxN6">
+            <displayName>MARPS NGOMA YFC</displayName>
+        </dataSet>
+        <dataSet id="N74ivdYAkzg">
+            <displayName>MARPs Ngoma Youth centre</displayName>
+        </dataSet>
+        <dataSet id="eBZ5B8YmNjC">
+            <displayName>MARPs PSIRWANDA</displayName>
+        </dataSet>
+        <dataSet id="AwdUwCPk76J">
+            <displayName>MARPS SFH RWANDA</displayName>
+        </dataSet>
+        <dataSet id="VKy5f2R3dAd">
+            <displayName>MARPs SODECO</displayName>
+        </dataSet>
+        <dataSet id="PyhAuk1heoH">
+            <displayName>MARPs UCC</displayName>
+        </dataSet>
+        <dataSet id="iVBH8O6quf2">
+            <displayName>MARPS UPHLS</displayName>
+        </dataSet>
+        <dataSet id="bnHMVufKjzY">
+            <displayName>MARPS VISION JEUNESSE NOUVELLE</displayName>
+        </dataSet>
+        <dataSet id="Z0HZNFQ5W6v">
+            <displayName>MARPS WORLD VISION</displayName>
+        </dataSet>
+        <dataSet id="OTbUHfMzfXH">
+            <displayName>MDR-TB case management-Bacteriological Conversion-Treatment
+                Outcomes</displayName>
+        </dataSet>
+        <dataSet id="NyiDPTEdVfd">
+            <displayName>MDR-TB Registration and by Case category and by HIV status</displayName>
+        </dataSet>
+        <dataSet id="kIUlHHT5D0e">
+            <displayName>Mental Health</displayName>
+        </dataSet>
+        <dataSet id="QUVOtvTWe7Q">
+            <displayName>Mental Health Labo</displayName>
+        </dataSet>
+        <dataSet id="QJFJI6MqI2n">
+            <displayName>Mental Health_Laboratory</displayName>
+        </dataSet>
+        <dataSet id="b817q48TTtN">
+            <displayName>Mental Health_Outpatient Consultations</displayName>
+        </dataSet>
+        <dataSet id="gWlhsd6cyTc">
+            <displayName>Mental Health Tracer Drugs</displayName>
+        </dataSet>
+        <dataSet id="lfQM810VzIA">
+            <displayName>MH_Laboratory</displayName>
+        </dataSet>
+        <dataSet id="ONesGl1Xigu">
+            <displayName>Ministers Daily Flash Report </displayName>
+        </dataSet>
+        <dataSet id="UUCBoUHsneM">
+            <displayName>Neonatal Causes of Hospitalization and Deaths</displayName>
+        </dataSet>
+        <dataSet id="fDnb4hBxIwT">
+            <displayName>Nutrition Screening and Rehab HC</displayName>
+        </dataSet>
+        <dataSet id="u4aKpk1mfW8">
+            <displayName>Obstetric Complications and Deliveries</displayName>
+        </dataSet>
+        <dataSet id="jcLMcIzg5C7">
+            <displayName>Orthopedic Anesthesia and Physiotherapy</displayName>
+        </dataSet>
+        <dataSet id="z1VNQHDj5sS">
+            <displayName>Orthopedic Appliance, Casts and Splint</displayName>
+        </dataSet>
+        <dataSet id="W4ipYaFzNwT">
+            <displayName>Orthopedic Medical Imagery</displayName>
+        </dataSet>
+        <dataSet id="Gb5LZXrTSqg">
+            <displayName>Orthopedic Outpatient Consultations</displayName>
+        </dataSet>
+        <dataSet id="I8W4Pg0sHxn">
+            <displayName>Orthopedics Hospitalizations</displayName>
+        </dataSet>
+        <dataSet id="TgjCM01Hhq7">
+            <displayName>Orthopedic surgery</displayName>
+        </dataSet>
+        <dataSet id="cuEOZnUwQJ0">
+            <displayName>Other Cardiovascular and Kidney diseases</displayName>
+        </dataSet>
+        <dataSet id="IjOSsTCZA7y">
+            <displayName>OutPatient Consultations (OPD)</displayName>
+        </dataSet>
+        <dataSet id="tdAnXMNTbGZ">
+            <displayName>Palliative care</displayName>
+        </dataSet>
+        <dataSet id="OeOJJrZbLyt">
+            <displayName>Population</displayName>
+        </dataSet>
+        <dataSet id="aw95ZUgISp0">
+            <displayName>Postnatal care</displayName>
+        </dataSet>
+        <dataSet id="Os7PCl3EnDv">
+            <displayName>RH Hospitalization</displayName>
+        </dataSet>
+        <dataSet id="PmbaRavemev">
+            <displayName>RH Laboratory</displayName>
+        </dataSet>
+        <dataSet id="xRdJ4CT5ikU">
+            <displayName>RH Medical Imagery</displayName>
+        </dataSet>
+        <dataSet id="RyjdXK3ePxd">
+            <displayName>RH OutPatient Consultation (OPD)</displayName>
+        </dataSet>
+        <dataSet id="PqckA9yH5Nb">
+            <displayName>RH Surgery and Anesthesia and Physiotherapy</displayName>
+        </dataSet>
+        <dataSet id="g5M1uQxkzjb">
+            <displayName>Stock of Tracer Drugs</displayName>
+        </dataSet>
+        <dataSet id="Ku1LiOYgMwR">
+            <displayName>TB - Bacteriological conversion, Suspicion of MDR TB and Management of MDR
+                TB cases</displayName>
+        </dataSet>
+        <dataSet id="VngCjjGfSnt">
+            <displayName>TB_Coughers triage compilation report</displayName>
+        </dataSet>
+        <dataSet id="m5GE9y0wCKw">
+            <displayName>TB Drug Management (CDT only)</displayName>
+        </dataSet>
+        <dataSet id="QPPOY9ZqwjB">
+            <displayName>TB Genexpert coverage and results by eligibility criteria</displayName>
+        </dataSet>
+        <dataSet id="DDotEYcfoEw">
+            <displayName>TB - HIV Testing among TB Cases, Laboratory and Smears examined ( CDT only
+                )</displayName>
+        </dataSet>
+        <dataSet id="Wv4xuh8ys8C">
+            <displayName>TB - HIV Testing among TB Cases, Laboratory (CT only)</displayName>
+        </dataSet>
+        <dataSet id="pBnagObLlRI">
+            <displayName>TB_Infection Control Evaluation form</displayName>
+        </dataSet>
+        <dataSet id="QbEgJYmJ1ej">
+            <displayName>TB - Presumptive examined by microscopy techniques(CDT only)</displayName>
+        </dataSet>
+        <dataSet id="krycukQ11yw">
+            <displayName>TB - Registration of TB Cases (CDT only)</displayName>
+        </dataSet>
+        <dataSet id="zjDzIGpJkWH">
+            <displayName>TB surveillance among health facility workers</displayName>
+        </dataSet>
+        <dataSet id="XJq7cwP0DvC">
+            <displayName>TB - TB/HIV and TB among people at high risk of TB and Community DOTS,
+                Screening</displayName>
+        </dataSet>
+        <dataSet id="WCkQ563QvaC">
+            <displayName>TB - Treatment outcome report (CDT only)</displayName>
+        </dataSet>
+        <dataSet id="YVD0nEkdsmF">
+            <displayName>TB_Xpert tests performed (Xpert sites only)</displayName>
+        </dataSet>
+        <dataSet id="oCyde6iBnox">
+            <displayName>Vaccination</displayName>
+        </dataSet>
+        <dataSet id="CKNuQBFAiXE">
+            <displayName>Weekly Child Mortality report</displayName>
+        </dataSet>
+    </dataSets>
+</metadata>

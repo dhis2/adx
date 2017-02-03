@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="OpTvtrOtUA9"/>
+  <status value="published"/>
+  <title value="DH Neonatal section and Kangaroo"/>
+  <item id="Oic4qAUWu24">
+    <text value="Congenital malformation_NeoHOS"/>
+    <type value="group"/>
+    <item id="Oic4qAUWu24.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Oic4qAUWu24.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Oic4qAUWu24.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Oic4qAUWu24.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OkirPme0U85">
+    <text value="Total neonates born outside this health facility and Died"/>
+    <type value="group"/>
+    <item id="OkirPme0U85.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="OkirPme0U85.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="OkirPme0U85.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="OkirPme0U85.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FIxbWF4DVvu">
+    <text value="Prematurity_22 to 37 weeks_NeoDeaths"/>
+    <type value="group"/>
+    <item id="FIxbWF4DVvu.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FIxbWF4DVvu.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FIxbWF4DVvu.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FIxbWF4DVvu.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b75R8ZUWwQj">
+    <text value="Hypothermia_NeoHOS"/>
+    <type value="group"/>
+    <item id="b75R8ZUWwQj.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b75R8ZUWwQj.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="b75R8ZUWwQj.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b75R8ZUWwQj.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lBRxHmSs2vA">
+    <text value="Meningitis_NeoDeaths"/>
+    <type value="group"/>
+    <item id="lBRxHmSs2vA.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lBRxHmSs2vA.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lBRxHmSs2vA.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lBRxHmSs2vA.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="N9AkNx9DadM">
+    <text value="All other causes of neonatal morbidity_NeoDeaths"/>
+    <type value="group"/>
+    <item id="N9AkNx9DadM.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="N9AkNx9DadM.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="N9AkNx9DadM.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="N9AkNx9DadM.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cHKbwraly3S">
+    <text value="Tetanus Neonatal_NeoHospitalised"/>
+    <type value="group"/>
+    <item id="cHKbwraly3S.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cHKbwraly3S.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cHKbwraly3S.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cHKbwraly3S.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="flbBVPfbcjo">
+    <text value="Hypothermia_NeoDeaths"/>
+    <type value="group"/>
+    <item id="flbBVPfbcjo.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="flbBVPfbcjo.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="flbBVPfbcjo.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="flbBVPfbcjo.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VtSSGStAdMm">
+    <text value="Skin infections_NeoDeaths"/>
+    <type value="group"/>
+    <item id="VtSSGStAdMm.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="VtSSGStAdMm.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="VtSSGStAdMm.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="VtSSGStAdMm.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="N4U204RjYYv">
+    <text value="Asphyxia_NeoHOS"/>
+    <type value="group"/>
+    <item id="N4U204RjYYv.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="N4U204RjYYv.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="N4U204RjYYv.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="N4U204RjYYv.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wUtNpUUhtq6">
+    <text value="Total neonates born in this facility and admitted"/>
+    <type value="group"/>
+    <item id="wUtNpUUhtq6.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wUtNpUUhtq6.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wUtNpUUhtq6.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wUtNpUUhtq6.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qPZSDF6UA19">
+    <text value="Meningitis_NeoHOS"/>
+    <type value="group"/>
+    <item id="qPZSDF6UA19.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qPZSDF6UA19.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qPZSDF6UA19.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qPZSDF6UA19.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UaHHgo00lAx">
+    <text value="KMC Deaths among KMC admissions"/>
+    <type value="group"/>
+    <item id="UaHHgo00lAx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h3COUhDEr2t">
+    <text value="Asphyxia_NeoDeaths"/>
+    <type value="group"/>
+    <item id="h3COUhDEr2t.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="h3COUhDEr2t.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="h3COUhDEr2t.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="h3COUhDEr2t.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fBEXwufRy2I">
+    <text value="Skin infections_NeoHOS"/>
+    <type value="group"/>
+    <item id="fBEXwufRy2I.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fBEXwufRy2I.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fBEXwufRy2I.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fBEXwufRy2I.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="okGlSMzxRGy">
+    <text value="Total neonates born outside this health facility and admitted"/>
+    <type value="group"/>
+    <item id="okGlSMzxRGy.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="okGlSMzxRGy.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="okGlSMzxRGy.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="okGlSMzxRGy.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cnITpiS12Eq">
+    <text value="Congenital malformation_NeoDeaths"/>
+    <type value="group"/>
+    <item id="cnITpiS12Eq.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cnITpiS12Eq.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cnITpiS12Eq.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cnITpiS12Eq.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y32XaRvUsw7">
+    <text value="Urinary tract infections neonatal_NeoDeaths"/>
+    <type value="group"/>
+    <item id="y32XaRvUsw7.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y32XaRvUsw7.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="y32XaRvUsw7.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="y32XaRvUsw7.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NgX3fXasjpc">
+    <text value="Prematurity_22 to 37 weeks_NeoHOS"/>
+    <type value="group"/>
+    <item id="NgX3fXasjpc.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NgX3fXasjpc.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NgX3fXasjpc.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NgX3fXasjpc.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VxSCfIZTwvc">
+    <text value="Respiratory infections_NeoDeaths"/>
+    <type value="group"/>
+    <item id="VxSCfIZTwvc.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="VxSCfIZTwvc.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="VxSCfIZTwvc.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="VxSCfIZTwvc.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mZvteXnA04i">
+    <text value="Neonatal infections Other_NeoDeaths"/>
+    <type value="group"/>
+    <item id="mZvteXnA04i.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mZvteXnA04i.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mZvteXnA04i.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mZvteXnA04i.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ax0Ri29pWFp">
+    <text value="All other causes of neonatal morbidity_NeoHOS"/>
+    <type value="group"/>
+    <item id="ax0Ri29pWFp.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ax0Ri29pWFp.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ax0Ri29pWFp.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ax0Ri29pWFp.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L4wa093HR2h">
+    <text value="Respiratory infections_NeoHOS"/>
+    <type value="group"/>
+    <item id="L4wa093HR2h.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="L4wa093HR2h.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="L4wa093HR2h.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="L4wa093HR2h.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jcAhCvzaOmq">
+    <text value="Total neonates born in this facility and Died"/>
+    <type value="group"/>
+    <item id="jcAhCvzaOmq.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcAhCvzaOmq.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcAhCvzaOmq.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcAhCvzaOmq.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ohcXLmjpNI0">
+    <text value="KMC Standard follow up visit after discharge within 2 weeks"/>
+    <type value="group"/>
+    <item id="ohcXLmjpNI0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VuVXKEeHiqV">
+    <text value="Urinary tract infections neonatal_NeoHOS"/>
+    <type value="group"/>
+    <item id="VuVXKEeHiqV.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="VuVXKEeHiqV.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="VuVXKEeHiqV.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="VuVXKEeHiqV.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ua3HV5YNsfF">
+    <text value="Neonatal infections Other_NeoHOS"/>
+    <type value="group"/>
+    <item id="Ua3HV5YNsfF.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ua3HV5YNsfF.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ua3HV5YNsfF.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ua3HV5YNsfF.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pQ83o3PVFfE">
+    <text value="Tetanus Neonatal_NeoDeaths"/>
+    <type value="group"/>
+    <item id="pQ83o3PVFfE.HxiilSgMG5h">
+      <text value="8-28 days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pQ83o3PVFfE.qTtgEq29nKC">
+      <text value="0-7days, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pQ83o3PVFfE.EWC53q48XkX">
+      <text value="0-7days, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pQ83o3PVFfE.XrX0aIuTYFm">
+      <text value="8-28 days, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="H4HLPPwHBOC">
+    <text value="Low birth weight babies admitted in KMC"/>
+    <type value="group"/>
+    <item id="H4HLPPwHBOC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

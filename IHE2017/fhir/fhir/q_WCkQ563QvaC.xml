@@ -1,0 +1,1359 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="WCkQ563QvaC"/>
+  <status value="published"/>
+  <title value="TB - Treatment outcome report (CDT only)"/>
+  <item id="SZlnUS0TzmV">
+    <text value="Numbers of TB/HIV patients Completed treatments"/>
+    <type value="group"/>
+    <item id="SZlnUS0TzmV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vTiSXZvy4yw">
+    <text value="TB HIV-positive cases new and relapse TB patients on ART by end of TB treatment_Not Evaluated"/>
+    <type value="group"/>
+    <item id="vTiSXZvy4yw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dpkQwufzCON">
+    <text value="Under 5 years TB contacts put on INH preventive treatments Non evaluated"/>
+    <type value="group"/>
+    <item id="dpkQwufzCON.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VgO4aNks0Mw">
+    <text value="Numbers of TB&#xA0;/HIV patients initiated  ART at the end of TB treatment_completed Treatment"/>
+    <type value="group"/>
+    <item id="VgO4aNks0Mw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XHmMe9KwQue">
+    <text value="New Pulmonary TB with positive smears(New Pulmonary TB with positive smears(NSS+) Completed treatments"/>
+    <type value="group"/>
+    <item id="XHmMe9KwQue.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hPsTrOFeNM5">
+    <text value="Treatment after FailuresNon evaluated"/>
+    <type value="group"/>
+    <item id="hPsTrOFeNM5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x5t4ga5oJxv">
+    <text value="Treatment after LTFU Non evaluated"/>
+    <type value="group"/>
+    <item id="x5t4ga5oJxv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TDxVqfVqdfH">
+    <text value="TB HIV-positive other forms TB patients on ART by end of TB treatment_MovedtoSLD"/>
+    <type value="group"/>
+    <item id="TDxVqfVqdfH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RfOxJFaNJaW">
+    <text value="Children  0-14 years Non evaluated"/>
+    <type value="group"/>
+    <item id="RfOxJFaNJaW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="utje1qFqPBi">
+    <text value="Children  0-14 years SLD"/>
+    <type value="group"/>
+    <item id="utje1qFqPBi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gu6zbDF4Ekr">
+    <text value="TB HIV-positive other forms TB patients on ART by end of TB treatment_Lost to followup"/>
+    <type value="group"/>
+    <item id="gu6zbDF4Ekr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wf5kmr9vrIs">
+    <text value="Relapses Deceased"/>
+    <type value="group"/>
+    <item id="wf5kmr9vrIs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h5cnyoJW9l8">
+    <text value="TB Other cases SLD"/>
+    <type value="group"/>
+    <item id="h5cnyoJW9l8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tog4xbhvU5j">
+    <text value="Children  0-14 years Completed treatments"/>
+    <type value="group"/>
+    <item id="tog4xbhvU5j.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BHr6njMGyoB">
+    <text value="New Pulmonary TB with Microscopy Not Done (PTMO) Non evaluated"/>
+    <type value="group"/>
+    <item id="BHr6njMGyoB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="n7zpoWoRNBS">
+    <text value="Numbers of TB&#xA0;/HIV patients initiated  ART at the end of TB treatment_transferred"/>
+    <type value="group"/>
+    <item id="n7zpoWoRNBS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KkoGhdpsueF">
+    <text value="New Pulmonary TB with Microscopy Not Done (PTMO) SLD"/>
+    <type value="group"/>
+    <item id="KkoGhdpsueF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="B8DEeoE36AP">
+    <text value="TB Patients treated by CHW_Non evaluated"/>
+    <type value="group"/>
+    <item id="B8DEeoE36AP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J3KY8kMk0Wx">
+    <text value="TB Men (All forms)_Registered"/>
+    <type value="group"/>
+    <item id="J3KY8kMk0Wx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LMZNIpaN66g">
+    <text value="Treatment after Failures_Registered cases"/>
+    <type value="group"/>
+    <item id="LMZNIpaN66g.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gOP58hUP8Sn">
+    <text value="Treatment after LTFU_Treatment failed"/>
+    <type value="group"/>
+    <item id="gOP58hUP8Sn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aBBd52Chlrt">
+    <text value="Pulmonary TB Negative smears (PTNM-) Transfered"/>
+    <type value="group"/>
+    <item id="aBBd52Chlrt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="C0UaDI6Ekks">
+    <text value="Treatment after LTFU_Completed treatments"/>
+    <type value="group"/>
+    <item id="C0UaDI6Ekks.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PZJr5INUPrD">
+    <text value="TB Women (All forms)_Registered"/>
+    <type value="group"/>
+    <item id="PZJr5INUPrD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DB6OPDUsBWc">
+    <text value="Children  0-14 years Registered cases"/>
+    <type value="group"/>
+    <item id="DB6OPDUsBWc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="H9sKwf38pnt">
+    <text value="TB patients followed by CHW_Non evaluated"/>
+    <type value="group"/>
+    <item id="H9sKwf38pnt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hHdbGSI3Ji7">
+    <text value="TB HIV-positive other forms TB patients_Registered"/>
+    <type value="group"/>
+    <item id="hHdbGSI3Ji7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QCaS70kYiXe">
+    <text value="TB HIV-positive cases new and relapse TB patients on ART by end of TB treatment_Died"/>
+    <type value="group"/>
+    <item id="QCaS70kYiXe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c4tQf30ganK">
+    <text value="TB HIV-positive other forms TB patients_ Died"/>
+    <type value="group"/>
+    <item id="c4tQf30ganK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="T6tSSznnvNZ">
+    <text value="Children  0-14 years Transfered"/>
+    <type value="group"/>
+    <item id="T6tSSznnvNZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WlD8MmyRyX3">
+    <text value="TB patients followed by CHW_Treatment failed"/>
+    <type value="group"/>
+    <item id="WlD8MmyRyX3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KGElFm9pfkP">
+    <text value="TB HIV-positive other forms TB patients_ Not evaluated"/>
+    <type value="group"/>
+    <item id="KGElFm9pfkP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tGOvAttWQ2x">
+    <text value="New Pulmonary TB with positive smears(NTPB Positive) Failures"/>
+    <type value="group"/>
+    <item id="tGOvAttWQ2x.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dEGxbZpJxUl">
+    <text value="Numbers of TB&#xA0;/HIV patients initiated  ART at the end of TB treatment_Died"/>
+    <type value="group"/>
+    <item id="dEGxbZpJxUl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="v9by5WFE1bW">
+    <text value="Relapses Cured"/>
+    <type value="group"/>
+    <item id="v9by5WFE1bW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c3hj67fm6kA">
+    <text value="Numbers of TB&#xA0;/HIV patients initiated  ART at the end of TB treatment_non evaluated"/>
+    <type value="group"/>
+    <item id="c3hj67fm6kA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nblMY0OKpK6">
+    <text value="TB HIV-positive other forms TB patients_Moved to SLD"/>
+    <type value="group"/>
+    <item id="nblMY0OKpK6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RVc0Vj3CdID">
+    <text value="Relapses_Treatment failed "/>
+    <type value="group"/>
+    <item id="RVc0Vj3CdID.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vKa9KeWHlvq">
+    <text value="TB HIV-positive cases new and relapse TB patients on ART by end of TB treatment_Cured"/>
+    <type value="group"/>
+    <item id="vKa9KeWHlvq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fu8rTSPNPRz">
+    <text value="New Pulmonary TB with Microscopy Not Done (PTMO) Transfered"/>
+    <type value="group"/>
+    <item id="fu8rTSPNPRz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ze2XxR8cVvy">
+    <text value="Under 5 years TB contacts put on INH preventive treatments Registered cases"/>
+    <type value="group"/>
+    <item id="ze2XxR8cVvy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TEiAV3fH4rM">
+    <text value="TB Men (All forms)_Transfered"/>
+    <type value="group"/>
+    <item id="TEiAV3fH4rM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Vnaf7Pd6mFM">
+    <text value="Extra Pulmonary TB  (EPT) Transfered"/>
+    <type value="group"/>
+    <item id="Vnaf7Pd6mFM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Wqbk8fQONTa">
+    <text value="New Pulmonary TB Negative smears (PTNM-) Lost follow up"/>
+    <type value="group"/>
+    <item id="Wqbk8fQONTa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J4T0K2K7YNK">
+    <text value="TB Patients treated by CHW_Cured"/>
+    <type value="group"/>
+    <item id="J4T0K2K7YNK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fZqklPzdlhy">
+    <text value="Treatment after Failures _Failures"/>
+    <type value="group"/>
+    <item id="fZqklPzdlhy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nxGdmSwnbr2">
+    <text value="New Pulmonary TB Negative smears (PTNM-) Treatment Failed"/>
+    <type value="group"/>
+    <item id="nxGdmSwnbr2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HFspiU2zWJX">
+    <text value="Relapses Lost follow up"/>
+    <type value="group"/>
+    <item id="HFspiU2zWJX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YYjBtPUStAR">
+    <text value="Under 5 years TB contacts put on INH preventive treatments Cured"/>
+    <type value="group"/>
+    <item id="YYjBtPUStAR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LOzkCWbvLTD">
+    <text value="Extra Pulmonary TB  (EPT) Completed treatments"/>
+    <type value="group"/>
+    <item id="LOzkCWbvLTD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aAKvpFW1IIi">
+    <text value="TB HIV-positive cases new and relapse TB patients on ART by end of TB treatment_Treatment Complete"/>
+    <type value="group"/>
+    <item id="aAKvpFW1IIi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="K3iXV0rV5Mi">
+    <text value="TB HIV-positive other forms TB patients on ART by end of TB treatment_Cured"/>
+    <type value="group"/>
+    <item id="K3iXV0rV5Mi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cuWgdCOHUvc">
+    <text value="Numbers of TB/HIV patients Registered cases"/>
+    <type value="group"/>
+    <item id="cuWgdCOHUvc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jYafhAlGxdC">
+    <text value="TB patients followed by CHW_Registered"/>
+    <type value="group"/>
+    <item id="jYafhAlGxdC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dT5je8XZxPP">
+    <text value="Treatment after LTFU_Lost follow up"/>
+    <type value="group"/>
+    <item id="dT5je8XZxPP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Apn931GaIdY">
+    <text value="TB HIV-positive other forms TB patients on ART by end of TB treatment_Treatment failed"/>
+    <type value="group"/>
+    <item id="Apn931GaIdY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gBqWtbYS5Or">
+    <text value="TB patients followed by CHW_Cured"/>
+    <type value="group"/>
+    <item id="gBqWtbYS5Or.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EDr39VR8DB0">
+    <text value="New Pulmonary TB with positive smears(NTPB Positive) Transfered"/>
+    <type value="group"/>
+    <item id="EDr39VR8DB0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dXMVMDdPV8w">
+    <text value="TB Other cases  Transfered"/>
+    <type value="group"/>
+    <item id="dXMVMDdPV8w.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TEEFmnlvz7t">
+    <text value="TB Men (All forms)_Treatment failed"/>
+    <type value="group"/>
+    <item id="TEEFmnlvz7t.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zeVr8XLBRFW">
+    <text value="Numbers of TB&#xA0;/HIV patients initiated  ART at the end of TB treatment_Treatment failed"/>
+    <type value="group"/>
+    <item id="zeVr8XLBRFW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VTB9M0R6Pts">
+    <text value="TB Men (All forms)_Non evaluated"/>
+    <type value="group"/>
+    <item id="VTB9M0R6Pts.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w0h8CMjQTya">
+    <text value="TB HIV-positive cases new and relapse TB patients on ART by end of TB treatment_Moved to SLD"/>
+    <type value="group"/>
+    <item id="w0h8CMjQTya.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qXECqodNR8W">
+    <text value="Children  0-14 years Lost follow up"/>
+    <type value="group"/>
+    <item id="qXECqodNR8W.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sdkMGLWdfvl">
+    <text value="Extra Pulmonary TB  (EPT) Died"/>
+    <type value="group"/>
+    <item id="sdkMGLWdfvl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YdqyClnsTXl">
+    <text value="TB Other cases  Registered cases"/>
+    <type value="group"/>
+    <item id="YdqyClnsTXl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="m82CsLvobcH">
+    <text value="TB Men (All forms)_Cured"/>
+    <type value="group"/>
+    <item id="m82CsLvobcH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yJ4BMVXRWIg">
+    <text value="Children  0-14 years Died"/>
+    <type value="group"/>
+    <item id="yJ4BMVXRWIg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oJaQvnZq4c0">
+    <text value="Numbers of TB/HIV patients Lost follow up"/>
+    <type value="group"/>
+    <item id="oJaQvnZq4c0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="E2eofO32tbm">
+    <text value="New Pulmonary TB with Microscopy Not Done (PTMO)_Died"/>
+    <type value="group"/>
+    <item id="E2eofO32tbm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ulCPVrR9ywX">
+    <text value="TB Women (All forms)_Non evaluated"/>
+    <type value="group"/>
+    <item id="ulCPVrR9ywX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sSHMvW3NeVw">
+    <text value="Under 5 years TB contacts put on INH preventive treatments Transfered"/>
+    <type value="group"/>
+    <item id="sSHMvW3NeVw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gByfpVEyZok">
+    <text value="Failures Transfered"/>
+    <type value="group"/>
+    <item id="gByfpVEyZok.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ToR60mFyYcY">
+    <text value="TB Men (All forms)_Completed treatement"/>
+    <type value="group"/>
+    <item id="ToR60mFyYcY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XWPDVohohjw">
+    <text value="New Pulmonary TB with Microscopy Not Done (PTMO) Treatment failed"/>
+    <type value="group"/>
+    <item id="XWPDVohohjw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gWQDAgJSgcT">
+    <text value="TB Patients treated by CHW_Registered cases"/>
+    <type value="group"/>
+    <item id="gWQDAgJSgcT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lXbEffkaTAX">
+    <text value="New Pulmonary TB Negative smears (PTNM-) Non evaluated"/>
+    <type value="group"/>
+    <item id="lXbEffkaTAX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c6FsRm9AFnn">
+    <text value="Treatment after Failures_Completed treatments"/>
+    <type value="group"/>
+    <item id="c6FsRm9AFnn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CnfXiI5f8Bv">
+    <text value="Relapses Non evaluated"/>
+    <type value="group"/>
+    <item id="CnfXiI5f8Bv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kkfDaghWDYX">
+    <text value="New Pulmonary TB with positive smears(NTPB Positive)New Pulmonary TB with positive smears() Cured"/>
+    <type value="group"/>
+    <item id="kkfDaghWDYX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cRtUzZGptkE">
+    <text value="TB HIV-positive other forms TB patients on ART by end of TB treatment_Treatment complete"/>
+    <type value="group"/>
+    <item id="cRtUzZGptkE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZTwhaLnbynY">
+    <text value="TB patients followed by CHW_Lost follow up"/>
+    <type value="group"/>
+    <item id="ZTwhaLnbynY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NfJ3otfs2dF">
+    <text value="Relapses Registered cases"/>
+    <type value="group"/>
+    <item id="NfJ3otfs2dF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mELlNlXQZON">
+    <text value="TB HIV-positive cases new and relapse_Lost to followup"/>
+    <type value="group"/>
+    <item id="mELlNlXQZON.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rHgsxtd2wZ4">
+    <text value="Treatment after LTFU_Died"/>
+    <type value="group"/>
+    <item id="rHgsxtd2wZ4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vc7bsoNaFTX">
+    <text value="New Pulmonary TB Negative smears (PTNM-) SLD"/>
+    <type value="group"/>
+    <item id="vc7bsoNaFTX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="a0fVEg9ddzC">
+    <text value="Under 5 years TB contacts put on INH preventive treatments SLD"/>
+    <type value="group"/>
+    <item id="a0fVEg9ddzC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EWGcBCkx53F">
+    <text value="New Pulmonary TB with positive smears(NTPB Positive) Lost follow up"/>
+    <type value="group"/>
+    <item id="EWGcBCkx53F.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G0383rywAZJ">
+    <text value="Numbers of TB&#xA0;/HIV patients initiated  ART at the end of TB treatment_lost follow up"/>
+    <type value="group"/>
+    <item id="G0383rywAZJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="C9i0Rzjaswq">
+    <text value="Children  0-14 years Cured"/>
+    <type value="group"/>
+    <item id="C9i0Rzjaswq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vXul1djaQ4m">
+    <text value="TB Patients treated by CHW_Completed treatments"/>
+    <type value="group"/>
+    <item id="vXul1djaQ4m.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Y6HJIbv7Wwm">
+    <text value="New Pulmonary TB with Microscopy Not Done (PTMO) Lost follow up"/>
+    <type value="group"/>
+    <item id="Y6HJIbv7Wwm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AXq4u8EMSt2">
+    <text value="Numbers of TB/HIV patients Deceased"/>
+    <type value="group"/>
+    <item id="AXq4u8EMSt2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FDAbGRYqwI0">
+    <text value="Treatment after LTFU Registered"/>
+    <type value="group"/>
+    <item id="FDAbGRYqwI0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uQO9PX4cOGW">
+    <text value="Extra Pulmonary TB  (EPT) Registered cases"/>
+    <type value="group"/>
+    <item id="uQO9PX4cOGW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CGusHTs5U8X">
+    <text value="Extra Pulmonary TB  (EPT) Non evaluated"/>
+    <type value="group"/>
+    <item id="CGusHTs5U8X.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="n9AK6y79Lr9">
+    <text value="TB patients followed by CHW_Died"/>
+    <type value="group"/>
+    <item id="n9AK6y79Lr9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G1zEPD7rZjZ">
+    <text value="TB HIV-positive cases new and relapse_Cured"/>
+    <type value="group"/>
+    <item id="G1zEPD7rZjZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AwOsaHUsXAy">
+    <text value="TB Women (All forms)_Lost follow up"/>
+    <type value="group"/>
+    <item id="AwOsaHUsXAy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PEdG3qf8omy">
+    <text value="Numbers of TB/HIV patients initiated ART at the end of TB treatment_SLD"/>
+    <type value="group"/>
+    <item id="PEdG3qf8omy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="m8NZ9Bq5ALP">
+    <text value="TB HIV-positive other forms TB patients on ART by end of TB treatment _Registered"/>
+    <type value="group"/>
+    <item id="m8NZ9Bq5ALP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Yknn4skdKeQ">
+    <text value="Numbers of TB&#xA0;/HIV patients initiated  ART at the end of TB treatment_Registered cases"/>
+    <type value="group"/>
+    <item id="Yknn4skdKeQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vbuBvvh7Zam">
+    <text value="TB HIV-positive cases new and relapse TB patients on ART by end of TB treatment_Lost to follow up"/>
+    <type value="group"/>
+    <item id="vbuBvvh7Zam.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hxfMf4G9RKW">
+    <text value="TB HIV-positive other forms TB patients_Treatment complete"/>
+    <type value="group"/>
+    <item id="hxfMf4G9RKW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="t0HHE3bFIEP">
+    <text value="Treatment after LTFU_ Cured"/>
+    <type value="group"/>
+    <item id="t0HHE3bFIEP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BEBsYu0cIkO">
+    <text value="New Pulmonary TB with Microscopy Not Done (PTMO) Registered cases"/>
+    <type value="group"/>
+    <item id="BEBsYu0cIkO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NiffCWDt2bu">
+    <text value="TB Other cases  Lost follow up"/>
+    <type value="group"/>
+    <item id="NiffCWDt2bu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gX4U39yN867">
+    <text value="TB HIV-positive cases new and relapse_Died"/>
+    <type value="group"/>
+    <item id="gX4U39yN867.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fPtLye3dExG">
+    <text value="TB Women (All forms)_SLD"/>
+    <type value="group"/>
+    <item id="fPtLye3dExG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fwDgSYL9N4K">
+    <text value="TB HIV-positive cases new and relapse_Registered"/>
+    <type value="group"/>
+    <item id="fwDgSYL9N4K.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iZ2IxemhOPK">
+    <text value="Treatment after Failures_SLD"/>
+    <type value="group"/>
+    <item id="iZ2IxemhOPK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mgDQBVFQuTO">
+    <text value="TB Patients treated by CHW_Failures"/>
+    <type value="group"/>
+    <item id="mgDQBVFQuTO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XPQcmnpywl3">
+    <text value="TB HIV-positive cases new and relapse_Moved to SLD"/>
+    <type value="group"/>
+    <item id="XPQcmnpywl3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XK75KymjdMA">
+    <text value="New Pulmonary TB Negative smears (PTNM-) Died"/>
+    <type value="group"/>
+    <item id="XK75KymjdMA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uDS14Ho6MuL">
+    <text value="Numbers of TB/HIV patients Non evaluated"/>
+    <type value="group"/>
+    <item id="uDS14Ho6MuL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cGEQMd0A8Jd">
+    <text value="New Pulmonary TB with positive smears(NTPB Positive) Deceased"/>
+    <type value="group"/>
+    <item id="cGEQMd0A8Jd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VBS6yIa1ehK">
+    <text value="TB HIV-positive other forms TB patients_Cured"/>
+    <type value="group"/>
+    <item id="VBS6yIa1ehK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RvvNSYwZLeI">
+    <text value="TB HIV-positive cases new and relapse_Treatment Failed"/>
+    <type value="group"/>
+    <item id="RvvNSYwZLeI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Jpw7aotgXXw">
+    <text value="Treatment after LTFU Transfered"/>
+    <type value="group"/>
+    <item id="Jpw7aotgXXw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nsipFgEUqW4">
+    <text value="Children  0-14 years Treatment failed"/>
+    <type value="group"/>
+    <item id="nsipFgEUqW4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oxnVz7ukDWO">
+    <text value="TB Men (All forms)_Died"/>
+    <type value="group"/>
+    <item id="oxnVz7ukDWO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pthcV5mq8Ah">
+    <text value="TB HIV-positive cases new and relapse_Not Evaluated"/>
+    <type value="group"/>
+    <item id="pthcV5mq8Ah.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="doFZn4UaMyt">
+    <text value="Numbers of TB/HIV patients Transfered"/>
+    <type value="group"/>
+    <item id="doFZn4UaMyt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="v0V7BtK6sB0">
+    <text value="TB HIV-positive other forms TB patients on ART by end of TB treatment_Not evaluated"/>
+    <type value="group"/>
+    <item id="v0V7BtK6sB0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Aj9nMIHUcO0">
+    <text value="Relapses Completed treatments"/>
+    <type value="group"/>
+    <item id="Aj9nMIHUcO0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RXOvGXqAPvp">
+    <text value="Under 5 years TB contacts put on INH preventive treatments Lost follow up"/>
+    <type value="group"/>
+    <item id="RXOvGXqAPvp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BC5xSpffWX3">
+    <text value="TB Women (All forms)_Died"/>
+    <type value="group"/>
+    <item id="BC5xSpffWX3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XmaRMn4kbDS">
+    <text value="Extra Pulmonary TB  (EPT) Lost follow up"/>
+    <type value="group"/>
+    <item id="XmaRMn4kbDS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="u2NwhCyDr3G">
+    <text value="TB Women (All forms)_Transfered"/>
+    <type value="group"/>
+    <item id="u2NwhCyDr3G.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZSueIrYlr3L">
+    <text value="TB Other cases  Completed treatments"/>
+    <type value="group"/>
+    <item id="ZSueIrYlr3L.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sOZzOCQ88dB">
+    <text value="TB Other cases  Treatment failed"/>
+    <type value="group"/>
+    <item id="sOZzOCQ88dB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BsypAroDUSi">
+    <text value="Treatment after LTFU SLD"/>
+    <type value="group"/>
+    <item id="BsypAroDUSi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xax7Ex7PbRH">
+    <text value="TB Patients treated by CHW_Transfered"/>
+    <type value="group"/>
+    <item id="Xax7Ex7PbRH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e8VpGHoZJRS">
+    <text value="TB Men (All forms)_SLD"/>
+    <type value="group"/>
+    <item id="e8VpGHoZJRS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z9f1jyxN1em">
+    <text value="Extra Pulmonary TB  (EPT) Treatment failed"/>
+    <type value="group"/>
+    <item id="z9f1jyxN1em.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iDIFYuwBE7f">
+    <text value="Under 5 years TB contacts put on INH preventive treatments Completed treatments"/>
+    <type value="group"/>
+    <item id="iDIFYuwBE7f.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="f3GCgCkDNZk">
+    <text value="TB Men (All forms)_Lost follow up"/>
+    <type value="group"/>
+    <item id="f3GCgCkDNZk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gXsjn1CX9WI">
+    <text value="TB HIV-positive cases new and relapse TB patients on ART by end of TB treatment_Treatment failed"/>
+    <type value="group"/>
+    <item id="gXsjn1CX9WI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bPtKCdn1KLC">
+    <text value="TB Other cases  Died"/>
+    <type value="group"/>
+    <item id="bPtKCdn1KLC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XB8GkphMXax">
+    <text value="TB HIV-positive cases new and relapse_Treatment Complete"/>
+    <type value="group"/>
+    <item id="XB8GkphMXax.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qDBqmCk1NL2">
+    <text value="TB Women (All forms)_Treatment failed"/>
+    <type value="group"/>
+    <item id="qDBqmCk1NL2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TyZrAIMlkBD">
+    <text value="Under 5 years TB contacts put on INH preventive treatments Died"/>
+    <type value="group"/>
+    <item id="TyZrAIMlkBD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZZYofK1brZM">
+    <text value="TB Women (All forms)_Cured"/>
+    <type value="group"/>
+    <item id="ZZYofK1brZM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SP92jnj7zey">
+    <text value="TB patients followed by CHW_Completed treatement  "/>
+    <type value="group"/>
+    <item id="SP92jnj7zey.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="akK8D7geOyH">
+    <text value="Treatment after Failures_Deceased"/>
+    <type value="group"/>
+    <item id="akK8D7geOyH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jpRbYsO6dgg">
+    <text value="New Pulmonary TB with positive smears(NTPB Positive) Registered cases"/>
+    <type value="group"/>
+    <item id="jpRbYsO6dgg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vEwXTcbUIet">
+    <text value="Numbers of TB&#xA0;/HIV patients initiated  ART at the end of TB treatment_Cured"/>
+    <type value="group"/>
+    <item id="vEwXTcbUIet.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L14PgZNwsUv">
+    <text value="New Pulmonary TB with positive smears(NTPB Positive) SLD"/>
+    <type value="group"/>
+    <item id="L14PgZNwsUv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OR0pfcwa8ZW">
+    <text value="Relapses Transfered"/>
+    <type value="group"/>
+    <item id="OR0pfcwa8ZW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TuywtrZ5ui7">
+    <text value="TB HIV-positive other forms TB patients_Treatment failed"/>
+    <type value="group"/>
+    <item id="TuywtrZ5ui7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o58J3UEVobh">
+    <text value="New Pulmonary TB Negative smears (PTNM-) Completed treatments"/>
+    <type value="group"/>
+    <item id="o58J3UEVobh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iUiFLw2d5fr">
+    <text value="Treatment after Failures_Cured"/>
+    <type value="group"/>
+    <item id="iUiFLw2d5fr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Zo27Ma9DLNG">
+    <text value="New Pulmonary TB with positive smears(NTPB Positive) Non evaluated"/>
+    <type value="group"/>
+    <item id="Zo27Ma9DLNG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xvGu6JmqvpY">
+    <text value="Extra Pulmonary TB  (EPT) SLD"/>
+    <type value="group"/>
+    <item id="xvGu6JmqvpY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lVaRR8zsMFN">
+    <text value="TB Other cases  Non evaluated"/>
+    <type value="group"/>
+    <item id="lVaRR8zsMFN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OkophyYG5Fb">
+    <text value="Under 5 years TB contacts put on INH preventive treatments _Treatment failed"/>
+    <type value="group"/>
+    <item id="OkophyYG5Fb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MQsUdhDsfka">
+    <text value="Numbers of TB/HIV patients Cured"/>
+    <type value="group"/>
+    <item id="MQsUdhDsfka.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gdjAjdpra9b">
+    <text value="Relapses SLD"/>
+    <type value="group"/>
+    <item id="gdjAjdpra9b.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DmeYMakH2GV">
+    <text value="TB Women (All forms)_Completed treatement"/>
+    <type value="group"/>
+    <item id="DmeYMakH2GV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Y3qMDiXO8zP">
+    <text value="TB Patients treated by CHW_Deceased"/>
+    <type value="group"/>
+    <item id="Y3qMDiXO8zP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZHpDHv4MIaS">
+    <text value="TB HIV-positive other forms TB patients_ Lost to followup"/>
+    <type value="group"/>
+    <item id="ZHpDHv4MIaS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZoVBaS13CjU">
+    <text value="TB HIV-positive other forms TB patients on ART by end of TB treatment_Died"/>
+    <type value="group"/>
+    <item id="ZoVBaS13CjU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oRK0e3ZlyV9">
+    <text value="Treatment after Failures_ Lost follow up"/>
+    <type value="group"/>
+    <item id="oRK0e3ZlyV9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z1BB0sfTNVq">
+    <text value="New Pulmonary TB Negative smears (PTNM-) Registered cases"/>
+    <type value="group"/>
+    <item id="Z1BB0sfTNVq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="phRw2gejn7R">
+    <text value="TB patients followed by CHW_SLD"/>
+    <type value="group"/>
+    <item id="phRw2gejn7R.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dt7YEGmFFth">
+    <text value="New Pulmonary TB with Microscopy Not Done (PTMO) Completed treatments"/>
+    <type value="group"/>
+    <item id="dt7YEGmFFth.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LXFP4kAdXuE">
+    <text value="Numbers of TB/HIV patients_Treatment failed"/>
+    <type value="group"/>
+    <item id="LXFP4kAdXuE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h20NBzQD8JN">
+    <text value="TB Patients treated by CHW_Lost follow up"/>
+    <type value="group"/>
+    <item id="h20NBzQD8JN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qbts5n16OAv">
+    <text value="TB HIV-positive cases new and relapse TB patients on ART by end of TB treatment_Registered"/>
+    <type value="group"/>
+    <item id="qbts5n16OAv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

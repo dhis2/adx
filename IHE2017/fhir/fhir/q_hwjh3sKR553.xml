@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="hwjh3sKR553"/>
+  <status value="published"/>
+  <title value="Eye Ophthalmological diagnoses"/>
+  <item id="cite614Plid">
+    <text value="Eye problem Cataract"/>
+    <type value="group"/>
+    <item id="cite614Plid.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cite614Plid.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cite614Plid.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cite614Plid.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cite614Plid.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cite614Plid.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iAbH7xnY5XJ">
+    <text value="Eye problem Trachoma_OPDDH"/>
+    <type value="group"/>
+    <item id="iAbH7xnY5XJ.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iAbH7xnY5XJ.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iAbH7xnY5XJ.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iAbH7xnY5XJ.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="iAbH7xnY5XJ.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="iAbH7xnY5XJ.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pSjq1mlQzB5">
+    <text value="Eye problem Trichiasis_OPDDH"/>
+    <type value="group"/>
+    <item id="pSjq1mlQzB5.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pSjq1mlQzB5.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pSjq1mlQzB5.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pSjq1mlQzB5.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pSjq1mlQzB5.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pSjq1mlQzB5.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eg6A1iT9EWm">
+    <text value="Eye problem Glaucoma"/>
+    <type value="group"/>
+    <item id="eg6A1iT9EWm.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg6A1iT9EWm.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg6A1iT9EWm.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg6A1iT9EWm.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg6A1iT9EWm.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg6A1iT9EWm.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c4OOWmCTOWE">
+    <text value="Eye problem Retina Other DH"/>
+    <type value="group"/>
+    <item id="c4OOWmCTOWE.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="c4OOWmCTOWE.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="c4OOWmCTOWE.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="c4OOWmCTOWE.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="c4OOWmCTOWE.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="c4OOWmCTOWE.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="I6vaD2rliJ7">
+    <text value="Eye problem other_OPDDH"/>
+    <type value="group"/>
+    <item id="I6vaD2rliJ7.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="I6vaD2rliJ7.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="I6vaD2rliJ7.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="I6vaD2rliJ7.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="I6vaD2rliJ7.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="I6vaD2rliJ7.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MZjTEH8EBNQ">
+    <text value="Eye problem diabetic retinopathyDH"/>
+    <type value="group"/>
+    <item id="MZjTEH8EBNQ.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MZjTEH8EBNQ.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MZjTEH8EBNQ.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MZjTEH8EBNQ.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MZjTEH8EBNQ.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MZjTEH8EBNQ.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XloatWmjPjF">
+    <text value="Eye problem Trauma"/>
+    <type value="group"/>
+    <item id="XloatWmjPjF.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="XloatWmjPjF.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="XloatWmjPjF.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="XloatWmjPjF.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="XloatWmjPjF.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="XloatWmjPjF.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WouabXaNTL4">
+    <text value="Eye problem Corneal scars"/>
+    <type value="group"/>
+    <item id="WouabXaNTL4.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="WouabXaNTL4.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="WouabXaNTL4.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="WouabXaNTL4.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="WouabXaNTL4.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="WouabXaNTL4.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MdHi3dRXbgN">
+    <text value="Eye problem Conjunctivitis_DH"/>
+    <type value="group"/>
+    <item id="MdHi3dRXbgN.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdHi3dRXbgN.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdHi3dRXbgN.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdHi3dRXbgN.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdHi3dRXbgN.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdHi3dRXbgN.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yHt5zh0jJTD">
+    <text value="Eye problem Refractive Errors_DH"/>
+    <type value="group"/>
+    <item id="yHt5zh0jJTD.wIvaXPMNl0D">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yHt5zh0jJTD.ObYjaHhRWTm">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yHt5zh0jJTD.e8ePtWzKYV5">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yHt5zh0jJTD.inlpBhEuZst">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yHt5zh0jJTD.CwfZfjBOVnO">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yHt5zh0jJTD.LNVK2N3iLxC">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

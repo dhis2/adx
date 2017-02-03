@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="dnX0j5yOqm0"/>
+  <status value="published"/>
+  <title value="Leprosy patients Under treatment-Treatment Outcome and Disability assessment"/>
+  <item id="u9Cuuw4QfxH">
+    <text value="Leprosy_Deaths"/>
+    <type value="group"/>
+    <item id="u9Cuuw4QfxH.uWCQq1uG4uY">
+      <text value="Return after defaults, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="u9Cuuw4QfxH.jSQQxY8uhbg">
+      <text value="Return after defaults, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="u9Cuuw4QfxH.RtbP68mYOc0">
+      <text value="New Cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="u9Cuuw4QfxH.xH2ohA8EJGQ">
+      <text value="Relapsed cases, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="u9Cuuw4QfxH.Uyqk1YQgJlX">
+      <text value="Relapsed cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="u9Cuuw4QfxH.eErvb8kwqCm">
+      <text value="New Cases, PB"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="k1opaDjQOjE">
+    <text value="Leprosy_Registered  cases_Cas enregistres"/>
+    <type value="group"/>
+    <item id="k1opaDjQOjE.uWCQq1uG4uY">
+      <text value="Return after defaults, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="k1opaDjQOjE.jSQQxY8uhbg">
+      <text value="Return after defaults, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="k1opaDjQOjE.RtbP68mYOc0">
+      <text value="New Cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="k1opaDjQOjE.xH2ohA8EJGQ">
+      <text value="Relapsed cases, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="k1opaDjQOjE.Uyqk1YQgJlX">
+      <text value="Relapsed cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="k1opaDjQOjE.eErvb8kwqCm">
+      <text value="New Cases, PB"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZDgzeuvEzrz">
+    <text value="Transferred out"/>
+    <type value="group"/>
+    <item id="ZDgzeuvEzrz.uWCQq1uG4uY">
+      <text value="Return after defaults, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZDgzeuvEzrz.jSQQxY8uhbg">
+      <text value="Return after defaults, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZDgzeuvEzrz.RtbP68mYOc0">
+      <text value="New Cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZDgzeuvEzrz.xH2ohA8EJGQ">
+      <text value="Relapsed cases, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZDgzeuvEzrz.Uyqk1YQgJlX">
+      <text value="Relapsed cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZDgzeuvEzrz.eErvb8kwqCm">
+      <text value="New Cases, PB"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yTlD5oIMkgH">
+    <text value="Leprosy_Not evaluated"/>
+    <type value="group"/>
+    <item id="yTlD5oIMkgH.uWCQq1uG4uY">
+      <text value="Return after defaults, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="yTlD5oIMkgH.jSQQxY8uhbg">
+      <text value="Return after defaults, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="yTlD5oIMkgH.RtbP68mYOc0">
+      <text value="New Cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="yTlD5oIMkgH.xH2ohA8EJGQ">
+      <text value="Relapsed cases, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="yTlD5oIMkgH.Uyqk1YQgJlX">
+      <text value="Relapsed cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="yTlD5oIMkgH.eErvb8kwqCm">
+      <text value="New Cases, PB"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zEvQzHik6iH">
+    <text value="Patient grade evaluated at the end of treatment_Grade 0"/>
+    <type value="group"/>
+    <item id="zEvQzHik6iH.Llni571vigv">
+      <text value="MB, Default cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="zEvQzHik6iH.DbP8KrR3BOL">
+      <text value="MB, New cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="zEvQzHik6iH.azJyVYdDRJl">
+      <text value="MB, Relapse cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="zEvQzHik6iH.SCMQMVRqUEX">
+      <text value="PB, Relapse cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="zEvQzHik6iH.kicvt3GmEvG">
+      <text value="PB, Default cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="zEvQzHik6iH.k1Aam2VKSbw">
+      <text value="PB, New cases Previous year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fF5uEv2WCul">
+    <text value="Patient grade evaluated at the end of treatment_Grade 1"/>
+    <type value="group"/>
+    <item id="fF5uEv2WCul.Llni571vigv">
+      <text value="MB, Default cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="fF5uEv2WCul.DbP8KrR3BOL">
+      <text value="MB, New cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="fF5uEv2WCul.azJyVYdDRJl">
+      <text value="MB, Relapse cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="fF5uEv2WCul.SCMQMVRqUEX">
+      <text value="PB, Relapse cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="fF5uEv2WCul.kicvt3GmEvG">
+      <text value="PB, Default cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="fF5uEv2WCul.k1Aam2VKSbw">
+      <text value="PB, New cases Previous year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eR4cr46DCWL">
+    <text value="Leprosy total patients on treatment EOQ"/>
+    <type value="group"/>
+    <item id="eR4cr46DCWL.EHSw5V5VJ1f">
+      <text value="15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="eR4cr46DCWL.eqXlW4q2NMv">
+      <text value="Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hD21JWUK3VS">
+    <text value="Number of leprosy case evaluated for disabilities at the end of  treatment"/>
+    <type value="group"/>
+    <item id="hD21JWUK3VS.Llni571vigv">
+      <text value="MB, Default cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="hD21JWUK3VS.DbP8KrR3BOL">
+      <text value="MB, New cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="hD21JWUK3VS.azJyVYdDRJl">
+      <text value="MB, Relapse cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="hD21JWUK3VS.SCMQMVRqUEX">
+      <text value="PB, Relapse cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="hD21JWUK3VS.kicvt3GmEvG">
+      <text value="PB, Default cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="hD21JWUK3VS.k1Aam2VKSbw">
+      <text value="PB, New cases Previous year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TBH9mhuVDQ0">
+    <text value="Leprosy PB patients under treatmentEOQ"/>
+    <type value="group"/>
+    <item id="TBH9mhuVDQ0.EHSw5V5VJ1f">
+      <text value="15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="TBH9mhuVDQ0.eqXlW4q2NMv">
+      <text value="Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KkIu2kZAAJk">
+    <text value="Leprosy_Completed treatment "/>
+    <type value="group"/>
+    <item id="KkIu2kZAAJk.uWCQq1uG4uY">
+      <text value="Return after defaults, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="KkIu2kZAAJk.jSQQxY8uhbg">
+      <text value="Return after defaults, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="KkIu2kZAAJk.RtbP68mYOc0">
+      <text value="New Cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="KkIu2kZAAJk.xH2ohA8EJGQ">
+      <text value="Relapsed cases, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="KkIu2kZAAJk.Uyqk1YQgJlX">
+      <text value="Relapsed cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="KkIu2kZAAJk.eErvb8kwqCm">
+      <text value="New Cases, PB"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h5T0f3Cg2Db">
+    <text value="Patient grade evaluated at the end of treatment_Grade 2"/>
+    <type value="group"/>
+    <item id="h5T0f3Cg2Db.Llni571vigv">
+      <text value="MB, Default cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="h5T0f3Cg2Db.DbP8KrR3BOL">
+      <text value="MB, New cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="h5T0f3Cg2Db.azJyVYdDRJl">
+      <text value="MB, Relapse cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="h5T0f3Cg2Db.SCMQMVRqUEX">
+      <text value="PB, Relapse cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="h5T0f3Cg2Db.kicvt3GmEvG">
+      <text value="PB, Default cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="h5T0f3Cg2Db.k1Aam2VKSbw">
+      <text value="PB, New cases Previous year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eI9lMsDVyyq">
+    <text value="Leprosy MB patients under treatmentEOQ"/>
+    <type value="group"/>
+    <item id="eI9lMsDVyyq.EHSw5V5VJ1f">
+      <text value="15 yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="eI9lMsDVyyq.eqXlW4q2NMv">
+      <text value="Under 15 yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QksoKDb1MlF">
+    <text value="Number of case of leprosy registered_Nbre de cas de lepre enregistres"/>
+    <type value="group"/>
+    <item id="QksoKDb1MlF.Llni571vigv">
+      <text value="MB, Default cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="QksoKDb1MlF.DbP8KrR3BOL">
+      <text value="MB, New cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="QksoKDb1MlF.azJyVYdDRJl">
+      <text value="MB, Relapse cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="QksoKDb1MlF.SCMQMVRqUEX">
+      <text value="PB, Relapse cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="QksoKDb1MlF.kicvt3GmEvG">
+      <text value="PB, Default cases Previous year"/>
+      <type value="integer"/>
+    </item>
+    <item id="QksoKDb1MlF.k1Aam2VKSbw">
+      <text value="PB, New cases Previous year"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rbdgIrIoP0S">
+    <text value="Leprosy_Lost follow up "/>
+    <type value="group"/>
+    <item id="rbdgIrIoP0S.uWCQq1uG4uY">
+      <text value="Return after defaults, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="rbdgIrIoP0S.jSQQxY8uhbg">
+      <text value="Return after defaults, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="rbdgIrIoP0S.RtbP68mYOc0">
+      <text value="New Cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="rbdgIrIoP0S.xH2ohA8EJGQ">
+      <text value="Relapsed cases, PB"/>
+      <type value="integer"/>
+    </item>
+    <item id="rbdgIrIoP0S.Uyqk1YQgJlX">
+      <text value="Relapsed cases, MB"/>
+      <type value="integer"/>
+    </item>
+    <item id="rbdgIrIoP0S.eErvb8kwqCm">
+      <text value="New Cases, PB"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

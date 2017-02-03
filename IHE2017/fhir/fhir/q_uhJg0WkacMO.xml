@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="uhJg0WkacMO"/>
+  <status value="published"/>
+  <title value="DH Gender Based Violence"/>
+  <item id="umMhtLKCXk5">
+    <text value="GBV victims received post exposure HIV prophylaxis within 48 hours"/>
+    <type value="group"/>
+    <item id="umMhtLKCXk5.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="umMhtLKCXk5.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VbyyKkLGK8U">
+    <text value="GBV victim Deaths"/>
+    <type value="group"/>
+    <item id="VbyyKkLGK8U.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VbyyKkLGK8U.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iYoXYnaTXB1">
+    <text value="GBV victims with symptoms of sexual violence_new cases"/>
+    <type value="group"/>
+    <item id="iYoXYnaTXB1.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="iYoXYnaTXB1.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D4XSH4nlkS4">
+    <text value="GBV victims with irreversible disabilities due to GBV"/>
+    <type value="group"/>
+    <item id="D4XSH4nlkS4.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="D4XSH4nlkS4.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LAoMfBcmU5t">
+    <text value="GBV victims referred for care to higher level health facility"/>
+    <type value="group"/>
+    <item id="LAoMfBcmU5t.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="LAoMfBcmU5t.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HJlnn59DeYj">
+    <text value="GBV victims with symptoms of physical violence_new cases"/>
+    <type value="group"/>
+    <item id="HJlnn59DeYj.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJlnn59DeYj.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vzhxBNhnVGm">
+    <text value="GBV victims referred to this facility by police"/>
+    <type value="group"/>
+    <item id="vzhxBNhnVGm.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="vzhxBNhnVGm.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wfMtuT2Np3K">
+    <text value="GBV victims received emergency contraception within 72 hours"/>
+    <type value="group"/>
+    <item id="wfMtuT2Np3K.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="wfMtuT2Np3K.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yCkQrwsa1eL">
+    <text value="GBV victims HIV+ seroconversion 3 months after exposure"/>
+    <type value="group"/>
+    <item id="yCkQrwsa1eL.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="yCkQrwsa1eL.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VupchVhXh0q">
+    <text value="GBV Victims pregnant 4 weeks after exposure"/>
+    <type value="group"/>
+    <item id="VupchVhXh0q.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="VupchVhXh0q.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fxxuavTow98">
+    <text value="GBV victims referred to this facility by community health workers"/>
+    <type value="group"/>
+    <item id="fxxuavTow98.jR9uN4mjqrv">
+      <text value="Male, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.IsKcOUqdKOi">
+      <text value="Female, 5-9 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.MYybmVtety8">
+      <text value="Female, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.jxcvVo0AGQ9">
+      <text value="Female, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.v7mivZRESmg">
+      <text value="Female, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.huAl58IC2rJ">
+      <text value="Male, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.rXUM0RxdtOx">
+      <text value="Female, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.hXHaoH94HOP">
+      <text value="Male, 10-18 yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.jsk0YqBR2Nf">
+      <text value="Male, 25years and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.NaQqQ7uthHE">
+      <text value="Female, 19-24 years"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.GfoWvVASM1v">
+      <text value="Male, Under 5yrs"/>
+      <type value="integer"/>
+    </item>
+    <item id="fxxuavTow98.xbdqVbVG4d2">
+      <text value="Male, 19yrs and above"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

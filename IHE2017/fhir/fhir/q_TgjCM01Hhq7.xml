@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="TgjCM01Hhq7"/>
+  <status value="published"/>
+  <title value="Orthopedic surgery"/>
+  <item id="K690Ah7wSIz">
+    <text value="Bone lengthening_ortho"/>
+    <type value="group"/>
+    <item id="K690Ah7wSIz.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="K690Ah7wSIz.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oeBdb9MYQxN">
+    <text value="Osteosynthesis"/>
+    <type value="group"/>
+    <item id="oeBdb9MYQxN.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="oeBdb9MYQxN.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CHWw0fZt8ZZ">
+    <text value="Others_ortho"/>
+    <type value="group"/>
+    <item id="CHWw0fZt8ZZ.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="CHWw0fZt8ZZ.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="CHWw0fZt8ZZ.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="CHWw0fZt8ZZ.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="CHWw0fZt8ZZ.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="CHWw0fZt8ZZ.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wflGDoldEJU">
+    <text value="Ligamentoplasty_ortho"/>
+    <type value="group"/>
+    <item id="wflGDoldEJU.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="wflGDoldEJU.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wIv8xla3b8H">
+    <text value="Surgical correction of foot deformities_ortho"/>
+    <type value="group"/>
+    <item id="wIv8xla3b8H.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="wIv8xla3b8H.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PiCtaA9L75E">
+    <text value="Minor surgery"/>
+    <type value="group"/>
+    <item id="PiCtaA9L75E.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="PiCtaA9L75E.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SAzejrdlsfi">
+    <text value="Muscle grafting_ortho"/>
+    <type value="group"/>
+    <item id="SAzejrdlsfi.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="SAzejrdlsfi.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fR5PHfZof9r">
+    <text value="Curettage/Sequestrectomy_ortho"/>
+    <type value="group"/>
+    <item id="fR5PHfZof9r.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="fR5PHfZof9r.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uTpLxGHWhis">
+    <text value="Arthroplasty_ortho"/>
+    <type value="group"/>
+    <item id="uTpLxGHWhis.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="uTpLxGHWhis.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xWZe7yXFeRT">
+    <text value="Epiphysiodesis_ortho"/>
+    <type value="group"/>
+    <item id="xWZe7yXFeRT.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="xWZe7yXFeRT.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BQeF8GE1O66">
+    <text value="Skin grafting_ortho"/>
+    <type value="group"/>
+    <item id="BQeF8GE1O66.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="BQeF8GE1O66.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s2QKsW7r0Pd">
+    <text value="Excision and Ablation of exostosis_ortho"/>
+    <type value="group"/>
+    <item id="s2QKsW7r0Pd.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="s2QKsW7r0Pd.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZQaqrhjwAP5">
+    <text value="Meniscectomy/meniscus repair_ortho"/>
+    <type value="group"/>
+    <item id="ZQaqrhjwAP5.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="ZQaqrhjwAP5.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XucYt3wrqnm">
+    <text value="Others"/>
+    <type value="group"/>
+    <item id="XucYt3wrqnm.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="XucYt3wrqnm.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dJr6K4VNid7">
+    <text value="Tendon lengthening_ortho"/>
+    <type value="group"/>
+    <item id="dJr6K4VNid7.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="dJr6K4VNid7.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LBpeLqBvjVy">
+    <text value="Arthrodesis_ortho"/>
+    <type value="group"/>
+    <item id="LBpeLqBvjVy.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="LBpeLqBvjVy.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iuwztWWWA8C">
+    <text value="Surgical reduction of dislocation_ortho"/>
+    <type value="group"/>
+    <item id="iuwztWWWA8C.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="iuwztWWWA8C.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c47Fd0RD9NI">
+    <text value="Major surgery"/>
+    <type value="group"/>
+    <item id="c47Fd0RD9NI.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="c47Fd0RD9NI.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Uo0x3i4eG6l">
+    <text value="Fasciotomy_ortho"/>
+    <type value="group"/>
+    <item id="Uo0x3i4eG6l.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="Uo0x3i4eG6l.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XFeMEWASyDz">
+    <text value="Tenotomy/Tendon transfer_ortho"/>
+    <type value="group"/>
+    <item id="XFeMEWASyDz.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="XFeMEWASyDz.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OPwO1nX4CU7">
+    <text value="Bunionectomy_ortho"/>
+    <type value="group"/>
+    <item id="OPwO1nX4CU7.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="OPwO1nX4CU7.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j38haIku6HI">
+    <text value="Disarticulation_ortho"/>
+    <type value="group"/>
+    <item id="j38haIku6HI.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="j38haIku6HI.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Gvgqu5BNPbT">
+    <text value="Bone grafting_ortho"/>
+    <type value="group"/>
+    <item id="Gvgqu5BNPbT.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="Gvgqu5BNPbT.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HyZuWd3BvmZ">
+    <text value="Amputations"/>
+    <type value="group"/>
+    <item id="HyZuWd3BvmZ.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="HyZuWd3BvmZ.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EFElSf0iAD1">
+    <text value="Osteotomy_ortho"/>
+    <type value="group"/>
+    <item id="EFElSf0iAD1.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="EFElSf0iAD1.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IucHsPKGkwH">
+    <text value="Drainage of septic arthritis_ortho"/>
+    <type value="group"/>
+    <item id="IucHsPKGkwH.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="IucHsPKGkwH.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

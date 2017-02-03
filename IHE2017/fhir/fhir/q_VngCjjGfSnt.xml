@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="VngCjjGfSnt"/>
+  <status value="published"/>
+  <title value="TB_Coughers triage compilation report"/>
+  <item id="SZW0OqFLS8B">
+    <text value="TB_confirmed presumptive TB among coughers"/>
+    <type value="group"/>
+    <item id="SZW0OqFLS8B.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vOQ8Ts9PIsF">
+    <text value="TB_presumptive TB with lab exam"/>
+    <type value="group"/>
+    <item id="vOQ8Ts9PIsF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="btcZfUCnNz0">
+    <text value="TB_days of cough monitoring"/>
+    <type value="group"/>
+    <item id="btcZfUCnNz0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sjzSBWtyZkI">
+    <text value="TB_patients in OPD service"/>
+    <type value="group"/>
+    <item id="sjzSBWtyZkI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fSOdjNnRak7">
+    <text value="TB_coughers among  OPD patients consulted"/>
+    <type value="group"/>
+    <item id="fSOdjNnRak7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AlgHlRe47YD">
+    <text value="TPB+ confirmed cases among  presumptive TB examined"/>
+    <type value="group"/>
+    <item id="AlgHlRe47YD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

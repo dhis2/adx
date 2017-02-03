@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="PqckA9yH5Nb"/>
+  <status value="published"/>
+  <title value="RH Surgery and Anesthesia and Physiotherapy"/>
+  <item id="NUAvIbYBH8W">
+    <text value="Appendicectomy"/>
+    <type value="group"/>
+    <item id="NUAvIbYBH8W.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="NUAvIbYBH8W.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PiCtaA9L75E">
+    <text value="Minor surgery"/>
+    <type value="group"/>
+    <item id="PiCtaA9L75E.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="PiCtaA9L75E.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hCjVvf8jUPF">
+    <text value="Adenomectomy"/>
+    <type value="group"/>
+    <item id="hCjVvf8jUPF.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="hCjVvf8jUPF.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="K62L0cPHDrX">
+    <text value="Thyroidectomy"/>
+    <type value="group"/>
+    <item id="K62L0cPHDrX.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="K62L0cPHDrX.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uASRbmkfNBp">
+    <text value="Trachoma"/>
+    <type value="group"/>
+    <item id="uASRbmkfNBp.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="uASRbmkfNBp.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oHaDmmtU3Hp">
+    <text value="General surgery other"/>
+    <type value="group"/>
+    <item id="oHaDmmtU3Hp.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="oHaDmmtU3Hp.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AZmeQrs4gS4">
+    <text value="Genaral surgery Post surgical Infection Total"/>
+    <type value="group"/>
+    <item id="AZmeQrs4gS4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LA96bRU6rol">
+    <text value="Curettage"/>
+    <type value="group"/>
+    <item id="LA96bRU6rol.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="LA96bRU6rol.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ylefLVXyLre">
+    <text value="Ophthalmologic surgery Post surgical Infection Total"/>
+    <type value="group"/>
+    <item id="ylefLVXyLre.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yZ8EDk8hY2i">
+    <text value=" Gyneco-obstetrical surgery other"/>
+    <type value="group"/>
+    <item id="yZ8EDk8hY2i.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="yZ8EDk8hY2i.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Zi4a0MRpHcP">
+    <text value="Myomectomy"/>
+    <type value="group"/>
+    <item id="Zi4a0MRpHcP.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="Zi4a0MRpHcP.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jxkvz59TzMg">
+    <text value="General Anesthesia "/>
+    <type value="group"/>
+    <item id="jxkvz59TzMg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Tlp2XvNpwFT">
+    <text value="Audiology_phsioth"/>
+    <type value="group"/>
+    <item id="Tlp2XvNpwFT.jPGhBGUbnMS">
+      <text value="Outpatient"/>
+      <type value="integer"/>
+    </item>
+    <item id="Tlp2XvNpwFT.VaRMxUPj7Xc">
+      <text value="Inpatient"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c47Fd0RD9NI">
+    <text value="Major surgery"/>
+    <type value="group"/>
+    <item id="c47Fd0RD9NI.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="c47Fd0RD9NI.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s0g5vUyKfVS">
+    <text value="Local Anesthesia "/>
+    <type value="group"/>
+    <item id="s0g5vUyKfVS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y1CsCZaVED4">
+    <text value="Laparotomy (EUP)"/>
+    <type value="group"/>
+    <item id="y1CsCZaVED4.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="y1CsCZaVED4.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NQlpSZcM8Mi">
+    <text value="Other types of anesthesia"/>
+    <type value="group"/>
+    <item id="NQlpSZcM8Mi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kmxV4OQKbb1">
+    <text value="Neurosurgery_Post surgical infection Total"/>
+    <type value="group"/>
+    <item id="kmxV4OQKbb1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aTndq3tANPA">
+    <text value="Hernioraphy"/>
+    <type value="group"/>
+    <item id="aTndq3tANPA.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="aTndq3tANPA.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wvXX7DHzMVi">
+    <text value="Physical therapy_phsioth"/>
+    <type value="group"/>
+    <item id="wvXX7DHzMVi.jPGhBGUbnMS">
+      <text value="Outpatient"/>
+      <type value="integer"/>
+    </item>
+    <item id="wvXX7DHzMVi.VaRMxUPj7Xc">
+      <text value="Inpatient"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XBAATdQpEMu">
+    <text value="Urology Post surgical infection Total"/>
+    <type value="group"/>
+    <item id="XBAATdQpEMu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LoxfcLQq6vY">
+    <text value="Spinal cord injuries_anesthesia_RH "/>
+    <type value="group"/>
+    <item id="LoxfcLQq6vY.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="LoxfcLQq6vY.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HyZuWd3BvmZ">
+    <text value="Amputations"/>
+    <type value="group"/>
+    <item id="HyZuWd3BvmZ.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="HyZuWd3BvmZ.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Fpr4zrrVknt">
+    <text value="Urology surgery other_RH"/>
+    <type value="group"/>
+    <item id="Fpr4zrrVknt.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="Fpr4zrrVknt.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZGtypFxmGMa">
+    <text value="Fistula Repair"/>
+    <type value="group"/>
+    <item id="ZGtypFxmGMa.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="ZGtypFxmGMa.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MnmFm1WwSfH">
+    <text value="Other Laparotomies"/>
+    <type value="group"/>
+    <item id="MnmFm1WwSfH.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="MnmFm1WwSfH.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oKev3R0l1Dt">
+    <text value="Ophthalmological surgery other"/>
+    <type value="group"/>
+    <item id="oKev3R0l1Dt.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="oKev3R0l1Dt.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="myZzD25w4q8">
+    <text value="Neurosurgery other_Anesth_RH"/>
+    <type value="group"/>
+    <item id="myZzD25w4q8.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="myZzD25w4q8.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="T4zZINOxHXF">
+    <text value="Orthopedic surgery other"/>
+    <type value="group"/>
+    <item id="T4zZINOxHXF.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="T4zZINOxHXF.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dp1EwrHp1Vj">
+    <text value="Cataract"/>
+    <type value="group"/>
+    <item id="dp1EwrHp1Vj.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="dp1EwrHp1Vj.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KvqTDuxcFFE">
+    <text value="Glaucoma"/>
+    <type value="group"/>
+    <item id="KvqTDuxcFFE.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="KvqTDuxcFFE.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tqD1xmu9uDd">
+    <text value="Laparotomy"/>
+    <type value="group"/>
+    <item id="tqD1xmu9uDd.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="tqD1xmu9uDd.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oeBdb9MYQxN">
+    <text value="Osteosynthesis"/>
+    <type value="group"/>
+    <item id="oeBdb9MYQxN.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="oeBdb9MYQxN.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vYuUJplXQQm">
+    <text value="Cesarean_surgery and anesth"/>
+    <type value="group"/>
+    <item id="vYuUJplXQQm.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="vYuUJplXQQm.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VX5ZjBeZvBW">
+    <text value="Hysterectomy"/>
+    <type value="group"/>
+    <item id="VX5ZjBeZvBW.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="VX5ZjBeZvBW.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BrK9i4YaD9X">
+    <text value="Orthopedic surgery Post surgical Infection Total"/>
+    <type value="group"/>
+    <item id="BrK9i4YaD9X.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b3bZ42FcL4V">
+    <text value="Head injuries_Anesth_RH"/>
+    <type value="group"/>
+    <item id="b3bZ42FcL4V.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="b3bZ42FcL4V.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ds4TY7pbIMg">
+    <text value="Obs Gyn surgery Post surgical Infection Total"/>
+    <type value="group"/>
+    <item id="ds4TY7pbIMg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gqdHCnpROdg">
+    <text value="Fracture without implant"/>
+    <type value="group"/>
+    <item id="gqdHCnpROdg.ombGLnY7vje">
+      <text value="Planned interventions  "/>
+      <type value="integer"/>
+    </item>
+    <item id="gqdHCnpROdg.mC3FxgZGFou">
+      <text value="Urgent interventions  "/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nztDGInjwK7">
+    <text value="Speech therapy_phsiother"/>
+    <type value="group"/>
+    <item id="nztDGInjwK7.jPGhBGUbnMS">
+      <text value="Outpatient"/>
+      <type value="integer"/>
+    </item>
+    <item id="nztDGInjwK7.VaRMxUPj7Xc">
+      <text value="Inpatient"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cu1aMhd8SDe">
+    <text value="Regional Anesthesia"/>
+    <type value="group"/>
+    <item id="cu1aMhd8SDe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

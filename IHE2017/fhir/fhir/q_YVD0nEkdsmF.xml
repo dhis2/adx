@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="YVD0nEkdsmF"/>
+  <status value="published"/>
+  <title value="TB_Xpert tests performed (Xpert sites only)"/>
+  <item id="I0qy1I3mqK2">
+    <text value="Month1 Xpert Results"/>
+    <type value="group"/>
+    <item id="I0qy1I3mqK2.uUWzSaz2IiT">
+      <text value="Mtb+/R-"/>
+      <type value="integer"/>
+    </item>
+    <item id="I0qy1I3mqK2.D5MTlT7jU1u">
+      <text value="Mtb-/R-"/>
+      <type value="integer"/>
+    </item>
+    <item id="I0qy1I3mqK2.qZCncZkRRn3">
+      <text value="Errors"/>
+      <type value="integer"/>
+    </item>
+    <item id="I0qy1I3mqK2.F1WJJwspSDl">
+      <text value="Mtb+/R+"/>
+      <type value="integer"/>
+    </item>
+    <item id="I0qy1I3mqK2.ziNcd5hH57y">
+      <text value="Invalid"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gN5Er3Hfond">
+    <text value="Month2 Xpert Results"/>
+    <type value="group"/>
+    <item id="gN5Er3Hfond.uUWzSaz2IiT">
+      <text value="Mtb+/R-"/>
+      <type value="integer"/>
+    </item>
+    <item id="gN5Er3Hfond.D5MTlT7jU1u">
+      <text value="Mtb-/R-"/>
+      <type value="integer"/>
+    </item>
+    <item id="gN5Er3Hfond.qZCncZkRRn3">
+      <text value="Errors"/>
+      <type value="integer"/>
+    </item>
+    <item id="gN5Er3Hfond.F1WJJwspSDl">
+      <text value="Mtb+/R+"/>
+      <type value="integer"/>
+    </item>
+    <item id="gN5Er3Hfond.ziNcd5hH57y">
+      <text value="Invalid"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="m3oEDYT9LlC">
+    <text value="Month3 Xpert Results"/>
+    <type value="group"/>
+    <item id="m3oEDYT9LlC.uUWzSaz2IiT">
+      <text value="Mtb+/R-"/>
+      <type value="integer"/>
+    </item>
+    <item id="m3oEDYT9LlC.D5MTlT7jU1u">
+      <text value="Mtb-/R-"/>
+      <type value="integer"/>
+    </item>
+    <item id="m3oEDYT9LlC.qZCncZkRRn3">
+      <text value="Errors"/>
+      <type value="integer"/>
+    </item>
+    <item id="m3oEDYT9LlC.F1WJJwspSDl">
+      <text value="Mtb+/R+"/>
+      <type value="integer"/>
+    </item>
+    <item id="m3oEDYT9LlC.ziNcd5hH57y">
+      <text value="Invalid"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

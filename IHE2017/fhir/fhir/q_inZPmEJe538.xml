@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="inZPmEJe538"/>
+  <status value="published"/>
+  <title value="DH Blood bank security"/>
+  <item id="KjVoGFxSvEl">
+    <text value="Number received (donated and from other blood banks)"/>
+    <type value="group"/>
+    <item id="KjVoGFxSvEl.ji6Rrz75PC4">
+      <text value="Type A"/>
+      <type value="integer"/>
+    </item>
+    <item id="KjVoGFxSvEl.YMOhMGTPfRI">
+      <text value="Type B"/>
+      <type value="integer"/>
+    </item>
+    <item id="KjVoGFxSvEl.WGeJzUSPOmC">
+      <text value="Type O"/>
+      <type value="integer"/>
+    </item>
+    <item id="KjVoGFxSvEl.sv8Lguh7SUw">
+      <text value="Type AB"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fOq4h1zQDvB">
+    <text value=" Number of packs of blood "/>
+    <type value="group"/>
+    <item id="fOq4h1zQDvB.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="fOq4h1zQDvB.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="fOq4h1zQDvB.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="fOq4h1zQDvB.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="fOq4h1zQDvB.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="fOq4h1zQDvB.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="fOq4h1zQDvB.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M0PBcpdl4Pz">
+    <text value=" Number of patients transfused"/>
+    <type value="group"/>
+    <item id="M0PBcpdl4Pz.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="M0PBcpdl4Pz.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="M0PBcpdl4Pz.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="M0PBcpdl4Pz.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="M0PBcpdl4Pz.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="M0PBcpdl4Pz.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="M0PBcpdl4Pz.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JqnpzBGRRvF">
+    <text value="Remaining in Stock"/>
+    <type value="group"/>
+    <item id="JqnpzBGRRvF.ji6Rrz75PC4">
+      <text value="Type A"/>
+      <type value="integer"/>
+    </item>
+    <item id="JqnpzBGRRvF.YMOhMGTPfRI">
+      <text value="Type B"/>
+      <type value="integer"/>
+    </item>
+    <item id="JqnpzBGRRvF.WGeJzUSPOmC">
+      <text value="Type O"/>
+      <type value="integer"/>
+    </item>
+    <item id="JqnpzBGRRvF.sv8Lguh7SUw">
+      <text value="Type AB"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AcNfPdk6o6k">
+    <text value="Number Destroyed or damaged"/>
+    <type value="group"/>
+    <item id="AcNfPdk6o6k.ji6Rrz75PC4">
+      <text value="Type A"/>
+      <type value="integer"/>
+    </item>
+    <item id="AcNfPdk6o6k.YMOhMGTPfRI">
+      <text value="Type B"/>
+      <type value="integer"/>
+    </item>
+    <item id="AcNfPdk6o6k.WGeJzUSPOmC">
+      <text value="Type O"/>
+      <type value="integer"/>
+    </item>
+    <item id="AcNfPdk6o6k.sv8Lguh7SUw">
+      <text value="Type AB"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="axqgFsi933t">
+    <text value="Number Used"/>
+    <type value="group"/>
+    <item id="axqgFsi933t.ji6Rrz75PC4">
+      <text value="Type A"/>
+      <type value="integer"/>
+    </item>
+    <item id="axqgFsi933t.YMOhMGTPfRI">
+      <text value="Type B"/>
+      <type value="integer"/>
+    </item>
+    <item id="axqgFsi933t.WGeJzUSPOmC">
+      <text value="Type O"/>
+      <type value="integer"/>
+    </item>
+    <item id="axqgFsi933t.sv8Lguh7SUw">
+      <text value="Type AB"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

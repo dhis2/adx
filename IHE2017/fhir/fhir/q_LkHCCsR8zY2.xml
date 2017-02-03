@@ -1,0 +1,1719 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="LkHCCsR8zY2"/>
+  <status value="published"/>
+  <title value="Annual Report Implementing partners"/>
+  <item id="Ps2XaXWfRmV">
+    <text value="Capacity building_Implementors_AR"/>
+    <type value="group"/>
+    <item id="Ps2XaXWfRmV.SMwjZOKq11U">
+      <text value="CENTRE KOMERA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.w0S35esS5hT">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.mTcizm3Xgkc">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.gjOIWtTAxZy">
+      <text value="CSOs_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.R6s5UIgiHBy">
+      <text value="AEE_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.Ogb1dajhYE0">
+      <text value="RALGA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.LaUsZn3kQbN">
+      <text value="Lux development_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.vEoQZyxJq5g">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.KhyCSm5WOEd">
+      <text value="HDI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.pMKw41IRJLF">
+      <text value="Education Development Center, Inc_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.tSvU7XhkTTU">
+      <text value="CRPS/LUXEMBOURG_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.aIYNiflyVTB">
+      <text value="MININFRA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.oPQnDWHT09o">
+      <text value="CARITAS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.Xee9ytWkfke">
+      <text value="APROFAPER"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.UOB4QLX44zX">
+      <text value="Imbuto Foundation/PACFA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.TDuNcbXZqcF">
+      <text value="JSI Research &amp; Training Institute, Inc_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.R1lKAYgiEz8">
+      <text value="JHPIEGO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.GIJZwUBtKRO">
+      <text value="SINAPISI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.Nk6svavvD5i">
+      <text value="TEAM HEART RWANDA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.tRLQWJWTMde">
+      <text value="SWAAR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.puDb7q24ZZn">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.VGeVpGk99Kf">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.Cq2R6oQ80uI">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.ZoeqsRDHBKM">
+      <text value="COPORWA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.YJoSUIpvXMC">
+      <text value="RBC DIVISIONS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.R9uob7sDHcB">
+      <text value="ASSOCIATION RWANDAISE DES TRAVIALLEURS CHRETIENNES FEMININ (ARTCF)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.ooCxGQQpSgZ">
+      <text value="American Refugee Committee_iER"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.ozPP5HNkoT5">
+      <text value="MCHIP-Ikiraro_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.f3LyYeRKUwy">
+      <text value="Eglise Episcopale du Rwanda(EER)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.wBOc80o9hn1">
+      <text value="EPR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.uiXj5XES5eJ">
+      <text value="Private Sector Federation (PSF)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.Fiv6IBwaiJw">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.nI6MGHrZEf1">
+      <text value="DOD Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.YaFlCJttkS7">
+      <text value="Rwanda National Youth Council_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.h4D9nycU6WF">
+      <text value="SALTWASH PROJECT_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.NFNzguhyl2S">
+      <text value="APESEK_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.BdbnEpe2A8t">
+      <text value="Eglise Presbyterienne du Rwanda (EPR)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.i881sf5ElxN">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.jB7EvKXn4pr">
+      <text value="Resau Rwandais de Personnes vivant avec le VIH (RRP+)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.S9kWJ5PZGwa">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.oQ0pY98PdLV">
+      <text value="CFW Health Posts_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.Gt0IuHcBwc3">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.y5GdxqJgNi5">
+      <text value="CHEMONICS-RWANDA / FAMILY HEALTH PROJECT_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.iEAP0ZO9QI8">
+      <text value="COFORWA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.rls6SXyKcrF">
+      <text value="Nation Conseil of des persons of disability_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.Z9XFBawp36C">
+      <text value="Association Fondation Tumurere (AFT)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.fTIh1bu3SWs">
+      <text value="UBUMWE COMMUNITY CENTER_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.erWM2U0hW9H">
+      <text value="Muhima Dispensary | Nyarugenge_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.CK54wqqlQdG">
+      <text value="Access Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.BHsA1KcmwFi">
+      <text value="MoH units_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.umFnQFYglPK">
+      <text value="Family Health International 360 (FHI 360)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.O6qYakfdpZJ">
+      <text value="ADEPR_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.ZO6bnXShdLr">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.SvPqQlwwnFx">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.Q1UoXjEsrTh">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.wxw5iuY0DJa">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.wqzWiEo2nCH">
+      <text value="Local churches_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.qCqxnD1cxo1">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.zLR3DJbQ246">
+      <text value="UNHCR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.jeVerpM7t1e">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.URyYFfDjvSA">
+      <text value="RRP+_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.u0PsLCZ0dxR">
+      <text value="Prison Kibungo Prison Clinic | Ngoma_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.p7ZgL5El5Xo">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.joiOHRzUsus">
+      <text value="BTC/ KCC- PAPSDSK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.OlZ8A8btvLr">
+      <text value="Health Poverty Action_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.DxlRg2dx70N">
+      <text value="Gikondo Health Post_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.blQMuRH5Z3B">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.X3ZJr9EpfkB">
+      <text value="Rwandan Allied for Peace and Progress (RAPP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.p8JzZbJFrcW">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.HLDE0BjmQ8f">
+      <text value="Red Cross Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.fFoyDT7KIh1">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.MMtW6vKces5">
+      <text value="Abt Associates Inc./Africa Indoor Residual Spraying Project (AIRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.dn3Md6kzpT2">
+      <text value="Prison Gikongoro Prison Clinic | Nyamagabe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.glPHj8NR8rq">
+      <text value="ICAP_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.shNsAZoLnKF">
+      <text value="AFRICARE_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.w6QQ0VXWidk">
+      <text value="HPA/SSF/HIV-GF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.b53LFzzeQxe">
+      <text value="UDC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.iuNvB1rhiFe">
+      <text value="AGHR asbl_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.wMjG2Os9YLp">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.AlSyLOrlYBJ">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.qBn7v5xKL4r">
+      <text value="KHI - Kigali Health Institute_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.uMgcuKsBxog">
+      <text value="ACTION NORD SUD RWANDA_implem_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.zaxkwX0Wyri">
+      <text value="Projet San Francisco_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.Lzyy69hmQX3">
+      <text value="WIF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.lp2a4B4n6V8">
+      <text value="PAPSDSK MMVK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.UMnpOlvucja">
+      <text value="Alliance des Eglises Evangelique pour la promotion de la Sante et le Development (AESD)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.DONoI8SNb7S">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.bAB5ix5k3o3">
+      <text value="Kibungo / Ngoma Prison_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.zhpE8RPspQj">
+      <text value="APROFAPER_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.m5f9hse8Urj">
+      <text value="MINALOC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.vC6CgOGc1jn">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.FowfrYDaJhT">
+      <text value="Nyamagabe Prison_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.eODNx0zFYFj">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.IAVdDthPAxP">
+      <text value="CTB PAPSDSK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.ZIMyNlD0xrP">
+      <text value="DUHAMIC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.wkHyadK7sG2">
+      <text value="AJPRODHO_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.DOXsUw54gHK">
+      <text value="Prison Miyove Prison Clinic | Gicumbi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.nNGEBFuq1KM">
+      <text value="FRSL_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.cmVWzjyhfKQ">
+      <text value="ICYUZUZO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.eh41buUlAIr">
+      <text value="Educational Development Center_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.c0oDUXhNDiv">
+      <text value="Intrahealth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.f8spdKwbSgr">
+      <text value="EGPAF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.xniyIEu707k">
+      <text value="Society for Family Health (SFH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.aGFTBfBqekh">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.w27QotwqZpe">
+      <text value="CHF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Ps2XaXWfRmV.RzOF2EVlB3U">
+      <text value="CARITAS KIBUYE_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Of06SrzVZqP">
+    <text value="Clinical services_Implementors_AR"/>
+    <type value="group"/>
+    <item id="Of06SrzVZqP.SMwjZOKq11U">
+      <text value="CENTRE KOMERA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.w0S35esS5hT">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.mTcizm3Xgkc">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.gjOIWtTAxZy">
+      <text value="CSOs_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.R6s5UIgiHBy">
+      <text value="AEE_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.Ogb1dajhYE0">
+      <text value="RALGA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.LaUsZn3kQbN">
+      <text value="Lux development_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.vEoQZyxJq5g">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.KhyCSm5WOEd">
+      <text value="HDI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.pMKw41IRJLF">
+      <text value="Education Development Center, Inc_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.tSvU7XhkTTU">
+      <text value="CRPS/LUXEMBOURG_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.aIYNiflyVTB">
+      <text value="MININFRA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.oPQnDWHT09o">
+      <text value="CARITAS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.Xee9ytWkfke">
+      <text value="APROFAPER"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.UOB4QLX44zX">
+      <text value="Imbuto Foundation/PACFA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.TDuNcbXZqcF">
+      <text value="JSI Research &amp; Training Institute, Inc_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.R1lKAYgiEz8">
+      <text value="JHPIEGO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.GIJZwUBtKRO">
+      <text value="SINAPISI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.Nk6svavvD5i">
+      <text value="TEAM HEART RWANDA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.tRLQWJWTMde">
+      <text value="SWAAR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.puDb7q24ZZn">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.VGeVpGk99Kf">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.Cq2R6oQ80uI">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.ZoeqsRDHBKM">
+      <text value="COPORWA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.YJoSUIpvXMC">
+      <text value="RBC DIVISIONS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.R9uob7sDHcB">
+      <text value="ASSOCIATION RWANDAISE DES TRAVIALLEURS CHRETIENNES FEMININ (ARTCF)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.ooCxGQQpSgZ">
+      <text value="American Refugee Committee_iER"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.ozPP5HNkoT5">
+      <text value="MCHIP-Ikiraro_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.f3LyYeRKUwy">
+      <text value="Eglise Episcopale du Rwanda(EER)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.wBOc80o9hn1">
+      <text value="EPR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.uiXj5XES5eJ">
+      <text value="Private Sector Federation (PSF)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.Fiv6IBwaiJw">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.nI6MGHrZEf1">
+      <text value="DOD Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.YaFlCJttkS7">
+      <text value="Rwanda National Youth Council_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.h4D9nycU6WF">
+      <text value="SALTWASH PROJECT_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.NFNzguhyl2S">
+      <text value="APESEK_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.BdbnEpe2A8t">
+      <text value="Eglise Presbyterienne du Rwanda (EPR)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.i881sf5ElxN">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.jB7EvKXn4pr">
+      <text value="Resau Rwandais de Personnes vivant avec le VIH (RRP+)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.S9kWJ5PZGwa">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.oQ0pY98PdLV">
+      <text value="CFW Health Posts_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.Gt0IuHcBwc3">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.y5GdxqJgNi5">
+      <text value="CHEMONICS-RWANDA / FAMILY HEALTH PROJECT_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.iEAP0ZO9QI8">
+      <text value="COFORWA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.rls6SXyKcrF">
+      <text value="Nation Conseil of des persons of disability_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.Z9XFBawp36C">
+      <text value="Association Fondation Tumurere (AFT)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.fTIh1bu3SWs">
+      <text value="UBUMWE COMMUNITY CENTER_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.erWM2U0hW9H">
+      <text value="Muhima Dispensary | Nyarugenge_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.CK54wqqlQdG">
+      <text value="Access Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.BHsA1KcmwFi">
+      <text value="MoH units_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.umFnQFYglPK">
+      <text value="Family Health International 360 (FHI 360)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.O6qYakfdpZJ">
+      <text value="ADEPR_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.ZO6bnXShdLr">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.SvPqQlwwnFx">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.Q1UoXjEsrTh">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.wxw5iuY0DJa">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.wqzWiEo2nCH">
+      <text value="Local churches_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.qCqxnD1cxo1">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.zLR3DJbQ246">
+      <text value="UNHCR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.jeVerpM7t1e">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.URyYFfDjvSA">
+      <text value="RRP+_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.u0PsLCZ0dxR">
+      <text value="Prison Kibungo Prison Clinic | Ngoma_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.p7ZgL5El5Xo">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.joiOHRzUsus">
+      <text value="BTC/ KCC- PAPSDSK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.OlZ8A8btvLr">
+      <text value="Health Poverty Action_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.DxlRg2dx70N">
+      <text value="Gikondo Health Post_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.blQMuRH5Z3B">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.X3ZJr9EpfkB">
+      <text value="Rwandan Allied for Peace and Progress (RAPP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.p8JzZbJFrcW">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.HLDE0BjmQ8f">
+      <text value="Red Cross Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.fFoyDT7KIh1">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.MMtW6vKces5">
+      <text value="Abt Associates Inc./Africa Indoor Residual Spraying Project (AIRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.dn3Md6kzpT2">
+      <text value="Prison Gikongoro Prison Clinic | Nyamagabe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.glPHj8NR8rq">
+      <text value="ICAP_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.shNsAZoLnKF">
+      <text value="AFRICARE_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.w6QQ0VXWidk">
+      <text value="HPA/SSF/HIV-GF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.b53LFzzeQxe">
+      <text value="UDC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.iuNvB1rhiFe">
+      <text value="AGHR asbl_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.wMjG2Os9YLp">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.AlSyLOrlYBJ">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.qBn7v5xKL4r">
+      <text value="KHI - Kigali Health Institute_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.uMgcuKsBxog">
+      <text value="ACTION NORD SUD RWANDA_implem_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.zaxkwX0Wyri">
+      <text value="Projet San Francisco_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.Lzyy69hmQX3">
+      <text value="WIF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.lp2a4B4n6V8">
+      <text value="PAPSDSK MMVK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.UMnpOlvucja">
+      <text value="Alliance des Eglises Evangelique pour la promotion de la Sante et le Development (AESD)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.DONoI8SNb7S">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.bAB5ix5k3o3">
+      <text value="Kibungo / Ngoma Prison_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.zhpE8RPspQj">
+      <text value="APROFAPER_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.m5f9hse8Urj">
+      <text value="MINALOC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.vC6CgOGc1jn">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.FowfrYDaJhT">
+      <text value="Nyamagabe Prison_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.eODNx0zFYFj">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.IAVdDthPAxP">
+      <text value="CTB PAPSDSK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.ZIMyNlD0xrP">
+      <text value="DUHAMIC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.wkHyadK7sG2">
+      <text value="AJPRODHO_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.DOXsUw54gHK">
+      <text value="Prison Miyove Prison Clinic | Gicumbi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.nNGEBFuq1KM">
+      <text value="FRSL_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.cmVWzjyhfKQ">
+      <text value="ICYUZUZO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.eh41buUlAIr">
+      <text value="Educational Development Center_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.c0oDUXhNDiv">
+      <text value="Intrahealth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.f8spdKwbSgr">
+      <text value="EGPAF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.xniyIEu707k">
+      <text value="Society for Family Health (SFH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.aGFTBfBqekh">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.w27QotwqZpe">
+      <text value="CHF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="Of06SrzVZqP.RzOF2EVlB3U">
+      <text value="CARITAS KIBUYE_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="YFVk49GqqG4">
+    <text value="Health promotion and prevention_Implementors_AR"/>
+    <type value="group"/>
+    <item id="YFVk49GqqG4.SMwjZOKq11U">
+      <text value="CENTRE KOMERA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.w0S35esS5hT">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.mTcizm3Xgkc">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.gjOIWtTAxZy">
+      <text value="CSOs_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.R6s5UIgiHBy">
+      <text value="AEE_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.Ogb1dajhYE0">
+      <text value="RALGA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.LaUsZn3kQbN">
+      <text value="Lux development_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.vEoQZyxJq5g">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.KhyCSm5WOEd">
+      <text value="HDI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.pMKw41IRJLF">
+      <text value="Education Development Center, Inc_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.tSvU7XhkTTU">
+      <text value="CRPS/LUXEMBOURG_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.aIYNiflyVTB">
+      <text value="MININFRA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.oPQnDWHT09o">
+      <text value="CARITAS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.Xee9ytWkfke">
+      <text value="APROFAPER"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.UOB4QLX44zX">
+      <text value="Imbuto Foundation/PACFA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.TDuNcbXZqcF">
+      <text value="JSI Research &amp; Training Institute, Inc_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.R1lKAYgiEz8">
+      <text value="JHPIEGO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.GIJZwUBtKRO">
+      <text value="SINAPISI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.Nk6svavvD5i">
+      <text value="TEAM HEART RWANDA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.tRLQWJWTMde">
+      <text value="SWAAR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.puDb7q24ZZn">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.VGeVpGk99Kf">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.Cq2R6oQ80uI">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.ZoeqsRDHBKM">
+      <text value="COPORWA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.YJoSUIpvXMC">
+      <text value="RBC DIVISIONS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.R9uob7sDHcB">
+      <text value="ASSOCIATION RWANDAISE DES TRAVIALLEURS CHRETIENNES FEMININ (ARTCF)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.ooCxGQQpSgZ">
+      <text value="American Refugee Committee_iER"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.ozPP5HNkoT5">
+      <text value="MCHIP-Ikiraro_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.f3LyYeRKUwy">
+      <text value="Eglise Episcopale du Rwanda(EER)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.wBOc80o9hn1">
+      <text value="EPR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.uiXj5XES5eJ">
+      <text value="Private Sector Federation (PSF)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.Fiv6IBwaiJw">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.nI6MGHrZEf1">
+      <text value="DOD Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.YaFlCJttkS7">
+      <text value="Rwanda National Youth Council_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.h4D9nycU6WF">
+      <text value="SALTWASH PROJECT_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.NFNzguhyl2S">
+      <text value="APESEK_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.BdbnEpe2A8t">
+      <text value="Eglise Presbyterienne du Rwanda (EPR)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.i881sf5ElxN">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.jB7EvKXn4pr">
+      <text value="Resau Rwandais de Personnes vivant avec le VIH (RRP+)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.S9kWJ5PZGwa">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.oQ0pY98PdLV">
+      <text value="CFW Health Posts_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.Gt0IuHcBwc3">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.y5GdxqJgNi5">
+      <text value="CHEMONICS-RWANDA / FAMILY HEALTH PROJECT_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.iEAP0ZO9QI8">
+      <text value="COFORWA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.rls6SXyKcrF">
+      <text value="Nation Conseil of des persons of disability_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.Z9XFBawp36C">
+      <text value="Association Fondation Tumurere (AFT)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.fTIh1bu3SWs">
+      <text value="UBUMWE COMMUNITY CENTER_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.erWM2U0hW9H">
+      <text value="Muhima Dispensary | Nyarugenge_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.CK54wqqlQdG">
+      <text value="Access Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.BHsA1KcmwFi">
+      <text value="MoH units_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.umFnQFYglPK">
+      <text value="Family Health International 360 (FHI 360)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.O6qYakfdpZJ">
+      <text value="ADEPR_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.ZO6bnXShdLr">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.SvPqQlwwnFx">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.Q1UoXjEsrTh">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.wxw5iuY0DJa">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.wqzWiEo2nCH">
+      <text value="Local churches_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.qCqxnD1cxo1">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.zLR3DJbQ246">
+      <text value="UNHCR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.jeVerpM7t1e">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.URyYFfDjvSA">
+      <text value="RRP+_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.u0PsLCZ0dxR">
+      <text value="Prison Kibungo Prison Clinic | Ngoma_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.p7ZgL5El5Xo">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.joiOHRzUsus">
+      <text value="BTC/ KCC- PAPSDSK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.OlZ8A8btvLr">
+      <text value="Health Poverty Action_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.DxlRg2dx70N">
+      <text value="Gikondo Health Post_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.blQMuRH5Z3B">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.X3ZJr9EpfkB">
+      <text value="Rwandan Allied for Peace and Progress (RAPP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.p8JzZbJFrcW">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.HLDE0BjmQ8f">
+      <text value="Red Cross Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.fFoyDT7KIh1">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.MMtW6vKces5">
+      <text value="Abt Associates Inc./Africa Indoor Residual Spraying Project (AIRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.dn3Md6kzpT2">
+      <text value="Prison Gikongoro Prison Clinic | Nyamagabe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.glPHj8NR8rq">
+      <text value="ICAP_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.shNsAZoLnKF">
+      <text value="AFRICARE_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.w6QQ0VXWidk">
+      <text value="HPA/SSF/HIV-GF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.b53LFzzeQxe">
+      <text value="UDC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.iuNvB1rhiFe">
+      <text value="AGHR asbl_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.wMjG2Os9YLp">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.AlSyLOrlYBJ">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.qBn7v5xKL4r">
+      <text value="KHI - Kigali Health Institute_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.uMgcuKsBxog">
+      <text value="ACTION NORD SUD RWANDA_implem_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.zaxkwX0Wyri">
+      <text value="Projet San Francisco_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.Lzyy69hmQX3">
+      <text value="WIF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.lp2a4B4n6V8">
+      <text value="PAPSDSK MMVK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.UMnpOlvucja">
+      <text value="Alliance des Eglises Evangelique pour la promotion de la Sante et le Development (AESD)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.DONoI8SNb7S">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.bAB5ix5k3o3">
+      <text value="Kibungo / Ngoma Prison_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.zhpE8RPspQj">
+      <text value="APROFAPER_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.m5f9hse8Urj">
+      <text value="MINALOC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.vC6CgOGc1jn">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.FowfrYDaJhT">
+      <text value="Nyamagabe Prison_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.eODNx0zFYFj">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.IAVdDthPAxP">
+      <text value="CTB PAPSDSK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.ZIMyNlD0xrP">
+      <text value="DUHAMIC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.wkHyadK7sG2">
+      <text value="AJPRODHO_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.DOXsUw54gHK">
+      <text value="Prison Miyove Prison Clinic | Gicumbi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.nNGEBFuq1KM">
+      <text value="FRSL_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.cmVWzjyhfKQ">
+      <text value="ICYUZUZO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.eh41buUlAIr">
+      <text value="Educational Development Center_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.c0oDUXhNDiv">
+      <text value="Intrahealth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.f8spdKwbSgr">
+      <text value="EGPAF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.xniyIEu707k">
+      <text value="Society for Family Health (SFH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.aGFTBfBqekh">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.w27QotwqZpe">
+      <text value="CHF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="YFVk49GqqG4.RzOF2EVlB3U">
+      <text value="CARITAS KIBUYE_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="COFVwOcJj67">
+    <text value="Community outreach_Implementors_AR"/>
+    <type value="group"/>
+    <item id="COFVwOcJj67.SMwjZOKq11U">
+      <text value="CENTRE KOMERA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.w0S35esS5hT">
+      <text value="Clinton Health Access Initiative (CHAI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.mTcizm3Xgkc">
+      <text value="Heart &amp; Hands International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.gjOIWtTAxZy">
+      <text value="CSOs_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.R6s5UIgiHBy">
+      <text value="AEE_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.Ogb1dajhYE0">
+      <text value="RALGA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.LaUsZn3kQbN">
+      <text value="Lux development_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.vEoQZyxJq5g">
+      <text value="RWANDA RED CROSS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.KhyCSm5WOEd">
+      <text value="HDI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.pMKw41IRJLF">
+      <text value="Education Development Center, Inc_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.tSvU7XhkTTU">
+      <text value="CRPS/LUXEMBOURG_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.aIYNiflyVTB">
+      <text value="MININFRA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.oPQnDWHT09o">
+      <text value="CARITAS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.Xee9ytWkfke">
+      <text value="APROFAPER"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.UOB4QLX44zX">
+      <text value="Imbuto Foundation/PACFA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.TDuNcbXZqcF">
+      <text value="JSI Research &amp; Training Institute, Inc_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.R1lKAYgiEz8">
+      <text value="JHPIEGO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.GIJZwUBtKRO">
+      <text value="SINAPISI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.Nk6svavvD5i">
+      <text value="TEAM HEART RWANDA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.tRLQWJWTMde">
+      <text value="SWAAR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.puDb7q24ZZn">
+      <text value="Millennium Villages Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.VGeVpGk99Kf">
+      <text value="BREAST CANCER INITIATIVE EAST AFRICA (BCIEA) INC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.Cq2R6oQ80uI">
+      <text value="Compassion International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.ZoeqsRDHBKM">
+      <text value="COPORWA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.YJoSUIpvXMC">
+      <text value="RBC DIVISIONS_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.R9uob7sDHcB">
+      <text value="ASSOCIATION RWANDAISE DES TRAVIALLEURS CHRETIENNES FEMININ (ARTCF)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.ooCxGQQpSgZ">
+      <text value="American Refugee Committee_iER"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.ozPP5HNkoT5">
+      <text value="MCHIP-Ikiraro_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.f3LyYeRKUwy">
+      <text value="Eglise Episcopale du Rwanda(EER)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.wBOc80o9hn1">
+      <text value="EPR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.uiXj5XES5eJ">
+      <text value="Private Sector Federation (PSF)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.Fiv6IBwaiJw">
+      <text value="Partners in Health (PIH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.nI6MGHrZEf1">
+      <text value="DOD Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.YaFlCJttkS7">
+      <text value="Rwanda National Youth Council_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.h4D9nycU6WF">
+      <text value="SALTWASH PROJECT_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.NFNzguhyl2S">
+      <text value="APESEK_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.BdbnEpe2A8t">
+      <text value="Eglise Presbyterienne du Rwanda (EPR)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.i881sf5ElxN">
+      <text value="International Rescue Committee (IRC)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.jB7EvKXn4pr">
+      <text value="Resau Rwandais de Personnes vivant avec le VIH (RRP+)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.S9kWJ5PZGwa">
+      <text value="Swiss Development Cooperation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.oQ0pY98PdLV">
+      <text value="CFW Health Posts_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.Gt0IuHcBwc3">
+      <text value="World Food Programme (WFP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.y5GdxqJgNi5">
+      <text value="CHEMONICS-RWANDA / FAMILY HEALTH PROJECT_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.iEAP0ZO9QI8">
+      <text value="COFORWA_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.rls6SXyKcrF">
+      <text value="Nation Conseil of des persons of disability_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.Z9XFBawp36C">
+      <text value="Association Fondation Tumurere (AFT)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.fTIh1bu3SWs">
+      <text value="UBUMWE COMMUNITY CENTER_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.erWM2U0hW9H">
+      <text value="Muhima Dispensary | Nyarugenge_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.CK54wqqlQdG">
+      <text value="Access Project_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.BHsA1KcmwFi">
+      <text value="MoH units_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.umFnQFYglPK">
+      <text value="Family Health International 360 (FHI 360)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.O6qYakfdpZJ">
+      <text value="ADEPR_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.ZO6bnXShdLr">
+      <text value="Rwanda Purpose Driven Ministries/PEACE Plan_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.SvPqQlwwnFx">
+      <text value="Concern Worldwide Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.Q1UoXjEsrTh">
+      <text value="AIDS Healthcare Foundation_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.wxw5iuY0DJa">
+      <text value="CARE_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.wqzWiEo2nCH">
+      <text value="Local churches_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.qCqxnD1cxo1">
+      <text value="Catholic Relief Services (CRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.zLR3DJbQ246">
+      <text value="UNHCR_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.jeVerpM7t1e">
+      <text value="Population Services International (PSI)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.URyYFfDjvSA">
+      <text value="RRP+_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.u0PsLCZ0dxR">
+      <text value="Prison Kibungo Prison Clinic | Ngoma_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.p7ZgL5El5Xo">
+      <text value="Global Health Corps_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.joiOHRzUsus">
+      <text value="BTC/ KCC- PAPSDSK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.OlZ8A8btvLr">
+      <text value="Health Poverty Action_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.DxlRg2dx70N">
+      <text value="Gikondo Health Post_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.blQMuRH5Z3B">
+      <text value="ProFemme Twese Hamwe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.X3ZJr9EpfkB">
+      <text value="Rwandan Allied for Peace and Progress (RAPP)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.p8JzZbJFrcW">
+      <text value="World Relief_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.HLDE0BjmQ8f">
+      <text value="Red Cross Rwanda_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.fFoyDT7KIh1">
+      <text value="AVSI_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.MMtW6vKces5">
+      <text value="Abt Associates Inc./Africa Indoor Residual Spraying Project (AIRS)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.dn3Md6kzpT2">
+      <text value="Prison Gikongoro Prison Clinic | Nyamagabe_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.glPHj8NR8rq">
+      <text value="ICAP_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.shNsAZoLnKF">
+      <text value="AFRICARE_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.w6QQ0VXWidk">
+      <text value="HPA/SSF/HIV-GF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.b53LFzzeQxe">
+      <text value="UDC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.iuNvB1rhiFe">
+      <text value="AGHR asbl_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.wMjG2Os9YLp">
+      <text value="Handicap International_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.AlSyLOrlYBJ">
+      <text value="Medicus Mundi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.qBn7v5xKL4r">
+      <text value="KHI - Kigali Health Institute_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.uMgcuKsBxog">
+      <text value="ACTION NORD SUD RWANDA_implem_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.zaxkwX0Wyri">
+      <text value="Projet San Francisco_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.Lzyy69hmQX3">
+      <text value="WIF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.lp2a4B4n6V8">
+      <text value="PAPSDSK MMVK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.UMnpOlvucja">
+      <text value="Alliance des Eglises Evangelique pour la promotion de la Sante et le Development (AESD)_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.DONoI8SNb7S">
+      <text value="UK Department for International Development (DFID)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.bAB5ix5k3o3">
+      <text value="Kibungo / Ngoma Prison_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.zhpE8RPspQj">
+      <text value="APROFAPER_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.m5f9hse8Urj">
+      <text value="MINALOC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.vC6CgOGc1jn">
+      <text value="WE-ACTx For Hope_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.FowfrYDaJhT">
+      <text value="Nyamagabe Prison_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.eODNx0zFYFj">
+      <text value="World Vision_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.IAVdDthPAxP">
+      <text value="CTB PAPSDSK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.ZIMyNlD0xrP">
+      <text value="DUHAMIC_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.wkHyadK7sG2">
+      <text value="AJPRODHO_iAR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.DOXsUw54gHK">
+      <text value="Prison Miyove Prison Clinic | Gicumbi_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.nNGEBFuq1KM">
+      <text value="FRSL_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.cmVWzjyhfKQ">
+      <text value="ICYUZUZO_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.eh41buUlAIr">
+      <text value="Educational Development Center_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.c0oDUXhNDiv">
+      <text value="Intrahealth_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.f8spdKwbSgr">
+      <text value="EGPAF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.xniyIEu707k">
+      <text value="Society for Family Health (SFH)_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.aGFTBfBqekh">
+      <text value="Save the Children UK_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.w27QotwqZpe">
+      <text value="CHF_AR"/>
+      <type value="boolean"/>
+    </item>
+    <item id="COFVwOcJj67.RzOF2EVlB3U">
+      <text value="CARITAS KIBUYE_AR"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+</Questionnaire>

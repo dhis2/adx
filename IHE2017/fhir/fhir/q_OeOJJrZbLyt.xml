@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="OeOJJrZbLyt"/>
+  <status value="published"/>
+  <title value="Population"/>
+  <item id="oCcZmhc2O4M">
+    <text value="Population Total"/>
+    <type value="group"/>
+    <item id="oCcZmhc2O4M.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

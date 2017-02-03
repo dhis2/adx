@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="ygTEbJWQhqf"/>
+  <status value="published"/>
+  <title value="ANC and PNC consultations"/>
+  <item id="LSYlyBiCCon">
+    <text value="PNC standard visits within 3 days of birth"/>
+    <type value="group"/>
+    <item id="LSYlyBiCCon.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="viftAbwOnMH">
+    <text value="ANC new registrations who received full course of Iron and Folic Acid supplements _90 tablets"/>
+    <type value="group"/>
+    <item id="viftAbwOnMH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pRqsvVsrDJV">
+    <text value="ANC deworming performed"/>
+    <type value="group"/>
+    <item id="pRqsvVsrDJV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UvJbYove50G">
+    <text value="PNC standard visit 1 within 3 days of birth_Baby"/>
+    <type value="group"/>
+    <item id="UvJbYove50G.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ea8PwlCJhtl">
+    <text value="ANC TT 2 to 5 given"/>
+    <type value="group"/>
+    <item id="Ea8PwlCJhtl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IuaAd6Quvp1">
+    <text value="ANC&#xA0; pregnancy under 15 years"/>
+    <type value="group"/>
+    <item id="IuaAd6Quvp1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z7BziiaCvq3">
+    <text value="ANC HIV tested positive "/>
+    <type value="group"/>
+    <item id="z7BziiaCvq3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J6AtcHTRPQt">
+    <text value="PNC complication referred_mother or infant_Mother"/>
+    <type value="group"/>
+    <item id="J6AtcHTRPQt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FqDAfzXHRJo">
+    <text value="ANC syphilis tested "/>
+    <type value="group"/>
+    <item id="FqDAfzXHRJo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o562S1JTRoD">
+    <text value="PNC standard visit 3 between 10 days and 6 weeks of birth_Mother"/>
+    <type value="group"/>
+    <item id="o562S1JTRoD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MRXI1XoFG1G">
+    <text value="ANC standard visit during 9th month"/>
+    <type value="group"/>
+    <item id="MRXI1XoFG1G.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ytgZGZscGM3">
+    <text value="ANC TT new registrations fully vaccinated"/>
+    <type value="group"/>
+    <item id="ytgZGZscGM3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D702xSW9bHo">
+    <text value="ANC new registrations screened for malnutrition_MUAC"/>
+    <type value="group"/>
+    <item id="D702xSW9bHo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="A2JDrKjR3nr">
+    <text value="ANC First standard visit 1st trimester"/>
+    <type value="group"/>
+    <item id="A2JDrKjR3nr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dEX7M3L2XT4">
+    <text value="PNC complication referred_mother or infant"/>
+    <type value="group"/>
+    <item id="dEX7M3L2XT4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Y5PjM4bF5rx">
+    <text value="ANC 4th standard visit"/>
+    <type value="group"/>
+    <item id="Y5PjM4bF5rx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="A646Ehb1mVm">
+    <text value="PNC new registrations_Mother"/>
+    <type value="group"/>
+    <item id="A646Ehb1mVm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FWuzAt99w1y">
+    <text value="ANC high risk pregnancy detected_including pregnancy under 15 years"/>
+    <type value="group"/>
+    <item id="FWuzAt99w1y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Y4xlw0XUzhR">
+    <text value="ANC new registrations tested for anaemia"/>
+    <type value="group"/>
+    <item id="Y4xlw0XUzhR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pGIpti2thOZ">
+    <text value="PNC complication referred_mother or infant_Baby"/>
+    <type value="group"/>
+    <item id="pGIpti2thOZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oSLpODeimyD">
+    <text value="ANC HIV tested "/>
+    <type value="group"/>
+    <item id="oSLpODeimyD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kXC0ONrnfjC">
+    <text value="PNC standard visit 3 between 10 days and 6 weeks of birth_Baby"/>
+    <type value="group"/>
+    <item id="kXC0ONrnfjC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PFJOGl2YIwj">
+    <text value="PNC mothers recieved vitamin A  "/>
+    <type value="group"/>
+    <item id="PFJOGl2YIwj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hBqhJXgWIZE">
+    <text value="PNC new registration mothers MUAC screened for malnutrition "/>
+    <type value="group"/>
+    <item id="hBqhJXgWIZE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ri0XrmXSpEC">
+    <text value="ANC New Registrations"/>
+    <type value="group"/>
+    <item id="ri0XrmXSpEC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VQtPPcfowOz">
+    <text value="PNC standard visits between 4-10 days of birth "/>
+    <type value="group"/>
+    <item id="VQtPPcfowOz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IJClrFpibZP">
+    <text value="ANC new registrations with anaemia Moderate  7 to 9.9 gm/dl"/>
+    <type value="group"/>
+    <item id="IJClrFpibZP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x6yegTNkNjF">
+    <text value="PNC mothers malnourished_MUAC &lt; 21 cm"/>
+    <type value="group"/>
+    <item id="x6yegTNkNjF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hpIXHGIvszO">
+    <text value="PNC standard visit 2 between 4-9 days of birth_Baby"/>
+    <type value="group"/>
+    <item id="hpIXHGIvszO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jimOjhBpQlC">
+    <text value="ANC new registrations  anaemia Severe &lt;7gm&#xC2;&#xA0;/dl"/>
+    <type value="group"/>
+    <item id="jimOjhBpQlC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MTe1TWLuUAv">
+    <text value="ANC new registrations screened who were malnourished_MUAC &lt; 21 cm"/>
+    <type value="group"/>
+    <item id="MTe1TWLuUAv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="THmwuhMFSm5">
+    <text value="ANC TT 1given"/>
+    <type value="group"/>
+    <item id="THmwuhMFSm5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ppl1tmbPKwx">
+    <text value="PNC standard visit 1 within 3 days of birth_Mother"/>
+    <type value="group"/>
+    <item id="ppl1tmbPKwx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LrqWgXVEIo5">
+    <text value="ANC HIV tested who recieved their results"/>
+    <type value="group"/>
+    <item id="LrqWgXVEIo5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZvM3oVLLjZf">
+    <text value="PNC new registrations_Baby"/>
+    <type value="group"/>
+    <item id="ZvM3oVLLjZf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Cbpa87fOtlB">
+    <text value="PNC standard visit 2 between 4-9 days of birth_Mother"/>
+    <type value="group"/>
+    <item id="Cbpa87fOtlB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="A5HjXlj1bhf">
+    <text value="ANC syphilis tested positive "/>
+    <type value="group"/>
+    <item id="A5HjXlj1bhf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Arr4LIIOlo4">
+    <text value="ANC high risk pregnancies referred"/>
+    <type value="group"/>
+    <item id="Arr4LIIOlo4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zajzl4FQFoI">
+    <text value="ANC  Insecticide Treated Bed nets distributed"/>
+    <type value="group"/>
+    <item id="zajzl4FQFoI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KGTnFcKWiMp">
+    <text value="Low birth weight infants discharged from Kangaroo Mother care followed up at HC_baby"/>
+    <type value="group"/>
+    <item id="KGTnFcKWiMp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

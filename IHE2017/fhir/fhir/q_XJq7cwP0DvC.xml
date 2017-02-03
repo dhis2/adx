@@ -1,0 +1,583 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="XJq7cwP0DvC"/>
+  <status value="published"/>
+  <title value="TB - TB/HIV and TB among people at high risk of TB and Community DOTS, Screening"/>
+  <item id="jGneOnypHhG">
+    <text value="Contacts of TPB+ &#x2265; 5 years of cases registered during the evaluated quarter_Number"/>
+    <type value="group"/>
+    <item id="jGneOnypHhG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tjZynzXVgkL">
+    <text value="New Prisoners admitted in prisons during the reported quarter_TBcases"/>
+    <type value="group"/>
+    <item id="tjZynzXVgkL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WuztJJ3dZYD">
+    <text value="HIV+ persons newly enrolled (during the previous quarter) screened for TB_TB cases"/>
+    <type value="group"/>
+    <item id="WuztJJ3dZYD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TzNayfupeIU">
+    <text value="PLWHIV TB presumptive examined with genexpert"/>
+    <type value="group"/>
+    <item id="TzNayfupeIU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lCU9KzrorFB">
+    <text value="HIV positive smear negative TB presumptive tested with Genexpert_Number"/>
+    <type value="group"/>
+    <item id="lCU9KzrorFB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oKzoWW8NraG">
+    <text value="TB Presumptive With unknown HIV status"/>
+    <type value="group"/>
+    <item id="oKzoWW8NraG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x8Gv4g5B8kY">
+    <text value="New Prisoners admitted in prisons during the reported quarter_Number"/>
+    <type value="group"/>
+    <item id="x8Gv4g5B8kY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EYJGXuAohRK">
+    <text value="Tb_Contacts of TPB+ &lt;5 years of cases registered 12 months ago_Presumptive"/>
+    <type value="group"/>
+    <item id="EYJGXuAohRK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sgxJ4uBNldS">
+    <text value="Children under 15 yrs_exclude children prisoners_ children contacts_Presumtive TB"/>
+    <type value="group"/>
+    <item id="sgxJ4uBNldS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zC8u0yYAFk4">
+    <text value="New prisoners screened at entry_TB cases"/>
+    <type value="group"/>
+    <item id="zC8u0yYAFk4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eAsyvl5RShk">
+    <text value="Elderly greater 55 years exclude prisoners greater 55 years and contacts greater 55 years_Number"/>
+    <type value="group"/>
+    <item id="eAsyvl5RShk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZNKgY97xYSB">
+    <text value="Children under 15 yrs_exclude children prisoners_ children contacts_Screening"/>
+    <type value="group"/>
+    <item id="ZNKgY97xYSB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KbOYBdmtkYJ">
+    <text value="New prisoners screened at entry_Number"/>
+    <type value="group"/>
+    <item id="KbOYBdmtkYJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TjrWAOWwPBv">
+    <text value="HIV positive persons_exclude prisoners_contacts_childrenUnder15 years_elderlygreater55years_Presumptive TB"/>
+    <type value="group"/>
+    <item id="TjrWAOWwPBv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Tcy5GTC1eur">
+    <text value="HIV positive smear negative TB presumptive tested with Genexpert_TB cases"/>
+    <type value="group"/>
+    <item id="Tcy5GTC1eur.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G3dP8LOwTwg">
+    <text value="Children under 15 yrs_exclude children prisoners_ children contacts_TB cases"/>
+    <type value="group"/>
+    <item id="G3dP8LOwTwg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QtfYGSpaQS5">
+    <text value="New Prisoners admitted in prisons during the reported quarter_Presumptive TB"/>
+    <type value="group"/>
+    <item id="QtfYGSpaQS5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gbTHWJCmhEf">
+    <text value="Contacts of TPB+ &lt; 5 years of cases registered during the evaluated quarter_Number"/>
+    <type value="group"/>
+    <item id="gbTHWJCmhEf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jrtm39pcTxH">
+    <text value="Contacts of TPB+ &#x2265; 5 years of cases registered during the evaluated quarter_Screened"/>
+    <type value="group"/>
+    <item id="jrtm39pcTxH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iUxQn61lPBl">
+    <text value="Prisoners at the end of the quarter previous to the reported quarter_number"/>
+    <type value="group"/>
+    <item id="iUxQn61lPBl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x0tY1x26edt">
+    <text value="Tb_Contacts of TPB+ &#x2265; 5 years of cases registered 12 months ago_Screened"/>
+    <type value="group"/>
+    <item id="x0tY1x26edt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xeNMaMtaRoQ">
+    <text value="New prisoners examined at entry "/>
+    <type value="group"/>
+    <item id="xeNMaMtaRoQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G5eFBKRGnjN">
+    <text value="Malnourished children &lt; 5yrs screened for TB_TB Cases"/>
+    <type value="group"/>
+    <item id="G5eFBKRGnjN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="a8FChXSIauT">
+    <text value="New prisoners screened at entry_Presumptive TB "/>
+    <type value="group"/>
+    <item id="a8FChXSIauT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P9e4mqCGUSR">
+    <text value="Prisoners at the end of the quarter previous to the reported quarter_Presumptive TB "/>
+    <type value="group"/>
+    <item id="P9e4mqCGUSR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="apmcahTcU4P">
+    <text value="Tb_Contacts of TPB+ &lt;5 years of cases registered 12 months ago_Screened"/>
+    <type value="group"/>
+    <item id="apmcahTcU4P.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ta8QTWNveR8">
+    <text value="Contacts of TPB+ &lt; 5 years of cases registered during the evaluated quarter_Screened"/>
+    <type value="group"/>
+    <item id="ta8QTWNveR8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BqTsNpiV18W">
+    <text value="Contacts of TPB+ &lt; 5 years put on IPT_Number"/>
+    <type value="group"/>
+    <item id="BqTsNpiV18W.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UduCNaeS5Jb">
+    <text value="HIV positive persons_exclude prisoners_contacts_childrenUnder15 years_elderlygreater55years_Number"/>
+    <type value="group"/>
+    <item id="UduCNaeS5Jb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iq2BrsnXMRA">
+    <text value="Elderly greater 55 years exclude prisoners greater 55 years and contacts greater 55 years_TB Cases"/>
+    <type value="group"/>
+    <item id="iq2BrsnXMRA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xaEXi1sqqFI">
+    <text value="Number and percentage of TB retreatment cases (failure, relapses, defaulters) who benefited from Genexpert test"/>
+    <type value="group"/>
+    <item id="xaEXi1sqqFI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yOTq6tNYlGX">
+    <text value="Tb_Contacts of TPB+ &#x2265; 5 years of cases registered 12 months ago_Presumptive"/>
+    <type value="group"/>
+    <item id="yOTq6tNYlGX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NIl8J9nvEhK">
+    <text value="HIV+ persons newly enrolled (during the previous quarter) screened for TB_Screened"/>
+    <type value="group"/>
+    <item id="NIl8J9nvEhK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nytuSdWW6II">
+    <text value="Tb_Contacts of TPB+ &lt;5 years of cases registered 12 months ago_Number"/>
+    <type value="group"/>
+    <item id="nytuSdWW6II.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XLxknB9zjYZ">
+    <text value="HIV+ persons newly enrolled (during the previous quarter) screened for TB_Number"/>
+    <type value="group"/>
+    <item id="XLxknB9zjYZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z6CFFzj1dEy">
+    <text value="Number of TB cases newly entrusted to CHWs for treatment during the quarter evaluated"/>
+    <type value="group"/>
+    <item id="z6CFFzj1dEy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GHt1RBvxrw1">
+    <text value="TB Presumptive With unknown HIV status whose Status become HIV positive (after test))"/>
+    <type value="group"/>
+    <item id="GHt1RBvxrw1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DOpBjLfmLVC">
+    <text value="New prisoners entered during the evaluated quarter"/>
+    <type value="group"/>
+    <item id="DOpBjLfmLVC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CbsPAu4AzEZ">
+    <text value="Prisoners at the end of the quarter previous to the reported quarter_Screened"/>
+    <type value="group"/>
+    <item id="CbsPAu4AzEZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Rknfucy6Ahd">
+    <text value="Prisoners with positive TB suspects at entry (ex. Sputum)"/>
+    <type value="group"/>
+    <item id="Rknfucy6Ahd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QyVRrrt5raz">
+    <text value="Contacts of TPB+ &#x2265; 5 years of cases registered during the evaluated quarter_Presumptive TB"/>
+    <type value="group"/>
+    <item id="QyVRrrt5raz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wxD8niFtF3i">
+    <text value="TB cases diagnosed among  contacts_Registered"/>
+    <type value="group"/>
+    <item id="wxD8niFtF3i.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P7V8BYBsia0">
+    <text value="Prisoners at the end of the quarter previous to the reported quarter_TB cases"/>
+    <type value="group"/>
+    <item id="P7V8BYBsia0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IQSBTG484X6">
+    <text value="HIV+ persons newly enrolled (during the previous quarter) screened for TB_Presumptive TB "/>
+    <type value="group"/>
+    <item id="IQSBTG484X6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wkzqDmxfK4Q">
+    <text value="Tb_Contacts of TPB+ &#x2265; 5 years of cases registered 12 months ago_Number"/>
+    <type value="group"/>
+    <item id="wkzqDmxfK4Q.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PrIqa6WttG6">
+    <text value="Elderly greater 55 years exclude prisoners greater 55 years and contacts greater 55 years_Presumptive TB"/>
+    <type value="group"/>
+    <item id="PrIqa6WttG6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="STNwr4cUayI">
+    <text value="Contacts of TPB+ &#x2265; 5 years of cases registered during the evaluated quarter_TB Cases"/>
+    <type value="group"/>
+    <item id="STNwr4cUayI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FXbHj2LzluR">
+    <text value="Malnourished children &lt; 5yrs screened for TB_Screened"/>
+    <type value="group"/>
+    <item id="FXbHj2LzluR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fvPUMilY1Pg">
+    <text value="TB presumptive tested with Genexpert in prisons_Number"/>
+    <type value="group"/>
+    <item id="fvPUMilY1Pg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="REGiqnmgCrl">
+    <text value="TB presumptive tested with Genexpert in prisons_Screened"/>
+    <type value="group"/>
+    <item id="REGiqnmgCrl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Zj4iRgsFtrd">
+    <text value="Contacts of TPB+ &lt; 5 years of cases registered during the evaluated quarter_Presumptive TB"/>
+    <type value="group"/>
+    <item id="Zj4iRgsFtrd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CFPKrvTX8VB">
+    <text value="Malnourished children &lt; 5yrs screened for TB_Number"/>
+    <type value="group"/>
+    <item id="CFPKrvTX8VB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XlcyolAuu6X">
+    <text value="Number and percentage of HIV+ TB suspects  who benefited from Genexpert test"/>
+    <type value="group"/>
+    <item id="XlcyolAuu6X.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pMCiqsPCFdm">
+    <text value="Malnourished children &lt; 5yrs screened for TB_Presumptive TB"/>
+    <type value="group"/>
+    <item id="pMCiqsPCFdm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="W2x7Xn3fwZi">
+    <text value="New prisoners screened at entry_Screened"/>
+    <type value="group"/>
+    <item id="W2x7Xn3fwZi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IOzjXNMuw3E">
+    <text value="TB presumptive tested with Genexpert in prisons_Presumptive TB "/>
+    <type value="group"/>
+    <item id="IOzjXNMuw3E.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="H3TKR4otfB0">
+    <text value="Children under 15 yrs_exclude children prisoners_ children contacts_Number"/>
+    <type value="group"/>
+    <item id="H3TKR4otfB0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BwOV1i6Duip">
+    <text value="TB contacts  examined "/>
+    <type value="group"/>
+    <item id="BwOV1i6Duip.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XxLcVzZGWY5">
+    <text value="Elderly greater 55 years exclude prisoners greater 55 years and contacts greater 55 years_Screened"/>
+    <type value="group"/>
+    <item id="XxLcVzZGWY5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M7UElctIZ2b">
+    <text value="TB presumptive tested with Genexpert in prisons_TB cases"/>
+    <type value="group"/>
+    <item id="M7UElctIZ2b.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QONebSnH9Bu">
+    <text value="TB Presumptive With unknown HIV status tested for HIV"/>
+    <type value="group"/>
+    <item id="QONebSnH9Bu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zkRAYSibzfa">
+    <text value="Tb_Cases (all-forms) on TB treatment in the community at the end of the quarter evaluated"/>
+    <type value="group"/>
+    <item id="zkRAYSibzfa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HJbF5Ba4e8i">
+    <text value="Contacts of TPB+ &lt; 5 years of cases registered during the evaluated quarter_TB cases"/>
+    <type value="group"/>
+    <item id="HJbF5Ba4e8i.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JIVPXHCUZNG">
+    <text value="Tb_Contacts of TPB+ &lt;5 years of cases registered 12 months ago_TB Cases"/>
+    <type value="group"/>
+    <item id="JIVPXHCUZNG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zX4I9AEoAw0">
+    <text value="HIV positive persons_exclude prisoners_contacts_childrenUnder15 years_elderlygreater55years_Screened"/>
+    <type value="group"/>
+    <item id="zX4I9AEoAw0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tNrkki1Fnef">
+    <text value="Tb_Contacts of TPB+ &#x2265; 5 years of cases registered 12 months ago_TB Cases"/>
+    <type value="group"/>
+    <item id="tNrkki1Fnef.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="H7ghsjWUPvk">
+    <text value="Prisoners diagnosed SS+ at entry"/>
+    <type value="group"/>
+    <item id="H7ghsjWUPvk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wpgXAp9ErKg">
+    <text value="Total number TB retreatment cases"/>
+    <type value="group"/>
+    <item id="wpgXAp9ErKg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XoJinOzdgNl">
+    <text value="HIV positive persons_exclude prisoners_contacts_childrenUnder15 years_elderlygreater55years_TB Cases"/>
+    <type value="group"/>
+    <item id="XoJinOzdgNl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZnOkd9suNQh">
+    <text value="New Prisoners admitted in prisons during the reported quarter_Screened"/>
+    <type value="group"/>
+    <item id="ZnOkd9suNQh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BouuoV3C2zJ">
+    <text value="Under 5 years  contacts put on INH preventives treatments"/>
+    <type value="group"/>
+    <item id="BouuoV3C2zJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mfMLDKMU16L">
+    <text value="TB Presumptive living with HIV/AIDS"/>
+    <type value="group"/>
+    <item id="mfMLDKMU16L.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

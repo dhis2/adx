@@ -1,0 +1,567 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="Al7Ez5pIJXa"/>
+  <status value="published"/>
+  <title value="Injuries"/>
+  <item id="aLHOcScFTp7">
+    <text value="Poisoning_Deaths 2015"/>
+    <type value="group"/>
+    <item id="aLHOcScFTp7.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aLHOcScFTp7.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aLHOcScFTp7.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aLHOcScFTp7.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aLHOcScFTp7.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aLHOcScFTp7.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aH9wp19r8WW">
+    <text value="Interpersonal violence_New cases 2015"/>
+    <type value="group"/>
+    <item id="aH9wp19r8WW.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aH9wp19r8WW.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aH9wp19r8WW.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aH9wp19r8WW.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aH9wp19r8WW.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aH9wp19r8WW.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x9JjO8mpSun">
+    <text value="Falls_Deaths 2015"/>
+    <type value="group"/>
+    <item id="x9JjO8mpSun.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="x9JjO8mpSun.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="x9JjO8mpSun.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="x9JjO8mpSun.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="x9JjO8mpSun.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="x9JjO8mpSun.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TGg6eujtdoL">
+    <text value="Self-harm_Deaths 2015"/>
+    <type value="group"/>
+    <item id="TGg6eujtdoL.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="TGg6eujtdoL.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="TGg6eujtdoL.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="TGg6eujtdoL.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="TGg6eujtdoL.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="TGg6eujtdoL.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PbeyXYbHnvP">
+    <text value="Fire_burns_thermo  electrical chemical_Deaths 2015"/>
+    <type value="group"/>
+    <item id="PbeyXYbHnvP.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="PbeyXYbHnvP.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="PbeyXYbHnvP.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="PbeyXYbHnvP.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="PbeyXYbHnvP.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="PbeyXYbHnvP.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IWXExXOMMNm">
+    <text value="Poisoning_New cases 2015"/>
+    <type value="group"/>
+    <item id="IWXExXOMMNm.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="IWXExXOMMNm.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="IWXExXOMMNm.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="IWXExXOMMNm.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="IWXExXOMMNm.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="IWXExXOMMNm.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YmdSUeHLTTz">
+    <text value="Other intentional injuries_Deaths 2015"/>
+    <type value="group"/>
+    <item id="YmdSUeHLTTz.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YmdSUeHLTTz.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YmdSUeHLTTz.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YmdSUeHLTTz.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="YmdSUeHLTTz.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="YmdSUeHLTTz.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="upOAgOefw8j">
+    <text value="Fire_burns_thermo electrical chemical_New cases 2015"/>
+    <type value="group"/>
+    <item id="upOAgOefw8j.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="upOAgOefw8j.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="upOAgOefw8j.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="upOAgOefw8j.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="upOAgOefw8j.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="upOAgOefw8j.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="m6fcNUPJK3B">
+    <text value="Other intentional injuries_New cases 2015"/>
+    <type value="group"/>
+    <item id="m6fcNUPJK3B.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="m6fcNUPJK3B.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="m6fcNUPJK3B.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="m6fcNUPJK3B.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="m6fcNUPJK3B.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="m6fcNUPJK3B.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nxIXEeiHhvg">
+    <text value="Road traffic injuries_including cycling_Deaths 2015"/>
+    <type value="group"/>
+    <item id="nxIXEeiHhvg.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nxIXEeiHhvg.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nxIXEeiHhvg.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nxIXEeiHhvg.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nxIXEeiHhvg.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nxIXEeiHhvg.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vdMd8MpwcvF">
+    <text value="Natural disasters_Death 2015"/>
+    <type value="group"/>
+    <item id="vdMd8MpwcvF.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vdMd8MpwcvF.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vdMd8MpwcvF.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vdMd8MpwcvF.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vdMd8MpwcvF.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vdMd8MpwcvF.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S1h3Vscg9Er">
+    <text value="Animal contact_Deaths 2015"/>
+    <type value="group"/>
+    <item id="S1h3Vscg9Er.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="S1h3Vscg9Er.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="S1h3Vscg9Er.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="S1h3Vscg9Er.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="S1h3Vscg9Er.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="S1h3Vscg9Er.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j0kx39xrrMp">
+    <text value="Drowning_Deaths 2015"/>
+    <type value="group"/>
+    <item id="j0kx39xrrMp.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="j0kx39xrrMp.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="j0kx39xrrMp.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="j0kx39xrrMp.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="j0kx39xrrMp.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="j0kx39xrrMp.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ckjZr2mxErk">
+    <text value="Natural disasters_New cases 2015"/>
+    <type value="group"/>
+    <item id="ckjZr2mxErk.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ckjZr2mxErk.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ckjZr2mxErk.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ckjZr2mxErk.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ckjZr2mxErk.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ckjZr2mxErk.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xcXXrbab3rO">
+    <text value="Falls_New cases 2015"/>
+    <type value="group"/>
+    <item id="xcXXrbab3rO.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xcXXrbab3rO.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xcXXrbab3rO.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xcXXrbab3rO.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xcXXrbab3rO.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xcXXrbab3rO.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EwZWycNZjTY">
+    <text value="Animal contact_New cases 2015"/>
+    <type value="group"/>
+    <item id="EwZWycNZjTY.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EwZWycNZjTY.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EwZWycNZjTY.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EwZWycNZjTY.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EwZWycNZjTY.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EwZWycNZjTY.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S0FLK8fbHWE">
+    <text value="Drowning_New cases 2015"/>
+    <type value="group"/>
+    <item id="S0FLK8fbHWE.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="S0FLK8fbHWE.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="S0FLK8fbHWE.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="S0FLK8fbHWE.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="S0FLK8fbHWE.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="S0FLK8fbHWE.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tJwCi6dJeWQ">
+    <text value="Self-harm_New cases 2015"/>
+    <type value="group"/>
+    <item id="tJwCi6dJeWQ.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tJwCi6dJeWQ.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tJwCi6dJeWQ.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tJwCi6dJeWQ.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tJwCi6dJeWQ.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tJwCi6dJeWQ.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nqQDHjqIPdw">
+    <text value="Road traffic injuries_including cycling_New cases 2015"/>
+    <type value="group"/>
+    <item id="nqQDHjqIPdw.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nqQDHjqIPdw.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nqQDHjqIPdw.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nqQDHjqIPdw.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nqQDHjqIPdw.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nqQDHjqIPdw.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lHbGTlDEbw2">
+    <text value=" Interpersonal violence_Deaths 2015"/>
+    <type value="group"/>
+    <item id="lHbGTlDEbw2.an6vscaUk16">
+      <text value="20 to 39 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lHbGTlDEbw2.ANrxW4pIIP6">
+      <text value="40 years and above, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lHbGTlDEbw2.XBiYp3AjoeR">
+      <text value="0 to 19 years , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="lHbGTlDEbw2.rF2VMwZ8JpO">
+      <text value="20 to 39 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lHbGTlDEbw2.kdmS7zvhGuL">
+      <text value="0 to 19 years , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="lHbGTlDEbw2.kLjlM4XxvKP">
+      <text value="40 years and above, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

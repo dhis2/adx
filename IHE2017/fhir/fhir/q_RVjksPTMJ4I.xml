@@ -1,0 +1,1511 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="RVjksPTMJ4I"/>
+  <status value="published"/>
+  <title value="IMCI Diseases"/>
+  <item id="FX6vktHgxps">
+    <text value="Measles severe complicatedIMCI_suspected"/>
+    <type value="group"/>
+    <item id="FX6vktHgxps.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="FX6vktHgxps.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="FX6vktHgxps.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Kmn7rE7JtkA">
+    <text value="Psychological/Mental problems_New Cases"/>
+    <type value="group"/>
+    <item id="Kmn7rE7JtkA.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kmn7rE7JtkA.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kmn7rE7JtkA.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kmn7rE7JtkA.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iXT798j6Fxw">
+    <text value="Febrile disease very severe_plasmodium negative"/>
+    <type value="group"/>
+    <item id="iXT798j6Fxw.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="iXT798j6Fxw.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="iXT798j6Fxw.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xZfwzfHPTjP">
+    <text value="Food poisoning_IMCI"/>
+    <type value="group"/>
+    <item id="xZfwzfHPTjP.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="xZfwzfHPTjP.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="xZfwzfHPTjP.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HlwhYK3EmYP">
+    <text value="Bacterial infection local"/>
+    <type value="group"/>
+    <item id="HlwhYK3EmYP.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="HlwhYK3EmYP.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="HlwhYK3EmYP.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EaabvLDZzZ4">
+    <text value="HIV infection probable or suspected"/>
+    <type value="group"/>
+    <item id="EaabvLDZzZ4.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="EaabvLDZzZ4.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="EaabvLDZzZ4.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JZ5zbVwjtmR">
+    <text value="Leprosy_MB and PB_New Cases"/>
+    <type value="group"/>
+    <item id="JZ5zbVwjtmR.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JZ5zbVwjtmR.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JZ5zbVwjtmR.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JZ5zbVwjtmR.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="alwzvESjMP3">
+    <text value="Skin Infections Other_IMCI"/>
+    <type value="group"/>
+    <item id="alwzvESjMP3.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="alwzvESjMP3.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="alwzvESjMP3.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P3MbJfdwalM">
+    <text value="Chronic obstructive lung diseases_New cases_Chron"/>
+    <type value="group"/>
+    <item id="P3MbJfdwalM.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="P3MbJfdwalM.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="P3MbJfdwalM.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="P3MbJfdwalM.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IOrQYRMwIEW">
+    <text value="Malaria severe_confirmed IMCI"/>
+    <type value="group"/>
+    <item id="IOrQYRMwIEW.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="IOrQYRMwIEW.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="IOrQYRMwIEW.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dpK3WGZaIay">
+    <text value="Diabetes_Gestational_Old Cases_Chron"/>
+    <type value="group"/>
+    <item id="dpK3WGZaIay.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="dpK3WGZaIay.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="dpK3WGZaIay.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="dpK3WGZaIay.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rYPJLPBbBga">
+    <text value="Hypertension_OldCases"/>
+    <type value="group"/>
+    <item id="rYPJLPBbBga.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rYPJLPBbBga.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rYPJLPBbBga.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rYPJLPBbBga.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S48Q4seK4eN">
+    <text value="Physical traumas_other than fractures_IMCI"/>
+    <type value="group"/>
+    <item id="S48Q4seK4eN.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="S48Q4seK4eN.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="S48Q4seK4eN.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="axVu7rjra2Z">
+    <text value="HIV infection possible"/>
+    <type value="group"/>
+    <item id="axVu7rjra2Z.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="axVu7rjra2Z.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="axVu7rjra2Z.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KNnwzK10v5J">
+    <text value="Prematurity_IMCI"/>
+    <type value="group"/>
+    <item id="KNnwzK10v5J.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="KNnwzK10v5J.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="KNnwzK10v5J.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OeeLaxxUs8s">
+    <text value="Eye infections_others_IMCI"/>
+    <type value="group"/>
+    <item id="OeeLaxxUs8s.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="OeeLaxxUs8s.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="OeeLaxxUs8s.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kmDhv9psRmm">
+    <text value="Congestive heart failure_New Cases_Chron"/>
+    <type value="group"/>
+    <item id="kmDhv9psRmm.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="kmDhv9psRmm.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="kmDhv9psRmm.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="kmDhv9psRmm.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LzGGiJOMJcb">
+    <text value="Very low weight for age"/>
+    <type value="group"/>
+    <item id="LzGGiJOMJcb.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="LzGGiJOMJcb.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="LzGGiJOMJcb.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OQYP8SLPxr2">
+    <text value="Diarrhea no dehydration"/>
+    <type value="group"/>
+    <item id="OQYP8SLPxr2.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="OQYP8SLPxr2.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="OQYP8SLPxr2.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e70lAnlVTaZ">
+    <text value="Asthma_NewCases_old"/>
+    <type value="group"/>
+    <item id="e70lAnlVTaZ.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="e70lAnlVTaZ.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="e70lAnlVTaZ.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="e70lAnlVTaZ.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xL5e8EQNxbl">
+    <text value="Rheumatic heart diseases_New Cases_Chron"/>
+    <type value="group"/>
+    <item id="xL5e8EQNxbl.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xL5e8EQNxbl.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xL5e8EQNxbl.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xL5e8EQNxbl.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yQRcTjqdqYN">
+    <text value="Ear infection acute"/>
+    <type value="group"/>
+    <item id="yQRcTjqdqYN.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="yQRcTjqdqYN.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="yQRcTjqdqYN.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xf1ii4jnr8U">
+    <text value="Skin Infection Scabies_IMCI"/>
+    <type value="group"/>
+    <item id="Xf1ii4jnr8U.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xf1ii4jnr8U.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xf1ii4jnr8U.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ABGe6NmAidb">
+    <text value="Children under 5 referred by CHW"/>
+    <type value="group"/>
+    <item id="ABGe6NmAidb.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="ABGe6NmAidb.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="ABGe6NmAidb.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BLGoF4GN3VA">
+    <text value="Diarrhea with evident signs of dehydration"/>
+    <type value="group"/>
+    <item id="BLGoF4GN3VA.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="BLGoF4GN3VA.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="BLGoF4GN3VA.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Gaz67mYcHNK">
+    <text value="Stroke_New Cases_Chron"/>
+    <type value="group"/>
+    <item id="Gaz67mYcHNK.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gaz67mYcHNK.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gaz67mYcHNK.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gaz67mYcHNK.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="APCAKvSaWkz">
+    <text value="Psychological/Mental problems_Old Cases"/>
+    <type value="group"/>
+    <item id="APCAKvSaWkz.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="APCAKvSaWkz.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="APCAKvSaWkz.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="APCAKvSaWkz.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qm7lAFI31DW">
+    <text value="Dyslipidemia_High cholesterol_Old Cases_Chron"/>
+    <type value="group"/>
+    <item id="qm7lAFI31DW.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qm7lAFI31DW.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="qm7lAFI31DW.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="qm7lAFI31DW.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JeMnPRJx2yR">
+    <text value="Teeth and gum infections_IMCI"/>
+    <type value="group"/>
+    <item id="JeMnPRJx2yR.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="JeMnPRJx2yR.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="JeMnPRJx2yR.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Gcggts9PoL2">
+    <text value="Cough or cold other ARI without pneumonia"/>
+    <type value="group"/>
+    <item id="Gcggts9PoL2.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gcggts9PoL2.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gcggts9PoL2.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KxiMBL2NJhg">
+    <text value="Rheumatic heart diseases_Old Cases_Chron"/>
+    <type value="group"/>
+    <item id="KxiMBL2NJhg.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="KxiMBL2NJhg.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="KxiMBL2NJhg.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="KxiMBL2NJhg.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P7LBqe6yU8V">
+    <text value="Cardio vascular Disease Other_Old Cases"/>
+    <type value="group"/>
+    <item id="P7LBqe6yU8V.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="P7LBqe6yU8V.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="P7LBqe6yU8V.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="P7LBqe6yU8V.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QSbVguwdtrk">
+    <text value="HIV infection confirmed"/>
+    <type value="group"/>
+    <item id="QSbVguwdtrk.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="QSbVguwdtrk.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="QSbVguwdtrk.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uqjRIaKNY7K">
+    <text value="Bronchiectasis_Chronic bronchitis_Old Cases_Chron"/>
+    <type value="group"/>
+    <item id="uqjRIaKNY7K.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uqjRIaKNY7K.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uqjRIaKNY7K.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uqjRIaKNY7K.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b0kA9h3NWB3">
+    <text value="Epilepsy_OldCases"/>
+    <type value="group"/>
+    <item id="b0kA9h3NWB3.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b0kA9h3NWB3.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b0kA9h3NWB3.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="b0kA9h3NWB3.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gplX2u00hs1">
+    <text value="Leprosy_MB and PB_Old Cases"/>
+    <type value="group"/>
+    <item id="gplX2u00hs1.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gplX2u00hs1.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gplX2u00hs1.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gplX2u00hs1.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uIaJwSNT4ml">
+    <text value="Diabetes_Non Insulin dependent_Old Cases_Chron"/>
+    <type value="group"/>
+    <item id="uIaJwSNT4ml.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uIaJwSNT4ml.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uIaJwSNT4ml.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uIaJwSNT4ml.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="N7QEg9dqTX1">
+    <text value="Diarrhea bloody (dysentery)IMCI"/>
+    <type value="group"/>
+    <item id="N7QEg9dqTX1.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="N7QEg9dqTX1.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="N7QEg9dqTX1.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DOmwxDficzJ">
+    <text value="Skin Infection Fungal_mycoses_superficial_IMCI"/>
+    <type value="group"/>
+    <item id="DOmwxDficzJ.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="DOmwxDficzJ.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="DOmwxDficzJ.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YrCCTIEJQ1V">
+    <text value="Epilepsy_NewCases"/>
+    <type value="group"/>
+    <item id="YrCCTIEJQ1V.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YrCCTIEJQ1V.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YrCCTIEJQ1V.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="YrCCTIEJQ1V.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FbxwFRDBC8C">
+    <text value="Acute flaccid paralysis_IMCI"/>
+    <type value="group"/>
+    <item id="FbxwFRDBC8C.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="FbxwFRDBC8C.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="FbxwFRDBC8C.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RDXmrACSDkX">
+    <text value="Suicide_attempted or successful_OldCases_Chron"/>
+    <type value="group"/>
+    <item id="RDXmrACSDkX.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="RDXmrACSDkX.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="RDXmrACSDkX.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="RDXmrACSDkX.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xU8IInXvofr">
+    <text value="Hypothermia moderate"/>
+    <type value="group"/>
+    <item id="xU8IInXvofr.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="xU8IInXvofr.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="xU8IInXvofr.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lCc99dRAG4d">
+    <text value="Measles uncomplicated_suspected"/>
+    <type value="group"/>
+    <item id="lCc99dRAG4d.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="lCc99dRAG4d.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="lCc99dRAG4d.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UMu3nvx1Rjy">
+    <text value="Rubella confirmed_IMCI"/>
+    <type value="group"/>
+    <item id="UMu3nvx1Rjy.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="UMu3nvx1Rjy.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="UMu3nvx1Rjy.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HJf7Koy18an">
+    <text value="Severe Persistent Diarrhea"/>
+    <type value="group"/>
+    <item id="HJf7Koy18an.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJf7Koy18an.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="HJf7Koy18an.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G9u3hgvou4L">
+    <text value="Suicide_attempted or successful_NewCases_Chron"/>
+    <type value="group"/>
+    <item id="G9u3hgvou4L.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="G9u3hgvou4L.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="G9u3hgvou4L.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="G9u3hgvou4L.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aPzySP5OXjS">
+    <text value="Ocular gonococcia"/>
+    <type value="group"/>
+    <item id="aPzySP5OXjS.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="aPzySP5OXjS.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="aPzySP5OXjS.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CxNwIus6O2C">
+    <text value="Diabetes_Insulin dependent_New Cases_Chron"/>
+    <type value="group"/>
+    <item id="CxNwIus6O2C.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="CxNwIus6O2C.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="CxNwIus6O2C.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="CxNwIus6O2C.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J2VVhEGRJmc">
+    <text value="Malaria simple with minor digestive symptoms_confirmed_ IMCI"/>
+    <type value="group"/>
+    <item id="J2VVhEGRJmc.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="J2VVhEGRJmc.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="J2VVhEGRJmc.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fugboD2xUPJ">
+    <text value="Bacterial infection severe or very severe"/>
+    <type value="group"/>
+    <item id="fugboD2xUPJ.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="fugboD2xUPJ.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="fugboD2xUPJ.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Y3fcKQn3s8P">
+    <text value="Asthma_Old Cases_old"/>
+    <type value="group"/>
+    <item id="Y3fcKQn3s8P.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Y3fcKQn3s8P.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Y3fcKQn3s8P.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Y3fcKQn3s8P.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LfZoTtvUQob">
+    <text value="Bronchiectasis_Chronic bronchitis_New Cases_Chron"/>
+    <type value="group"/>
+    <item id="LfZoTtvUQob.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="LfZoTtvUQob.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="LfZoTtvUQob.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="LfZoTtvUQob.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OgB3goSYjje">
+    <text value="Anemia simple"/>
+    <type value="group"/>
+    <item id="OgB3goSYjje.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="OgB3goSYjje.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="OgB3goSYjje.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CYohhblVE26">
+    <text value="Underweight_IMCI"/>
+    <type value="group"/>
+    <item id="CYohhblVE26.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="CYohhblVE26.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="CYohhblVE26.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q0knk6LZfRf">
+    <text value="Fractures_IMCI"/>
+    <type value="group"/>
+    <item id="q0knk6LZfRf.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="q0knk6LZfRf.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="q0knk6LZfRf.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wNVR19ARvak">
+    <text value="Feeding problems"/>
+    <type value="group"/>
+    <item id="wNVR19ARvak.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="wNVR19ARvak.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="wNVR19ARvak.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ql0NKycucAV">
+    <text value="Ear infection chronic"/>
+    <type value="group"/>
+    <item id="Ql0NKycucAV.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ql0NKycucAV.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ql0NKycucAV.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="COb2Py7f7jc">
+    <text value="Hypertension_NewCases"/>
+    <type value="group"/>
+    <item id="COb2Py7f7jc.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="COb2Py7f7jc.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="COb2Py7f7jc.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="COb2Py7f7jc.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zTBi93NqvCB">
+    <text value="Measles confirmed_IMCI"/>
+    <type value="group"/>
+    <item id="zTBi93NqvCB.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="zTBi93NqvCB.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="zTBi93NqvCB.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JMroByfmS74">
+    <text value="Pneumonia IMCI"/>
+    <type value="group"/>
+    <item id="JMroByfmS74.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="JMroByfmS74.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="JMroByfmS74.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qGjZF8LQNDC">
+    <text value="Malaria simple_confirmed IMCI"/>
+    <type value="group"/>
+    <item id="qGjZF8LQNDC.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="qGjZF8LQNDC.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="qGjZF8LQNDC.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="F2cSN0qQP3y">
+    <text value="Stroke_Old Cases_Chron"/>
+    <type value="group"/>
+    <item id="F2cSN0qQP3y.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F2cSN0qQP3y.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F2cSN0qQP3y.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="F2cSN0qQP3y.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="amKiSbmNycw">
+    <text value="Chronic obstructive lung diseases_Old cases_Chron"/>
+    <type value="group"/>
+    <item id="amKiSbmNycw.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="amKiSbmNycw.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="amKiSbmNycw.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="amKiSbmNycw.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="R6chgtD62Z6">
+    <text value="Conjunctivitis purulent of newborn_IMCI"/>
+    <type value="group"/>
+    <item id="R6chgtD62Z6.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="R6chgtD62Z6.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="R6chgtD62Z6.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qU5bAaNamcO">
+    <text value="Malaria_presumed_IMCI"/>
+    <type value="group"/>
+    <item id="qU5bAaNamcO.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="qU5bAaNamcO.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="qU5bAaNamcO.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S5zIee2oy1d">
+    <text value="Urinary tract infections_IMCI"/>
+    <type value="group"/>
+    <item id="S5zIee2oy1d.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="S5zIee2oy1d.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="S5zIee2oy1d.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iC1BVryHsaI">
+    <text value="Vitamin A deficiency_Night blindnessIMCI"/>
+    <type value="group"/>
+    <item id="iC1BVryHsaI.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="iC1BVryHsaI.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="iC1BVryHsaI.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CKKHRMXlZzy">
+    <text value="Mastoiditis"/>
+    <type value="group"/>
+    <item id="CKKHRMXlZzy.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="CKKHRMXlZzy.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="CKKHRMXlZzy.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SjnqWMdQWNN">
+    <text value="Diarrhea persistent (HIVnegative)"/>
+    <type value="group"/>
+    <item id="SjnqWMdQWNN.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="SjnqWMdQWNN.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="SjnqWMdQWNN.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s8XmiK0qK1t">
+    <text value="Diabetes_Non Insulin dependent_New Cases_Chron"/>
+    <type value="group"/>
+    <item id="s8XmiK0qK1t.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="s8XmiK0qK1t.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="s8XmiK0qK1t.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="s8XmiK0qK1t.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VZchULLVLIe">
+    <text value="Measles with eye and or mouth complications_suspected"/>
+    <type value="group"/>
+    <item id="VZchULLVLIe.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="VZchULLVLIe.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="VZchULLVLIe.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qDd8TFTGFtE">
+    <text value="Moderately low weight for age"/>
+    <type value="group"/>
+    <item id="qDd8TFTGFtE.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="qDd8TFTGFtE.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="qDd8TFTGFtE.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="r69XVaNg3tQ">
+    <text value="Children treated according to IMCI protocol"/>
+    <type value="group"/>
+    <item id="r69XVaNg3tQ.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="r69XVaNg3tQ.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="r69XVaNg3tQ.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mYNGyfHa7sR">
+    <text value="Diabetes_Insulin dependent_Old Cases_Chron"/>
+    <type value="group"/>
+    <item id="mYNGyfHa7sR.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mYNGyfHa7sR.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mYNGyfHa7sR.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mYNGyfHa7sR.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xJ7qulL1jo8">
+    <text value="Diarrhea with dehydration"/>
+    <type value="group"/>
+    <item id="xJ7qulL1jo8.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="xJ7qulL1jo8.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="xJ7qulL1jo8.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Qvfu0gxu2mQ">
+    <text value="Anemia severe"/>
+    <type value="group"/>
+    <item id="Qvfu0gxu2mQ.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="Qvfu0gxu2mQ.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="Qvfu0gxu2mQ.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ursdx3D12b4">
+    <text value="Diarrhea with severe dehydration"/>
+    <type value="group"/>
+    <item id="Ursdx3D12b4.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ursdx3D12b4.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ursdx3D12b4.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z2rQ9B5rrqk">
+    <text value="Congestive heart failure_Old Cases_Chron"/>
+    <type value="group"/>
+    <item id="Z2rQ9B5rrqk.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z2rQ9B5rrqk.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z2rQ9B5rrqk.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z2rQ9B5rrqk.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KaZYKlfdf1E">
+    <text value="Children with fever &#x2265;37.5 C_IMCI"/>
+    <type value="group"/>
+    <item id="KaZYKlfdf1E.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="KaZYKlfdf1E.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="KaZYKlfdf1E.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HtKqpl6Yrv3">
+    <text value="Diabetes_Gestational_New Cases_Chron"/>
+    <type value="group"/>
+    <item id="HtKqpl6Yrv3.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="HtKqpl6Yrv3.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="HtKqpl6Yrv3.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="HtKqpl6Yrv3.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Uh8Ivi27eM8">
+    <text value="Dyslipidemia_High cholesterol_New Cases_Chron"/>
+    <type value="group"/>
+    <item id="Uh8Ivi27eM8.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Uh8Ivi27eM8.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Uh8Ivi27eM8.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Uh8Ivi27eM8.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sahjk0mFCjD">
+    <text value="Pneumonia severe or very severe respiratory disease"/>
+    <type value="group"/>
+    <item id="sahjk0mFCjD.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="sahjk0mFCjD.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="sahjk0mFCjD.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GCxNhr5DHz6">
+    <text value="Cardio vascular Disease Other_Cases"/>
+    <type value="group"/>
+    <item id="GCxNhr5DHz6.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GCxNhr5DHz6.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GCxNhr5DHz6.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GCxNhr5DHz6.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Gfw2MGpJZjR">
+    <text value="Children with fever Greater or equal to 37 C"/>
+    <type value="group"/>
+    <item id="Gfw2MGpJZjR.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gfw2MGpJZjR.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="Gfw2MGpJZjR.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M1SEhURkhyF">
+    <text value="Intestinal parasites_IMCI"/>
+    <type value="group"/>
+    <item id="M1SEhURkhyF.SjOe3qHPF8h">
+      <text value="2-59 months"/>
+      <type value="integer"/>
+    </item>
+    <item id="M1SEhURkhyF.A5zXWHy1oOj">
+      <text value="0 -6 days"/>
+      <type value="integer"/>
+    </item>
+    <item id="M1SEhURkhyF.k0LpITlBbAS">
+      <text value="7 days - 8 weeks"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

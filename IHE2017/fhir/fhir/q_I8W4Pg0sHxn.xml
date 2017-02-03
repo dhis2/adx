@@ -1,0 +1,3275 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="I8W4Pg0sHxn"/>
+  <status value="published"/>
+  <title value="Orthopedics Hospitalizations"/>
+  <item id="TMgE0Eu7w9G">
+    <text value="Syndactyly_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="TMgE0Eu7w9G.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="TMgE0Eu7w9G.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="TMgE0Eu7w9G.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="TMgE0Eu7w9G.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="TMgE0Eu7w9G.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="TMgE0Eu7w9G.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OLOIub1nfYX">
+    <text value="Genu valgum_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="OLOIub1nfYX.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="OLOIub1nfYX.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="OLOIub1nfYX.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="OLOIub1nfYX.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="OLOIub1nfYX.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="OLOIub1nfYX.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dpWED9T9SFb">
+    <text value="Synovitis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="dpWED9T9SFb.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="dpWED9T9SFb.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="dpWED9T9SFb.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="dpWED9T9SFb.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="dpWED9T9SFb.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="dpWED9T9SFb.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sqXdzAJFLmC">
+    <text value="Actual hospitalization days (e)"/>
+    <type value="group"/>
+    <item id="sqXdzAJFLmC.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="sqXdzAJFLmC.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="sqXdzAJFLmC.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="sqXdzAJFLmC.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="sqXdzAJFLmC.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="sqXdzAJFLmC.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="sqXdzAJFLmC.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XxmmfUjTUsC">
+    <text value="Tumors_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="XxmmfUjTUsC.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="XxmmfUjTUsC.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="XxmmfUjTUsC.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="XxmmfUjTUsC.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="XxmmfUjTUsC.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="XxmmfUjTUsC.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ILplMYiNZ0t">
+    <text value="Genetic disorders_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="ILplMYiNZ0t.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ILplMYiNZ0t.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ILplMYiNZ0t.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ILplMYiNZ0t.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ILplMYiNZ0t.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ILplMYiNZ0t.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Wtp40nsmKOw">
+    <text value="Congenital longitudinal deficiency of ulna_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="Wtp40nsmKOw.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Wtp40nsmKOw.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Wtp40nsmKOw.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Wtp40nsmKOw.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Wtp40nsmKOw.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Wtp40nsmKOw.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FN66nrGeyJP">
+    <text value="Genu recurvatum_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="FN66nrGeyJP.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FN66nrGeyJP.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FN66nrGeyJP.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FN66nrGeyJP.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FN66nrGeyJP.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FN66nrGeyJP.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NmdXGBhx0Q9">
+    <text value="Polydactyly_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="NmdXGBhx0Q9.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NmdXGBhx0Q9.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NmdXGBhx0Q9.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NmdXGBhx0Q9.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NmdXGBhx0Q9.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NmdXGBhx0Q9.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b5gP7MstV2B">
+    <text value="Burn contracture_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="b5gP7MstV2B.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="b5gP7MstV2B.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="b5gP7MstV2B.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b5gP7MstV2B.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="b5gP7MstV2B.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="b5gP7MstV2B.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pTs5etLRuUU">
+    <text value="Congenital absence of patella_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="pTs5etLRuUU.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pTs5etLRuUU.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pTs5etLRuUU.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pTs5etLRuUU.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pTs5etLRuUU.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pTs5etLRuUU.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ezhWCNh6XHk">
+    <text value="Discitis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="ezhWCNh6XHk.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ezhWCNh6XHk.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ezhWCNh6XHk.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ezhWCNh6XHk.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ezhWCNh6XHk.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ezhWCNh6XHk.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oJIntlQ7MbG">
+    <text value="Tendon rupture_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="oJIntlQ7MbG.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oJIntlQ7MbG.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oJIntlQ7MbG.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oJIntlQ7MbG.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="oJIntlQ7MbG.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="oJIntlQ7MbG.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rjqAeX4efxL">
+    <text value="Constrictive band_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="rjqAeX4efxL.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rjqAeX4efxL.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rjqAeX4efxL.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rjqAeX4efxL.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="rjqAeX4efxL.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="rjqAeX4efxL.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nIgORN8Lucr">
+    <text value="Congenital longitudinal deficiency of fibula_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="nIgORN8Lucr.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nIgORN8Lucr.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nIgORN8Lucr.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nIgORN8Lucr.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nIgORN8Lucr.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nIgORN8Lucr.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZAH478zf6jA">
+    <text value="Burn contracture_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="ZAH478zf6jA.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZAH478zf6jA.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZAH478zf6jA.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZAH478zf6jA.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZAH478zf6jA.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZAH478zf6jA.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FLeo7jtAgJE">
+    <text value="Cerebral palsy_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="FLeo7jtAgJE.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FLeo7jtAgJE.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FLeo7jtAgJE.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FLeo7jtAgJE.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FLeo7jtAgJE.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FLeo7jtAgJE.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sdmkL8o6AeK">
+    <text value="Tumors_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="sdmkL8o6AeK.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sdmkL8o6AeK.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sdmkL8o6AeK.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sdmkL8o6AeK.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="sdmkL8o6AeK.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="sdmkL8o6AeK.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hk3XfdHxSVi">
+    <text value="Synovitis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="hk3XfdHxSVi.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hk3XfdHxSVi.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hk3XfdHxSVi.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hk3XfdHxSVi.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hk3XfdHxSVi.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hk3XfdHxSVi.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hAqRgOATgFZ">
+    <text value="Coxavalga_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="hAqRgOATgFZ.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hAqRgOATgFZ.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hAqRgOATgFZ.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hAqRgOATgFZ.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="hAqRgOATgFZ.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="hAqRgOATgFZ.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uX9hWSXDs0i">
+    <text value="Tendinitis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="uX9hWSXDs0i.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uX9hWSXDs0i.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uX9hWSXDs0i.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uX9hWSXDs0i.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uX9hWSXDs0i.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uX9hWSXDs0i.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NjY71K5ZcAo">
+    <text value="Congenital dislocation of patella_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="NjY71K5ZcAo.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NjY71K5ZcAo.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NjY71K5ZcAo.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NjY71K5ZcAo.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NjY71K5ZcAo.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NjY71K5ZcAo.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OGIDhsTU03X">
+    <text value="Present at the end of the month_DH"/>
+    <type value="group"/>
+    <item id="OGIDhsTU03X.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="OGIDhsTU03X.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="OGIDhsTU03X.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="OGIDhsTU03X.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="OGIDhsTU03X.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="OGIDhsTU03X.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="OGIDhsTU03X.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TZHbP9e9i7K">
+    <text value="Chronic osteomyelitis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="TZHbP9e9i7K.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="TZHbP9e9i7K.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="TZHbP9e9i7K.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="TZHbP9e9i7K.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="TZHbP9e9i7K.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="TZHbP9e9i7K.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HACvCGiiZF4">
+    <text value="Total hospitalization days for discharged patients (c)"/>
+    <type value="group"/>
+    <item id="HACvCGiiZF4.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="HACvCGiiZF4.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="HACvCGiiZF4.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="HACvCGiiZF4.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="HACvCGiiZF4.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="HACvCGiiZF4.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="HACvCGiiZF4.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L2Tv34v8cBW">
+    <text value="Genu flexum_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="L2Tv34v8cBW.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="L2Tv34v8cBW.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="L2Tv34v8cBW.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="L2Tv34v8cBW.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="L2Tv34v8cBW.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="L2Tv34v8cBW.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GvKbUffG7t6">
+    <text value="congenital muscular dystrophy_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="GvKbUffG7t6.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GvKbUffG7t6.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GvKbUffG7t6.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GvKbUffG7t6.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GvKbUffG7t6.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GvKbUffG7t6.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MAsdrUPyS4M">
+    <text value="Non-referred patients hospitalized"/>
+    <type value="group"/>
+    <item id="MAsdrUPyS4M.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="MAsdrUPyS4M.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="MAsdrUPyS4M.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="MAsdrUPyS4M.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="MAsdrUPyS4M.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="MAsdrUPyS4M.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="MAsdrUPyS4M.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jo9G2Nblp7H">
+    <text value="Present at the beginning of the month_DH"/>
+    <type value="group"/>
+    <item id="jo9G2Nblp7H.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="jo9G2Nblp7H.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="jo9G2Nblp7H.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="jo9G2Nblp7H.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="jo9G2Nblp7H.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="jo9G2Nblp7H.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="jo9G2Nblp7H.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QfBKq3BBK3z">
+    <text value="Hip flexum_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="QfBKq3BBK3z.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="QfBKq3BBK3z.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="QfBKq3BBK3z.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="QfBKq3BBK3z.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="QfBKq3BBK3z.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="QfBKq3BBK3z.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x0SAqM7T8JZ">
+    <text value="Fractures_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="x0SAqM7T8JZ.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="x0SAqM7T8JZ.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="x0SAqM7T8JZ.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="x0SAqM7T8JZ.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="x0SAqM7T8JZ.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="x0SAqM7T8JZ.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fOnu7CkiN44">
+    <text value="Pyomyositis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="fOnu7CkiN44.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fOnu7CkiN44.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fOnu7CkiN44.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fOnu7CkiN44.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fOnu7CkiN44.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fOnu7CkiN44.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D83q9QJVtA2">
+    <text value="Acute dislocations_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="D83q9QJVtA2.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="D83q9QJVtA2.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="D83q9QJVtA2.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="D83q9QJVtA2.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="D83q9QJVtA2.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="D83q9QJVtA2.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zevQelI310B">
+    <text value="Congenital longitudinal deficiency of fibula_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="zevQelI310B.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="zevQelI310B.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="zevQelI310B.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="zevQelI310B.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="zevQelI310B.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="zevQelI310B.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nXnlf8F6eZ9">
+    <text value="Infantile idiopathic scoliosis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="nXnlf8F6eZ9.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nXnlf8F6eZ9.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nXnlf8F6eZ9.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nXnlf8F6eZ9.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nXnlf8F6eZ9.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nXnlf8F6eZ9.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QsYvQ55asFe">
+    <text value="Deaths_DH"/>
+    <type value="group"/>
+    <item id="QsYvQ55asFe.BtWhcchxq5P">
+      <text value="5 to 19 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="QsYvQ55asFe.reXdnQZUOPV">
+      <text value="&lt;1year, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="QsYvQ55asFe.mBl2TUqeODx">
+      <text value="5 to 19 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="QsYvQ55asFe.ECOsAfvf0U2">
+      <text value="1 to 4 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="QsYvQ55asFe.HbIugXRzrcK">
+      <text value="20 years and above_dg, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="QsYvQ55asFe.jUZueQvshrD">
+      <text value="1 to 4 years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="QsYvQ55asFe.ojR0gzo3R4T">
+      <text value="20 years and above_dg, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="QsYvQ55asFe.gBqpIJKKgvv">
+      <text value="&lt;1year, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xg31a2F80Vl">
+    <text value="Congenital dislocation of patella_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="Xg31a2F80Vl.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xg31a2F80Vl.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xg31a2F80Vl.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xg31a2F80Vl.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xg31a2F80Vl.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xg31a2F80Vl.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aKqVXOScClb">
+    <text value="Coxavara_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="aKqVXOScClb.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aKqVXOScClb.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aKqVXOScClb.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aKqVXOScClb.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aKqVXOScClb.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aKqVXOScClb.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aA3tK7CuOY0">
+    <text value="Congenital longitudinal deficiency of radius_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="aA3tK7CuOY0.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aA3tK7CuOY0.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aA3tK7CuOY0.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aA3tK7CuOY0.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aA3tK7CuOY0.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aA3tK7CuOY0.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mHOjzmerMFO">
+    <text value="Post arthritis pseudarthrosis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="mHOjzmerMFO.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mHOjzmerMFO.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mHOjzmerMFO.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mHOjzmerMFO.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mHOjzmerMFO.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mHOjzmerMFO.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J87GWxMmb3k">
+    <text value="Haemophilia_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="J87GWxMmb3k.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="J87GWxMmb3k.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="J87GWxMmb3k.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="J87GWxMmb3k.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="J87GWxMmb3k.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="J87GWxMmb3k.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VdxG27RyzaV">
+    <text value="Bone dysplasia_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="VdxG27RyzaV.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="VdxG27RyzaV.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="VdxG27RyzaV.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="VdxG27RyzaV.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="VdxG27RyzaV.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="VdxG27RyzaV.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EbXmkBAsgvg">
+    <text value="congenital muscular dystrophy_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="EbXmkBAsgvg.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EbXmkBAsgvg.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EbXmkBAsgvg.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EbXmkBAsgvg.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EbXmkBAsgvg.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EbXmkBAsgvg.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eiEknkzz6W4">
+    <text value="Others_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="eiEknkzz6W4.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eiEknkzz6W4.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eiEknkzz6W4.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eiEknkzz6W4.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eiEknkzz6W4.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eiEknkzz6W4.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JVYewz5VqFZ">
+    <text value="Discitis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="JVYewz5VqFZ.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JVYewz5VqFZ.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JVYewz5VqFZ.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JVYewz5VqFZ.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JVYewz5VqFZ.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JVYewz5VqFZ.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Q5mwtZrTQVx">
+    <text value="Congenital absence of tibia_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="Q5mwtZrTQVx.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Q5mwtZrTQVx.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Q5mwtZrTQVx.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Q5mwtZrTQVx.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Q5mwtZrTQVx.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Q5mwtZrTQVx.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ixWbuoqmgBp">
+    <text value="Infantile idiopathic scoliosis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="ixWbuoqmgBp.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ixWbuoqmgBp.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ixWbuoqmgBp.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ixWbuoqmgBp.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ixWbuoqmgBp.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ixWbuoqmgBp.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j3Kli4Q58xb">
+    <text value="Deaths of hospitalized patients_DH"/>
+    <type value="group"/>
+    <item id="j3Kli4Q58xb.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="j3Kli4Q58xb.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="j3Kli4Q58xb.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="j3Kli4Q58xb.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="j3Kli4Q58xb.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="j3Kli4Q58xb.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="j3Kli4Q58xb.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UIZgQlyBk4k">
+    <text value="Congenital longitudinal deficiency of tibia_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="UIZgQlyBk4k.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UIZgQlyBk4k.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UIZgQlyBk4k.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UIZgQlyBk4k.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UIZgQlyBk4k.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UIZgQlyBk4k.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bvq18Acjf2J">
+    <text value="Septic arthritis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="bvq18Acjf2J.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bvq18Acjf2J.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bvq18Acjf2J.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="bvq18Acjf2J.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bvq18Acjf2J.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="bvq18Acjf2J.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZGuaZccsryg">
+    <text value="Counter-referred hospitalized patients_Discharge"/>
+    <type value="group"/>
+    <item id="ZGuaZccsryg.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="ZGuaZccsryg.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="ZGuaZccsryg.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZGuaZccsryg.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZGuaZccsryg.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZGuaZccsryg.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZGuaZccsryg.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Yp0bTrKYtdu">
+    <text value="Bone dysplasia_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="Yp0bTrKYtdu.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yp0bTrKYtdu.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yp0bTrKYtdu.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yp0bTrKYtdu.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yp0bTrKYtdu.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Yp0bTrKYtdu.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G8MUYE7sZsh">
+    <text value="Arthrogryposis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="G8MUYE7sZsh.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="G8MUYE7sZsh.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="G8MUYE7sZsh.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="G8MUYE7sZsh.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="G8MUYE7sZsh.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="G8MUYE7sZsh.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LkHMszPYzQs">
+    <text value="Number of beds_DH"/>
+    <type value="group"/>
+    <item id="LkHMszPYzQs.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="LkHMszPYzQs.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="LkHMszPYzQs.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="LkHMszPYzQs.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="LkHMszPYzQs.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="LkHMszPYzQs.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="LkHMszPYzQs.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nBeYWK1Zdn4">
+    <text value="Coxavalga_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="nBeYWK1Zdn4.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nBeYWK1Zdn4.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nBeYWK1Zdn4.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nBeYWK1Zdn4.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="nBeYWK1Zdn4.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="nBeYWK1Zdn4.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yiakbSgqmeO">
+    <text value="Neurological foot_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="yiakbSgqmeO.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yiakbSgqmeO.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yiakbSgqmeO.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yiakbSgqmeO.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yiakbSgqmeO.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yiakbSgqmeO.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IWtK86Kit5F">
+    <text value="Old unreduced dislocations_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="IWtK86Kit5F.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="IWtK86Kit5F.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="IWtK86Kit5F.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="IWtK86Kit5F.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="IWtK86Kit5F.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="IWtK86Kit5F.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="neyCwsTmtBD">
+    <text value="Syndactyly_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="neyCwsTmtBD.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="neyCwsTmtBD.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="neyCwsTmtBD.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="neyCwsTmtBD.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="neyCwsTmtBD.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="neyCwsTmtBD.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uVE56Ok5FY6">
+    <text value="Congenital shortning of femur_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="uVE56Ok5FY6.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uVE56Ok5FY6.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uVE56Ok5FY6.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uVE56Ok5FY6.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="uVE56Ok5FY6.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="uVE56Ok5FY6.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EbsDsIdfGsX">
+    <text value="Septic arthritis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="EbsDsIdfGsX.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EbsDsIdfGsX.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EbsDsIdfGsX.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EbsDsIdfGsX.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EbsDsIdfGsX.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EbsDsIdfGsX.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cU35va6sF2S">
+    <text value="Congenital shortning of femur_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="cU35va6sF2S.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cU35va6sF2S.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cU35va6sF2S.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cU35va6sF2S.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="cU35va6sF2S.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="cU35va6sF2S.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p7ZYVcr5lWY">
+    <text value="Lower limb length discrepancy_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="p7ZYVcr5lWY.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="p7ZYVcr5lWY.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="p7ZYVcr5lWY.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="p7ZYVcr5lWY.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="p7ZYVcr5lWY.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="p7ZYVcr5lWY.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pMBTWXXUAPY">
+    <text value="Recurrent dislocations_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="pMBTWXXUAPY.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pMBTWXXUAPY.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pMBTWXXUAPY.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pMBTWXXUAPY.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="pMBTWXXUAPY.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="pMBTWXXUAPY.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="coS3nfO52h8">
+    <text value="Referred Hospitalised Discharge_DH"/>
+    <type value="group"/>
+    <item id="coS3nfO52h8.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="coS3nfO52h8.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="coS3nfO52h8.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="coS3nfO52h8.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="coS3nfO52h8.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="coS3nfO52h8.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="coS3nfO52h8.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Qy1VwaN5uD2">
+    <text value="Congenital dislocation of knee_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="Qy1VwaN5uD2.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Qy1VwaN5uD2.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Qy1VwaN5uD2.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Qy1VwaN5uD2.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Qy1VwaN5uD2.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Qy1VwaN5uD2.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h9ifcme99TP">
+    <text value="Old unreduced dislocations_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="h9ifcme99TP.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="h9ifcme99TP.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="h9ifcme99TP.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="h9ifcme99TP.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="h9ifcme99TP.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="h9ifcme99TP.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fU26fehay26">
+    <text value="Genu valgum_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="fU26fehay26.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fU26fehay26.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fU26fehay26.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fU26fehay26.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fU26fehay26.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fU26fehay26.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UwppyGKxxST">
+    <text value="Genetic disorders_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="UwppyGKxxST.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UwppyGKxxST.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UwppyGKxxST.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UwppyGKxxST.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UwppyGKxxST.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UwppyGKxxST.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="t4U29FUxtx3">
+    <text value="Abscess_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="t4U29FUxtx3.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="t4U29FUxtx3.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="t4U29FUxtx3.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="t4U29FUxtx3.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="t4U29FUxtx3.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="t4U29FUxtx3.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kp1EpULkYsy">
+    <text value="Pyomyositis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="kp1EpULkYsy.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="kp1EpULkYsy.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="kp1EpULkYsy.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="kp1EpULkYsy.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="kp1EpULkYsy.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="kp1EpULkYsy.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mizqtKzZZyi">
+    <text value="Hip flexum_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="mizqtKzZZyi.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mizqtKzZZyi.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mizqtKzZZyi.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mizqtKzZZyi.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mizqtKzZZyi.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mizqtKzZZyi.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZL59ax4AhEs">
+    <text value="Peripheral nerve injuries_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="ZL59ax4AhEs.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZL59ax4AhEs.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZL59ax4AhEs.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZL59ax4AhEs.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZL59ax4AhEs.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ZL59ax4AhEs.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D2OItZs6dD6">
+    <text value="Road traffic accidents_admissions"/>
+    <type value="group"/>
+    <item id="D2OItZs6dD6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fInf2FeoRhl">
+    <text value="Post arthritis pseudarthrosis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="fInf2FeoRhl.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fInf2FeoRhl.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fInf2FeoRhl.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fInf2FeoRhl.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fInf2FeoRhl.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fInf2FeoRhl.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DFRrRiY5Eun">
+    <text value="Neurological foot_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="DFRrRiY5Eun.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="DFRrRiY5Eun.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="DFRrRiY5Eun.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="DFRrRiY5Eun.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="DFRrRiY5Eun.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="DFRrRiY5Eun.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yFkHsvxbTBp">
+    <text value="Tendinitis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="yFkHsvxbTBp.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yFkHsvxbTBp.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yFkHsvxbTBp.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yFkHsvxbTBp.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="yFkHsvxbTBp.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="yFkHsvxbTBp.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Hww3wACniXf">
+    <text value="Reumatoid arthritis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="Hww3wACniXf.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Hww3wACniXf.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Hww3wACniXf.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Hww3wACniXf.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Hww3wACniXf.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Hww3wACniXf.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ew1FAIhG7Ta">
+    <text value="Reumatoid arthritis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="ew1FAIhG7Ta.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ew1FAIhG7Ta.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ew1FAIhG7Ta.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ew1FAIhG7Ta.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ew1FAIhG7Ta.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ew1FAIhG7Ta.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YkI6LN9CGm0">
+    <text value="Tendon rupture_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="YkI6LN9CGm0.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="YkI6LN9CGm0.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="YkI6LN9CGm0.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YkI6LN9CGm0.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="YkI6LN9CGm0.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="YkI6LN9CGm0.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jUYj0OQPty0">
+    <text value="Wind swept deformity_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="jUYj0OQPty0.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jUYj0OQPty0.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jUYj0OQPty0.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jUYj0OQPty0.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jUYj0OQPty0.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jUYj0OQPty0.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eg7jS7dZ5F6">
+    <text value="Peripheral nerve injuries_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="eg7jS7dZ5F6.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg7jS7dZ5F6.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg7jS7dZ5F6.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg7jS7dZ5F6.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg7jS7dZ5F6.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="eg7jS7dZ5F6.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HddFRurHgkk">
+    <text value="Referred from the Health Centre Hospitalized_DH"/>
+    <type value="group"/>
+    <item id="HddFRurHgkk.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="HddFRurHgkk.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="HddFRurHgkk.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="HddFRurHgkk.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="HddFRurHgkk.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="HddFRurHgkk.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="HddFRurHgkk.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Di3X4CZlPHL">
+    <text value="Fractures_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="Di3X4CZlPHL.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Di3X4CZlPHL.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Di3X4CZlPHL.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Di3X4CZlPHL.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Di3X4CZlPHL.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Di3X4CZlPHL.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AnrZwPZG1x8">
+    <text value="Referred from the Hospital_Hospitalized_RH"/>
+    <type value="group"/>
+    <item id="AnrZwPZG1x8.ga6a7NoYgmy">
+      <text value="Pediatric"/>
+      <type value="integer"/>
+    </item>
+    <item id="AnrZwPZG1x8.NqWp5sOUs0q">
+      <text value="Stomatology"/>
+      <type value="integer"/>
+    </item>
+    <item id="AnrZwPZG1x8.ZjEdPEdHRjb">
+      <text value="surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="AnrZwPZG1x8.qeHU4bhfVOD">
+      <text value="Emergency"/>
+      <type value="integer"/>
+    </item>
+    <item id="AnrZwPZG1x8.sjQZdoXmRKs">
+      <text value="Internal Medecine"/>
+      <type value="integer"/>
+    </item>
+    <item id="AnrZwPZG1x8.qlwR3PNNMry">
+      <text value="intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="AnrZwPZG1x8.cVOpo6V7iT9">
+      <text value="Other"/>
+      <type value="integer"/>
+    </item>
+    <item id="AnrZwPZG1x8.xzCO1LQNZy9">
+      <text value="gyn.Obst"/>
+      <type value="integer"/>
+    </item>
+    <item id="AnrZwPZG1x8.YnzuxlssheN">
+      <text value="ENT"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aIvQrnWwTHv">
+    <text value="Congenital dislocation of knee_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="aIvQrnWwTHv.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIvQrnWwTHv.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIvQrnWwTHv.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIvQrnWwTHv.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIvQrnWwTHv.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aIvQrnWwTHv.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="onGglMWSFwa">
+    <text value="Chronic osteomyelitis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="onGglMWSFwa.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="onGglMWSFwa.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="onGglMWSFwa.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="onGglMWSFwa.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="onGglMWSFwa.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="onGglMWSFwa.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="W11BHZHlcZB">
+    <text value="Genu flexum_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="W11BHZHlcZB.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="W11BHZHlcZB.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="W11BHZHlcZB.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="W11BHZHlcZB.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="W11BHZHlcZB.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="W11BHZHlcZB.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iT4bd80adjv">
+    <text value="Actual hospitalization days_ortho"/>
+    <type value="group"/>
+    <item id="iT4bd80adjv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Glgp7XgQ9oe">
+    <text value="Lower limb length discrepancy_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="Glgp7XgQ9oe.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Glgp7XgQ9oe.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Glgp7XgQ9oe.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Glgp7XgQ9oe.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Glgp7XgQ9oe.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Glgp7XgQ9oe.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FkEVZAhrTfJ">
+    <text value="Genu varum_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="FkEVZAhrTfJ.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FkEVZAhrTfJ.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FkEVZAhrTfJ.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FkEVZAhrTfJ.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FkEVZAhrTfJ.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FkEVZAhrTfJ.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jcIWk3M0ub7">
+    <text value="Congenital longitudinal deficiency of tibia_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="jcIWk3M0ub7.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcIWk3M0ub7.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcIWk3M0ub7.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcIWk3M0ub7.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcIWk3M0ub7.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="jcIWk3M0ub7.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nN6q5Kw2nHi">
+    <text value="Non-paying Hospital discharges"/>
+    <type value="group"/>
+    <item id="nN6q5Kw2nHi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qxA3NsjNnvD">
+    <text value="Natural or man-made disasters_Admissions_epidemic earthquakewar victims etc_Hosp_RH"/>
+    <type value="group"/>
+    <item id="qxA3NsjNnvD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UDM7HzQII6G">
+    <text value="Agenesis_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="UDM7HzQII6G.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UDM7HzQII6G.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UDM7HzQII6G.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UDM7HzQII6G.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="UDM7HzQII6G.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="UDM7HzQII6G.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o2NKib73Btu">
+    <text value="Haemophilia_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="o2NKib73Btu.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="o2NKib73Btu.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="o2NKib73Btu.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="o2NKib73Btu.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="o2NKib73Btu.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="o2NKib73Btu.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="U7jB3Ezb74U">
+    <text value="Congenital longitudinal deficiency of radius_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="U7jB3Ezb74U.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U7jB3Ezb74U.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U7jB3Ezb74U.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U7jB3Ezb74U.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U7jB3Ezb74U.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U7jB3Ezb74U.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L8h9JA817Di">
+    <text value="Polydactyly_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="L8h9JA817Di.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="L8h9JA817Di.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="L8h9JA817Di.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="L8h9JA817Di.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="L8h9JA817Di.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="L8h9JA817Di.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bVAy9Jtk1MX">
+    <text value="Acute dislocations_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="bVAy9Jtk1MX.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bVAy9Jtk1MX.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bVAy9Jtk1MX.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="bVAy9Jtk1MX.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bVAy9Jtk1MX.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="bVAy9Jtk1MX.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="g9OpxOt3GPf">
+    <text value="Non-Paying Indigent hospital discharges"/>
+    <type value="group"/>
+    <item id="g9OpxOt3GPf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mbjo9Tl9p8M">
+    <text value="Abscess_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="mbjo9Tl9p8M.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mbjo9Tl9p8M.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mbjo9Tl9p8M.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mbjo9Tl9p8M.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mbjo9Tl9p8M.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mbjo9Tl9p8M.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vuql8EcvYBM">
+    <text value="Genu varum_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="vuql8EcvYBM.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vuql8EcvYBM.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vuql8EcvYBM.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vuql8EcvYBM.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="vuql8EcvYBM.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="vuql8EcvYBM.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="keRMEa0tPyO">
+    <text value="Constrictive band_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="keRMEa0tPyO.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="keRMEa0tPyO.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="keRMEa0tPyO.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="keRMEa0tPyO.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="keRMEa0tPyO.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="keRMEa0tPyO.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wYzX5Q8kY9a">
+    <text value="Wind swept deformity_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="wYzX5Q8kY9a.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wYzX5Q8kY9a.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wYzX5Q8kY9a.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wYzX5Q8kY9a.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wYzX5Q8kY9a.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wYzX5Q8kY9a.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JwoAMPLDbCp">
+    <text value="Agenesis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="JwoAMPLDbCp.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JwoAMPLDbCp.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JwoAMPLDbCp.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JwoAMPLDbCp.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="JwoAMPLDbCp.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="JwoAMPLDbCp.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HtCDGkLcyfv">
+    <text value="Road traffic accidents_Deaths_Hosp_RH"/>
+    <type value="group"/>
+    <item id="HtCDGkLcyfv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gNEGIMMFAmH">
+    <text value="Natural or man-made disasters_Deaths_epidemic earthquakewar victims etc_Hosp_RH"/>
+    <type value="group"/>
+    <item id="gNEGIMMFAmH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="as1RkZW5hhd">
+    <text value="Insured Discharges (Mutuelle etc) "/>
+    <type value="group"/>
+    <item id="as1RkZW5hhd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NTGgsH5G8Nw">
+    <text value="Congenital absence of tibia_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="NTGgsH5G8Nw.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NTGgsH5G8Nw.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NTGgsH5G8Nw.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NTGgsH5G8Nw.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NTGgsH5G8Nw.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NTGgsH5G8Nw.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VF6PeTroyfU">
+    <text value="Foot deformities_Hosp_Ortho"/>
+    <type value="group"/>
+    <item id="VF6PeTroyfU.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="VF6PeTroyfU.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="VF6PeTroyfU.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="VF6PeTroyfU.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="VF6PeTroyfU.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="VF6PeTroyfU.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s5JAvT64Oqm">
+    <text value="foot deformities_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="s5JAvT64Oqm.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="s5JAvT64Oqm.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="s5JAvT64Oqm.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="s5JAvT64Oqm.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="s5JAvT64Oqm.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="s5JAvT64Oqm.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bHIBZpVz0yP">
+    <text value="Cerebral palsy_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="bHIBZpVz0yP.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bHIBZpVz0yP.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bHIBZpVz0yP.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="bHIBZpVz0yP.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="bHIBZpVz0yP.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="bHIBZpVz0yP.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IaZyRQRJAwk">
+    <text value="Congenital longitudinal deficiency of ulna_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="IaZyRQRJAwk.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="IaZyRQRJAwk.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="IaZyRQRJAwk.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="IaZyRQRJAwk.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="IaZyRQRJAwk.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="IaZyRQRJAwk.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AvmzcO8Nqc2">
+    <text value="Authorized/Cured hospital discharges"/>
+    <type value="group"/>
+    <item id="AvmzcO8Nqc2.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="AvmzcO8Nqc2.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="AvmzcO8Nqc2.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="AvmzcO8Nqc2.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="AvmzcO8Nqc2.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="AvmzcO8Nqc2.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="AvmzcO8Nqc2.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zV6ogTPWSOO">
+    <text value="Recurrent dislocations_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="zV6ogTPWSOO.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="zV6ogTPWSOO.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="zV6ogTPWSOO.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="zV6ogTPWSOO.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="zV6ogTPWSOO.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="zV6ogTPWSOO.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hVsGPgnXqmJ">
+    <text value="Abandoned"/>
+    <type value="group"/>
+    <item id="hVsGPgnXqmJ.rS83N7X8kQj">
+      <text value="Gyn. Obst."/>
+      <type value="integer"/>
+    </item>
+    <item id="hVsGPgnXqmJ.xRzUSfQgfCI">
+      <text value="Nut. Rehab."/>
+      <type value="integer"/>
+    </item>
+    <item id="hVsGPgnXqmJ.jqn3wZvyZh2">
+      <text value="Intensive care"/>
+      <type value="integer"/>
+    </item>
+    <item id="hVsGPgnXqmJ.qwFlY6Npcm0">
+      <text value="Pediatrics"/>
+      <type value="integer"/>
+    </item>
+    <item id="hVsGPgnXqmJ.YIdZvrzV6Eo">
+      <text value="Internal Medicine"/>
+      <type value="integer"/>
+    </item>
+    <item id="hVsGPgnXqmJ.AxdPeXeAC6r">
+      <text value="Surgery"/>
+      <type value="integer"/>
+    </item>
+    <item id="hVsGPgnXqmJ.MBSULZCOAjK">
+      <text value="Neonatology"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ct58XEmi9wz">
+    <text value="Congenital absence of patella_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="ct58XEmi9wz.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ct58XEmi9wz.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ct58XEmi9wz.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ct58XEmi9wz.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ct58XEmi9wz.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ct58XEmi9wz.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ywDkmwfFSTd">
+    <text value="Arthrogryposis_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="ywDkmwfFSTd.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ywDkmwfFSTd.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ywDkmwfFSTd.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ywDkmwfFSTd.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ywDkmwfFSTd.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ywDkmwfFSTd.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aHbqUvQBixK">
+    <text value="Others_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="aHbqUvQBixK.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aHbqUvQBixK.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aHbqUvQBixK.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aHbqUvQBixK.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="aHbqUvQBixK.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="aHbqUvQBixK.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OqTwqffLRgv">
+    <text value="Coxavara_Hosp_ortho"/>
+    <type value="group"/>
+    <item id="OqTwqffLRgv.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="OqTwqffLRgv.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="OqTwqffLRgv.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="OqTwqffLRgv.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="OqTwqffLRgv.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="OqTwqffLRgv.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dsnh0jecdGw">
+    <text value="Genu recurvatum_Deaths_ortho"/>
+    <type value="group"/>
+    <item id="dsnh0jecdGw.eAJenuxPs2q">
+      <text value="&lt;5 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="dsnh0jecdGw.lnkKXvlptBq">
+      <text value="&gt;= 20 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="dsnh0jecdGw.hxJcL1LOkFM">
+      <text value="&gt;= 20 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="dsnh0jecdGw.jPTnomwxu0p">
+      <text value="&gt;=5 - 19 yrs, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="dsnh0jecdGw.TZn2vueVFnz">
+      <text value="&gt;=5 - 19 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="dsnh0jecdGw.jIxJtcgvt4k">
+      <text value="&lt;5 yrs, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

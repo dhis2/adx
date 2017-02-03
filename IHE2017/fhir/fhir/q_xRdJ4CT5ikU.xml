@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="xRdJ4CT5ikU"/>
+  <status value="published"/>
+  <title value="RH Medical Imagery"/>
+  <item id="zfzWLa86JnL">
+    <text value="MH_Other medical imagery_Medical Imagery"/>
+    <type value="group"/>
+    <item id="zfzWLa86JnL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x22DY4l0OQ7">
+    <text value="Gastroscopy"/>
+    <type value="group"/>
+    <item id="x22DY4l0OQ7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xXI1BxFtUxK">
+    <text value="X-Ray Bones"/>
+    <type value="group"/>
+    <item id="xXI1BxFtUxK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tZxntBDQyK6">
+    <text value="X-Ray Abdomen with dye"/>
+    <type value="group"/>
+    <item id="tZxntBDQyK6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zRV85f9Q5WJ">
+    <text value="Colonoscopy"/>
+    <type value="group"/>
+    <item id="zRV85f9Q5WJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UUjlrQmOahJ">
+    <text value="MRI RH"/>
+    <type value="group"/>
+    <item id="UUjlrQmOahJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hanMLAwzbnH">
+    <text value="X-Ray Lung  "/>
+    <type value="group"/>
+    <item id="hanMLAwzbnH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nedFa3fnLC6">
+    <text value="CT scan RH"/>
+    <type value="group"/>
+    <item id="nedFa3fnLC6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AarhsOnulhG">
+    <text value="Ultrasound (Echography)"/>
+    <type value="group"/>
+    <item id="AarhsOnulhG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XuP28WxTGvQ">
+    <text value="MH_ECG_Medical Imagery"/>
+    <type value="group"/>
+    <item id="XuP28WxTGvQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wniVHb8nnRx">
+    <text value="X-Ray Abdomen without preparation"/>
+    <type value="group"/>
+    <item id="wniVHb8nnRx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eBoxA0EHgXX">
+    <text value="Mammography RH"/>
+    <type value="group"/>
+    <item id="eBoxA0EHgXX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="t29FCe967lt">
+    <text value="Other X-Ray "/>
+    <type value="group"/>
+    <item id="t29FCe967lt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

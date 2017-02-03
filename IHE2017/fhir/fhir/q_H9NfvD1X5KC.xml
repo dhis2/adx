@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="H9NfvD1X5KC"/>
+  <status value="published"/>
+  <title value="DH Postnatal Care"/>
+  <item id="pGA9SwHFWob">
+    <text value="Complications detected during PNC visits_Baby"/>
+    <type value="group"/>
+    <item id="pGA9SwHFWob.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vfyn6n0iCwz">
+    <text value="Mothers with anemia (Hb&lt;9.5 Gr/Dl) detected during PNC Visits (PNC1 and PNC4)_Mother"/>
+    <type value="group"/>
+    <item id="vfyn6n0iCwz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="X6SSkajaAsz">
+    <text value="PNC 4 Visit at 6 weeks_42 days_after birth_Baby"/>
+    <type value="group"/>
+    <item id="X6SSkajaAsz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TVPOe3nc6YK">
+    <text value="PNC 4 Visit at 6 weeks_42 days_after birth_Mother"/>
+    <type value="group"/>
+    <item id="TVPOe3nc6YK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TTiMnsZ1BYC">
+    <text value="Reference done for complications at any visit_Baby"/>
+    <type value="group"/>
+    <item id="TTiMnsZ1BYC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VJ97hN2pLsd">
+    <text value="Mothers malnourished_MUAC &lt; 21 cm_during PNC1 Visit_Mother"/>
+    <type value="group"/>
+    <item id="VJ97hN2pLsd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="i6lslbIyUuJ">
+    <text value="Complications detected during PNC visits_Mother"/>
+    <type value="group"/>
+    <item id="i6lslbIyUuJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QOk18CVtFIj">
+    <text value="PNC 3 visits between 7th and 14th Day after birth_Baby"/>
+    <type value="group"/>
+    <item id="QOk18CVtFIj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="heRoNmB1ANH">
+    <text value="Mothers screened by MUAC for malnutrition during PNC4_Mother"/>
+    <type value="group"/>
+    <item id="heRoNmB1ANH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qPxK9Wv0Bbr">
+    <text value="Mothers screenned for anemia during PNC 4 Visit_Mother"/>
+    <type value="group"/>
+    <item id="qPxK9Wv0Bbr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zM4W9DGvMnl">
+    <text value="Mothers screenned for anemia during PNC 1 Visit_Mother"/>
+    <type value="group"/>
+    <item id="zM4W9DGvMnl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="znJED0dOmRK">
+    <text value="PNC 2 visits at 3rd Day after birth_Mother"/>
+    <type value="group"/>
+    <item id="znJED0dOmRK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BdpGJyehS5X">
+    <text value="PNC 3 visits between 7th and 14th Day after birth_Mother"/>
+    <type value="group"/>
+    <item id="BdpGJyehS5X.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oCUAtaHPHye">
+    <text value="PNC1 visits within 24 Hours of birth_Baby"/>
+    <type value="group"/>
+    <item id="oCUAtaHPHye.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kWKJdIHEOrm">
+    <text value="Reference done for complications at any visit_Mother"/>
+    <type value="group"/>
+    <item id="kWKJdIHEOrm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yIJWAcQn5Nb">
+    <text value="PNC1 visits within 24 Hours of birth_Mother"/>
+    <type value="group"/>
+    <item id="yIJWAcQn5Nb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J48z8BRJ21v">
+    <text value="Mothers with Post partum family planning_PPFP_at 6 weeks after delivery_Mother"/>
+    <type value="group"/>
+    <item id="J48z8BRJ21v.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L42y4oOsT32">
+    <text value="Mothers screened by MUAC for malnutrition during PNC1 Visit_Mother"/>
+    <type value="group"/>
+    <item id="L42y4oOsT32.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qdFsLQtoF4i">
+    <text value="Newborns low birth weight discharged from KMC reffered for follow up at HC level_Baby"/>
+    <type value="group"/>
+    <item id="qdFsLQtoF4i.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ckKvdDxEAMk">
+    <text value="Mothers received Iron/Folic Acid during PNC1 Visit_Mother"/>
+    <type value="group"/>
+    <item id="ckKvdDxEAMk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gY5jGavzCf0">
+    <text value="PNC 2 visits at 3rd Day after birth_Baby"/>
+    <type value="group"/>
+    <item id="gY5jGavzCf0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PyWqHJsqe0U">
+    <text value="Newborns who received chlorexidine for cord cleaning at PNC1_Baby"/>
+    <type value="group"/>
+    <item id="PyWqHJsqe0U.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZLaUSH3czN0">
+    <text value="Mothers malnourished_MUAC &lt; 21 cm_during PNC4 Visit_Mother"/>
+    <type value="group"/>
+    <item id="ZLaUSH3czN0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

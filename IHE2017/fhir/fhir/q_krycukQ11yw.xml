@@ -1,0 +1,639 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="krycukQ11yw"/>
+  <status value="published"/>
+  <title value="TB - Registration of TB Cases (CDT only)"/>
+  <item id="GQLdSYPHxzW">
+    <text value="New Pulmonary TB Bacteriologically confirmed"/>
+    <type value="group"/>
+    <item id="GQLdSYPHxzW.w8DjQ6dZZZ8">
+      <text value="&lt;5 y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.IIGG8GmqCtP">
+      <text value="15-24y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.YyqRB4JRtHm">
+      <text value="55-64y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.rTLGkfKvqS9">
+      <text value="&lt;5 y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.AonMcDzUAOy">
+      <text value="5-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.mt26Hd9uLIj">
+      <text value="35-44y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.y3n8FilD3Wv">
+      <text value="15-24y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.BVF4BmvAEsV">
+      <text value="0-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.xGpD5hx65S9">
+      <text value="45-54y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.y9cgTtrouo9">
+      <text value="&#x2265;65y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.peSwEfueNpY">
+      <text value="25-34y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.Ec0S1E5qhdf">
+      <text value="45-54y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.VRakr0UaSH4">
+      <text value="25-34y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.zrnmHO1vuPg">
+      <text value="0-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.HrsiZjxSiVf">
+      <text value="55-64y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.lzcGW5Vp7Mf">
+      <text value="&#x2265;65y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.cf3EUzgFqVF">
+      <text value="5-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GQLdSYPHxzW.NW5QwUCzg3j">
+      <text value="35-44y, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Kx54GJUiSyx">
+    <text value="TB registrations Pulmonary TB Negative smears"/>
+    <type value="group"/>
+    <item id="Kx54GJUiSyx.w8DjQ6dZZZ8">
+      <text value="&lt;5 y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.IIGG8GmqCtP">
+      <text value="15-24y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.YyqRB4JRtHm">
+      <text value="55-64y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.rTLGkfKvqS9">
+      <text value="&lt;5 y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.AonMcDzUAOy">
+      <text value="5-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.mt26Hd9uLIj">
+      <text value="35-44y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.y3n8FilD3Wv">
+      <text value="15-24y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.BVF4BmvAEsV">
+      <text value="0-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.xGpD5hx65S9">
+      <text value="45-54y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.y9cgTtrouo9">
+      <text value="&#x2265;65y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.peSwEfueNpY">
+      <text value="25-34y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.Ec0S1E5qhdf">
+      <text value="45-54y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.VRakr0UaSH4">
+      <text value="25-34y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.zrnmHO1vuPg">
+      <text value="0-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.HrsiZjxSiVf">
+      <text value="55-64y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.lzcGW5Vp7Mf">
+      <text value="&#x2265;65y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.cf3EUzgFqVF">
+      <text value="5-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Kx54GJUiSyx.NW5QwUCzg3j">
+      <text value="35-44y, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xMKJUTSYicu">
+    <text value="Notified cases_all-forms_who initiated TB treatment"/>
+    <type value="group"/>
+    <item id="xMKJUTSYicu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gO7jkTqMdF3">
+    <text value="TB registrations Pulmonary with Microscopy Not Done"/>
+    <type value="group"/>
+    <item id="gO7jkTqMdF3.w8DjQ6dZZZ8">
+      <text value="&lt;5 y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.IIGG8GmqCtP">
+      <text value="15-24y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.YyqRB4JRtHm">
+      <text value="55-64y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.rTLGkfKvqS9">
+      <text value="&lt;5 y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.AonMcDzUAOy">
+      <text value="5-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.mt26Hd9uLIj">
+      <text value="35-44y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.y3n8FilD3Wv">
+      <text value="15-24y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.BVF4BmvAEsV">
+      <text value="0-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.xGpD5hx65S9">
+      <text value="45-54y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.y9cgTtrouo9">
+      <text value="&#x2265;65y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.peSwEfueNpY">
+      <text value="25-34y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.Ec0S1E5qhdf">
+      <text value="45-54y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.VRakr0UaSH4">
+      <text value="25-34y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.zrnmHO1vuPg">
+      <text value="0-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.HrsiZjxSiVf">
+      <text value="55-64y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.lzcGW5Vp7Mf">
+      <text value="&#x2265;65y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.cf3EUzgFqVF">
+      <text value="5-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gO7jkTqMdF3.NW5QwUCzg3j">
+      <text value="35-44y, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mGLya3jA3sb">
+    <text value="TB registrations Extra Pulmonary TB"/>
+    <type value="group"/>
+    <item id="mGLya3jA3sb.w8DjQ6dZZZ8">
+      <text value="&lt;5 y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.IIGG8GmqCtP">
+      <text value="15-24y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.YyqRB4JRtHm">
+      <text value="55-64y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.rTLGkfKvqS9">
+      <text value="&lt;5 y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.AonMcDzUAOy">
+      <text value="5-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.mt26Hd9uLIj">
+      <text value="35-44y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.y3n8FilD3Wv">
+      <text value="15-24y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.BVF4BmvAEsV">
+      <text value="0-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.xGpD5hx65S9">
+      <text value="45-54y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.y9cgTtrouo9">
+      <text value="&#x2265;65y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.peSwEfueNpY">
+      <text value="25-34y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.Ec0S1E5qhdf">
+      <text value="45-54y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.VRakr0UaSH4">
+      <text value="25-34y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.zrnmHO1vuPg">
+      <text value="0-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.HrsiZjxSiVf">
+      <text value="55-64y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.lzcGW5Vp7Mf">
+      <text value="&#x2265;65y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.cf3EUzgFqVF">
+      <text value="5-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="mGLya3jA3sb.NW5QwUCzg3j">
+      <text value="35-44y, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="F0eVnhs7abC">
+    <text value="TB registrations Relapses"/>
+    <type value="group"/>
+    <item id="F0eVnhs7abC.w8DjQ6dZZZ8">
+      <text value="&lt;5 y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.IIGG8GmqCtP">
+      <text value="15-24y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.YyqRB4JRtHm">
+      <text value="55-64y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.rTLGkfKvqS9">
+      <text value="&lt;5 y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.AonMcDzUAOy">
+      <text value="5-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.mt26Hd9uLIj">
+      <text value="35-44y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.y3n8FilD3Wv">
+      <text value="15-24y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.BVF4BmvAEsV">
+      <text value="0-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.xGpD5hx65S9">
+      <text value="45-54y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.y9cgTtrouo9">
+      <text value="&#x2265;65y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.peSwEfueNpY">
+      <text value="25-34y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.Ec0S1E5qhdf">
+      <text value="45-54y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.VRakr0UaSH4">
+      <text value="25-34y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.zrnmHO1vuPg">
+      <text value="0-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.HrsiZjxSiVf">
+      <text value="55-64y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.lzcGW5Vp7Mf">
+      <text value="&#x2265;65y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.cf3EUzgFqVF">
+      <text value="5-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="F0eVnhs7abC.NW5QwUCzg3j">
+      <text value="35-44y, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KIIJ2NjOfyU">
+    <text value="Number of notified cases_all forms_with under 21 kg"/>
+    <type value="group"/>
+    <item id="KIIJ2NjOfyU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ATxxhYcUyQC">
+    <text value="Notified cases_all-forms_by CHWs"/>
+    <type value="group"/>
+    <item id="ATxxhYcUyQC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NH3zTeUQN2V">
+    <text value="TB registrations Others "/>
+    <type value="group"/>
+    <item id="NH3zTeUQN2V.w8DjQ6dZZZ8">
+      <text value="&lt;5 y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.IIGG8GmqCtP">
+      <text value="15-24y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.YyqRB4JRtHm">
+      <text value="55-64y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.rTLGkfKvqS9">
+      <text value="&lt;5 y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.AonMcDzUAOy">
+      <text value="5-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.mt26Hd9uLIj">
+      <text value="35-44y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.y3n8FilD3Wv">
+      <text value="15-24y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.BVF4BmvAEsV">
+      <text value="0-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.xGpD5hx65S9">
+      <text value="45-54y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.y9cgTtrouo9">
+      <text value="&#x2265;65y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.peSwEfueNpY">
+      <text value="25-34y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.Ec0S1E5qhdf">
+      <text value="45-54y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.VRakr0UaSH4">
+      <text value="25-34y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.zrnmHO1vuPg">
+      <text value="0-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.HrsiZjxSiVf">
+      <text value="55-64y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.lzcGW5Vp7Mf">
+      <text value="&#x2265;65y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.cf3EUzgFqVF">
+      <text value="5-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="NH3zTeUQN2V.NW5QwUCzg3j">
+      <text value="35-44y, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xb1X9rMfONJ">
+    <text value="TB registrations Failures"/>
+    <type value="group"/>
+    <item id="xb1X9rMfONJ.w8DjQ6dZZZ8">
+      <text value="&lt;5 y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.IIGG8GmqCtP">
+      <text value="15-24y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.YyqRB4JRtHm">
+      <text value="55-64y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.rTLGkfKvqS9">
+      <text value="&lt;5 y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.AonMcDzUAOy">
+      <text value="5-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.mt26Hd9uLIj">
+      <text value="35-44y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.y3n8FilD3Wv">
+      <text value="15-24y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.BVF4BmvAEsV">
+      <text value="0-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.xGpD5hx65S9">
+      <text value="45-54y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.y9cgTtrouo9">
+      <text value="&#x2265;65y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.peSwEfueNpY">
+      <text value="25-34y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.Ec0S1E5qhdf">
+      <text value="45-54y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.VRakr0UaSH4">
+      <text value="25-34y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.zrnmHO1vuPg">
+      <text value="0-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.HrsiZjxSiVf">
+      <text value="55-64y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.lzcGW5Vp7Mf">
+      <text value="&#x2265;65y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.cf3EUzgFqVF">
+      <text value="5-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="xb1X9rMfONJ.NW5QwUCzg3j">
+      <text value="35-44y, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="U356qcPuA6b">
+    <text value="TB registrations_treatment after lost to followup"/>
+    <type value="group"/>
+    <item id="U356qcPuA6b.w8DjQ6dZZZ8">
+      <text value="&lt;5 y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.IIGG8GmqCtP">
+      <text value="15-24y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.YyqRB4JRtHm">
+      <text value="55-64y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.rTLGkfKvqS9">
+      <text value="&lt;5 y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.AonMcDzUAOy">
+      <text value="5-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.mt26Hd9uLIj">
+      <text value="35-44y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.y3n8FilD3Wv">
+      <text value="15-24y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.BVF4BmvAEsV">
+      <text value="0-14y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.xGpD5hx65S9">
+      <text value="45-54y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.y9cgTtrouo9">
+      <text value="&#x2265;65y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.peSwEfueNpY">
+      <text value="25-34y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.Ec0S1E5qhdf">
+      <text value="45-54y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.VRakr0UaSH4">
+      <text value="25-34y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.zrnmHO1vuPg">
+      <text value="0-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.HrsiZjxSiVf">
+      <text value="55-64y, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.lzcGW5Vp7Mf">
+      <text value="&#x2265;65y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.cf3EUzgFqVF">
+      <text value="5-14y, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="U356qcPuA6b.NW5QwUCzg3j">
+      <text value="35-44y, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

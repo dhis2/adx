@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="xyoBhxUvThx"/>
+  <status value="published"/>
+  <title value="DH Palliative care"/>
+  <item id="ykt37rPUVmH">
+    <text value="Severe pain patients that receive morphine"/>
+    <type value="group"/>
+    <item id="ykt37rPUVmH.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ykt37rPUVmH.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="ykt37rPUVmH.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="ykt37rPUVmH.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="O3fNQ2d1nmv">
+    <text value="Patients with documented pain assessment during the reporting period"/>
+    <type value="group"/>
+    <item id="O3fNQ2d1nmv.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="O3fNQ2d1nmv.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="O3fNQ2d1nmv.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="O3fNQ2d1nmv.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e24VxxSo3ng">
+    <text value="Patients receiving palliative care services"/>
+    <type value="group"/>
+    <item id="e24VxxSo3ng.uvLzjpOai2h">
+      <text value="Under 20 years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="e24VxxSo3ng.GRzlzDctMDf">
+      <text value="20 years and above , Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="e24VxxSo3ng.HRa0yaJzxvQ">
+      <text value="20 years and above , Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="e24VxxSo3ng.OfjPg9zU3dk">
+      <text value="Under 20 years, Male"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

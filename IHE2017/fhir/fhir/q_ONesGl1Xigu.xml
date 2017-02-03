@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="ONesGl1Xigu"/>
+  <status value="published"/>
+  <title value="Ministers Daily Flash Report "/>
+  <item id="MVfDnCmtoJ1">
+    <text value="Total number of deaths"/>
+    <type value="group"/>
+    <item id="MVfDnCmtoJ1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qh55xl3Fxb2">
+    <text value="Number of child deaths"/>
+    <type value="group"/>
+    <item id="qh55xl3Fxb2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rBkbTUd0h6C">
+    <text value="Number inpatients admitted"/>
+    <type value="group"/>
+    <item id="rBkbTUd0h6C.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VYJgBef2hcP">
+    <text value="Number of outpatient consultations"/>
+    <type value="group"/>
+    <item id="VYJgBef2hcP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="K6vRLwpWZTz">
+    <text value="Any Emergencies yesterday?"/>
+    <type value="group"/>
+    <item id="K6vRLwpWZTz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="vobI3VZjPDc">
+    <text value="Number of other deaths"/>
+    <type value="group"/>
+    <item id="vobI3VZjPDc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lbG9fTKOyJB">
+    <text value="If yes describe emergencies"/>
+    <type value="group"/>
+    <item id="lbG9fTKOyJB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="YUJqa3bxPDL">
+    <text value="Any disease outbreaks yesterday?"/>
+    <type value="group"/>
+    <item id="YUJqa3bxPDL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="boolean"/>
+    </item>
+  </item>
+  <item id="Qc78shMAVqy">
+    <text value="Number of maternal deaths"/>
+    <type value="group"/>
+    <item id="Qc78shMAVqy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oxjkFC8NGib">
+    <text value="Other comments"/>
+    <type value="group"/>
+    <item id="oxjkFC8NGib.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="o0ASNJ9U3bd">
+    <text value="If yes describe outbreaks and their location"/>
+    <type value="group"/>
+    <item id="o0ASNJ9U3bd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="string"/>
+    </item>
+  </item>
+  <item id="xrOG3Bs3b3w">
+    <text value="Percentage bed occupancy"/>
+    <type value="group"/>
+    <item id="xrOG3Bs3b3w.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

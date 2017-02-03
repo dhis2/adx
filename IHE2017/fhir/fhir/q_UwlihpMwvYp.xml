@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="UwlihpMwvYp"/>
+  <status value="published"/>
+  <title value="DH Community Checkup"/>
+  <item id="iEVzkhRpSUk">
+    <text value="Total number of people who consulted for annual medical checkup during the reporting period"/>
+    <type value="group"/>
+    <item id="iEVzkhRpSUk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cDabiCPtC2v">
+    <text value="Disability check up"/>
+    <type value="group"/>
+    <item id="cDabiCPtC2v.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QR7r36vufp6">
+    <text value="Diabetes check up"/>
+    <type value="group"/>
+    <item id="QR7r36vufp6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dSZLRCcQ5oY">
+    <text value="Renal Disease check up"/>
+    <type value="group"/>
+    <item id="dSZLRCcQ5oY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z9KVR1uW4vN">
+    <text value="Cancer check up"/>
+    <type value="group"/>
+    <item id="Z9KVR1uW4vN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zC2tnSJ6dvN">
+    <text value="Chronic respiratory diseases check up"/>
+    <type value="group"/>
+    <item id="zC2tnSJ6dvN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Euhmrin8sRf">
+    <text value="Cardio vascular diseases check up"/>
+    <type value="group"/>
+    <item id="Euhmrin8sRf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

@@ -1,0 +1,1799 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="g5M1uQxkzjb"/>
+  <status value="published"/>
+  <title value="Stock of Tracer Drugs"/>
+  <item id="z1C0Iydq5Hf">
+    <text value="Oral Rehydration Salts packet_StkLoss"/>
+    <type value="group"/>
+    <item id="z1C0Iydq5Hf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j3veRqYfbvj">
+    <text value="Plumpy nut bag 920 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="j3veRqYfbvj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nItOZnJSZU6">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x3 StkLoss"/>
+    <type value="group"/>
+    <item id="nItOZnJSZU6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PtZsEarYuX2">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x4 StkLoss"/>
+    <type value="group"/>
+    <item id="PtZsEarYuX2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ac1C3i2PvWU">
+    <text value="Vitamin A_100000 iu_StkLoss"/>
+    <type value="group"/>
+    <item id="ac1C3i2PvWU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dWJHgN5kpFj">
+    <text value="Zinc tab 10 mg_StkDist"/>
+    <type value="group"/>
+    <item id="dWJHgN5kpFj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="puPW2SkQsNm">
+    <text value="Vitamin A_100000 iu_StkEOM"/>
+    <type value="group"/>
+    <item id="puPW2SkQsNm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jlQL9UKbnLD">
+    <text value="Vitamin A_200000 iu_StkDist"/>
+    <type value="group"/>
+    <item id="jlQL9UKbnLD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mwu07481wNB">
+    <text value="Amoxycillin_Tab_250 mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="mwu07481wNB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OEdHA1klToq">
+    <text value="Cotrimoxazole tab 400 mg+80mg StkDist"/>
+    <type value="group"/>
+    <item id="OEdHA1klToq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jNjxrDsNhIL">
+    <text value="Oral Rehydration Salts packet_Community_StkLoss"/>
+    <type value="group"/>
+    <item id="jNjxrDsNhIL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kKRRd2lRB9h">
+    <text value="Misoprostol_CHW_StkLoss"/>
+    <type value="group"/>
+    <item id="kKRRd2lRB9h.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Fvx2NvpRFtH">
+    <text value="Artesunate vial 60mg/ml_Qtyreceived"/>
+    <type value="group"/>
+    <item id="Fvx2NvpRFtH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OAcTFgY4OXW">
+    <text value="Vitamin A_100000 iu_StkOutDays"/>
+    <type value="group"/>
+    <item id="OAcTFgY4OXW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vu4vDBmCuSR">
+    <text value="Zinc tab 10mg_StkLoss"/>
+    <type value="group"/>
+    <item id="vu4vDBmCuSR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IibNPift1Fa">
+    <text value="Mebendazole tab 500mg_StkEOM"/>
+    <type value="group"/>
+    <item id="IibNPift1Fa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OtFvq6MHiwg">
+    <text value="ACT_Primo Yellow_Qtyreceived"/>
+    <type value="group"/>
+    <item id="OtFvq6MHiwg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ewquvHKRsIu">
+    <text value="ACT_Primo Red_StkEOM"/>
+    <type value="group"/>
+    <item id="ewquvHKRsIu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WRLdk4cLuTg">
+    <text value="Rapid Diagnostic Tests for Malaria RDT StkEOM"/>
+    <type value="group"/>
+    <item id="WRLdk4cLuTg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bE3HTry3vGS">
+    <text value="Zinc tab 10 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="bE3HTry3vGS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bEYDfXSjWF2">
+    <text value="ACT_Primo Red_CHW_StkDist"/>
+    <type value="group"/>
+    <item id="bEYDfXSjWF2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yutP8EMTaQy">
+    <text value="Quinine vial 300 mgml_StkLoss"/>
+    <type value="group"/>
+    <item id="yutP8EMTaQy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pzgJR0263up">
+    <text value="Mebendazole tab 500mg_stkDist"/>
+    <type value="group"/>
+    <item id="pzgJR0263up.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZTqmpbHCctq">
+    <text value="Misoprostol_StkEOM"/>
+    <type value="group"/>
+    <item id="ZTqmpbHCctq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L2Sp7m5cDDf">
+    <text value="Oral Rehydration Salts packet_Qtyreceived"/>
+    <type value="group"/>
+    <item id="L2Sp7m5cDDf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RU2yfZmQIi0">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x3 StkOutDays"/>
+    <type value="group"/>
+    <item id="RU2yfZmQIi0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ap10DXh2ORy">
+    <text value="Zinc tab 10mg_StkEOM"/>
+    <type value="group"/>
+    <item id="ap10DXh2ORy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z36GFvirhDP">
+    <text value="Morphine 30 mg tablet_StkOutDays"/>
+    <type value="group"/>
+    <item id="z36GFvirhDP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FRXOzYCJYdC">
+    <text value="ACT_Primo Red_Qtyreceived"/>
+    <type value="group"/>
+    <item id="FRXOzYCJYdC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VB9QcuqSwnW">
+    <text value="Rapid Diagnostic Tests for malaria_RDT_Community_StkDist"/>
+    <type value="group"/>
+    <item id="VB9QcuqSwnW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sfMAIgZZ7B1">
+    <text value="Amoxycillin tab 125 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="sfMAIgZZ7B1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MgEAjP3p7ZP">
+    <text value="Amoxycillin syrup 125mg/5ml_StkDist"/>
+    <type value="group"/>
+    <item id="MgEAjP3p7ZP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uPQ95qTquoM">
+    <text value="Zinc tab 10 mg_Community_StkDist"/>
+    <type value="group"/>
+    <item id="uPQ95qTquoM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LjmML2iEK4t">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x1 StkOutDays"/>
+    <type value="group"/>
+    <item id="LjmML2iEK4t.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gmnmV10whVp">
+    <text value="Amoxycillin_Tab_250 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="gmnmV10whVp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fkK8gstcNWf">
+    <text value="Morphine hcl 10mg tablet_StkLoss"/>
+    <type value="group"/>
+    <item id="fkK8gstcNWf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="u7HfmZcXrCo">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x2 StkEOM"/>
+    <type value="group"/>
+    <item id="u7HfmZcXrCo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cm7BcU4EIXD">
+    <text value="Iron sulfate _Folic Acid tab 200mg/0.25mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="cm7BcU4EIXD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w3AKzscQ3Gy">
+    <text value="Zinc tab 10 mg_Community_StkOutDays"/>
+    <type value="group"/>
+    <item id="w3AKzscQ3Gy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rCDM2T6USN9">
+    <text value="Metronidazole vial 500mg/ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="rCDM2T6USN9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mqKftq4r0ZD">
+    <text value="Gloves_StkDist"/>
+    <type value="group"/>
+    <item id="mqKftq4r0ZD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TjgfSNAsmxK">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg (6x4) Qtyreceived"/>
+    <type value="group"/>
+    <item id="TjgfSNAsmxK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AxaZfOjC7YM">
+    <text value="Albendzole tab 400mg_StkEOM"/>
+    <type value="group"/>
+    <item id="AxaZfOjC7YM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rHV6UUXs0Do">
+    <text value="Mebendazole syrup 100mg/5ml_StkLoss"/>
+    <type value="group"/>
+    <item id="rHV6UUXs0Do.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ljQt0C3zAdE">
+    <text value="Gloves_StkLoss"/>
+    <type value="group"/>
+    <item id="ljQt0C3zAdE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LhJCtOXYmZ9">
+    <text value="Milk therapeutic F75 bag 410 mg_StkDist"/>
+    <type value="group"/>
+    <item id="LhJCtOXYmZ9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zAFNP5XTkuI">
+    <text value="Rapid Diagnostic Tests for Malaria RDT StkOutDays"/>
+    <type value="group"/>
+    <item id="zAFNP5XTkuI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="W9GUYH23kai">
+    <text value="Amoxycillin syrup 125mg/5ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="W9GUYH23kai.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fhyOmpwu75E">
+    <text value="Oral Rehydration Salts packet_StkDist"/>
+    <type value="group"/>
+    <item id="fhyOmpwu75E.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zwkzB93dznB">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg (6x3) Qtyreceived"/>
+    <type value="group"/>
+    <item id="zwkzB93dznB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mmPsTOGtk3Y">
+    <text value="Zinc tab 10 mg_Community_Qtyreceived"/>
+    <type value="group"/>
+    <item id="mmPsTOGtk3Y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kYlA2noENW9">
+    <text value="Gloves_CHW_StkLoss"/>
+    <type value="group"/>
+    <item id="kYlA2noENW9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xpLmiJH57uR">
+    <text value="Albendzole tab 400mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="xpLmiJH57uR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ixLpjKJsN0H">
+    <text value="ACT_Primo Red_StkOutDays"/>
+    <type value="group"/>
+    <item id="ixLpjKJsN0H.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="B78YAhsGO76">
+    <text value="Misoprostol_StkLoss"/>
+    <type value="group"/>
+    <item id="B78YAhsGO76.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GrOptpvcGRi">
+    <text value="Cotrimoxazole tab 400 mg+80mg StkLoss"/>
+    <type value="group"/>
+    <item id="GrOptpvcGRi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lWeWgDTe2Xo">
+    <text value="Amoxycillin tab 125 mg_CHW_StkDist"/>
+    <type value="group"/>
+    <item id="lWeWgDTe2Xo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xWtuS4M2JtT">
+    <text value="Cotrimoxazole tab 400 mg+80mg StkEOM"/>
+    <type value="group"/>
+    <item id="xWtuS4M2JtT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fPncqfN9vFJ">
+    <text value="Oral Rehydration Salts packet_StkOutDays"/>
+    <type value="group"/>
+    <item id="fPncqfN9vFJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QXDZf5emtwo">
+    <text value="Albendzole tab 400mg_StkDist"/>
+    <type value="group"/>
+    <item id="QXDZf5emtwo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xwygSymlpjV">
+    <text value="Metronidazole vial 500mg/ml_Qtyreceived"/>
+    <type value="group"/>
+    <item id="xwygSymlpjV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vNKBG9mOFb4">
+    <text value="Amoxycillin tab 125 mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="vNKBG9mOFb4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c0PSW1wYtb0">
+    <text value="Amoxycillin tab 125 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="c0PSW1wYtb0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="piXPDCdGJCc">
+    <text value="ACT_Primo Yellow_StkEOM"/>
+    <type value="group"/>
+    <item id="piXPDCdGJCc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZMvJoWFLWWu">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x3 StkDist"/>
+    <type value="group"/>
+    <item id="ZMvJoWFLWWu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lynjCW4qzri">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x1 Qtyreceived"/>
+    <type value="group"/>
+    <item id="lynjCW4qzri.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QQQdLmVf0UF">
+    <text value="Amoxycillin tab 125 mg_CHW_StkOutDays"/>
+    <type value="group"/>
+    <item id="QQQdLmVf0UF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SbmOOty65Pg">
+    <text value="Quinine vial 300 mgml_Qtyreceived"/>
+    <type value="group"/>
+    <item id="SbmOOty65Pg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AC6NpwEqxAC">
+    <text value="Corn Soya Mix_CSM_ kilo_StkOutDays"/>
+    <type value="group"/>
+    <item id="AC6NpwEqxAC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OIDjzMrxeSH">
+    <text value="Morphine hcl 10mg tablet_StkEOM"/>
+    <type value="group"/>
+    <item id="OIDjzMrxeSH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ffoiv0r3yZN">
+    <text value="Quinine vial 300 mgml_StkDist"/>
+    <type value="group"/>
+    <item id="Ffoiv0r3yZN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XnbSe4FA2Ej">
+    <text value="Rapid Diagnostic Tests for malaria_RDT_StkLoss"/>
+    <type value="group"/>
+    <item id="XnbSe4FA2Ej.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DTkvwRFWoRv">
+    <text value="Amoxycillin syrup 125mg/5ml_Qtyreceived"/>
+    <type value="group"/>
+    <item id="DTkvwRFWoRv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JulQtzSYdlE">
+    <text value="Milk therapeutic F75 bag 410 mg"/>
+    <type value="group"/>
+    <item id="JulQtzSYdlE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZWQkN625Feh">
+    <text value="Morphine hcl 10mg tablet_Qtyreceived"/>
+    <type value="group"/>
+    <item id="ZWQkN625Feh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZF5cpmZr40I">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x4 StkOutDays"/>
+    <type value="group"/>
+    <item id="ZF5cpmZr40I.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FEo62Ia6pG5">
+    <text value="Plumpy nut bag 920 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="FEo62Ia6pG5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NKloSLWVuoL">
+    <text value="Ciprofloxacine tab 250mg_StkDist"/>
+    <type value="group"/>
+    <item id="NKloSLWVuoL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q3rOrPZOnQZ">
+    <text value="Metronidazole vial 500mg/ml_StkDist"/>
+    <type value="group"/>
+    <item id="q3rOrPZOnQZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oLgsuJaLubz">
+    <text value="Artemeter vial 20 mgml_StkLoss"/>
+    <type value="group"/>
+    <item id="oLgsuJaLubz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fETA9CCtqWF">
+    <text value="Gloves_CHW_StkEOM"/>
+    <type value="group"/>
+    <item id="fETA9CCtqWF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="f97DzWRscoT">
+    <text value="Plumpy nut bag 920 mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="f97DzWRscoT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="no0QM5TkNCa">
+    <text value="Gloves_StkEOM"/>
+    <type value="group"/>
+    <item id="no0QM5TkNCa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YxQPr85pWRM">
+    <text value="Morphine 30 mg tablet_Qtyreceived"/>
+    <type value="group"/>
+    <item id="YxQPr85pWRM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cgxmYg27MOQ">
+    <text value="Vitamin A_200000 iu_StkLoss"/>
+    <type value="group"/>
+    <item id="cgxmYg27MOQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="spNIHADHflG">
+    <text value="ACT_Primo Red_StkLoss"/>
+    <type value="group"/>
+    <item id="spNIHADHflG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J1WVn19pZQE">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x2 StkOutDays"/>
+    <type value="group"/>
+    <item id="J1WVn19pZQE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yLv927uwxRq">
+    <text value="Misoprostol_CHW_StkOutDays"/>
+    <type value="group"/>
+    <item id="yLv927uwxRq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mPXNsyl12yW">
+    <text value="Morphine hcl 10mg tablet_StkDist"/>
+    <type value="group"/>
+    <item id="mPXNsyl12yW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="onGcB7CO0Pt">
+    <text value="ACT_Primo Yellow_CHW_StkDist"/>
+    <type value="group"/>
+    <item id="onGcB7CO0Pt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L9RBuaEANPn">
+    <text value="Quinine vial 300 mgml_StkEOM"/>
+    <type value="group"/>
+    <item id="L9RBuaEANPn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ovauIpoalmQ">
+    <text value="Artemeter vial 20 mgml_StkOutDays"/>
+    <type value="group"/>
+    <item id="ovauIpoalmQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kr9WUl40SyM">
+    <text value="ACT_Primo Yellow_StkOutDays"/>
+    <type value="group"/>
+    <item id="kr9WUl40SyM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XiO8wGxKfWy">
+    <text value="Praziquantel tab 200mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="XiO8wGxKfWy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gEPzglsMwJQ">
+    <text value="Praziquantel tab 200mg_StkLoss"/>
+    <type value="group"/>
+    <item id="gEPzglsMwJQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qVVdnEZV9Bv">
+    <text value="Corn Soya Mix_CSM_ kilo_Qtyreceived"/>
+    <type value="group"/>
+    <item id="qVVdnEZV9Bv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sFjCHz1OhMl">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x1 StkEOM"/>
+    <type value="group"/>
+    <item id="sFjCHz1OhMl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IQFiNdkgMil">
+    <text value="Amoxycillin tab 125 mg_CHW_StkEOM"/>
+    <type value="group"/>
+    <item id="IQFiNdkgMil.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oEvmc5J4kxj">
+    <text value="Gloves_StkOutDays"/>
+    <type value="group"/>
+    <item id="oEvmc5J4kxj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="C3hBMnAkZVM">
+    <text value="Mebendazole syrup 100mg/5ml_StkEOM"/>
+    <type value="group"/>
+    <item id="C3hBMnAkZVM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IJZLV0EIFm8">
+    <text value="Vitamin A_100000 iu_StkDist"/>
+    <type value="group"/>
+    <item id="IJZLV0EIFm8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HDSuGk2YCPt">
+    <text value="Rapid Diagnostic Tests for malaria_RDT_Qtyreceived"/>
+    <type value="group"/>
+    <item id="HDSuGk2YCPt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pccBOwjQ2rP">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x3 StkEOM"/>
+    <type value="group"/>
+    <item id="pccBOwjQ2rP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h76WwM0BEoU">
+    <text value="Misoprostol_CHW_Qtyreceived"/>
+    <type value="group"/>
+    <item id="h76WwM0BEoU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oBE9XlQqECr">
+    <text value="Morphine 10 mg_ml injection vial_StkLoss"/>
+    <type value="group"/>
+    <item id="oBE9XlQqECr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fvRGiAIl5gV">
+    <text value="Praziquantel tab 200mg_StkDist"/>
+    <type value="group"/>
+    <item id="fvRGiAIl5gV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Eb2mzhNmaym">
+    <text value="Metronidazole vial 500mg/ml_StkLoss"/>
+    <type value="group"/>
+    <item id="Eb2mzhNmaym.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p0ZWNupFa3U">
+    <text value="Praziquantel tab 200mg_StkEOM"/>
+    <type value="group"/>
+    <item id="p0ZWNupFa3U.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="k5IOKFGwGZU">
+    <text value="Amoxycillin tab 125 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="k5IOKFGwGZU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GzCqWDUBIKv">
+    <text value="Misoprostol_StkDist"/>
+    <type value="group"/>
+    <item id="GzCqWDUBIKv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="C41S2DEuhLF">
+    <text value="Zinc tab 10 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="C41S2DEuhLF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TlyO6vwoXc1">
+    <text value="Gloves_CHW_Qtyreceived"/>
+    <type value="group"/>
+    <item id="TlyO6vwoXc1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IQ0iXfgQwnw">
+    <text value="Amoxycillin syrup 125mg/5ml_StkLoss"/>
+    <type value="group"/>
+    <item id="IQ0iXfgQwnw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="B2eB9NdyviE">
+    <text value="Rapid Diagnostic Tests for malaria_RDT_StkDist"/>
+    <type value="group"/>
+    <item id="B2eB9NdyviE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IKn9YuzY6bR">
+    <text value="Artemeter vial 20 mgml_StkEOM"/>
+    <type value="group"/>
+    <item id="IKn9YuzY6bR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YSfdvAo5KQi">
+    <text value="Morphine 10 mg_ml injection vial_Qtyreceived"/>
+    <type value="group"/>
+    <item id="YSfdvAo5KQi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CoajC45NOnC">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x1 StkLoss"/>
+    <type value="group"/>
+    <item id="CoajC45NOnC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="H1Mg2aF2zXD">
+    <text value="Zinc tab 10 mg_Community_StkEOM"/>
+    <type value="group"/>
+    <item id="H1Mg2aF2zXD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L3I28hPTm3r">
+    <text value="Zinc tab 10 mg_Community_StkLoss"/>
+    <type value="group"/>
+    <item id="L3I28hPTm3r.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="R13jIoQYNAP">
+    <text value="Cotrimoxazole tab 400 mg+80mg StkOutDays"/>
+    <type value="group"/>
+    <item id="R13jIoQYNAP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jbkmRJwdXBS">
+    <text value="Quinine tab 300 mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="jbkmRJwdXBS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WuV8MqABfm3">
+    <text value="Gloves_CHW_StkOutDays"/>
+    <type value="group"/>
+    <item id="WuV8MqABfm3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JHHb9oL16yR">
+    <text value="Cotrimoxazole tab 400 mg+80mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="JHHb9oL16yR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uGGOeYPRShF">
+    <text value="Vitamin A_200000 iu_StkOutDays"/>
+    <type value="group"/>
+    <item id="uGGOeYPRShF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EgP1c7TlluZ">
+    <text value="Milk therapeutic F100 bag 456 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="EgP1c7TlluZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XOye8Z1eQ5w">
+    <text value="Plumpy nut bag 920 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="XOye8Z1eQ5w.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lKm8OXpErTU">
+    <text value="Amoxycillin_Tab_250 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="lKm8OXpErTU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Nl0PS1MBvWR">
+    <text value="Albendzole tab 400mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="Nl0PS1MBvWR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IEjfa9gYPR1">
+    <text value="Quinine tab 300 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="IEjfa9gYPR1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="d52l783iOAl">
+    <text value="Morphine 30 mg tablet_StkDist"/>
+    <type value="group"/>
+    <item id="d52l783iOAl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="V0kSn2I4v3u">
+    <text value="Gloves_CHW_StkDist"/>
+    <type value="group"/>
+    <item id="V0kSn2I4v3u.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S4lkOm9gjNz">
+    <text value="ACT_Primo Yellow_CHW_StkEOM"/>
+    <type value="group"/>
+    <item id="S4lkOm9gjNz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vW82uScYVWZ">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x2 StkDist"/>
+    <type value="group"/>
+    <item id="vW82uScYVWZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P0ZwOD08DrP">
+    <text value="ACT_Primo Red_CHW_StkOutDays"/>
+    <type value="group"/>
+    <item id="P0ZwOD08DrP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TeNsafwfHSf">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x2 StkLoss"/>
+    <type value="group"/>
+    <item id="TeNsafwfHSf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KZOoxf6tzpI">
+    <text value="Albendzole tab 400mg_StkLoss"/>
+    <type value="group"/>
+    <item id="KZOoxf6tzpI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c86Q6upoWcI">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg (6x2)_Qtyreceived"/>
+    <type value="group"/>
+    <item id="c86Q6upoWcI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JcxPXLeTgnT">
+    <text value="Zinc tab 10 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="JcxPXLeTgnT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eoXcyW9JQdc">
+    <text value="Ciprofloxacine tab 250mg_StkEOM"/>
+    <type value="group"/>
+    <item id="eoXcyW9JQdc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dn3U8uP335W">
+    <text value="Morphine 10 mg_ml injection vial_StkDist"/>
+    <type value="group"/>
+    <item id="dn3U8uP335W.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UGtqoInDzym">
+    <text value="Milk therapeutic F100 bag 456 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="UGtqoInDzym.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VeXaGTeN5S8">
+    <text value="Quinine tab 300 mg_StkDist"/>
+    <type value="group"/>
+    <item id="VeXaGTeN5S8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EO51Fvcy3Kq">
+    <text value="Iron sulfate _Folic Acid tab 200mg/0.25mg_StkDist"/>
+    <type value="group"/>
+    <item id="EO51Fvcy3Kq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="i5EmOK6mgiA">
+    <text value="Rapid Diagnostic Tests for malaria_RDT_StkEOM"/>
+    <type value="group"/>
+    <item id="i5EmOK6mgiA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rlQha2AvOlF">
+    <text value="Zinc tab 10mg_StkDist"/>
+    <type value="group"/>
+    <item id="rlQha2AvOlF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o1draj1pcMs">
+    <text value="Milk therapeutic F100 bag 456 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="o1draj1pcMs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GFHnwllB55S">
+    <text value="Amoxycillin_Tab_250 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="GFHnwllB55S.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Eq9epJBGm9O">
+    <text value="Oral Rehydration Salts packet_Community_StkOutDays"/>
+    <type value="group"/>
+    <item id="Eq9epJBGm9O.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="q6zdRdUBWIs">
+    <text value="ACT_Primo Yellow_StkLoss"/>
+    <type value="group"/>
+    <item id="q6zdRdUBWIs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FpyhcupzhP3">
+    <text value="Iron sulfate _Folic Acid tab 200mg/0.25mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="FpyhcupzhP3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FQFkxbvomYj">
+    <text value="Milk therapeutic F100 bag 456 mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="FQFkxbvomYj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aeBIWBxJ3VM">
+    <text value="Praziquantel tab 200mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="aeBIWBxJ3VM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lSpvhziRdMf">
+    <text value="Artesunate vial 60mg/ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="lSpvhziRdMf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="F0Vf0oPhWjt">
+    <text value="Plumpy nut bag 920 mg_StkDist"/>
+    <type value="group"/>
+    <item id="F0Vf0oPhWjt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hsXHzjDQdzQ">
+    <text value="Rapid Diagnostic Tests for malaria_RDT_StkOutDays"/>
+    <type value="group"/>
+    <item id="hsXHzjDQdzQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fHjlfEBlYFw">
+    <text value="ACT_Primo Red_CHW_StkLoss"/>
+    <type value="group"/>
+    <item id="fHjlfEBlYFw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="N9Fl7BlnpYx">
+    <text value="Rapid Diagnostic Tests for Malaria RDT StkLoss"/>
+    <type value="group"/>
+    <item id="N9Fl7BlnpYx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lrYbNwZNUSf">
+    <text value="Misoprostol_Qtyreceived"/>
+    <type value="group"/>
+    <item id="lrYbNwZNUSf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GzpMuaK9S7Y">
+    <text value="ACT_Primo Yellow_CHW_Qtyreceived"/>
+    <type value="group"/>
+    <item id="GzpMuaK9S7Y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Eifm7vmfcTY">
+    <text value="Morphine 30 mg tablet_StkEOM"/>
+    <type value="group"/>
+    <item id="Eifm7vmfcTY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="drRW0IzgbGw">
+    <text value="Rapid Diagnostic Tests for malaria_RDT_Community_StkLoss"/>
+    <type value="group"/>
+    <item id="drRW0IzgbGw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XZpmEf1Ic0U">
+    <text value="Rapid Diagnostic Tests for malaria_RDT_Community_Qtyreceived"/>
+    <type value="group"/>
+    <item id="XZpmEf1Ic0U.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UZySHUndhxu">
+    <text value="Mebendazole syrup 100mg/5ml_StkOutDays"/>
+    <type value="group"/>
+    <item id="UZySHUndhxu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FnKFvj8JOGv">
+    <text value="Zinc tab 10mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="FnKFvj8JOGv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sviwx77bbEV">
+    <text value="Quinine vial 300 mgml_StkOutDays"/>
+    <type value="group"/>
+    <item id="sviwx77bbEV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JphVxtZxvWU">
+    <text value="Iron sulfate _Folic Acid tab 200mg/0.25mg_StkLoss"/>
+    <type value="group"/>
+    <item id="JphVxtZxvWU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tO0HXSuUhG3">
+    <text value="Morphine 30 mg tablet_StkLoss"/>
+    <type value="group"/>
+    <item id="tO0HXSuUhG3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fxiW00FbQNw">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x1 StkDist"/>
+    <type value="group"/>
+    <item id="fxiW00FbQNw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jk2EmJ3sDGK">
+    <text value="Milk therapeutic F75 bag 410 mg_StkEOM"/>
+    <type value="group"/>
+    <item id="jk2EmJ3sDGK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pAjooJiEBdS">
+    <text value="Vitamin A_100000 iu_Qtyreceived"/>
+    <type value="group"/>
+    <item id="pAjooJiEBdS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MmeEkeqODAs">
+    <text value="Misoprostol_CHW_StkEOM"/>
+    <type value="group"/>
+    <item id="MmeEkeqODAs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="H0pvYTNucNy">
+    <text value="ACT_Primo Yellow_CHW_StkLoss"/>
+    <type value="group"/>
+    <item id="H0pvYTNucNy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AOkvuNQwXyc">
+    <text value="Vitamin A_200000 iu_StkEOM"/>
+    <type value="group"/>
+    <item id="AOkvuNQwXyc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aDCH7qTtkRl">
+    <text value="Iron sulfate _Folic Acid tab 200mg/0.25mg_StkEOM"/>
+    <type value="group"/>
+    <item id="aDCH7qTtkRl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xduI1YNOsfR">
+    <text value="Misoprostol_StkOutDays"/>
+    <type value="group"/>
+    <item id="xduI1YNOsfR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rj7NFK3COkp">
+    <text value="Mebendazole syrup 100mg/5ml_StkDist"/>
+    <type value="group"/>
+    <item id="rj7NFK3COkp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EE60clECv1J">
+    <text value="ACT_Primo Yellow_StkDist"/>
+    <type value="group"/>
+    <item id="EE60clECv1J.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NtQwaAQaFyZ">
+    <text value="Corn Soya Mix_CSM_ kilo_StkDist"/>
+    <type value="group"/>
+    <item id="NtQwaAQaFyZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OIanjwhxuFv">
+    <text value="Rapid Diagnostic Tests for malaria_RDT_Community_StkOutDays"/>
+    <type value="group"/>
+    <item id="OIanjwhxuFv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dHdCtLWnZkr">
+    <text value="Metronidazole vial 500mg/ml_StkEOM"/>
+    <type value="group"/>
+    <item id="dHdCtLWnZkr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fqCGl74GvLY">
+    <text value="Gloves_Qtyreceived"/>
+    <type value="group"/>
+    <item id="fqCGl74GvLY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="laMQKvv4CFt">
+    <text value="Morphine hcl 10mg tablet_StkOutDays"/>
+    <type value="group"/>
+    <item id="laMQKvv4CFt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iZtiI69b03N">
+    <text value="ACT_Primo Red_CHW_StkEOM"/>
+    <type value="group"/>
+    <item id="iZtiI69b03N.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CAGpAzOasI9">
+    <text value="Amoxycillin_Tab_250 mg_StkDist"/>
+    <type value="group"/>
+    <item id="CAGpAzOasI9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yHhA4EVlFPs">
+    <text value="Rapid Diagnostic Tests for Malaria RDT StkDist"/>
+    <type value="group"/>
+    <item id="yHhA4EVlFPs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="okrLZQ3f7Rd">
+    <text value="Oral Rehydration Salts packet_StkEOM"/>
+    <type value="group"/>
+    <item id="okrLZQ3f7Rd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NRYUEjErvsM">
+    <text value="Ciprofloxacine tab 250mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="NRYUEjErvsM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s7HVsGPnF0z">
+    <text value="Oral Rehydration Salts packet_Community_StkDist"/>
+    <type value="group"/>
+    <item id="s7HVsGPnF0z.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="exmAIdhsuCF">
+    <text value="Quinine tab 300 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="exmAIdhsuCF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EsMwEd9qyyW">
+    <text value="ACT_Primo Red_CHW_Qtyreceived"/>
+    <type value="group"/>
+    <item id="EsMwEd9qyyW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bP5jq5kNEuP">
+    <text value="Mebendazole syrup 100mg/5ml_Qtyreceived"/>
+    <type value="group"/>
+    <item id="bP5jq5kNEuP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PsflnBopJCy">
+    <text value="ACT_Primo Red_StkDist"/>
+    <type value="group"/>
+    <item id="PsflnBopJCy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dR85oFa9pw5">
+    <text value="ACT_Primo Yellow_CHW_StkOutDays"/>
+    <type value="group"/>
+    <item id="dR85oFa9pw5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dqAZ4Gm61HM">
+    <text value="Milk therapeutic F75 bag 410 mg_StkLoss"/>
+    <type value="group"/>
+    <item id="dqAZ4Gm61HM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pp1Iz8B6Oaa">
+    <text value="Mebendazole tab 500mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="pp1Iz8B6Oaa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BnIPVN1C5h7">
+    <text value="Artemeter vial 20 mgml-Qtyreceived"/>
+    <type value="group"/>
+    <item id="BnIPVN1C5h7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vzUAZ88Er0b">
+    <text value="Mebendazole tab 500mg_StkLoss"/>
+    <type value="group"/>
+    <item id="vzUAZ88Er0b.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zfr7q24hXkb">
+    <text value="Ciprofloxacine tab 250mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="zfr7q24hXkb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LJGCZlDWAlv">
+    <text value="Artemeter vial 20 mgml_StkDist"/>
+    <type value="group"/>
+    <item id="LJGCZlDWAlv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WIns3WhhNhE">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x4 StkDist"/>
+    <type value="group"/>
+    <item id="WIns3WhhNhE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="adx02yTJvhB">
+    <text value="Misoprostol_CHW_StkDist"/>
+    <type value="group"/>
+    <item id="adx02yTJvhB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pMXk7c2cJrw">
+    <text value="Corn Soya Mix_CSM_ kilo_StkLoss"/>
+    <type value="group"/>
+    <item id="pMXk7c2cJrw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jBkCqWyDItL">
+    <text value="Oral Rehydration Salts packet_Community_StkEOM"/>
+    <type value="group"/>
+    <item id="jBkCqWyDItL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FK3LJ1khcmP">
+    <text value="Milk therapeutic F100 bag 456 mg_StkDist"/>
+    <type value="group"/>
+    <item id="FK3LJ1khcmP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b5vUWrStI9M">
+    <text value="Milk therapeutic F75 bag 410 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="b5vUWrStI9M.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WQO0nKtcttY">
+    <text value="Milk therapeutic F75 bag 410 mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="WQO0nKtcttY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jJVPzUf5NWE">
+    <text value="Artesunate vial 60mg/ml_StkEOM"/>
+    <type value="group"/>
+    <item id="jJVPzUf5NWE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sJjSbscOF1X">
+    <text value="Amoxycillin syrup 125mg/5ml_StkEOM"/>
+    <type value="group"/>
+    <item id="sJjSbscOF1X.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gIQFJdE0Vi5">
+    <text value="Amoxycillin tab 125 mg_CHW_Qtyreceived"/>
+    <type value="group"/>
+    <item id="gIQFJdE0Vi5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gIuB8iLqyif">
+    <text value="Coartem Artemether Lumefanthrine tab 20 mg 120mg 6x4 StkEOM"/>
+    <type value="group"/>
+    <item id="gIuB8iLqyif.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PTY9RHwvucg">
+    <text value="Corn Soya Mix_CSM_ kilo_StkEOM"/>
+    <type value="group"/>
+    <item id="PTY9RHwvucg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ng8lOHNDtHE">
+    <text value="Morphine 10 mg_ml injection vial_StkOutDays"/>
+    <type value="group"/>
+    <item id="Ng8lOHNDtHE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xcYvqOxq6JA">
+    <text value="Mebendazole tab 500mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="xcYvqOxq6JA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kZxtA25fVDD">
+    <text value="Amoxycillin tab 125 mg_CHW_StkLoss"/>
+    <type value="group"/>
+    <item id="kZxtA25fVDD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="b87UaMRNcVs">
+    <text value="Artesunate vial 60mg/ml_StkDist"/>
+    <type value="group"/>
+    <item id="b87UaMRNcVs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M95os7ArTq5">
+    <text value="Amoxycillin tab 125 mg_StkDist"/>
+    <type value="group"/>
+    <item id="M95os7ArTq5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="coKCWVE6LKd">
+    <text value="Artesunate vial 60mg/ml_StkLoss"/>
+    <type value="group"/>
+    <item id="coKCWVE6LKd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sMj5CEa0UZE">
+    <text value="Ciprofloxacine tab 250mg_StkLoss"/>
+    <type value="group"/>
+    <item id="sMj5CEa0UZE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ybbFRlsfaoo">
+    <text value="Quinine tab 300 mg_StkOutDays"/>
+    <type value="group"/>
+    <item id="ybbFRlsfaoo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RPebh6iZNhk">
+    <text value="Rapid Diagnostic Tests for malaria_RDT_Community_StkEOM"/>
+    <type value="group"/>
+    <item id="RPebh6iZNhk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EqTqj0uXi8P">
+    <text value="Oral Rehydration Salts packet_Community_Qtyreceived"/>
+    <type value="group"/>
+    <item id="EqTqj0uXi8P.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TBxnY5aFb5p">
+    <text value="Morphine 10 mg_ml injection vial_StkEOM"/>
+    <type value="group"/>
+    <item id="TBxnY5aFb5p.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qYKuxuMPif9">
+    <text value="Vitamin A_200000 iu_Qtyreceived"/>
+    <type value="group"/>
+    <item id="qYKuxuMPif9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HqVRhJAQ7rM">
+    <text value="Zinc tab 10mg_Qtyreceived"/>
+    <type value="group"/>
+    <item id="HqVRhJAQ7rM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

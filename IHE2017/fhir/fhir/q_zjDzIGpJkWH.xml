@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="zjDzIGpJkWH"/>
+  <status value="published"/>
+  <title value="TB surveillance among health facility workers"/>
+  <item id="LCPYcwERZGZ">
+    <text value="Health Facility Workers screened for TB "/>
+    <type value="group"/>
+    <item id="LCPYcwERZGZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sEDrxkj8RwH">
+    <text value="Health Facility Workers diagnosed with TB all-forms"/>
+    <type value="group"/>
+    <item id="sEDrxkj8RwH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w7oqc56heyX">
+    <text value="Total number of Health Facility Workers"/>
+    <type value="group"/>
+    <item id="w7oqc56heyX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

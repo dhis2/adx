@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="jcLMcIzg5C7"/>
+  <status value="published"/>
+  <title value="Orthopedic Anesthesia and Physiotherapy"/>
+  <item id="tByOVU0mXGl">
+    <text value="Neurological conditions_ortho"/>
+    <type value="group"/>
+    <item id="tByOVU0mXGl.i6MVN6SzQF2">
+      <text value="Newcases, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="tByOVU0mXGl.a3SuMkE8FzJ">
+      <text value="Newcases, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tByOVU0mXGl.SwbSl1xrAeZ">
+      <text value="Oldcases, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="tByOVU0mXGl.l7Drkgx3G8g">
+      <text value="Oldcases, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s0g5vUyKfVS">
+    <text value="Local Anesthesia "/>
+    <type value="group"/>
+    <item id="s0g5vUyKfVS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GlNN5GNH2PZ">
+    <text value="Respiratory conditions_ortho"/>
+    <type value="group"/>
+    <item id="GlNN5GNH2PZ.i6MVN6SzQF2">
+      <text value="Newcases, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="GlNN5GNH2PZ.a3SuMkE8FzJ">
+      <text value="Newcases, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GlNN5GNH2PZ.SwbSl1xrAeZ">
+      <text value="Oldcases, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="GlNN5GNH2PZ.l7Drkgx3G8g">
+      <text value="Oldcases, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jxkvz59TzMg">
+    <text value="General Anesthesia "/>
+    <type value="group"/>
+    <item id="jxkvz59TzMg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NQlpSZcM8Mi">
+    <text value="Other types of anesthesia"/>
+    <type value="group"/>
+    <item id="NQlpSZcM8Mi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SbJtCoctoqp">
+    <text value="Total_ortho"/>
+    <type value="group"/>
+    <item id="SbJtCoctoqp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wb7ZsmvnLpF">
+    <text value="Musculoskeletal conditions_ortho"/>
+    <type value="group"/>
+    <item id="wb7ZsmvnLpF.i6MVN6SzQF2">
+      <text value="Newcases, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wb7ZsmvnLpF.a3SuMkE8FzJ">
+      <text value="Newcases, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wb7ZsmvnLpF.SwbSl1xrAeZ">
+      <text value="Oldcases, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wb7ZsmvnLpF.l7Drkgx3G8g">
+      <text value="Oldcases, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cu1aMhd8SDe">
+    <text value="Regional Anesthesia"/>
+    <type value="group"/>
+    <item id="cu1aMhd8SDe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

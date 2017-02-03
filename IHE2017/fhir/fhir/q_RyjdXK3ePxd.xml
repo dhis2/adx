@@ -1,0 +1,447 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="RyjdXK3ePxd"/>
+  <status value="published"/>
+  <title value="RH OutPatient Consultation (OPD)"/>
+  <item id="L0ptcFuRR9A">
+    <text value="Non-Paying New cases"/>
+    <type value="group"/>
+    <item id="L0ptcFuRR9A.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wqj70wxMJ6k">
+    <text value="Origin of  OPD cases_by residence_Eest Africa community-excl_Rwanda"/>
+    <type value="group"/>
+    <item id="wqj70wxMJ6k.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mrBgKWyQXvq">
+    <text value="Cardiac surgery_Old cases_RH"/>
+    <type value="group"/>
+    <item id="mrBgKWyQXvq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="l7YVpt25RjN">
+    <text value="Ophtamology_New cases_RH"/>
+    <type value="group"/>
+    <item id="l7YVpt25RjN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="V4rx2WuDVAv">
+    <text value="Cardio_thoracic surgery_New cases_RH"/>
+    <type value="group"/>
+    <item id="V4rx2WuDVAv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HLpe6UamAhe">
+    <text value="Cardio_thoracic surgery_Old cases_RH"/>
+    <type value="group"/>
+    <item id="HLpe6UamAhe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L6H8W5iOtN0">
+    <text value="Stomatology and Oral surgery_New case_RH"/>
+    <type value="group"/>
+    <item id="L6H8W5iOtN0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GB2qOcVISqJ">
+    <text value="Dermatology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="GB2qOcVISqJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SwxDUqTurOL">
+    <text value="Origin of  OPD cases_by residence_Other"/>
+    <type value="group"/>
+    <item id="SwxDUqTurOL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XnyW12sccNh">
+    <text value="Emergency_Old cases_RH"/>
+    <type value="group"/>
+    <item id="XnyW12sccNh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CQAayRwKiPp">
+    <text value="Referred to other specialised hospital in RwandaOPD_RH"/>
+    <type value="group"/>
+    <item id="CQAayRwKiPp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OoxOW8ZHSVp">
+    <text value="Neonatology_New cases_RH"/>
+    <type value="group"/>
+    <item id="OoxOW8ZHSVp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TN35VnxgJvJ">
+    <text value="Orthopedics_Old cases_RH"/>
+    <type value="group"/>
+    <item id="TN35VnxgJvJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CmPbEWcz8C9">
+    <text value="Obstetrics and gnecology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="CmPbEWcz8C9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oy4kdSeSaLt">
+    <text value="Neonatology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="oy4kdSeSaLt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="agUr45YHiKk">
+    <text value="Referred outside of the countryOPD_RH"/>
+    <type value="group"/>
+    <item id="agUr45YHiKk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TogVtfrHps1">
+    <text value="Hematology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="TogVtfrHps1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gRtmNYkb4Zf">
+    <text value="Cardiac surgery_New case_RH"/>
+    <type value="group"/>
+    <item id="gRtmNYkb4Zf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="t5rggz3FJUh">
+    <text value="Obstetrics and gnecology_New cases_RH"/>
+    <type value="group"/>
+    <item id="t5rggz3FJUh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BqyyGYEZgM6">
+    <text value="Origin of  OPD cases_by residence_RWANDA"/>
+    <type value="group"/>
+    <item id="BqyyGYEZgM6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e8QrZq7ePtX">
+    <text value="General surgery_Old cases_OPD RH"/>
+    <type value="group"/>
+    <item id="e8QrZq7ePtX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ghRsGju79SG">
+    <text value="Transplant_Old cases_RH"/>
+    <type value="group"/>
+    <item id="ghRsGju79SG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XnTgGzEfdCP">
+    <text value="Insured_Mutuelle or other insurance members"/>
+    <type value="group"/>
+    <item id="XnTgGzEfdCP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AjZdnOx3hvs">
+    <text value="Number of Indigents of non-paying new cases"/>
+    <type value="group"/>
+    <item id="AjZdnOx3hvs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ic4fTqgeVjl">
+    <text value="Plastic surgery_New case_RH"/>
+    <type value="group"/>
+    <item id="Ic4fTqgeVjl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UBE5BpAggZW">
+    <text value="Neurosurgery_Old cases_RH"/>
+    <type value="group"/>
+    <item id="UBE5BpAggZW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J0JHVdzKY9c">
+    <text value="Natural or man-made disasters_epidemics earthquakes OPD etc"/>
+    <type value="group"/>
+    <item id="J0JHVdzKY9c.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kTOmCY7XY6s">
+    <text value="Gastro_enterology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="kTOmCY7XY6s.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="by5XMKbYOK6">
+    <text value="Rheumatology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="by5XMKbYOK6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="a5tZqS6DY7i">
+    <text value="Pediatric_New cases_RH"/>
+    <type value="group"/>
+    <item id="a5tZqS6DY7i.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lxefYLgCfqL">
+    <text value="Gastro_enterology_New cases_RH"/>
+    <type value="group"/>
+    <item id="lxefYLgCfqL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kEM4rNwkpoF">
+    <text value="Stomatology and Oral surgery_Old cases_RH"/>
+    <type value="group"/>
+    <item id="kEM4rNwkpoF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gK6i6g69JWz">
+    <text value="Nephrology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="gK6i6g69JWz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DmOkZd87vPK">
+    <text value="Ophtamology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="DmOkZd87vPK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nFYsEimZlvN">
+    <text value="Oncology_New cases_RH"/>
+    <type value="group"/>
+    <item id="nFYsEimZlvN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kJPU5iP57oU">
+    <text value="Neurosurgery_New cases_RH"/>
+    <type value="group"/>
+    <item id="kJPU5iP57oU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZDLrsN780kP">
+    <text value="Hematology_New cases_RH"/>
+    <type value="group"/>
+    <item id="ZDLrsN780kP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Bl8Iv87zM0r">
+    <text value="Emergency_New cases_RH"/>
+    <type value="group"/>
+    <item id="Bl8Iv87zM0r.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="g5bdvJDhjSQ">
+    <text value="Road traffic accidents OPD"/>
+    <type value="group"/>
+    <item id="g5bdvJDhjSQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WfwkyePjNs1">
+    <text value="ENT_New case_RH"/>
+    <type value="group"/>
+    <item id="WfwkyePjNs1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FDQykcx85kn">
+    <text value="Transplant_New case_RH"/>
+    <type value="group"/>
+    <item id="FDQykcx85kn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gXjrWDK9kZP">
+    <text value="Workplace injuries_OPDHC"/>
+    <type value="group"/>
+    <item id="gXjrWDK9kZP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fSrIIka5ZYB">
+    <text value="Cardiology_New cases_RH"/>
+    <type value="group"/>
+    <item id="fSrIIka5ZYB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rbC99Btj7li">
+    <text value="Rheumatology_New cases_RH"/>
+    <type value="group"/>
+    <item id="rbC99Btj7li.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="A1eFFQuGf6n">
+    <text value="Orthopedics_New case_RH"/>
+    <type value="group"/>
+    <item id="A1eFFQuGf6n.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="COaO8hYgOYH">
+    <text value="Pediatric_Old cases_RH"/>
+    <type value="group"/>
+    <item id="COaO8hYgOYH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p0u5t64adWo">
+    <text value="Cardiology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="p0u5t64adWo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bPvvLCbhZKu">
+    <text value="Dermatology_New cases_RH"/>
+    <type value="group"/>
+    <item id="bPvvLCbhZKu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iH97GLqDk3C">
+    <text value="General surgery_new cases_OPD RH"/>
+    <type value="group"/>
+    <item id="iH97GLqDk3C.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h77vFw80ty5">
+    <text value="Plastic surgery_Old cases_RH"/>
+    <type value="group"/>
+    <item id="h77vFw80ty5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nCvkv0btcSq">
+    <text value="Pneumology_New case_RH"/>
+    <type value="group"/>
+    <item id="nCvkv0btcSq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G7KnZdRBJWO">
+    <text value="Nephrology_New cases_RH"/>
+    <type value="group"/>
+    <item id="G7KnZdRBJWO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tIqIRUXDLeL">
+    <text value="Pneumology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="tIqIRUXDLeL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wXyUNACLoCx">
+    <text value="Oncology_Old cases_RH"/>
+    <type value="group"/>
+    <item id="wXyUNACLoCx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mcyOlWIilly">
+    <text value="ENT_Old cases_RH"/>
+    <type value="group"/>
+    <item id="mcyOlWIilly.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

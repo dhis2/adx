@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="Wv4xuh8ys8C"/>
+  <status value="published"/>
+  <title value="TB - HIV Testing among TB Cases, Laboratory (CT only)"/>
+  <item id="EoQ46rp2chQ">
+    <text value="Registered_Other forms"/>
+    <type value="group"/>
+    <item id="EoQ46rp2chQ.jzoWkZQWgvL">
+      <text value="0-14 Years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="EoQ46rp2chQ.HiIbO57j3rM">
+      <text value="0-14 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EoQ46rp2chQ.xusJaYMDAe6">
+      <text value="&gt;=15 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="EoQ46rp2chQ.Ivnw8PIAgUy">
+      <text value="&gt;=15 Years, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lTWkxuDRENV">
+    <text value="Positive cases among presumptive cases_CT"/>
+    <type value="group"/>
+    <item id="lTWkxuDRENV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SA1obJNFUnZ">
+    <text value="Presumptive TB cases referred by_CT"/>
+    <type value="group"/>
+    <item id="SA1obJNFUnZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fMddOYECDHQ">
+    <text value="ARVs_NTPB"/>
+    <type value="group"/>
+    <item id="fMddOYECDHQ.jzoWkZQWgvL">
+      <text value="0-14 Years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="fMddOYECDHQ.HiIbO57j3rM">
+      <text value="0-14 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fMddOYECDHQ.xusJaYMDAe6">
+      <text value="&gt;=15 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="fMddOYECDHQ.Ivnw8PIAgUy">
+      <text value="&gt;=15 Years, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="r0tpleJ3F7S">
+    <text value="Rifampicine resistant Cases on Genexpert_CDT"/>
+    <type value="group"/>
+    <item id="r0tpleJ3F7S.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xb2H7voOzUb">
+    <text value="Registered_NTPB"/>
+    <type value="group"/>
+    <item id="Xb2H7voOzUb.jzoWkZQWgvL">
+      <text value="0-14 Years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xb2H7voOzUb.HiIbO57j3rM">
+      <text value="0-14 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xb2H7voOzUb.xusJaYMDAe6">
+      <text value="&gt;=15 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xb2H7voOzUb.Ivnw8PIAgUy">
+      <text value="&gt;=15 Years, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dLYouNy9MUF">
+    <text value="Presumptive TB cases referred by_Traditional Healers"/>
+    <type value="group"/>
+    <item id="dLYouNy9MUF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wBT6x3WVWdD">
+    <text value="ART_Other forms"/>
+    <type value="group"/>
+    <item id="wBT6x3WVWdD.jzoWkZQWgvL">
+      <text value="0-14 Years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="wBT6x3WVWdD.HiIbO57j3rM">
+      <text value="0-14 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wBT6x3WVWdD.xusJaYMDAe6">
+      <text value="&gt;=15 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="wBT6x3WVWdD.Ivnw8PIAgUy">
+      <text value="&gt;=15 Years, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xl20MTMelX5">
+    <text value="Presumptive TB cases referred by_CHW"/>
+    <type value="group"/>
+    <item id="xl20MTMelX5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eFWb6kEjick">
+    <text value="Positive cases among presumptive cases_Traditional Healers"/>
+    <type value="group"/>
+    <item id="eFWb6kEjick.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bFd8T7lsTaM">
+    <text value="Rifampicine resistant Cases on Genexpert_CHW"/>
+    <type value="group"/>
+    <item id="bFd8T7lsTaM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="daVvUPyUFIk">
+    <text value="CTX_Other forms"/>
+    <type value="group"/>
+    <item id="daVvUPyUFIk.jzoWkZQWgvL">
+      <text value="0-14 Years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="daVvUPyUFIk.HiIbO57j3rM">
+      <text value="0-14 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="daVvUPyUFIk.xusJaYMDAe6">
+      <text value="&gt;=15 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="daVvUPyUFIk.Ivnw8PIAgUy">
+      <text value="&gt;=15 Years, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="doRbHPF5TjQ">
+    <text value="CTX_ NTPB"/>
+    <type value="group"/>
+    <item id="doRbHPF5TjQ.jzoWkZQWgvL">
+      <text value="0-14 Years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="doRbHPF5TjQ.HiIbO57j3rM">
+      <text value="0-14 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="doRbHPF5TjQ.xusJaYMDAe6">
+      <text value="&gt;=15 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="doRbHPF5TjQ.Ivnw8PIAgUy">
+      <text value="&gt;=15 Years, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FfPF4oDkaPT">
+    <text value="HIV positive_ NTPB"/>
+    <type value="group"/>
+    <item id="FfPF4oDkaPT.jzoWkZQWgvL">
+      <text value="0-14 Years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="FfPF4oDkaPT.HiIbO57j3rM">
+      <text value="0-14 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FfPF4oDkaPT.xusJaYMDAe6">
+      <text value="&gt;=15 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="FfPF4oDkaPT.Ivnw8PIAgUy">
+      <text value="&gt;=15 Years, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uc3KrceSlXw">
+    <text value="Rifampicine resistant Cases on Genexpert_CT"/>
+    <type value="group"/>
+    <item id="uc3KrceSlXw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kBI0gDmgT5T">
+    <text value="Positive cases among presumptive cases_CHW"/>
+    <type value="group"/>
+    <item id="kBI0gDmgT5T.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kjbqciVDPbP">
+    <text value="Tested for HIV_ NTPB"/>
+    <type value="group"/>
+    <item id="kjbqciVDPbP.jzoWkZQWgvL">
+      <text value="0-14 Years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="kjbqciVDPbP.HiIbO57j3rM">
+      <text value="0-14 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="kjbqciVDPbP.xusJaYMDAe6">
+      <text value="&gt;=15 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="kjbqciVDPbP.Ivnw8PIAgUy">
+      <text value="&gt;=15 Years, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KW53a6aeax1">
+    <text value="TB presumptive examined with genexpert_CT"/>
+    <type value="group"/>
+    <item id="KW53a6aeax1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XCoxdYze8HH">
+    <text value="HIV positive_Other forms"/>
+    <type value="group"/>
+    <item id="XCoxdYze8HH.jzoWkZQWgvL">
+      <text value="0-14 Years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="XCoxdYze8HH.HiIbO57j3rM">
+      <text value="0-14 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="XCoxdYze8HH.xusJaYMDAe6">
+      <text value="&gt;=15 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="XCoxdYze8HH.Ivnw8PIAgUy">
+      <text value="&gt;=15 Years, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gQK9ETtBREl">
+    <text value="Tested for HIV _Other forms"/>
+    <type value="group"/>
+    <item id="gQK9ETtBREl.jzoWkZQWgvL">
+      <text value="0-14 Years, Female"/>
+      <type value="integer"/>
+    </item>
+    <item id="gQK9ETtBREl.HiIbO57j3rM">
+      <text value="0-14 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gQK9ETtBREl.xusJaYMDAe6">
+      <text value="&gt;=15 Years, Male"/>
+      <type value="integer"/>
+    </item>
+    <item id="gQK9ETtBREl.Ivnw8PIAgUy">
+      <text value="&gt;=15 Years, Female"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

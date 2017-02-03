@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="W4ipYaFzNwT"/>
+  <status value="published"/>
+  <title value="Orthopedic Medical Imagery"/>
+  <item id="Y6BrNEHJ4Nf">
+    <text value="Spine X-ray_MedicalImag_ortho"/>
+    <type value="group"/>
+    <item id="Y6BrNEHJ4Nf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="alOsS10iIsb">
+    <text value="Pelvis X-ray_MedicalImag_ortho"/>
+    <type value="group"/>
+    <item id="alOsS10iIsb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jBcXC6b3TVz">
+    <text value="Lower limb X-ray_MediacalImag_ortho"/>
+    <type value="group"/>
+    <item id="jBcXC6b3TVz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fcuGdgIf75A">
+    <text value="Chest X-ray_MedicalImag_ortho"/>
+    <type value="group"/>
+    <item id="fcuGdgIf75A.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SbzvpE3Yflg">
+    <text value="Hip joint X-ray_MedicalImag_ortho"/>
+    <type value="group"/>
+    <item id="SbzvpE3Yflg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AarhsOnulhG">
+    <text value="Ultrasound (Echography)"/>
+    <type value="group"/>
+    <item id="AarhsOnulhG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cBw3sVDQ5O6">
+    <text value="Head X-ray_MedicalImag_ortho"/>
+    <type value="group"/>
+    <item id="cBw3sVDQ5O6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HmIOca3TXYy">
+    <text value="Upper limb X-ray_MedicalImag_ortho"/>
+    <type value="group"/>
+    <item id="HmIOca3TXYy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

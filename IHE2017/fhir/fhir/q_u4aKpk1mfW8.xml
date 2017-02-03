@@ -1,0 +1,1019 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="u4aKpk1mfW8"/>
+  <status value="published"/>
+  <title value="Obstetric Complications and Deliveries"/>
+  <item id="roGWjYfjXli">
+    <text value="Newborns  who did not cry at birth"/>
+    <type value="group"/>
+    <item id="roGWjYfjXli.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="m9t2NnjUOIV">
+    <text value="Total number of maternal deaths audited at Community level_ 20 Years and above"/>
+    <type value="group"/>
+    <item id="m9t2NnjUOIV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e2sJTz8eoJM">
+    <text value="Deliveries 15 years and under "/>
+    <type value="group"/>
+    <item id="e2sJTz8eoJM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yiqBXJJuu1J">
+    <text value="Intravenus Antibiotics"/>
+    <type value="group"/>
+    <item id="yiqBXJJuu1J.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IxW5HShSqL0">
+    <text value="Anemia Severe _&lt;7gm/dl_Deaths"/>
+    <type value="group"/>
+    <item id="IxW5HShSqL0.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="IxW5HShSqL0.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="finJo7dbcyC">
+    <text value="Eclampsia  or Severe Pre_Eclampsia _Death"/>
+    <type value="group"/>
+    <item id="finJo7dbcyC.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="finJo7dbcyC.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iVqhgMJDG2E">
+    <text value="Sepsis_Postpartum infection_OPDNC"/>
+    <type value="group"/>
+    <item id="iVqhgMJDG2E.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="iVqhgMJDG2E.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FhnChCIJkGC">
+    <text value="Sepsis_Postpartum infection_Deaths"/>
+    <type value="group"/>
+    <item id="FhnChCIJkGC.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="FhnChCIJkGC.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ubvZdbfmOfL">
+    <text value="Obstetrical Complication Other_HOSP"/>
+    <type value="group"/>
+    <item id="ubvZdbfmOfL.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="ubvZdbfmOfL.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L8Edu8n8siQ">
+    <text value="Malaria with minor digestive symptoms in pregnancyDeath_Obs"/>
+    <type value="group"/>
+    <item id="L8Edu8n8siQ.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="L8Edu8n8siQ.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j2prahOx4Hb">
+    <text value="Premature birth weight &lt;2.5 kg_alive22-37 weeks"/>
+    <type value="group"/>
+    <item id="j2prahOx4Hb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="W6xwcqzSy5P">
+    <text value="Antepartum Haemorrhage_Deaths"/>
+    <type value="group"/>
+    <item id="W6xwcqzSy5P.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="W6xwcqzSy5P.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ya7qr3mLlW0">
+    <text value="Death at birth"/>
+    <type value="group"/>
+    <item id="ya7qr3mLlW0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="By6864mI9q5">
+    <text value="Total number of maternal deaths audited at Community level_ under 20 Years"/>
+    <type value="group"/>
+    <item id="By6864mI9q5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ivMl0IeZoAX">
+    <text value="Women accompanied or referred by CHW to HC for assisted deliveries"/>
+    <type value="group"/>
+    <item id="ivMl0IeZoAX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iUwlocA4KI9">
+    <text value="Fistula_vesico vaginal or rectal_Deaths"/>
+    <type value="group"/>
+    <item id="iUwlocA4KI9.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="iUwlocA4KI9.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="V37PdjvVf01">
+    <text value="Perineal tear 3rd Degree_OPDNC"/>
+    <type value="group"/>
+    <item id="V37PdjvVf01.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="V37PdjvVf01.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DnekMOdY0YJ">
+    <text value="Manual removal of placenta"/>
+    <type value="group"/>
+    <item id="DnekMOdY0YJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yNbxJhcQAjN">
+    <text value="HIV/Opportunistic Infections_Death"/>
+    <type value="group"/>
+    <item id="yNbxJhcQAjN.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="yNbxJhcQAjN.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UGbGaasQaMZ">
+    <text value="Death 0-7 days (excl. death at birth)"/>
+    <type value="group"/>
+    <item id="UGbGaasQaMZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GUFOag9rDN1">
+    <text value="Foetal Distress_Deaths"/>
+    <type value="group"/>
+    <item id="GUFOag9rDN1.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="GUFOag9rDN1.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DO1JSzDD2mN">
+    <text value="Prolonged or Obstructed labor_OPDNC"/>
+    <type value="group"/>
+    <item id="DO1JSzDD2mN.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="DO1JSzDD2mN.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vopAfAvKOvG">
+    <text value="Post-partum hemorrhage_Hosp"/>
+    <type value="group"/>
+    <item id="vopAfAvKOvG.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="vopAfAvKOvG.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="imarVkOVmJi">
+    <text value="Miscarriages_spontaneous abortions_Hosp"/>
+    <type value="group"/>
+    <item id="imarVkOVmJi.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="imarVkOVmJi.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XFojeeVFG4y">
+    <text value="Newborns resuscitated"/>
+    <type value="group"/>
+    <item id="XFojeeVFG4y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zzu1At9VFrE">
+    <text value="Cleft palette_deliveries"/>
+    <type value="group"/>
+    <item id="zzu1At9VFrE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vyNCXGQT3bn">
+    <text value="Post-partum hemorrhage_Deaths"/>
+    <type value="group"/>
+    <item id="vyNCXGQT3bn.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="vyNCXGQT3bn.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ztFTEpPnkNL">
+    <text value="Abortions_symptoms suggesting induced abortionDeaths"/>
+    <type value="group"/>
+    <item id="ztFTEpPnkNL.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="ztFTEpPnkNL.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YNKAG92cvSS">
+    <text value="HIV/Opportunistic Infections_Hosp"/>
+    <type value="group"/>
+    <item id="YNKAG92cvSS.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="YNKAG92cvSS.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FlkG7IvO2W7">
+    <text value="Perineal tear 3rd Degree_Hosp"/>
+    <type value="group"/>
+    <item id="FlkG7IvO2W7.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="FlkG7IvO2W7.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xBj1LvlyUig">
+    <text value="Death 8 to 28 days"/>
+    <type value="group"/>
+    <item id="xBj1LvlyUig.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lgmE4mlzlky">
+    <text value="Foetal Distress_Hosp"/>
+    <type value="group"/>
+    <item id="lgmE4mlzlky.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="lgmE4mlzlky.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MdXuj2ZVxYU">
+    <text value="Malaria simple in pregnancyDeath_Obs"/>
+    <type value="group"/>
+    <item id="MdXuj2ZVxYU.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="MdXuj2ZVxYU.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XYHy7efMtNg">
+    <text value="Vacuum extraction"/>
+    <type value="group"/>
+    <item id="XYHy7efMtNg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="av7esaF3e2R">
+    <text value="Anemia Severe _&lt;7gm/dl_OPDNC"/>
+    <type value="group"/>
+    <item id="av7esaF3e2R.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="av7esaF3e2R.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uvSKt0o9N28">
+    <text value="Newborns who did not cry at birth and were resuscitated"/>
+    <type value="group"/>
+    <item id="uvSKt0o9N28.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="STB1UVUaouP">
+    <text value="Ectopic pregnancy_Hospitalized"/>
+    <type value="group"/>
+    <item id="STB1UVUaouP.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="STB1UVUaouP.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="N2dP088PmPy">
+    <text value="Malaria confirmed_Hosp"/>
+    <type value="group"/>
+    <item id="N2dP088PmPy.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="N2dP088PmPy.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BLuz04BPsyk">
+    <text value="Obstetrical complications other_Hosp_obs"/>
+    <type value="group"/>
+    <item id="BLuz04BPsyk.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="BLuz04BPsyk.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OhfS6PR4vH1">
+    <text value="Uterine rupture or tear_OPDNC"/>
+    <type value="group"/>
+    <item id="OhfS6PR4vH1.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="OhfS6PR4vH1.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fh2n9ROWVaa">
+    <text value="Prolonged or Obstructed labor_Deaths"/>
+    <type value="group"/>
+    <item id="fh2n9ROWVaa.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="fh2n9ROWVaa.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PdDHrFyFqiG">
+    <text value="Fistula_vesico vaginal or rectal_OPDNC"/>
+    <type value="group"/>
+    <item id="PdDHrFyFqiG.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="PdDHrFyFqiG.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zaOxK9xOxcv">
+    <text value="Deliveries abnormal_dystocic"/>
+    <type value="group"/>
+    <item id="zaOxK9xOxcv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="t3GLvTvbekD">
+    <text value="Newborns resuscitated successfully_cry within 5 minutes"/>
+    <type value="group"/>
+    <item id="t3GLvTvbekD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YxD30b7kSAo">
+    <text value="Deliveries normal"/>
+    <type value="group"/>
+    <item id="YxD30b7kSAo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VrD6MfV2nqL">
+    <text value="Malaria simple in pregnancyOPDNC_Obs"/>
+    <type value="group"/>
+    <item id="VrD6MfV2nqL.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="VrD6MfV2nqL.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QEjTEBB9ILB">
+    <text value="Obstetrical Complications Other_OPDNC"/>
+    <type value="group"/>
+    <item id="QEjTEBB9ILB.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="QEjTEBB9ILB.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MUVy3vnpg6n">
+    <text value="Perineal tear 3rd Degree_Deaths"/>
+    <type value="group"/>
+    <item id="MUVy3vnpg6n.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="MUVy3vnpg6n.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gTNHPjt1scq">
+    <text value="Malaria with minor digestive symptoms in pregnancyHosp_Obs"/>
+    <type value="group"/>
+    <item id="gTNHPjt1scq.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="gTNHPjt1scq.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rxUPenL7Kjk">
+    <text value="Eclampsia  or Severe Pre_Eclampsia_OPDNC "/>
+    <type value="group"/>
+    <item id="rxUPenL7Kjk.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="rxUPenL7Kjk.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="E80E6J5edUi">
+    <text value="Miscarriages_spontaneous abortions_Deaths"/>
+    <type value="group"/>
+    <item id="E80E6J5edUi.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="E80E6J5edUi.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ssBIvkQoLWl">
+    <text value="Threat of premature delivery_OPDNC"/>
+    <type value="group"/>
+    <item id="ssBIvkQoLWl.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="ssBIvkQoLWl.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xWFZ9qBht5d">
+    <text value="Eclampsia  or Severe Pre_Eclampsia_Hosp"/>
+    <type value="group"/>
+    <item id="xWFZ9qBht5d.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="xWFZ9qBht5d.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o3WsIFFHqw7">
+    <text value="Abortions_symptoms suggesting induced abortionHosp"/>
+    <type value="group"/>
+    <item id="o3WsIFFHqw7.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="o3WsIFFHqw7.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tOtCdCPSeXK">
+    <text value="Malaria confirmed_OPDNC"/>
+    <type value="group"/>
+    <item id="tOtCdCPSeXK.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="tOtCdCPSeXK.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zH0Amtv8Mr6">
+    <text value="Malaria with minor digestive symptoms in pregnancyOPDNC_Obs"/>
+    <type value="group"/>
+    <item id="zH0Amtv8Mr6.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="zH0Amtv8Mr6.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GPtGOh8PAlK">
+    <text value="Malaria confirmed_Death"/>
+    <type value="group"/>
+    <item id="GPtGOh8PAlK.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="GPtGOh8PAlK.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wRUJGPh9tuz">
+    <text value="Births live"/>
+    <type value="group"/>
+    <item id="wRUJGPh9tuz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J65OC46zmax">
+    <text value="Newborns checked for danger signs in postpartum ward within 24 hours_if mother admitted"/>
+    <type value="group"/>
+    <item id="J65OC46zmax.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ggt7SxZTo7u">
+    <text value="Newborns breastfed within 1 hour of delivery"/>
+    <type value="group"/>
+    <item id="Ggt7SxZTo7u.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GN5PrX6drdc">
+    <text value="Uterine rupture or tear_Hosp"/>
+    <type value="group"/>
+    <item id="GN5PrX6drdc.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="GN5PrX6drdc.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jIOFeDsby8k">
+    <text value="Ectopic pregnancy_OPDNC"/>
+    <type value="group"/>
+    <item id="jIOFeDsby8k.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="jIOFeDsby8k.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="g3ZyNngW7lu">
+    <text value="Fistula_vesico vaginal or rectal_Hospitalised"/>
+    <type value="group"/>
+    <item id="g3ZyNngW7lu.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="g3ZyNngW7lu.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kNdeno5VPz4">
+    <text value="Women placed under observation for 72 hours or more"/>
+    <type value="group"/>
+    <item id="kNdeno5VPz4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gdvvGl464OK">
+    <text value="Still births fresh_&gt;22 weeks or &gt;500 grams"/>
+    <type value="group"/>
+    <item id="gdvvGl464OK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kml87EMeCHH">
+    <text value="Deliveries 16 to 19 years"/>
+    <type value="group"/>
+    <item id="kml87EMeCHH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xh9pymy5g2B">
+    <text value="Obstetrical Complication Other_Death"/>
+    <type value="group"/>
+    <item id="Xh9pymy5g2B.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="Xh9pymy5g2B.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mT8zF8qImG1">
+    <text value="Birth trauma to infant"/>
+    <type value="group"/>
+    <item id="mT8zF8qImG1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LTe1RxQAZJf">
+    <text value="Pre_eclamplsia cases receiveing magnesium sulfate"/>
+    <type value="group"/>
+    <item id="LTe1RxQAZJf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QaqSREHqTnY">
+    <text value="Threat of premature delivery_Hosp"/>
+    <type value="group"/>
+    <item id="QaqSREHqTnY.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="QaqSREHqTnY.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SOdb3pVVYl1">
+    <text value="Manual vacuum aspiration_Post-Abortion Care"/>
+    <type value="group"/>
+    <item id="SOdb3pVVYl1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fICuyReInRd">
+    <text value="Women referred for emergency care to higher levels"/>
+    <type value="group"/>
+    <item id="fICuyReInRd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WyxyUTZOhKo">
+    <text value="Abortions_symptoms suggesting induced abortionOPDNC"/>
+    <type value="group"/>
+    <item id="WyxyUTZOhKo.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="WyxyUTZOhKo.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o84exadtl82">
+    <text value="Deliveries referred to higher level"/>
+    <type value="group"/>
+    <item id="o84exadtl82.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ev89lZnQOr3">
+    <text value="Obstetrical complications other_Deaths_obs"/>
+    <type value="group"/>
+    <item id="Ev89lZnQOr3.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="Ev89lZnQOr3.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UZ7hsIQ90cy">
+    <text value="Intravenus Anti-hypertensives"/>
+    <type value="group"/>
+    <item id="UZ7hsIQ90cy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="THHOxNJE8aO">
+    <text value="Miscarriages_spontaneous abortions_OPDNC"/>
+    <type value="group"/>
+    <item id="THHOxNJE8aO.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="THHOxNJE8aO.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="chgpQyAQZMM">
+    <text value="Prolonged or Obstructed labor_Hosp"/>
+    <type value="group"/>
+    <item id="chgpQyAQZMM.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="chgpQyAQZMM.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Owj0rWdbDlP">
+    <text value="Ectopic pregnancy_Deaths"/>
+    <type value="group"/>
+    <item id="Owj0rWdbDlP.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="Owj0rWdbDlP.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PTnX2DrEtR4">
+    <text value="Antepartum Haemorrhage_OPDNC"/>
+    <type value="group"/>
+    <item id="PTnX2DrEtR4.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="PTnX2DrEtR4.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GYqGg7giekC">
+    <text value="Sepsis_Postpartum infection_Hosp"/>
+    <type value="group"/>
+    <item id="GYqGg7giekC.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="GYqGg7giekC.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="krWvxbmJ8RK">
+    <text value="Birth weight &lt;2.5 kg _alive not premature"/>
+    <type value="group"/>
+    <item id="krWvxbmJ8RK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ajIhG9C0unm">
+    <text value="Malaria simple in pregnancyHosp_Obs"/>
+    <type value="group"/>
+    <item id="ajIhG9C0unm.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="ajIhG9C0unm.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pJEqN7HsoT9">
+    <text value="Antepartum Haemorrhage_Hosp"/>
+    <type value="group"/>
+    <item id="pJEqN7HsoT9.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="pJEqN7HsoT9.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BxhmCCUDJ54">
+    <text value="Newborns checked for danger signs in postpartum ward before discharge_if mother admitted"/>
+    <type value="group"/>
+    <item id="BxhmCCUDJ54.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fbhHP3u7m7F">
+    <text value="Still births&#xA0; macerated_&gt;22 weeks or &gt;500 grams"/>
+    <type value="group"/>
+    <item id="fbhHP3u7m7F.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="g8Lf300p9T3">
+    <text value="Post-partum hemorrhage_OPDNC"/>
+    <type value="group"/>
+    <item id="g8Lf300p9T3.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="g8Lf300p9T3.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GPcZ2GRyy5s">
+    <text value="Deliveries 35 years and above"/>
+    <type value="group"/>
+    <item id="GPcZ2GRyy5s.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Rv2FX68XQHK">
+    <text value="Foetal Distress_OPDNC"/>
+    <type value="group"/>
+    <item id="Rv2FX68XQHK.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="Rv2FX68XQHK.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TWmX6JS19hO">
+    <text value="Deliveries_Total"/>
+    <type value="group"/>
+    <item id="TWmX6JS19hO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VfzC8s6TUrs">
+    <text value="Maternal deaths during delivery_subset of all deaths in table VIII.A above"/>
+    <type value="group"/>
+    <item id="VfzC8s6TUrs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wa5HBNvPFr6">
+    <text value="Anemia Severe _&lt;7gm/dl_Hospitalisation"/>
+    <type value="group"/>
+    <item id="wa5HBNvPFr6.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="wa5HBNvPFr6.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EcgQ17EawEC">
+    <text value="Multiple Pregnancies women who delivered_twins_triplets_etc"/>
+    <type value="group"/>
+    <item id="EcgQ17EawEC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JBCRfInSOPs">
+    <text value="Newborns referred to higher level"/>
+    <type value="group"/>
+    <item id="JBCRfInSOPs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uMvdLMFuRwO">
+    <text value="Uterine rupture or tear_Deaths"/>
+    <type value="group"/>
+    <item id="uMvdLMFuRwO.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="uMvdLMFuRwO.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LQkOquYGgjU">
+    <text value="HIV/Opportunistic Infections_OPDNC"/>
+    <type value="group"/>
+    <item id="LQkOquYGgjU.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="LQkOquYGgjU.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wFrzS94LMkF">
+    <text value="Threat of premature delivery_Deaths"/>
+    <type value="group"/>
+    <item id="wFrzS94LMkF.aHaDmg73rhA">
+      <text value="20yrs and above"/>
+      <type value="integer"/>
+    </item>
+    <item id="wFrzS94LMkF.n0DeQmJ9EVJ">
+      <text value="Under 20yrs"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="wxFCawJXV06"/>
+  <status value="published"/>
+  <title value="Eye services and procedures"/>
+  <item id="bUH4l4lByzF">
+    <text value="Funduscopy  with retinal drawing"/>
+    <type value="group"/>
+    <item id="bUH4l4lByzF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LnVYQp17Vjm">
+    <text value="Indocyanine-green angiography"/>
+    <type value="group"/>
+    <item id="LnVYQp17Vjm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MKhy7jHfBSi">
+    <text value="Stereopsis examination"/>
+    <type value="group"/>
+    <item id="MKhy7jHfBSi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hvg2uGZzLXV">
+    <text value="Retinal OCT"/>
+    <type value="group"/>
+    <item id="hvg2uGZzLXV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rTY1nd0i7ko">
+    <text value="Ophthalmological examination and evaluation"/>
+    <type value="group"/>
+    <item id="rTY1nd0i7ko.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ECDkQh0fnb3">
+    <text value="Anterior segment imaging "/>
+    <type value="group"/>
+    <item id="ECDkQh0fnb3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fIFF9aFByAH">
+    <text value="Corneal staining"/>
+    <type value="group"/>
+    <item id="fIFF9aFByAH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NlfpsKkoIB5">
+    <text value="Corneal topography"/>
+    <type value="group"/>
+    <item id="NlfpsKkoIB5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="miZHHFzF2MI">
+    <text value="Tonometry"/>
+    <type value="group"/>
+    <item id="miZHHFzF2MI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HAqXh2Ab4Zo">
+    <text value="Color vision examination"/>
+    <type value="group"/>
+    <item id="HAqXh2Ab4Zo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ALHn7vkowlJ">
+    <text value="Fluorescein angioscopy"/>
+    <type value="group"/>
+    <item id="ALHn7vkowlJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ejj4fOra2Qr">
+    <text value="Visual field examination"/>
+    <type value="group"/>
+    <item id="ejj4fOra2Qr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="r4CFMOMjbDY">
+    <text value="Determination of refractive state "/>
+    <type value="group"/>
+    <item id="r4CFMOMjbDY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QvYRvXnESEk">
+    <text value="Prescription glasses"/>
+    <type value="group"/>
+    <item id="QvYRvXnESEk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ob9XDKcvJ04">
+    <text value="Biometry"/>
+    <type value="group"/>
+    <item id="Ob9XDKcvJ04.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BC9kTTCqcZ9">
+    <text value="Anterior segment OCT"/>
+    <type value="group"/>
+    <item id="BC9kTTCqcZ9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dFxzfBuWyEh">
+    <text value="Gonioscopy"/>
+    <type value="group"/>
+    <item id="dFxzfBuWyEh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DD9ysvD1qS4">
+    <text value="External ocular photography"/>
+    <type value="group"/>
+    <item id="DD9ysvD1qS4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ii6X295J38t">
+    <text value="Prescription contact lenses"/>
+    <type value="group"/>
+    <item id="Ii6X295J38t.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p7piAmM1DnS">
+    <text value="Ophthalmic ultrasound"/>
+    <type value="group"/>
+    <item id="p7piAmM1DnS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dknhysR9Uk6">
+    <text value="Pachymetry"/>
+    <type value="group"/>
+    <item id="dknhysR9Uk6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CssfT205nqC">
+    <text value="Fundus photography"/>
+    <type value="group"/>
+    <item id="CssfT205nqC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

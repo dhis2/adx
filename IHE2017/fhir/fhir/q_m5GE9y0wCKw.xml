@@ -1,0 +1,3943 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="m5GE9y0wCKw"/>
+  <status value="published"/>
+  <title value="TB Drug Management (CDT only)"/>
+  <item id="d48iTmocy0s">
+    <text value="Ofloxacine 200 mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="d48iTmocy0s.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bVgHxj7LFOJ">
+    <text value="Crachoirs_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="bVgHxj7LFOJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bnEVbs1yAwG">
+    <text value="Permanganate_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="bnEVbs1yAwG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oyfHbGEN2HO">
+    <text value="Alchol (Methanol or Ethanol) (ML)_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="oyfHbGEN2HO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TxWsLydPg9s">
+    <text value="Fuschine disp"/>
+    <type value="group"/>
+    <item id="TxWsLydPg9s.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jMDKcCfgz6l">
+    <text value="RHZ Quantity to be Expired during next quarter "/>
+    <type value="group"/>
+    <item id="jMDKcCfgz6l.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Uchy36ptFPb">
+    <text value="Fuschine_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="Uchy36ptFPb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="m1K4In775mC">
+    <text value="RH (60/30) days stockout"/>
+    <type value="group"/>
+    <item id="m1K4In775mC.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MbcMIQbGh7r">
+    <text value="RHZE disp"/>
+    <type value="group"/>
+    <item id="MbcMIQbGh7r.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QrKPP3xvosw">
+    <text value="Lames days stockout"/>
+    <type value="group"/>
+    <item id="QrKPP3xvosw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="StgOkey3iU6">
+    <text value="RH(60/60) Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="StgOkey3iU6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uK3C2R26H79">
+    <text value="Seringue a Tuberculine_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="uK3C2R26H79.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="pfnMq9ZLY7N">
+    <text value="Ofloxacine 200 mg days stockout"/>
+    <type value="group"/>
+    <item id="pfnMq9ZLY7N.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UjIbsmQlRzi">
+    <text value="PASER granules_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="UjIbsmQlRzi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jn5Ddnm1uvl">
+    <text value="Seringue a Tuberculine_disp"/>
+    <type value="group"/>
+    <item id="jn5Ddnm1uvl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eZzSqUbkbWV">
+    <text value="RH (60/60)_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="eZzSqUbkbWV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SGessJ4WNHa">
+    <text value="Alchol (Methanol or Ethanol) (ML) disp"/>
+    <type value="group"/>
+    <item id="SGessJ4WNHa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jr9nIA8Q9V4">
+    <text value="Prothionamide 250 mg disp"/>
+    <type value="group"/>
+    <item id="jr9nIA8Q9V4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L8GUsJAZFMi">
+    <text value="Permanganate_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="L8GUsJAZFMi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="ItSyppQ2Swd">
+    <text value="RHE"/>
+    <type value="group"/>
+    <item id="ItSyppQ2Swd.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="ItSyppQ2Swd.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="ItSyppQ2Swd.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="ItSyppQ2Swd.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="ItSyppQ2Swd.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="btIGwnNowRR">
+    <text value="RH (60/30) Quantity to be Expired during next quarter "/>
+    <type value="group"/>
+    <item id="btIGwnNowRR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="I4ilO0Ys0jr">
+    <text value="Levofloxacine 250 mg disp"/>
+    <type value="group"/>
+    <item id="I4ilO0Ys0jr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vKEvGh2tNyr">
+    <text value="INH 100 mg exp/lost"/>
+    <type value="group"/>
+    <item id="vKEvGh2tNyr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OqYBx1fULPo">
+    <text value="Seringue a Tuberculine_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="OqYBx1fULPo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="l4BKS11ECL1">
+    <text value="PYRIDOXINE 50mg"/>
+    <type value="group"/>
+    <item id="l4BKS11ECL1.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="l4BKS11ECL1.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="l4BKS11ECL1.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="l4BKS11ECL1.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="l4BKS11ECL1.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QeN89ol54MD">
+    <text value="Amikacine vial 05 gr disp"/>
+    <type value="group"/>
+    <item id="QeN89ol54MD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FsH6SpmW24g">
+    <text value="R 300mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="FsH6SpmW24g.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P9uUxm9tw6x">
+    <text value="PASER granules_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="P9uUxm9tw6x.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="On4FgWqBoOP">
+    <text value="Seringue a Tuberculine_stockEOQ"/>
+    <type value="group"/>
+    <item id="On4FgWqBoOP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HMFuZumykQs">
+    <text value="Ofloxacine 200 mg stockEOQ"/>
+    <type value="group"/>
+    <item id="HMFuZumykQs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Dlbu3bBgUHX">
+    <text value="Seringues 5ml"/>
+    <type value="group"/>
+    <item id="Dlbu3bBgUHX.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dlbu3bBgUHX.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dlbu3bBgUHX.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dlbu3bBgUHX.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="Dlbu3bBgUHX.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AX4zH7Tkk5e">
+    <text value="RHZE_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="AX4zH7Tkk5e.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="bWQXkue3z2z">
+    <text value="Bleu de Methylene_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="bWQXkue3z2z.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="cujKcwKUdwe">
+    <text value="PYRIDOXINE 100mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="cujKcwKUdwe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Il46kOUevz8">
+    <text value="Auramine_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="Il46kOUevz8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Yzs9ETylX8e">
+    <text value="Auramine_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="Yzs9ETylX8e.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UTAKEm4p4cV">
+    <text value="Lames_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="UTAKEm4p4cV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CaGnkaKW3DR">
+    <text value="Kanamycine  vial 1gr_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="CaGnkaKW3DR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="W28mNF4f13Y">
+    <text value="Capreomycine vial 1gr exp/lost"/>
+    <type value="group"/>
+    <item id="W28mNF4f13Y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="f4bFCv2BaFP">
+    <text value="Pyrazinamide 400 mg_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="f4bFCv2BaFP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="B5we1J65yM0">
+    <text value="Permanganate days stockout"/>
+    <type value="group"/>
+    <item id="B5we1J65yM0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="i3SdGBMMH35">
+    <text value="Prothionamide 250 mg_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="i3SdGBMMH35.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="H4Wo6bNjFyM">
+    <text value="Crachoirs_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="H4Wo6bNjFyM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xkdRDTNdJGW">
+    <text value="Rifabutin 150 mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="xkdRDTNdJGW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qBavBjlR4OO">
+    <text value="Tuberculine_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="qBavBjlR4OO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NHwVwhVn2vv">
+    <text value="RHE_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="NHwVwhVn2vv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FnyZnYcZ7kA">
+    <text value="Clofazimine 100 mg"/>
+    <type value="group"/>
+    <item id="FnyZnYcZ7kA.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="FnyZnYcZ7kA.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="FnyZnYcZ7kA.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="FnyZnYcZ7kA.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="FnyZnYcZ7kA.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Tji09o92p28">
+    <text value="Prothionamide 250 mg exp/lost"/>
+    <type value="group"/>
+    <item id="Tji09o92p28.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iycMsLWaRwF">
+    <text value="RHZ_Qty Received during the quarter"/>
+    <type value="group"/>
+    <item id="iycMsLWaRwF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GhQQBO7H7Pz">
+    <text value="Levofloxacine 250 mg_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="GhQQBO7H7Pz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="zZmRrf3L3Hl">
+    <text value="Fuschine (ML)_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="zZmRrf3L3Hl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VWp4FJWCq4O">
+    <text value="RHE_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="VWp4FJWCq4O.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z8gbxH6q6NJ">
+    <text value="Capreomycine vial 1gr"/>
+    <type value="group"/>
+    <item id="Z8gbxH6q6NJ.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z8gbxH6q6NJ.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z8gbxH6q6NJ.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z8gbxH6q6NJ.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z8gbxH6q6NJ.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vVXoTfS3AW1">
+    <text value="RH (150/75)_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="vVXoTfS3AW1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Q2L8sKgyL4G">
+    <text value="Ethambutol 100 mg days stockout"/>
+    <type value="group"/>
+    <item id="Q2L8sKgyL4G.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jRXCgiawbVU">
+    <text value="Prothionamide 250 mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="jRXCgiawbVU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KV0LgDFdCe0">
+    <text value="Kanamycine  vial 1gr_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="KV0LgDFdCe0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="K3CDJW8AFPt">
+    <text value="Cyclos&#xE9;rine 250 mg exp/lost"/>
+    <type value="group"/>
+    <item id="K3CDJW8AFPt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SjhmFwtyHHS">
+    <text value="RHZE_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="SjhmFwtyHHS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QPDoec6C3Bx">
+    <text value="Clofazimine 100 mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="QPDoec6C3Bx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wUtfzXtUHWX">
+    <text value="Bleu de Methylene_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="wUtfzXtUHWX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iapeGCg4Dmw">
+    <text value="Huile a immersion disp"/>
+    <type value="group"/>
+    <item id="iapeGCg4Dmw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kMBhUDSzXxO">
+    <text value="Prothionamide 250 mg"/>
+    <type value="group"/>
+    <item id="kMBhUDSzXxO.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="kMBhUDSzXxO.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="kMBhUDSzXxO.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="kMBhUDSzXxO.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="kMBhUDSzXxO.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NOKubjLWxTw">
+    <text value="Diluant exp/lost"/>
+    <type value="group"/>
+    <item id="NOKubjLWxTw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XkdlPqffJVE">
+    <text value="PYRIDOXINE_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="XkdlPqffJVE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CXt7jFiyJlM">
+    <text value="Ac Sulfurique stockEOQ"/>
+    <type value="group"/>
+    <item id="CXt7jFiyJlM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="k3Ke52oTc0r">
+    <text value="INH 300mg_Days out of Stock"/>
+    <type value="group"/>
+    <item id="k3Ke52oTc0r.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HKwtOfDH5pZ">
+    <text value="Rifabutin 150 mg__Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="HKwtOfDH5pZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PU0AwkJXMrM">
+    <text value="Ethambutol 400 mg disp"/>
+    <type value="group"/>
+    <item id="PU0AwkJXMrM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oJh3INj7tvn">
+    <text value="Fuschine_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="oJh3INj7tvn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="shV8QCyZf2S">
+    <text value="RHZ"/>
+    <type value="group"/>
+    <item id="shV8QCyZf2S.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="shV8QCyZf2S.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="shV8QCyZf2S.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="shV8QCyZf2S.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="shV8QCyZf2S.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oMVsLaZyO4J">
+    <text value="INH 300mg_Quantity Dispensed during the quarter"/>
+    <type value="group"/>
+    <item id="oMVsLaZyO4J.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nYRfuvxVv3s">
+    <text value="R 150mg_Days out of Stock"/>
+    <type value="group"/>
+    <item id="nYRfuvxVv3s.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eOALRjkqJtW">
+    <text value="Fuschine stockEOQ"/>
+    <type value="group"/>
+    <item id="eOALRjkqJtW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y0EXyx1UDVf">
+    <text value="Cartridges for Xpert"/>
+    <type value="group"/>
+    <item id="y0EXyx1UDVf.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0EXyx1UDVf.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0EXyx1UDVf.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0EXyx1UDVf.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="y0EXyx1UDVf.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rMTEEWMObUi">
+    <text value="Streptomycine disp"/>
+    <type value="group"/>
+    <item id="rMTEEWMObUi.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MC6iHE1fFSH">
+    <text value="RHZ_Date of Expiration"/>
+    <type value="group"/>
+    <item id="MC6iHE1fFSH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="HRYvVzMmdri">
+    <text value="Streptomycine_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="HRYvVzMmdri.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HcHeXPzFZt2">
+    <text value="Ac Sulfurique_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="HcHeXPzFZt2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VyGX1E0fML6">
+    <text value="Seringue a Tuberculine_exp/lost"/>
+    <type value="group"/>
+    <item id="VyGX1E0fML6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="auSyI24veQM">
+    <text value="PYRIDOXINE 100mg disp"/>
+    <type value="group"/>
+    <item id="auSyI24veQM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G2VEwfSR81C">
+    <text value="Capreomycine vial 1gr_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="G2VEwfSR81C.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x6Yi2JGw1kw">
+    <text value="Clofazimine 100 mg stockEOQ"/>
+    <type value="group"/>
+    <item id="x6Yi2JGw1kw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Dj8yJvnK7EI">
+    <text value="Tuberculine_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="Dj8yJvnK7EI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BHbh1qoZO5d">
+    <text value="Auramine stockEOQ"/>
+    <type value="group"/>
+    <item id="BHbh1qoZO5d.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Uhm2rax96ad">
+    <text value="INH_100mg Quantity to be Expired during next quarter "/>
+    <type value="group"/>
+    <item id="Uhm2rax96ad.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lzTZpvSOhpa">
+    <text value="RH (150/75) days stockout"/>
+    <type value="group"/>
+    <item id="lzTZpvSOhpa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="iC6Ga0U4Qlw">
+    <text value="Capreomycine vial 1gr stockEOQ"/>
+    <type value="group"/>
+    <item id="iC6Ga0U4Qlw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OORzbVDKYBc">
+    <text value="Crachoirs_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="OORzbVDKYBc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DeJE1MOnbU1">
+    <text value="Lames disp"/>
+    <type value="group"/>
+    <item id="DeJE1MOnbU1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="d3aMyML5prM">
+    <text value="R 150mg_Stock at End of Quarter"/>
+    <type value="group"/>
+    <item id="d3aMyML5prM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bshgVJwSIvo">
+    <text value="Huile a immersion stockEOQ"/>
+    <type value="group"/>
+    <item id="bshgVJwSIvo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P1fzGXqRofM">
+    <text value="Diluant days stockout"/>
+    <type value="group"/>
+    <item id="P1fzGXqRofM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p4TE7luyoej">
+    <text value="Huile a immersion_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="p4TE7luyoej.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tO6dfACfdZV">
+    <text value="Ethambutol 400 mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="tO6dfACfdZV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZAke7Tnpz6j">
+    <text value="Kanamycine  vial 1gr days stockout"/>
+    <type value="group"/>
+    <item id="ZAke7Tnpz6j.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DlNXSMlNyoJ">
+    <text value="Auramine_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="DlNXSMlNyoJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="Cs359AUKatp">
+    <text value="Seringue a Tuberculine_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="Cs359AUKatp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xCqUeVJrc1j">
+    <text value="INH 100 mg stockEOQ"/>
+    <type value="group"/>
+    <item id="xCqUeVJrc1j.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IICFRxhEnPP">
+    <text value="Alchol (Methanol or Ethanol) (ML) days stockout"/>
+    <type value="group"/>
+    <item id="IICFRxhEnPP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tVu2nCQAk37">
+    <text value="Ethambutol 100 mg Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="tVu2nCQAk37.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="C5dV1xP7C0D">
+    <text value="Ethambutol 100 mg disp"/>
+    <type value="group"/>
+    <item id="C5dV1xP7C0D.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j5WTV99CN6J">
+    <text value="Diluant"/>
+    <type value="group"/>
+    <item id="j5WTV99CN6J.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="j5WTV99CN6J.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="j5WTV99CN6J.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="j5WTV99CN6J.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="j5WTV99CN6J.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xlo3ByDvpiH">
+    <text value="R 300mg_Quantity Expired /Damaged/ Lost"/>
+    <type value="group"/>
+    <item id="Xlo3ByDvpiH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="laQZCRIFBoM">
+    <text value="INH 300 mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="laQZCRIFBoM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YV1PdZcNkcd">
+    <text value="Rifabutin 150 mg_days stockout"/>
+    <type value="group"/>
+    <item id="YV1PdZcNkcd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Cdwz8t2RN2I">
+    <text value="Ethambutol 100mg Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="Cdwz8t2RN2I.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y31gQcLpSym">
+    <text value="Auramine"/>
+    <type value="group"/>
+    <item id="y31gQcLpSym.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="y31gQcLpSym.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="y31gQcLpSym.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="y31gQcLpSym.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="y31gQcLpSym.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qZdb9DntydT">
+    <text value="Moxifloxacine 400 mg_Stock at End of Quarter"/>
+    <type value="group"/>
+    <item id="qZdb9DntydT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="F8P6yLBNRoG">
+    <text value="Tuberculine disp"/>
+    <type value="group"/>
+    <item id="F8P6yLBNRoG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sDctUTHd4Wg">
+    <text value="Ac Chlorhydrique stockEOQ"/>
+    <type value="group"/>
+    <item id="sDctUTHd4Wg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TkVzmHwwE0v">
+    <text value="Streptomycine days stockout"/>
+    <type value="group"/>
+    <item id="TkVzmHwwE0v.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="s1aJkcnxZP7">
+    <text value="RH (150/75)_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="s1aJkcnxZP7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZVgmk9tdoSz">
+    <text value="RH (60/30) Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="ZVgmk9tdoSz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Dh8kCOybazt">
+    <text value="R 300mg_Stock at End of Quarter"/>
+    <type value="group"/>
+    <item id="Dh8kCOybazt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oBqV4DSCMPB">
+    <text value="INH_100mg Date of expiration"/>
+    <type value="group"/>
+    <item id="oBqV4DSCMPB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="l2GjV5OFN3U">
+    <text value="Ethambutol 100 mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="l2GjV5OFN3U.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z8pko4ScUr6">
+    <text value="Amikacine vial 05 gr stockEOQ"/>
+    <type value="group"/>
+    <item id="Z8pko4ScUr6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UswIFK4pT17">
+    <text value="RHZ Date of expiration"/>
+    <type value="group"/>
+    <item id="UswIFK4pT17.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="AjorQJvqaX5">
+    <text value="Ac Sulfurique_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="AjorQJvqaX5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jDOmNCSzi9S">
+    <text value="PYRIDOXINE days stockout"/>
+    <type value="group"/>
+    <item id="jDOmNCSzi9S.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Dm5tjd1q2sU">
+    <text value="Diluant_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="Dm5tjd1q2sU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="Rk0mCSzLAoc">
+    <text value="Ethambutol 400 mg_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="Rk0mCSzLAoc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="ExXXjp9ini0">
+    <text value="Alchol (Methanol or Ethanol) (ML)"/>
+    <type value="group"/>
+    <item id="ExXXjp9ini0.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="ExXXjp9ini0.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="ExXXjp9ini0.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="ExXXjp9ini0.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="ExXXjp9ini0.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cB7rMHlqoTS">
+    <text value="Ethambutol 100 mg exp/lost"/>
+    <type value="group"/>
+    <item id="cB7rMHlqoTS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sJVfhjvVYAh">
+    <text value="Lames_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="sJVfhjvVYAh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IEuFcXaSvY5">
+    <text value="PYRIDOXINE 50mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="IEuFcXaSvY5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Em0y4tmPcym">
+    <text value="Ac Chlorhydrique (ML)_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="Em0y4tmPcym.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CkZemJwCjaY">
+    <text value="RHZE days stockout"/>
+    <type value="group"/>
+    <item id="CkZemJwCjaY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FluNFLlV73c">
+    <text value="Prothionamide 250 mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="FluNFLlV73c.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ugceb6B9Ejy">
+    <text value="RH (60/60) Quantity to be Expired during next quarter "/>
+    <type value="group"/>
+    <item id="Ugceb6B9Ejy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JGmhXTkFNNW">
+    <text value="Alchol (Methanol or Ethanol) (ML)_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="JGmhXTkFNNW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="slK9EcXiWD5">
+    <text value=" Crachoirs_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="slK9EcXiWD5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="sNe5H7CeYtG">
+    <text value="Ethambutol 100 mg Quantity to be Expired during next quarter "/>
+    <type value="group"/>
+    <item id="sNe5H7CeYtG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bnUHgp2kULq">
+    <text value="Cyclos&#xE9;rine 250 mg days stockout"/>
+    <type value="group"/>
+    <item id="bnUHgp2kULq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xYeCxh9cPPq">
+    <text value="Fuschine_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="xYeCxh9cPPq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QMLM6KUG9PQ">
+    <text value="RH (60/30)_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="QMLM6KUG9PQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WFEfeF6of3N">
+    <text value="INH 100 mg Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="WFEfeF6of3N.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HQOPyprj4ru">
+    <text value="Fuschine days stockout"/>
+    <type value="group"/>
+    <item id="HQOPyprj4ru.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ePx0Jb1rYGd">
+    <text value="Kanamycine  vial 1gr_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="ePx0Jb1rYGd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lE80xLSRQgf">
+    <text value="Ac Sulfurique days stockout"/>
+    <type value="group"/>
+    <item id="lE80xLSRQgf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fmuVXR81O0r">
+    <text value="Amikacine vial 05 gr exp/lost"/>
+    <type value="group"/>
+    <item id="fmuVXR81O0r.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="G55G1dMNh8Q">
+    <text value="PYRIDOXINE  exp/lost"/>
+    <type value="group"/>
+    <item id="G55G1dMNh8Q.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bOnzrwOqOz5">
+    <text value="RH (150/75)_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="bOnzrwOqOz5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="A3DAdqLkYR7">
+    <text value="Ofloxacine 200 mg disp"/>
+    <type value="group"/>
+    <item id="A3DAdqLkYR7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S8R92L050Ic">
+    <text value="Auramine days stockout"/>
+    <type value="group"/>
+    <item id="S8R92L050Ic.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jsYI1qBcib9">
+    <text value="Lames stockEOQ"/>
+    <type value="group"/>
+    <item id="jsYI1qBcib9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BwsfpriFTVz">
+    <text value="RH (60/60) Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="BwsfpriFTVz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YvvvfvpbEBY">
+    <text value="Crachoirs_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="YvvvfvpbEBY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zwweKFVCyOp">
+    <text value="Amikacine vial 0 5gr&#9;"/>
+    <type value="group"/>
+    <item id="zwweKFVCyOp.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="zwweKFVCyOp.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="zwweKFVCyOp.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="zwweKFVCyOp.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="zwweKFVCyOp.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cS8bbCS4Tzb">
+    <text value="Ofloxacine 200mg"/>
+    <type value="group"/>
+    <item id="cS8bbCS4Tzb.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="cS8bbCS4Tzb.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="cS8bbCS4Tzb.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="cS8bbCS4Tzb.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="cS8bbCS4Tzb.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xOzY6lGwORE">
+    <text value="Huile a immersion_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="xOzY6lGwORE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="ISNy8dMMxte">
+    <text value="Pyrazinamide 400 mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="ISNy8dMMxte.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PO617YBNmxT">
+    <text value="PYRIDOXINE stockEOQ"/>
+    <type value="group"/>
+    <item id="PO617YBNmxT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DAtqK1IVzVT">
+    <text value="PYRIDOXINE _Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="DAtqK1IVzVT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mvDqQ6QfWt8">
+    <text value="Ethambutol 100 mg stockEOQ"/>
+    <type value="group"/>
+    <item id="mvDqQ6QfWt8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XqfIYAwBWwK">
+    <text value="Streptomycine_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="XqfIYAwBWwK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eDtr8oSrK5Y">
+    <text value="PYRIDOXINE 100mg stockEOQ"/>
+    <type value="group"/>
+    <item id="eDtr8oSrK5Y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="W2dgTIclf7r">
+    <text value="Ethambutol 400 mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="W2dgTIclf7r.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZePWrbfaN11">
+    <text value="Levofloxacine 250 mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="ZePWrbfaN11.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rDvs8FLIKr6">
+    <text value="PYRIDOXINE 50mg_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="rDvs8FLIKr6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="sJbjYi2BXnD">
+    <text value="Huile a immersion exp/lost"/>
+    <type value="group"/>
+    <item id="sJbjYi2BXnD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SVSRHKYKXkX">
+    <text value="PYRIDOXINE 100mg days stockout"/>
+    <type value="group"/>
+    <item id="SVSRHKYKXkX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FfNMcos8qpx">
+    <text value="Ofloxacine 200 mg exp/lost"/>
+    <type value="group"/>
+    <item id="FfNMcos8qpx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kT1vws0WQEZ">
+    <text value="Streptomycine_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="kT1vws0WQEZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="h7lSm4s6Ijc">
+    <text value="Permanganate disp"/>
+    <type value="group"/>
+    <item id="h7lSm4s6Ijc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tgoQqsn1BQ0">
+    <text value="Diluant_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="tgoQqsn1BQ0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gJi9ltmO54j">
+    <text value="Lames exp/lost"/>
+    <type value="group"/>
+    <item id="gJi9ltmO54j.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ylTgcnUfSof">
+    <text value="RH (60/60)"/>
+    <type value="group"/>
+    <item id="ylTgcnUfSof.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="ylTgcnUfSof.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="ylTgcnUfSof.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="ylTgcnUfSof.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="ylTgcnUfSof.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FRCenEhZhYD">
+    <text value="Cartridges for Xpert_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="FRCenEhZhYD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ixjhckFAVTP">
+    <text value="RH (150/75)"/>
+    <type value="group"/>
+    <item id="ixjhckFAVTP.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="ixjhckFAVTP.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="ixjhckFAVTP.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="ixjhckFAVTP.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="ixjhckFAVTP.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WfQJtkyyeJV">
+    <text value="Auramine disp"/>
+    <type value="group"/>
+    <item id="WfQJtkyyeJV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UV7wx8D1RKA">
+    <text value="INH 100 mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="UV7wx8D1RKA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kRz4uT7hEeP">
+    <text value="Ac Sulfurique disp"/>
+    <type value="group"/>
+    <item id="kRz4uT7hEeP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gAQf71r9y6S">
+    <text value="Bleu de M&#xE9;thyl&#xE8;ne (ML)_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="gAQf71r9y6S.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="au9LKGASlbe">
+    <text value="Auramine_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="au9LKGASlbe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NCPmKmmlC4e">
+    <text value="Streptomycine_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="NCPmKmmlC4e.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NxhxqlKHxaX">
+    <text value="Diluant_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="NxhxqlKHxaX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GpiyS9tVKoT">
+    <text value="Pyrazinamide 400 mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="GpiyS9tVKoT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rF3GDoLswCk">
+    <text value="Ac Chlorhydrique (ML)"/>
+    <type value="group"/>
+    <item id="rF3GDoLswCk.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="rF3GDoLswCk.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="rF3GDoLswCk.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="rF3GDoLswCk.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="rF3GDoLswCk.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ga5tvpzEXdA">
+    <text value="Cartridges for Xpert_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="Ga5tvpzEXdA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dhC0e6XFjt6">
+    <text value="Amikacine vial 05 gr days stockout"/>
+    <type value="group"/>
+    <item id="dhC0e6XFjt6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Zjzo8gv6RZD">
+    <text value="Huile a immersion_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="Zjzo8gv6RZD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fln27UPOmYy">
+    <text value="RH (150/75)_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="fln27UPOmYy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WVpUTPS4yKZ">
+    <text value="Levofloxacine 250 mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="WVpUTPS4yKZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o2l3TSr28gB">
+    <text value="Clofazimine 100 mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="o2l3TSr28gB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OVOcD6fVwhD">
+    <text value="Permanganate stockEOQ"/>
+    <type value="group"/>
+    <item id="OVOcD6fVwhD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UUbSEzBV5Ma">
+    <text value="Bleu de Methylene (ML)"/>
+    <type value="group"/>
+    <item id="UUbSEzBV5Ma.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="UUbSEzBV5Ma.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="UUbSEzBV5Ma.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="UUbSEzBV5Ma.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="UUbSEzBV5Ma.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aUkOb6VSmyV">
+    <text value="Huile a immersion_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="aUkOb6VSmyV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XKHhPNn3Otm">
+    <text value="Cartridges for Xpert exp/lost"/>
+    <type value="group"/>
+    <item id="XKHhPNn3Otm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZOleOMY9vDc">
+    <text value="Fuschine_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="ZOleOMY9vDc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EquqvzT7FGe">
+    <text value="PYRIDOXINE 100mg exp/lost"/>
+    <type value="group"/>
+    <item id="EquqvzT7FGe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mszJP5LbxoZ">
+    <text value="RHE stockEOQ"/>
+    <type value="group"/>
+    <item id="mszJP5LbxoZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lYpCny2i7AX">
+    <text value="R 300mg_Days out of Stock"/>
+    <type value="group"/>
+    <item id="lYpCny2i7AX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tIeoqweJAAP">
+    <text value="Capreomycine vial 1gr days stockout"/>
+    <type value="group"/>
+    <item id="tIeoqweJAAP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NtWagHGqn4g">
+    <text value="RH (60/30) Date of expiration"/>
+    <type value="group"/>
+    <item id="NtWagHGqn4g.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="RIQ8qyDZz3J">
+    <text value="PYRIDOXINE 100mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="RIQ8qyDZz3J.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DNdE9mRJUMS">
+    <text value="Pyrazinamide 400 mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="DNdE9mRJUMS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z1SBG3GkMjR">
+    <text value="Ethambutol 400 mg stockEOQ"/>
+    <type value="group"/>
+    <item id="Z1SBG3GkMjR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MsWKPb7dlaW">
+    <text value="Streptomycine stockEOQ"/>
+    <type value="group"/>
+    <item id="MsWKPb7dlaW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HLOn9Mgz0px">
+    <text value="Diluant disp"/>
+    <type value="group"/>
+    <item id="HLOn9Mgz0px.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RNIb6q8DjVD">
+    <text value="Cartridges for Xpert_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="RNIb6q8DjVD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pGkDnjPoban">
+    <text value="PYRIDOXINE 100mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="pGkDnjPoban.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jlBbpkzWuOO">
+    <text value="Streptomycine"/>
+    <type value="group"/>
+    <item id="jlBbpkzWuOO.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="jlBbpkzWuOO.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="jlBbpkzWuOO.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="jlBbpkzWuOO.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="jlBbpkzWuOO.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BbZyzagUvz5">
+    <text value="RHZ days stockout"/>
+    <type value="group"/>
+    <item id="BbZyzagUvz5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="on6siXWYKA5">
+    <text value="RHZE_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="on6siXWYKA5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S45IOlb1nUw">
+    <text value="Pyrazinamide 400 mg disp"/>
+    <type value="group"/>
+    <item id="S45IOlb1nUw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AX9YxMO1Tc9">
+    <text value="Permanganate_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="AX9YxMO1Tc9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Oiu0yaAenj7">
+    <text value="RH (60/30) exp/lost"/>
+    <type value="group"/>
+    <item id="Oiu0yaAenj7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cKlZJAYE1A5">
+    <text value="Cartridges for Xpert disp"/>
+    <type value="group"/>
+    <item id="cKlZJAYE1A5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="J7LhoU6LBxa">
+    <text value="RHE_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="J7LhoU6LBxa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wSUQRy8cG6Z">
+    <text value="Moxifloxacine 400 mg_Quantity Dispensed during the quarter"/>
+    <type value="group"/>
+    <item id="wSUQRy8cG6Z.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wsSD4roBFfK">
+    <text value="RHZ disp"/>
+    <type value="group"/>
+    <item id="wsSD4roBFfK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mMkfISAXLZg">
+    <text value="RH (150/75) exp/lost"/>
+    <type value="group"/>
+    <item id="mMkfISAXLZg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h1HwHWafhAq">
+    <text value="Cycloserine 250 mg"/>
+    <type value="group"/>
+    <item id="h1HwHWafhAq.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="h1HwHWafhAq.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="h1HwHWafhAq.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="h1HwHWafhAq.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="h1HwHWafhAq.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HrFGu66tHaP">
+    <text value="Crachoirs"/>
+    <type value="group"/>
+    <item id="HrFGu66tHaP.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="HrFGu66tHaP.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="HrFGu66tHaP.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="HrFGu66tHaP.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="HrFGu66tHaP.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RC0ugC9Zpoh">
+    <text value="Bleu de Methylene (ML)_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="RC0ugC9Zpoh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GQfiaCqRPtm">
+    <text value="Cycloserine 250 mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="GQfiaCqRPtm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x1voRHGn4tM">
+    <text value="Moxifloxacine 400 mg_Quantity Expired /Damaged/ Lost"/>
+    <type value="group"/>
+    <item id="x1voRHGn4tM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="C8SpWF2GwQF">
+    <text value="RHZE exp/lost"/>
+    <type value="group"/>
+    <item id="C8SpWF2GwQF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nr5uIqdwcB6">
+    <text value="Kanamycine  vial 1gr_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="nr5uIqdwcB6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FRWbrN7awMv">
+    <text value="RHZE_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="FRWbrN7awMv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="leYIWqIsVrl">
+    <text value="RHE disp"/>
+    <type value="group"/>
+    <item id="leYIWqIsVrl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="N52NfBjc4Rd">
+    <text value="Kanamycine  vial 1gr"/>
+    <type value="group"/>
+    <item id="N52NfBjc4Rd.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="N52NfBjc4Rd.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="N52NfBjc4Rd.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="N52NfBjc4Rd.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="N52NfBjc4Rd.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wltY9DNGrSd">
+    <text value="RHE_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="wltY9DNGrSd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OR061jv8LQ3">
+    <text value="Moxifloxacine 400 mg"/>
+    <type value="group"/>
+    <item id="OR061jv8LQ3.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="OR061jv8LQ3.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="OR061jv8LQ3.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="OR061jv8LQ3.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="OR061jv8LQ3.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Y6TZACuA9Gq">
+    <text value="RHZ_Qty to be expired next quarter"/>
+    <type value="group"/>
+    <item id="Y6TZACuA9Gq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="enOX9TocQuf">
+    <text value="Moxifloxacine 400 mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="enOX9TocQuf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QU7wikTnyR3">
+    <text value="PASER granul&#xE9;s disp"/>
+    <type value="group"/>
+    <item id="QU7wikTnyR3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CL48xDWENeX">
+    <text value="RH (150/75)_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="CL48xDWENeX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tG8p1ImbyFn">
+    <text value="Crachoirs disp"/>
+    <type value="group"/>
+    <item id="tG8p1ImbyFn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OnTqTVRzfES">
+    <text value="Ofloxacine 200 mg-Quantity to be Expired during next quarter-Date"/>
+    <type value="group"/>
+    <item id="OnTqTVRzfES.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="fUlghqoS8pL">
+    <text value="Ac Sulfurique_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="fUlghqoS8pL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="yQbjHA7omd5">
+    <text value="Lames_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="yQbjHA7omd5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="dVvcvGBGSev">
+    <text value="Ac Sulfurique (ML)_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="dVvcvGBGSev.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jV0HUki5prE">
+    <text value="Permanganate"/>
+    <type value="group"/>
+    <item id="jV0HUki5prE.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="jV0HUki5prE.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="jV0HUki5prE.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="jV0HUki5prE.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="jV0HUki5prE.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XLMmYfGdeNb">
+    <text value="Permanganate_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="XLMmYfGdeNb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HEP2gCZN2h9">
+    <text value="Huile a immersion days stockout"/>
+    <type value="group"/>
+    <item id="HEP2gCZN2h9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NmmJGxWQYF5">
+    <text value="Tuberculine_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="NmmJGxWQYF5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EiDhTyAqbvn">
+    <text value="Permanganate exp/lost"/>
+    <type value="group"/>
+    <item id="EiDhTyAqbvn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IKpKR3tb3YL">
+    <text value="Prothionamide 250 mg stockEOQ"/>
+    <type value="group"/>
+    <item id="IKpKR3tb3YL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ek8rroHUQ9g">
+    <text value="Cyclos&#xE9;rine 250 mg stockEOQ"/>
+    <type value="group"/>
+    <item id="ek8rroHUQ9g.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Fz0qEmqICaw">
+    <text value="INH 300mg_Stock at End of Quarter"/>
+    <type value="group"/>
+    <item id="Fz0qEmqICaw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wiET6evZcQp">
+    <text value="Rifabutin 150 mg disp"/>
+    <type value="group"/>
+    <item id="wiET6evZcQp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TNIFO6To04U">
+    <text value="Cartridges for Xpert days stockout"/>
+    <type value="group"/>
+    <item id="TNIFO6To04U.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DZiNdO6jmR8">
+    <text value="Cycloserine 250 mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="DZiNdO6jmR8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jAw2uChiEHA">
+    <text value="Ac Chlorhydrique_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="jAw2uChiEHA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nAay52iDMyC">
+    <text value="Lames"/>
+    <type value="group"/>
+    <item id="nAay52iDMyC.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="nAay52iDMyC.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="nAay52iDMyC.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="nAay52iDMyC.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="nAay52iDMyC.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TP1lBHZiq84">
+    <text value="Seringues_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="TP1lBHZiq84.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="E4sDhe13CVP">
+    <text value="R 150mg_Quantity Expired /Damaged/ Lost"/>
+    <type value="group"/>
+    <item id="E4sDhe13CVP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p8NeTi4TSKQ">
+    <text value="PYRIDOXINE_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="p8NeTi4TSKQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xdrFUbEIBlv">
+    <text value="Cycloserine 250 mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="xdrFUbEIBlv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="loHFvEdxYrh">
+    <text value="Capreomycine vial 1gr_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="loHFvEdxYrh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="xitgVRmrHBw">
+    <text value="PYRIDOXINE 100mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="xitgVRmrHBw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FU395XCpCe8">
+    <text value="Permanganate_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="FU395XCpCe8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="inU4oXNjLLI">
+    <text value="Ac Chlorhydrique exp/lost"/>
+    <type value="group"/>
+    <item id="inU4oXNjLLI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LU25De0TLJE">
+    <text value="INH 300mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="LU25De0TLJE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ybxg1qUxnOH">
+    <text value="Lames_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="Ybxg1qUxnOH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qhx60Kg1ZFA">
+    <text value="INH 300 mg"/>
+    <type value="group"/>
+    <item id="qhx60Kg1ZFA.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="qhx60Kg1ZFA.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="qhx60Kg1ZFA.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="qhx60Kg1ZFA.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="qhx60Kg1ZFA.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IZOiaF50Szv">
+    <text value="Rifabutin 150 mg stockEOQ"/>
+    <type value="group"/>
+    <item id="IZOiaF50Szv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BOkqPDbbnn4">
+    <text value="PYRIDOXINE_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="BOkqPDbbnn4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="vFenvQSwFh6">
+    <text value="Kanamycine  vial 1gr exp/lost"/>
+    <type value="group"/>
+    <item id="vFenvQSwFh6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XoDVXMAUHZr">
+    <text value="PASER granules"/>
+    <type value="group"/>
+    <item id="XoDVXMAUHZr.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="XoDVXMAUHZr.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="XoDVXMAUHZr.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="XoDVXMAUHZr.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="XoDVXMAUHZr.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GAKiACFlPPF">
+    <text value="Alchol (Methanol or Ethanol) (ML)_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="GAKiACFlPPF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SnvUSNKFpdF">
+    <text value="Levofloxacine 250 mg"/>
+    <type value="group"/>
+    <item id="SnvUSNKFpdF.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="SnvUSNKFpdF.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="SnvUSNKFpdF.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="SnvUSNKFpdF.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="SnvUSNKFpdF.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h91EM5jatH2">
+    <text value="RH (150/75) disp"/>
+    <type value="group"/>
+    <item id="h91EM5jatH2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kgKRuxG7g4A">
+    <text value="Ac Sulfurique (ML)"/>
+    <type value="group"/>
+    <item id="kgKRuxG7g4A.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="kgKRuxG7g4A.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="kgKRuxG7g4A.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="kgKRuxG7g4A.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="kgKRuxG7g4A.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RQBLGC43LoZ">
+    <text value="INH 300mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="RQBLGC43LoZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QISrbAYQAJ2">
+    <text value="Seringues_Quantity to be Expired during next quarter_Date "/>
+    <type value="group"/>
+    <item id="QISrbAYQAJ2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="Dku6AtIXMsK">
+    <text value="R 150mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="Dku6AtIXMsK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VKkRVtcbWBB">
+    <text value="Pyrazinamide 400 mg exp/lost"/>
+    <type value="group"/>
+    <item id="VKkRVtcbWBB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ust91fXU0Dy">
+    <text value="INH 100 mg days stockout"/>
+    <type value="group"/>
+    <item id="ust91fXU0Dy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JvADhMA6Qo0">
+    <text value="Amikacine vial 0 5gr_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="JvADhMA6Qo0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c8tPZfYmgmB">
+    <text value="PYRIDOXINE 50mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="c8tPZfYmgmB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Eu9WsacSQeV">
+    <text value="RHE_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="Eu9WsacSQeV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="ndrnRCHJe6l">
+    <text value="INH 300mg_Quantity Expired /Damaged/ Lost"/>
+    <type value="group"/>
+    <item id="ndrnRCHJe6l.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oaoqqIxcBh0">
+    <text value="Diluant stockEOQ"/>
+    <type value="group"/>
+    <item id="oaoqqIxcBh0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vMr6RVbCzN5">
+    <text value="INH 100 mg Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="vMr6RVbCzN5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SwJTAQx8sWo">
+    <text value="Rifabutin 150 mg Stock end of quarter"/>
+    <type value="group"/>
+    <item id="SwJTAQx8sWo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wJgPY2ufQcd">
+    <text value="Capreomycine vial 1gr_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="wJgPY2ufQcd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yDHUwbb0gz3">
+    <text value="Levofloxacine 250 mg exp/lost"/>
+    <type value="group"/>
+    <item id="yDHUwbb0gz3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HtoJklYMS0Z">
+    <text value="Bleu de M&#xE9;thyl&#xE8;ne days stockout"/>
+    <type value="group"/>
+    <item id="HtoJklYMS0Z.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vp7J8xwHkWD">
+    <text value="Cartridges for Xpert_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="vp7J8xwHkWD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="h3Xq3ahEYXY">
+    <text value="Crachoirs days stockout"/>
+    <type value="group"/>
+    <item id="h3Xq3ahEYXY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LHryp5t0z4p">
+    <text value="Ofloxacine 200 mg-Quantity to be Expired during next quarter-Quantity"/>
+    <type value="group"/>
+    <item id="LHryp5t0z4p.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QxX6WFKtoPK">
+    <text value="Seringues_Stock at End of Quarter"/>
+    <type value="group"/>
+    <item id="QxX6WFKtoPK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xV9udrIv88F">
+    <text value="Bleu de Methylene _Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="xV9udrIv88F.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RwcwSvjDBPq">
+    <text value="Ethambutol 400 mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="RwcwSvjDBPq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JvxSZfj2Xgj">
+    <text value="Seringues_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="JvxSZfj2Xgj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YChlE47uC5g">
+    <text value="Capreomycine vial 1gr_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="YChlE47uC5g.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LwWJGCfq51o">
+    <text value="INH 300mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="LwWJGCfq51o.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kgUUxhKcCq1">
+    <text value="Alchol (Methanol or Ethanol) (ML) stockEOQ"/>
+    <type value="group"/>
+    <item id="kgUUxhKcCq1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XGBXWuaczqV">
+    <text value="Streptomycine exp/lost"/>
+    <type value="group"/>
+    <item id="XGBXWuaczqV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VJGPBh0o4HY">
+    <text value="Pyrazinamide 400 mg days stockout"/>
+    <type value="group"/>
+    <item id="VJGPBh0o4HY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AWZArGu71UJ">
+    <text value="Prothionamide 250 mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="AWZArGu71UJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="f8pUUZxrcTS">
+    <text value="Capreomycine vial 1gr_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="f8pUUZxrcTS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lgaDtK6lbwR">
+    <text value="RHZ_Qty at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="lgaDtK6lbwR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aY7w8ojy6jO">
+    <text value="Clofazimine 100 mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="aY7w8ojy6jO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XSVtO3IGoJb">
+    <text value="Rifabutin 150 mg_Exip/Lost"/>
+    <type value="group"/>
+    <item id="XSVtO3IGoJb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z5V90SP2wfI">
+    <text value="PYRIDOXINE 100mg"/>
+    <type value="group"/>
+    <item id="Z5V90SP2wfI.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z5V90SP2wfI.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z5V90SP2wfI.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z5V90SP2wfI.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="Z5V90SP2wfI.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jANXwJWTa0D">
+    <text value="R 150mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="jANXwJWTa0D.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="n0PkmyNzx0s">
+    <text value="R 150mgQuantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="n0PkmyNzx0s.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="gSTiQIYilRA">
+    <text value="Bleu de M&#xE9;thyl&#xE8;ne stockEOQ"/>
+    <type value="group"/>
+    <item id="gSTiQIYilRA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YcgO69rU2x2">
+    <text value="R 150mg_Quantity Dispensed during the quarter"/>
+    <type value="group"/>
+    <item id="YcgO69rU2x2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D2Psa3eK4FQ">
+    <text value="RHZ stockEOQ"/>
+    <type value="group"/>
+    <item id="D2Psa3eK4FQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DBl4qi4Vc0O">
+    <text value="Crachoirs exp/lost"/>
+    <type value="group"/>
+    <item id="DBl4qi4Vc0O.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="n5XgwzUTxQU">
+    <text value="Diluant_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="n5XgwzUTxQU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KuRdtCGXZg7">
+    <text value="R 300mg_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="KuRdtCGXZg7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="ZPrCuFQiIUT">
+    <text value="RH (60/60) Days out of Stock"/>
+    <type value="group"/>
+    <item id="ZPrCuFQiIUT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Wiv84ZOWK7b">
+    <text value="RH (60/60)_exp/lost"/>
+    <type value="group"/>
+    <item id="Wiv84ZOWK7b.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lUBU4WyOiPq">
+    <text value="Tuberculine exp/lost"/>
+    <type value="group"/>
+    <item id="lUBU4WyOiPq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BOcOBxRxev4">
+    <text value="RHE days stockout"/>
+    <type value="group"/>
+    <item id="BOcOBxRxev4.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WxCMjVLMc1c">
+    <text value="Moxifloxacine 400 mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="WxCMjVLMc1c.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IYJbCkt6VEg">
+    <text value="Amikacine vial 0,5 gr_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="IYJbCkt6VEg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zmf3gtGzJFq">
+    <text value="R 300mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="zmf3gtGzJFq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x9kULHNF4KS">
+    <text value="Auramine exp/lost"/>
+    <type value="group"/>
+    <item id="x9kULHNF4KS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p5OJYVIChQL">
+    <text value="Ac Chlorhydrique_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="p5OJYVIChQL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hFM6oyjzOEe">
+    <text value="Tuberculine days stockout"/>
+    <type value="group"/>
+    <item id="hFM6oyjzOEe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RXo1QIgTV2m">
+    <text value="INH 100 mg"/>
+    <type value="group"/>
+    <item id="RXo1QIgTV2m.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="RXo1QIgTV2m.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="RXo1QIgTV2m.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="RXo1QIgTV2m.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="RXo1QIgTV2m.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="giLgbJcLcLQ">
+    <text value="R 300mg_Quantity Dispensed during the quarter"/>
+    <type value="group"/>
+    <item id="giLgbJcLcLQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nLqrRcFx0TJ">
+    <text value="RH (60/30) disp"/>
+    <type value="group"/>
+    <item id="nLqrRcFx0TJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FncuZC0SWUQ">
+    <text value="Ethambutol 400 mg"/>
+    <type value="group"/>
+    <item id="FncuZC0SWUQ.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="FncuZC0SWUQ.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="FncuZC0SWUQ.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="FncuZC0SWUQ.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="FncuZC0SWUQ.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bTJdeOU0lxM">
+    <text value="PASER granules_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="bTJdeOU0lxM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JbRoQrni0u5">
+    <text value="Bleu de M&#xE9;thyl&#xE8;ne exp/lost"/>
+    <type value="group"/>
+    <item id="JbRoQrni0u5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JYOH6izl6RV">
+    <text value="Rifabutin 150 mg Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="JYOH6izl6RV.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mQx3xBPdUsy">
+    <text value="Seringue a Tuberculine_days stockout"/>
+    <type value="group"/>
+    <item id="mQx3xBPdUsy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="erTvgXEg79C">
+    <text value="PYRIDOXINE 50mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="erTvgXEg79C.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="l4Z7Q61RPuq">
+    <text value="Pyrazinamide 400 mg"/>
+    <type value="group"/>
+    <item id="l4Z7Q61RPuq.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="l4Z7Q61RPuq.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="l4Z7Q61RPuq.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="l4Z7Q61RPuq.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="l4Z7Q61RPuq.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pOocuZXuNNT">
+    <text value="Clofazimine 100 mg_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="pOocuZXuNNT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="FDRTxVFnyDd">
+    <text value="RH (150/75) stockEOQ"/>
+    <type value="group"/>
+    <item id="FDRTxVFnyDd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WWoDP79JIPK">
+    <text value="RHZ exp/lost"/>
+    <type value="group"/>
+    <item id="WWoDP79JIPK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sPCs141QL3p">
+    <text value="RHE exp/lost"/>
+    <type value="group"/>
+    <item id="sPCs141QL3p.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p8eOSIehnqc">
+    <text value="Amikacine vial 0,5 gr_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="p8eOSIehnqc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Hildvz7S7Cs">
+    <text value="Seringues_Quantity Dispensed during the quarter"/>
+    <type value="group"/>
+    <item id="Hildvz7S7Cs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bVzPRirl6HO">
+    <text value="Seringues_exp/lost"/>
+    <type value="group"/>
+    <item id="bVzPRirl6HO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rEpQ66ki3x3">
+    <text value="Pyrazinamide 400 mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="rEpQ66ki3x3.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AFHJJaWfagS">
+    <text value="Rifabutin 150 mg"/>
+    <type value="group"/>
+    <item id="AFHJJaWfagS.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="AFHJJaWfagS.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="AFHJJaWfagS.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="AFHJJaWfagS.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="AFHJJaWfagS.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rhsP3jof1uZ">
+    <text value="Seringue a Tuberculine_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="rhsP3jof1uZ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="k2L2J4igBXL">
+    <text value="Amikacine vial 0,5 gr_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="k2L2J4igBXL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="G5XJXwcPkBI">
+    <text value="Clofazimine 100 mg disp"/>
+    <type value="group"/>
+    <item id="G5XJXwcPkBI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pBGRFsJ3nqL">
+    <text value="INH 100 mg disp"/>
+    <type value="group"/>
+    <item id="pBGRFsJ3nqL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z0SHFvnxy0u">
+    <text value="Fuschine exp/lost"/>
+    <type value="group"/>
+    <item id="Z0SHFvnxy0u.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ptZUMr3olCe">
+    <text value="Moxifloxacine 400 mg_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="ptZUMr3olCe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NnvnNraEpvj">
+    <text value="PYRIDOXINE 50mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="NnvnNraEpvj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RdFPW9kEbwK">
+    <text value="Levofloxacine 250 mg stockEOQ"/>
+    <type value="group"/>
+    <item id="RdFPW9kEbwK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fr8ulcpK948">
+    <text value="PASER granul&#xE9;s days stockout"/>
+    <type value="group"/>
+    <item id="fr8ulcpK948.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mKT9OIogcUB">
+    <text value="Kanamycine  vial 1gr disp"/>
+    <type value="group"/>
+    <item id="mKT9OIogcUB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wY5OWAMPxdY">
+    <text value="Kanamycine  vial 1gr_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="wY5OWAMPxdY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MfTYPoTwfyW">
+    <text value="PYRIDOXINE 50mg exp/lost"/>
+    <type value="group"/>
+    <item id="MfTYPoTwfyW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hoWX30NXPNU">
+    <text value="INH 300mg_Quantity to be Expired during next quarter_Date "/>
+    <type value="group"/>
+    <item id="hoWX30NXPNU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="ChUZlcK5C8w">
+    <text value="Capreomycine vial 1gr disp"/>
+    <type value="group"/>
+    <item id="ChUZlcK5C8w.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ThfdwolDKm5">
+    <text value="Crachoirs stockEOQ"/>
+    <type value="group"/>
+    <item id="ThfdwolDKm5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Pp7qz7PVk8T">
+    <text value="Prothionamide 250 mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="Pp7qz7PVk8T.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="or6gqEgTYVh">
+    <text value="PASER PASER granules_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="or6gqEgTYVh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dEgiv2uZItQ">
+    <text value="PYRIDOXINE 50mg days stockout"/>
+    <type value="group"/>
+    <item id="dEgiv2uZItQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="R2vzwbXhvME">
+    <text value="RHZE stockEOQ"/>
+    <type value="group"/>
+    <item id="R2vzwbXhvME.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Rk5S3iAOjqU">
+    <text value="RHZE"/>
+    <type value="group"/>
+    <item id="Rk5S3iAOjqU.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="Rk5S3iAOjqU.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="Rk5S3iAOjqU.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="Rk5S3iAOjqU.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="Rk5S3iAOjqU.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MrpuzrPjobh">
+    <text value="Ethambutol 100 mg"/>
+    <type value="group"/>
+    <item id="MrpuzrPjobh.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="MrpuzrPjobh.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="MrpuzrPjobh.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="MrpuzrPjobh.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="MrpuzrPjobh.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kh8XUZhuzhj">
+    <text value="Prothionamide 250 mg days stockout"/>
+    <type value="group"/>
+    <item id="kh8XUZhuzhj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PnD78QU6HTX">
+    <text value="Tuberculine_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="PnD78QU6HTX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ti9d4027qvL">
+    <text value="Moxifloxacine 400 mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="ti9d4027qvL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="D3nqKWlowl0">
+    <text value="RHZ_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="D3nqKWlowl0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="T7hIcGf9B2J">
+    <text value="Alchol (Methanol or Ethanol) (ML)_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="T7hIcGf9B2J.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IWDRmIhVl0u">
+    <text value="Pyrazinamide 400 mg stockEOQ"/>
+    <type value="group"/>
+    <item id="IWDRmIhVl0u.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="SERpHeeFRei">
+    <text value="Cyclos&#xE9;rine 250 mg disp"/>
+    <type value="group"/>
+    <item id="SERpHeeFRei.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="BN6AdmDPW7D">
+    <text value="Ac. Sulfurique_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="BN6AdmDPW7D.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wdqwNktJPVG">
+    <text value="RH (60/60) Stock at End of Quarter"/>
+    <type value="group"/>
+    <item id="wdqwNktJPVG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XPmM0EMakLQ">
+    <text value="Bleu de Methylene_Quantity recieved during the quarter"/>
+    <type value="group"/>
+    <item id="XPmM0EMakLQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ESDY2RNzwCo">
+    <text value="Alchol (Methanol or Ethanol) (ML) exp/lost"/>
+    <type value="group"/>
+    <item id="ESDY2RNzwCo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WoqGBExxtuX">
+    <text value="RH (60/60) Quantity Dispensed during the quarter"/>
+    <type value="group"/>
+    <item id="WoqGBExxtuX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DficW5nK4sK">
+    <text value="Ac Chlorhydrique_Quantity to be expired during next quarter_Data of expiration"/>
+    <type value="group"/>
+    <item id="DficW5nK4sK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="PsaZhPstn3K">
+    <text value="Ac Sulfurique exp/lost"/>
+    <type value="group"/>
+    <item id="PsaZhPstn3K.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OCnTpbWQiUo">
+    <text value="Ac Chlorhydrique_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="OCnTpbWQiUo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S2MjB4kCqdk">
+    <text value="Amikacine vial 0,5 gr_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="S2MjB4kCqdk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wxzxlo1Mjob">
+    <text value="Ethambutol 400 mg exp/lost"/>
+    <type value="group"/>
+    <item id="wxzxlo1Mjob.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OXDQVz2pyfj">
+    <text value="PYRIDOXINE 50mg disp"/>
+    <type value="group"/>
+    <item id="OXDQVz2pyfj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pEIWtq3ydre">
+    <text value="R 150mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="pEIWtq3ydre.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IVYwP4Btm7P">
+    <text value="RHZE_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="IVYwP4Btm7P.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zP46lTgpIbl">
+    <text value="Clofazimine 100 mg exp/lost"/>
+    <type value="group"/>
+    <item id="zP46lTgpIbl.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Nhgda9S67Ec">
+    <text value="Clofazimine 100 mg days stockout"/>
+    <type value="group"/>
+    <item id="Nhgda9S67Ec.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ZaXb7Pbq9k1">
+    <text value="Kanamycine  vial 1gr stockEOQ"/>
+    <type value="group"/>
+    <item id="ZaXb7Pbq9k1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TXwF6MJQQ6I">
+    <text value="Levofloxacine 250 mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="TXwF6MJQQ6I.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YDh0D46jnxu">
+    <text value="Levofloxacine 250 mg_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="YDh0D46jnxu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sbheMmf84W5">
+    <text value="RH (60/30) Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="sbheMmf84W5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OOmhIBskuxT">
+    <text value="RH_60/60_Date of expiration"/>
+    <type value="group"/>
+    <item id="OOmhIBskuxT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="NryoXd89Dyw">
+    <text value="Ac Sulfurique_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="NryoXd89Dyw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wugfY0YSTlq">
+    <text value="Ofloxacine 200mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="wugfY0YSTlq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xHefYqcZJcH">
+    <text value="PYRIDOXINE disp"/>
+    <type value="group"/>
+    <item id="xHefYqcZJcH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jYQlnJCiehy">
+    <text value="Seringues_Days out of Stock"/>
+    <type value="group"/>
+    <item id="jYQlnJCiehy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Gvp5YRwD4gW">
+    <text value="Auramine_Quantity at the beginning of the quarter"/>
+    <type value="group"/>
+    <item id="Gvp5YRwD4gW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="NGJoH10DzQS">
+    <text value="Moxifloxacine 400 mg_Days out of Stock"/>
+    <type value="group"/>
+    <item id="NGJoH10DzQS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ycGwIPLVant">
+    <text value="Cycloserine 250 mg_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="ycGwIPLVant.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="mRQIY2m3XbM">
+    <text value="Ac Chlorhydrique disp"/>
+    <type value="group"/>
+    <item id="mRQIY2m3XbM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XioRdFtOYbp">
+    <text value="PASER granules_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="XioRdFtOYbp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="nhtFQUXKx9r">
+    <text value="Ethambutol 400 mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="nhtFQUXKx9r.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DrBad2PzKMe">
+    <text value="PYRIDOXINE 50mg stockEOQ"/>
+    <type value="group"/>
+    <item id="DrBad2PzKMe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="o6vrqUni3uF">
+    <text value="Cartridges for Xpert stockEOQ"/>
+    <type value="group"/>
+    <item id="o6vrqUni3uF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="I9QaKnCRBT8">
+    <text value="R 300mg_Quantity to be Expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="I9QaKnCRBT8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yDvxO9jYTnf">
+    <text value="Seringues_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="yDvxO9jYTnf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oBr6Vyq7Pxp">
+    <text value="Streptomycine_Quantity at the beginning the quarter"/>
+    <type value="group"/>
+    <item id="oBr6Vyq7Pxp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sdwzclKdvWA">
+    <text value="RH (60/30) stockEOQ"/>
+    <type value="group"/>
+    <item id="sdwzclKdvWA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="E2kafW1lDcA">
+    <text value="Ac Chlorhydrique days stockout"/>
+    <type value="group"/>
+    <item id="E2kafW1lDcA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bl4PqDT5MSf">
+    <text value="Cycloserine 250 mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="bl4PqDT5MSf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mOKCvho2l0q">
+    <text value="Ethambutol 100 mg Date of expiration"/>
+    <type value="group"/>
+    <item id="mOKCvho2l0q.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="lICzqWA9DRz">
+    <text value="PYRIDOXINE 100mg_Quantity to be Expired during next quarter_Date"/>
+    <type value="group"/>
+    <item id="lICzqWA9DRz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="date"/>
+    </item>
+  </item>
+  <item id="ox4qEO7Cmda">
+    <text value="Diluant_Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="ox4qEO7Cmda.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oeLdE0tSDm1">
+    <text value="Fuschine (ML)"/>
+    <type value="group"/>
+    <item id="oeLdE0tSDm1.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="oeLdE0tSDm1.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="oeLdE0tSDm1.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="oeLdE0tSDm1.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="oeLdE0tSDm1.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MscDbjwZVtM">
+    <text value="RH (60/30)"/>
+    <type value="group"/>
+    <item id="MscDbjwZVtM.zjnfdIK11ba">
+      <text value="endommage"/>
+      <type value="integer"/>
+    </item>
+    <item id="MscDbjwZVtM.wBYaPOAi7yV">
+      <text value="vole"/>
+      <type value="integer"/>
+    </item>
+    <item id="MscDbjwZVtM.ZLnZ8BVf1tl">
+      <text value="perime"/>
+      <type value="integer"/>
+    </item>
+    <item id="MscDbjwZVtM.wQZjS9i8eo2">
+      <text value="emprunte"/>
+      <type value="integer"/>
+    </item>
+    <item id="MscDbjwZVtM.hHEHpwVEJkf">
+      <text value="prete"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="jaM4yVvSOpM">
+    <text value="Bleu de M&#xE9;thyl&#xE8;ne disp"/>
+    <type value="group"/>
+    <item id="jaM4yVvSOpM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LFA5LvfizEH">
+    <text value="Clofazimine 100 mg_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="LFA5LvfizEH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dFe7aldsXLP">
+    <text value="Ethambutol 400 mg days stockout"/>
+    <type value="group"/>
+    <item id="dFe7aldsXLP.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="g0TfA37bddr">
+    <text value="Lames_Quantity to be expired during next quarter_Quantity"/>
+    <type value="group"/>
+    <item id="g0TfA37bddr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XZjwzbKn14u">
+    <text value="Ofloxacine 200 mg-Quantity received during the quarter"/>
+    <type value="group"/>
+    <item id="XZjwzbKn14u.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qrd7Wt8xSwI">
+    <text value="PASER granul&#xE9;s stockEOQ"/>
+    <type value="group"/>
+    <item id="qrd7Wt8xSwI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OBBXNrZMqpw">
+    <text value="Levofloxacine 250 mg days stockout"/>
+    <type value="group"/>
+    <item id="OBBXNrZMqpw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DDgzxzqkcRI">
+    <text value="Tuberculine stockEOQ"/>
+    <type value="group"/>
+    <item id="DDgzxzqkcRI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="n6HcIJxjbk1">
+    <text value="PASER granul&#xE9;s exp/lost"/>
+    <type value="group"/>
+    <item id="n6HcIJxjbk1.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XH5sQssu4bH">
+    <text value="Seringues 5ml_Stock end of quarter"/>
+    <type value="group"/>
+    <item id="XH5sQssu4bH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

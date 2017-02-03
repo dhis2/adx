@@ -1,0 +1,567 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="DAC1J5fYmMV"/>
+  <status value="published"/>
+  <title value="DH Family Planning"/>
+  <item id="rMLOXMYE9UA">
+    <text value="FP_Implants stock Distributed"/>
+    <type value="group"/>
+    <item id="rMLOXMYE9UA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TtZ2Ax5xqpD">
+    <text value="FP_Cycle beads stopped FP"/>
+    <type value="group"/>
+    <item id="TtZ2Ax5xqpD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="llIlmBo7dlS">
+    <text value="FP_Auto-observation  Users EOM"/>
+    <type value="group"/>
+    <item id="llIlmBo7dlS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="S6XOsMg3VWn">
+    <text value="FP_Male condoms Days stockout"/>
+    <type value="group"/>
+    <item id="S6XOsMg3VWn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="VmJGfYDgM8E">
+    <text value="FP_Other barrier methods_gel diaphram_stock Distributed"/>
+    <type value="group"/>
+    <item id="VmJGfYDgM8E.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hVZVN0FSFYJ">
+    <text value="FP_Other barrier methods_gel diaphram_stock"/>
+    <type value="group"/>
+    <item id="hVZVN0FSFYJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FBoXrJz9prq">
+    <text value="FP InjectablesNorristerat stopped FP"/>
+    <type value="group"/>
+    <item id="FBoXrJz9prq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="pPVwb0DUyzb">
+    <text value="FP_Cycle beads stock Distributed"/>
+    <type value="group"/>
+    <item id="pPVwb0DUyzb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KiUnct0R8hk">
+    <text value="FP_Injectables_Depo-Provera_NewAcceptors"/>
+    <type value="group"/>
+    <item id="KiUnct0R8hk.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UXwldcWMkC9">
+    <text value="FP_Male condoms stock"/>
+    <type value="group"/>
+    <item id="UXwldcWMkC9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j2nFTmot9fp">
+    <text value="FP_Male condoms stopped FP"/>
+    <type value="group"/>
+    <item id="j2nFTmot9fp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yQwI15mC28F">
+    <text value="FP_Implants_New Acceptor"/>
+    <type value="group"/>
+    <item id="yQwI15mC28F.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="DzLZjlrbqvq">
+    <text value="FP_Male condoms Users EOM"/>
+    <type value="group"/>
+    <item id="DzLZjlrbqvq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WpZZGYcxk1F">
+    <text value="FP_Injectables_Depo-Provera_stock Distributed"/>
+    <type value="group"/>
+    <item id="WpZZGYcxk1F.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CwmKL9G6ftM">
+    <text value="FP_Sperm control tests Negative no permatazoids"/>
+    <type value="group"/>
+    <item id="CwmKL9G6ftM.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z2lyXGNB9WI">
+    <text value="FP_Male condoms stock Distributed"/>
+    <type value="group"/>
+    <item id="Z2lyXGNB9WI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j6aQyxC4BvY">
+    <text value="FP_Tubal ligations Users EOM"/>
+    <type value="group"/>
+    <item id="j6aQyxC4BvY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Z26JNt4TgW6">
+    <text value="FP_Female condoms stock Distributed"/>
+    <type value="group"/>
+    <item id="Z26JNt4TgW6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tGSdGLXnLf7">
+    <text value="FP_Injectables_Norristerat_Users EOM"/>
+    <type value="group"/>
+    <item id="tGSdGLXnLf7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QGhaTbeQNFv">
+    <text value="FP_Auto-observation stopped FP"/>
+    <type value="group"/>
+    <item id="QGhaTbeQNFv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="LDrpmYEC9uz">
+    <text value="FP_Cycle beads stock"/>
+    <type value="group"/>
+    <item id="LDrpmYEC9uz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="I9sz0z8Ct9J">
+    <text value="FP_Oral Contraceptives_combined_Stock"/>
+    <type value="group"/>
+    <item id="I9sz0z8Ct9J.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bUTKC9UcC1G">
+    <text value="FP_Injectables_Norristerat_Stock Distributed"/>
+    <type value="group"/>
+    <item id="bUTKC9UcC1G.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zKT7MpGdaHT">
+    <text value="FP Oral Contraceptives combined stopped FP"/>
+    <type value="group"/>
+    <item id="zKT7MpGdaHT.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lb1eq1NlGbY">
+    <text value="FP_Oral Contraceptives stock EOM"/>
+    <type value="group"/>
+    <item id="lb1eq1NlGbY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="L9vOsRoVCad">
+    <text value="FP_Other barrier methods_gel diaphram_Days stockout"/>
+    <type value="group"/>
+    <item id="L9vOsRoVCad.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="GmfkClkyKIs">
+    <text value="FP_Vasectomy Users EOM"/>
+    <type value="group"/>
+    <item id="GmfkClkyKIs.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ih4pGKfwy0o">
+    <text value="FP_Female condoms Users EOM"/>
+    <type value="group"/>
+    <item id="ih4pGKfwy0o.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IpdhbHPfULo">
+    <text value="FP_Injectables_Depo-Provera_stock"/>
+    <type value="group"/>
+    <item id="IpdhbHPfULo.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="TgsOGyYKMjg">
+    <text value="FP_Sperm control tests Positive"/>
+    <type value="group"/>
+    <item id="TgsOGyYKMjg.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="w8ZwH2JZ6IK">
+    <text value="FP_IUD stock"/>
+    <type value="group"/>
+    <item id="w8ZwH2JZ6IK.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UJpqKu8PUZ2">
+    <text value="FP_Cycle beads_New Acceptors"/>
+    <type value="group"/>
+    <item id="UJpqKu8PUZ2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nD8IEzbKeMY">
+    <text value="FP_IUD Users EOM"/>
+    <type value="group"/>
+    <item id="nD8IEzbKeMY.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aNNTwHyk1wr">
+    <text value="FP_Female condoms stopped FP"/>
+    <type value="group"/>
+    <item id="aNNTwHyk1wr.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ba9B2qPVBly">
+    <text value="FP_Male condoms_Newacceptors"/>
+    <type value="group"/>
+    <item id="Ba9B2qPVBly.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ui7d03nxcy5">
+    <text value="FP_Oral Contraceptives_combined_Days Stockout"/>
+    <type value="group"/>
+    <item id="ui7d03nxcy5.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="faPkwHlUtsD">
+    <text value="FP_Injectables_Depo-Provera stopped FP"/>
+    <type value="group"/>
+    <item id="faPkwHlUtsD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QNKXcuNPeTI">
+    <text value="FP_IUD Days stockout"/>
+    <type value="group"/>
+    <item id="QNKXcuNPeTI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gWVZxOl2SM0">
+    <text value="FP_Oral Contraceptives_new Acceptors"/>
+    <type value="group"/>
+    <item id="gWVZxOl2SM0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="P8wjgQiKWvw">
+    <text value="FP_Injectables_Depo-Provera Users EOM"/>
+    <type value="group"/>
+    <item id="P8wjgQiKWvw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yNjLvHnnYCD">
+    <text value="FP_Cycle beads Days stockout"/>
+    <type value="group"/>
+    <item id="yNjLvHnnYCD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xFMDlMfZfcw">
+    <text value="FP_IUD Abandoned"/>
+    <type value="group"/>
+    <item id="xFMDlMfZfcw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tTyKmQHcSlO">
+    <text value="FP_Oral Contraceptives_combined_Stock Distributed"/>
+    <type value="group"/>
+    <item id="tTyKmQHcSlO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CCVH9QUdehp">
+    <text value="FP_Other barrier methods_gel diaphram Users EOM"/>
+    <type value="group"/>
+    <item id="CCVH9QUdehp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Tqzat0pybqH">
+    <text value="FP_Oral Contraceptives_combined_Users EOM"/>
+    <type value="group"/>
+    <item id="Tqzat0pybqH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="vtdinRW3tca">
+    <text value="FP Other barrier methods gel diaphram stopped FP"/>
+    <type value="group"/>
+    <item id="vtdinRW3tca.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Irl3rueTufS">
+    <text value="FP_Implants Days stockout"/>
+    <type value="group"/>
+    <item id="Irl3rueTufS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nK0e6Qide2C">
+    <text value="FP_Injectables_Depo-Provera_Days stockout"/>
+    <type value="group"/>
+    <item id="nK0e6Qide2C.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="y03M84b7bkW">
+    <text value="FP_Injectables_Norristerat_Stock"/>
+    <type value="group"/>
+    <item id="y03M84b7bkW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="X5q4nzV9tee">
+    <text value="FP_Oral Contraceptives_combined_New Acceptors"/>
+    <type value="group"/>
+    <item id="X5q4nzV9tee.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Cps7Z0IYIfX">
+    <text value="FP_Vasectomy New Acceptors"/>
+    <type value="group"/>
+    <item id="Cps7Z0IYIfX.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c7Gp1Q5dSvq">
+    <text value="FP_Oral Contraceptives stock Distributed"/>
+    <type value="group"/>
+    <item id="c7Gp1Q5dSvq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UqNRfw4yFMt">
+    <text value="FP_Female condoms_New Acceptors"/>
+    <type value="group"/>
+    <item id="UqNRfw4yFMt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XjrgOKLEQKf">
+    <text value="FP_Oral Contraceptives Days stockout"/>
+    <type value="group"/>
+    <item id="XjrgOKLEQKf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dYyv21Tp5BI">
+    <text value="FP_Female condoms stock"/>
+    <type value="group"/>
+    <item id="dYyv21Tp5BI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wNTxvQYHrFe">
+    <text value="FP_Sperm control tests taken"/>
+    <type value="group"/>
+    <item id="wNTxvQYHrFe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="srNhxYuGV4r">
+    <text value="FP_Other barrier methods_gel diaphram_New Acceptors"/>
+    <type value="group"/>
+    <item id="srNhxYuGV4r.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sLfQDld7Qff">
+    <text value="FP_IUD stock Distributed"/>
+    <type value="group"/>
+    <item id="sLfQDld7Qff.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="IhxiFhNBV9t">
+    <text value="FP_Implants stopped FP"/>
+    <type value="group"/>
+    <item id="IhxiFhNBV9t.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="k7AEcTGd917">
+    <text value="FP_Implants Users EOM"/>
+    <type value="group"/>
+    <item id="k7AEcTGd917.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="c17ksz4REYy">
+    <text value="FP_Injectables_Norristerat_Days stockout"/>
+    <type value="group"/>
+    <item id="c17ksz4REYy.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="oifQS5vfC9N">
+    <text value="FP_Oral Contraceptives Users EOM"/>
+    <type value="group"/>
+    <item id="oifQS5vfC9N.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uiT9PkkZSly">
+    <text value="FP_Auto-observation_New Acceptors"/>
+    <type value="group"/>
+    <item id="uiT9PkkZSly.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="O1cI2mnIhyH">
+    <text value="FP_Implants stock"/>
+    <type value="group"/>
+    <item id="O1cI2mnIhyH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qkTD5eaeST0">
+    <text value="FP_Female condoms Days stockout"/>
+    <type value="group"/>
+    <item id="qkTD5eaeST0.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="FibLGI7ORfH">
+    <text value="FP_Oral Contraceptives stopped FP"/>
+    <type value="group"/>
+    <item id="FibLGI7ORfH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KJWoTLblVi2">
+    <text value="FP_Cycle beads Users EOM"/>
+    <type value="group"/>
+    <item id="KJWoTLblVi2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CFeHOML5bFD">
+    <text value="FP_Injectables_Norristerat_New Acceptors"/>
+    <type value="group"/>
+    <item id="CFeHOML5bFD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dYCyfMz0E9Y">
+    <text value="FP_IUD_New Acceptors"/>
+    <type value="group"/>
+    <item id="dYCyfMz0E9Y.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HMKQJCFUELz">
+    <text value="FP_Tubal ligations New Acceptors"/>
+    <type value="group"/>
+    <item id="HMKQJCFUELz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>

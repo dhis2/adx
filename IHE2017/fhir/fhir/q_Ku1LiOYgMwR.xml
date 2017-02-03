@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<?xml-model href="schema/questionnaire.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xmlns:d="http://dhis2.org/schema/dxf/2.0" xsi:schemaLocation="http://hl7.org/fhir schema/questionnaire.xsd">
+  <id value="Ku1LiOYgMwR"/>
+  <status value="published"/>
+  <title value="TB - Bacteriological conversion, Suspicion of MDR TB and Management of MDR TB cases"/>
+  <item id="b9yqKNRGAdn">
+    <text value="MDR TB suspects Treatment after Failures_Cultures positive"/>
+    <type value="group"/>
+    <item id="b9yqKNRGAdn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="aQYEHHPfN1Z">
+    <text value="Failures at bacteriological control C3 Registered "/>
+    <type value="group"/>
+    <item id="aQYEHHPfN1Z.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YkwSNJlFMdD">
+    <text value="MDR TB suspects Treatment after LTFU_Cultures and GeneXpert Done"/>
+    <type value="group"/>
+    <item id="YkwSNJlFMdD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eHVS7F5ySPh">
+    <text value="MDR/TB patients on treatment at the end of quarter in ambulatory "/>
+    <type value="group"/>
+    <item id="eHVS7F5ySPh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="I9HXAEAv3Aa">
+    <text value="MDR/TB on treatment at the end of quarter"/>
+    <type value="group"/>
+    <item id="I9HXAEAv3Aa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="e1AelCQRnOq">
+    <text value="MDR TB suspects Treatment after Failures_Culturse done"/>
+    <type value="group"/>
+    <item id="e1AelCQRnOq.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p9IaeSDyGvn">
+    <text value="Return after default: bacteriological control at 3rd  month (C3) Control not done"/>
+    <type value="group"/>
+    <item id="p9IaeSDyGvn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dGQmzIMKrFb">
+    <text value="MDR TB suspects NTPB Positive in prison_Positive Cultures"/>
+    <type value="group"/>
+    <item id="dGQmzIMKrFb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eVvYml9rywQ">
+    <text value="MDR TB Suspects NTPB Positive at C2_EO last quarter_Positive Cultures"/>
+    <type value="group"/>
+    <item id="eVvYml9rywQ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="x68NXA6plSB">
+    <text value="MDR TB suspects NTPB positive_Registered quarter previous to the evaluated quarter"/>
+    <type value="group"/>
+    <item id="x68NXA6plSB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="p9MsbI5f1wE">
+    <text value="MDR TB suspects Treatment after LTFU_Registered quarter previous to the evaluated quarter"/>
+    <type value="group"/>
+    <item id="p9MsbI5f1wE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="HjtDljz7NvR">
+    <text value="MDR TB suspects NTPB Positive among health providers_Registered quarter previous to the evaluated quarter  "/>
+    <type value="group"/>
+    <item id="HjtDljz7NvR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="v34kkavHjOB">
+    <text value="MDRTB suspects_Treatment after Failures_Cultures and GeneXpert done"/>
+    <type value="group"/>
+    <item id="v34kkavHjOB.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="kkGGXkVoClA">
+    <text value="MDR TB suspects Treatment after LTFU_Positive Cultures"/>
+    <type value="group"/>
+    <item id="kkGGXkVoClA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gmUKrkmuuas">
+    <text value="Relapse bacteriological control at C3 Registered "/>
+    <type value="group"/>
+    <item id="gmUKrkmuuas.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hsBVIHbzaZp">
+    <text value="MDR TB suspects NTPB Positive at C2_cases registered last quarter to the evaluated quarter"/>
+    <type value="group"/>
+    <item id="hsBVIHbzaZp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RWoB4OeqfOW">
+    <text value="MDR TB Suspect NTPB Positive diagnosed in High-risk area_Registered quarter previous to the evaluated quarter "/>
+    <type value="group"/>
+    <item id="RWoB4OeqfOW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="R4sjnq9d7am">
+    <text value="MDR TB Suspects NTPB Positive at C2_cases registered last quarter_Culture done"/>
+    <type value="group"/>
+    <item id="R4sjnq9d7am.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lTGpe38DbjR">
+    <text value="Relapse bacteriological control at C3 Deceased"/>
+    <type value="group"/>
+    <item id="lTGpe38DbjR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="R6T6iiHxHQO">
+    <text value="MDR TB suspects NTPB Positive among PLWHIV_Positive Cultures"/>
+    <type value="group"/>
+    <item id="R6T6iiHxHQO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="zq8jcmWHRyc">
+    <text value="MDR TB Suspects NTPB Positive at C2_Resistance test available"/>
+    <type value="group"/>
+    <item id="zq8jcmWHRyc.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="M8qDSMhEBDv">
+    <text value="MDR/TB patients on ambulatory who completed the treatment during the evaluated quarter"/>
+    <type value="group"/>
+    <item id="M8qDSMhEBDv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qfUwpgqqtqe">
+    <text value="MDR TB suspects Relapses_Resistance test available"/>
+    <type value="group"/>
+    <item id="qfUwpgqqtqe.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="atBbQQzxQCN">
+    <text value="Failures at bacteriological control C3 Negative"/>
+    <type value="group"/>
+    <item id="atBbQQzxQCN.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="B4t6xxMCPZz">
+    <text value="NTPB positive bacteriological control at C2 Registered "/>
+    <type value="group"/>
+    <item id="B4t6xxMCPZz.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="O2mOEcfhAEp">
+    <text value="MDR TB suspects NTPB Positive among PLWHIV_Cultures done"/>
+    <type value="group"/>
+    <item id="O2mOEcfhAEp.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="z3FgFuSYfJU">
+    <text value="MDR/TB cases having completed 6 months of treatment and has culture sample submitted for 6th month control"/>
+    <type value="group"/>
+    <item id="z3FgFuSYfJU.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="dO7gW13kj84">
+    <text value="MDR/TB cases comfirmed during the quarter"/>
+    <type value="group"/>
+    <item id="dO7gW13kj84.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="loZPSmcaARO">
+    <text value="NTPB Positive bacteriological control at C2 Positive at C2"/>
+    <type value="group"/>
+    <item id="loZPSmcaARO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="YBqCd5mdbDm">
+    <text value="Return after default: bacteriological control at 3rd  month (C3) Registered "/>
+    <type value="group"/>
+    <item id="YBqCd5mdbDm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="UPZnFpuIHeu">
+    <text value="MDR TB suspects Any case Rifampicin resistant on Xpert_Resistance test results available"/>
+    <type value="group"/>
+    <item id="UPZnFpuIHeu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qmdh4eRTeZI">
+    <text value="MDR TB suspects Relapses_Positive Cultures"/>
+    <type value="group"/>
+    <item id="qmdh4eRTeZI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="PyC1IvWNBnD">
+    <text value="Return after default: bacteriological control at 3rd  month (C3) Negative"/>
+    <type value="group"/>
+    <item id="PyC1IvWNBnD.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="bOqRnCdXqOW">
+    <text value="MDR TB suspects NTPB Positive_Resistance test available"/>
+    <type value="group"/>
+    <item id="bOqRnCdXqOW.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="V3hcNxTWH2E">
+    <text value="NTPB positive cases among contacts of MDR TB with positive cultures"/>
+    <type value="group"/>
+    <item id="V3hcNxTWH2E.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="j6HGyI3CjTO">
+    <text value="NTPB Positive bacteriological control at C2 Control not done"/>
+    <type value="group"/>
+    <item id="j6HGyI3CjTO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yxENGA3Cdcv">
+    <text value="MDRTB suspects_Treatment after Failures_Registered the previous quarter to the evaluated quarter"/>
+    <type value="group"/>
+    <item id="yxENGA3Cdcv.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="EQlwSWmU7tF">
+    <text value="Relapse bacteriological control at C3 Positive at C3"/>
+    <type value="group"/>
+    <item id="EQlwSWmU7tF.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sn1W1V9ctGx">
+    <text value="MDR TB suspects NTPB Positive among PLWHIV_Registered  quarter previous to the evaluated quarter "/>
+    <type value="group"/>
+    <item id="sn1W1V9ctGx.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="uuXFyQ8yKs8">
+    <text value="Relapse bacteriological control at C3 Negative"/>
+    <type value="group"/>
+    <item id="uuXFyQ8yKs8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="KOKppZtDYPO">
+    <text value="MDR TB suspects Any positive microscopy control_Positive Cultures"/>
+    <type value="group"/>
+    <item id="KOKppZtDYPO.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="eCpmeh76m5e">
+    <text value="MDR TB suspects  contacts examined_Registered the quarter previous to the evaluated quarter "/>
+    <type value="group"/>
+    <item id="eCpmeh76m5e.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="n3lT38oS5Hj">
+    <text value="MDR TB suspects NTPB Positive in  prison_Registered quarter previous to the evaluated quarter "/>
+    <type value="group"/>
+    <item id="n3lT38oS5Hj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="QjtJzSXbF0l">
+    <text value="MDR TB suspects Any positive microscopy control_Registered quarter previous to the evaluated quarter"/>
+    <type value="group"/>
+    <item id="QjtJzSXbF0l.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WaNSBUT77GJ">
+    <text value="Return after default: bacteriological control at 3rd  month (C3) Positive at C3"/>
+    <type value="group"/>
+    <item id="WaNSBUT77GJ.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="goaGshkH6FG">
+    <text value="MDR/TB patients on treatment at the end of quarter in the specialized unit "/>
+    <type value="group"/>
+    <item id="goaGshkH6FG.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="CxiRwM9A4g9">
+    <text value="MDR TB suspects Treatment after LTFU_Culture done"/>
+    <type value="group"/>
+    <item id="CxiRwM9A4g9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="sA2wKKmbtlh">
+    <text value="MDR TB suspects Relapses_Cultures done"/>
+    <type value="group"/>
+    <item id="sA2wKKmbtlh.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Vxg82gLHVS7">
+    <text value="MDR TB suspects Any positive microscopy control_Cultures done"/>
+    <type value="group"/>
+    <item id="Vxg82gLHVS7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="msbjHDNmdfE">
+    <text value="NTPB positive cases among contacts of MDR TB with resistance test available"/>
+    <type value="group"/>
+    <item id="msbjHDNmdfE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="gikeH1guNVS">
+    <text value="MDR TB suspects NTPB Positive among health providers_Resistance tests available"/>
+    <type value="group"/>
+    <item id="gikeH1guNVS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rN7KMueXlar">
+    <text value="MDR TB suspects Any case Rifampicin resistant on Xpert_Cultures done and GeneXpert done"/>
+    <type value="group"/>
+    <item id="rN7KMueXlar.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OmWMcfCJTTL">
+    <text value="MDR TB suspects Relapses_cultures done and GeneXpert done"/>
+    <type value="group"/>
+    <item id="OmWMcfCJTTL.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="tKuL4hktNNE">
+    <text value="NTPB positive cases among contacts of MDR TB  cases registered the quarter previous to the evaluated quarter "/>
+    <type value="group"/>
+    <item id="tKuL4hktNNE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ppr3FAqWaR7">
+    <text value="TB Multi resistant"/>
+    <type value="group"/>
+    <item id="ppr3FAqWaR7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="O0PUDovKDtn">
+    <text value="NTPB Positive bacteriological control at C2 Transferred  "/>
+    <type value="group"/>
+    <item id="O0PUDovKDtn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="qiUC2ZNKvYR">
+    <text value="MDR TB suspects NTPB Positive in prison_Resistance tests available"/>
+    <type value="group"/>
+    <item id="qiUC2ZNKvYR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fOejcqvaDGd">
+    <text value="Relapse bacteriological control at C3 Control not done"/>
+    <type value="group"/>
+    <item id="fOejcqvaDGd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="olFel9pDIYj">
+    <text value="MDR TB suspect contacts examined with Cultures done"/>
+    <type value="group"/>
+    <item id="olFel9pDIYj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Xb58W0mh1Af">
+    <text value="Failures at bacteriological control C3 Deceased"/>
+    <type value="group"/>
+    <item id="Xb58W0mh1Af.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="fqazIFxDbg7">
+    <text value="MDR TB suspects Treatment after Failures_Resistance Test available"/>
+    <type value="group"/>
+    <item id="fqazIFxDbg7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RMo30LzENNn">
+    <text value="MDR TB suspects NTPB Positive in prison_Cultures done"/>
+    <type value="group"/>
+    <item id="RMo30LzENNn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wL7ClkMeZi6">
+    <text value="MDR TB suspects Treatment after LTFU_Resistance test available"/>
+    <type value="group"/>
+    <item id="wL7ClkMeZi6.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ihuQy7ZEA7d">
+    <text value="MDR TB suspects Relapses_Registered quarter previous to the evaluated quarter"/>
+    <type value="group"/>
+    <item id="ihuQy7ZEA7d.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ksXronyzrxS">
+    <text value="MDR TB suspects NTPB Positive among health providers_Cultures done"/>
+    <type value="group"/>
+    <item id="ksXronyzrxS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cN1wTv33K4f">
+    <text value="MDR TB suspects NTPB Positive among PLWHIV_Resistance test available"/>
+    <type value="group"/>
+    <item id="cN1wTv33K4f.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mDwqE3loV6u">
+    <text value="NTPB positive cases among contacts of MDR TB with cultures done and GeneXpert done"/>
+    <type value="group"/>
+    <item id="mDwqE3loV6u.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="AaVgQGJzH7e">
+    <text value="MDR TB suspects NTPB Positive among health providers_Positive Cultures"/>
+    <type value="group"/>
+    <item id="AaVgQGJzH7e.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RfzzHxMycn9">
+    <text value="MDR TB suspects NTPB Positive_Cultures done"/>
+    <type value="group"/>
+    <item id="RfzzHxMycn9.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="WkT251RS0ed">
+    <text value="Return after default: bacteriological control at 3rd  month (C3) Deceased"/>
+    <type value="group"/>
+    <item id="WkT251RS0ed.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rA7HFr2tOhR">
+    <text value="MDRTB suspect  NTPB Positive diagnosed in High-risk area_Cultures done"/>
+    <type value="group"/>
+    <item id="rA7HFr2tOhR.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="Ap159i2GdLj">
+    <text value="MDR TB suspects Any case Rifampicin resistant on Xpert_Positive cultures"/>
+    <type value="group"/>
+    <item id="Ap159i2GdLj.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="lCI097l4Gpt">
+    <text value="MDR-TB patients who died before diagnostic results or before initiation on treatment"/>
+    <type value="group"/>
+    <item id="lCI097l4Gpt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="JX3FVdEbCEA">
+    <text value="MDR/TB cases having completed 6 months of treatment during the evaluated quarter"/>
+    <type value="group"/>
+    <item id="JX3FVdEbCEA.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rQ8K9XepmFE">
+    <text value="Relapse bacteriological control at C3 Transferred  "/>
+    <type value="group"/>
+    <item id="rQ8K9XepmFE.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ffxrO7zkCSa">
+    <text value="Return after default: bacteriological control at 3rd  month (C3) Transferred  "/>
+    <type value="group"/>
+    <item id="ffxrO7zkCSa.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="XeBLAALC4wt">
+    <text value="MDR TB suspects Any case Rifampicin resistant on Xpert_Registered"/>
+    <type value="group"/>
+    <item id="XeBLAALC4wt.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MdkXmNIfZsS">
+    <text value="SS+ in contact with  MDR/TB patient_Registered"/>
+    <type value="group"/>
+    <item id="MdkXmNIfZsS.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="g0TXf5eocsf">
+    <text value="NTPB positive cases among contacts of MDR TB  with Cultures done"/>
+    <type value="group"/>
+    <item id="g0TXf5eocsf.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="xjxIGZ4msv2">
+    <text value="MDR TB suspects Any case Rifampicin resistant on Xpert_Cultures done"/>
+    <type value="group"/>
+    <item id="xjxIGZ4msv2.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="rgcCqamycQI">
+    <text value="Failures at bacteriological control C3 Positive at C3"/>
+    <type value="group"/>
+    <item id="rgcCqamycQI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="MsELHBuOtJ7">
+    <text value="NTPB Positive bacteriological control at C2 Negative"/>
+    <type value="group"/>
+    <item id="MsELHBuOtJ7.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="yDbOevgNlYw">
+    <text value="MDR TB suspects Any positive microscopy control_Resistance test results available"/>
+    <type value="group"/>
+    <item id="yDbOevgNlYw.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="ok5wz5nwGrm">
+    <text value="MDRTB suspect  NTPB Positive diagnosed in High-risk area_Positive Cultures "/>
+    <type value="group"/>
+    <item id="ok5wz5nwGrm.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="OCfbEfAelY8">
+    <text value="MDR/TB cases on treatment at the begining of quarter"/>
+    <type value="group"/>
+    <item id="OCfbEfAelY8.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="RwtIZ4vVi9P">
+    <text value="MDR TB suspects Any positive microscopy control_Cultures and GeneXpert done"/>
+    <type value="group"/>
+    <item id="RwtIZ4vVi9P.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="mC9WmikvUSn">
+    <text value="Failures at bacteriological control C3 Control not done"/>
+    <type value="group"/>
+    <item id="mC9WmikvUSn.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wiSqvxBkCiH">
+    <text value="NTPB Positive bacteriological control at C2 Deceased"/>
+    <type value="group"/>
+    <item id="wiSqvxBkCiH.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="hntEg6mazPd">
+    <text value="MDRTB suspect  NTPB Positive diagnosed in High-risk area_Resistance test available"/>
+    <type value="group"/>
+    <item id="hntEg6mazPd.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="wfMDhtV53yb">
+    <text value="SS+ in contact with MDR/TB patien_Culture"/>
+    <type value="group"/>
+    <item id="wfMDhtV53yb.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="nq1MGObzggI">
+    <text value="Failures at bacteriological control C3 Transferred  "/>
+    <type value="group"/>
+    <item id="nq1MGObzggI.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+  <item id="cjXPXXeMkxu">
+    <text value="MDR TB suspects NTPB Positive_Positive Cultures"/>
+    <type value="group"/>
+    <item id="cjXPXXeMkxu.BNTdWBe0N1F">
+      <text value="default"/>
+      <type value="integer"/>
+    </item>
+  </item>
+</Questionnaire>
