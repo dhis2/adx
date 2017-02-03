@@ -3,8 +3,8 @@
 DATASETID=$1
 
 #DATASETID="vXK2IApyj6g"
-CREDENTIALS="admin:district"
-BASE="https://play.dhis2.org/dev"
+CREDENTIALS="test:Test1234"
+BASE="https://rwanda/rwanda"
 
 #Query fragments
 CATEGORIES="categories\[displayName,categoryOptions\[displayName\]\]\]"
@@ -14,5 +14,5 @@ DATAELEMENT="dataElement\[id,displayName,valueType,$CATCOMBO\]"
 QUERY="fields=id,code,displayName,version,periodType,dataSetElements\[$DATAELEMENT,$CATCOMBO\]"
 
 # fire away ...
-curl -u $CREDENTIALS "$BASE/api/dataSets/$DATASETID.xml?$QUERY" |xmllint --format - 
+curl -k -u $CREDENTIALS "$BASE/api/dataSets/$DATASETID.xml?$QUERY" 
 

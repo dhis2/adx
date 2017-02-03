@@ -1,14 +1,19 @@
 #!/bin/bash
 
-CREDENTIALS='admin:district'
-BASE='https://play.dhis2.org/dev'
+CREDENTIALS='test:Test1234'
+BASE='https://rwanda/rwanda'
 
-# get all the dxf datasets from demo server
-DATASETS=$(curl -s -u $CREDENTIALS "$BASE/api/dataSets.xml" 2>/dev/null|xpath -e '//@id' 2>/dev/null |sed 's/id=\"\(.*\)\"/\1/');
+# get all the dxf datasets from test server
+curl -k -s -u $CREDENTIALS "$BASE/api/dataSets.xml?paging=false" 2>/dev/null 1>../dxf/datasets.xml
+
+DATASETS=$(cat ../dxf/datasets.xml| xpath -e '//@id' 2>/dev/null |sed 's/id=\"\(.*\)\"/\1/');
 
 for ds in $DATASETS
 do 
    echo "Fetching $ds"
-   ./getDataSet $ds > ../dxf/dxf_$ds.xml; 
+   FN=../dxf/dxf_$ds.xml
+   ./getDataSet $ds > $FN; 
+   xsltproc override.xsl $FN | xsltproc dxf2fhir.xsl - |xmllint --format - > ../fhir/q_$ds.xml;
 done
+
 
