@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://ihe.net/quality/schema/adx ../schema/adx_sample.xsd"
+ xmlns="http://ihe.net/quality/schema/adx" dataElementIDSystem="code" orgUnitIDSCheme="code"
+ exported="2015-02-08T19:30:00Z">
+    
+    <!-- =================================================================================
+          OVERVIEW OF ObservationalTimePeriod types
+         ==================================================================================
+    -->
+
+    <!-- =================================================================================
+          1.  Gregorian types
+         ==================================================================================
+    -->
+    <!-- yearly data (P1Y)-->
+    <group orgUnit="342" period="2015" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- monthly data (P1M) -->
+    <group orgUnit="342" period="2015-03" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+
+    <!-- =================================================================================
+          2.  SDMX specific reporting period types
+         ==================================================================================
+    -->
+
+    <!-- yearly data (P1Y)-->
+    <group orgUnit="342" period="2015-A1" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- monthly data (P1M) -->
+    <group orgUnit="342" period="2015-M03" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- weekly data (P1W) -->
+    <group orgUnit="342" period="2015-W01" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- semester (P6M) -->
+    <group orgUnit="342" period="2015-S1" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- trimester (P4M) -->
+    <group orgUnit="342" period="2015-T3" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+
+    <!-- day number (P1D) -->
+    <group orgUnit="342" period="2015-D320" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- Yearly data with an offset - eg USG financial year -->
+    <group orgUnit="342" period="2015-A1" ReportingYearStartDay="2015-10-01" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- =================================================================================
+          3.  W3C / ISO 8601 time interval : date/duration or datetime/duration
+         ==================================================================================
+    -->
+    
+    <!-- Yearly -->
+    <group orgUnit="342" period="2015-01-01/P1Y" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- Yearly - USG financial year -->
+    <group orgUnit="342" period="2015-10-01/P1Y" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+
+    <!-- Monthly -->
+    <group orgUnit="342" period="2015-03-01/P1M" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+
+    <!-- Bi-Monthly -->
+    <group orgUnit="342" period="2015-03-01/P2M" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+
+    <!-- Quarterly -->
+    <group orgUnit="342" period="2015-01-01/P3M" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+
+    <!-- Semester -->
+    <group orgUnit="342" period="2015-01-01/P6M" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- Weekly -->
+    <group orgUnit="342" period="2015-01-05/P7D" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+        
+    <!-- xs:datetime/xs:duration with timezone -->
+    <group orgUnit="342" period="2015-01-01T09:00:00+01:00/P1D" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- WARNING: you can define some quite arbitrary intervals and still be valid -->
+    <group orgUnit="342" period="2015-01-23/P1Y2M3DT01H01M01S" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+    <!-- =================================================================================
+          4.  Explicit point in time 
+         ==================================================================================
+    -->
+    <!-- xs:datetime with timezone -->
+    <group orgUnit="342" period="2015-01-01T09:00:00" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+
+    <!-- xs:datetime with timezone -->
+    <group orgUnit="342" period="2015-01-01T09:00:00+01:00" dataSetComplete="true" mechanism="PEPFAR" >
+        <dataValue dataElement="MAL01" value="32" />
+    </group>
+    
+</adx>

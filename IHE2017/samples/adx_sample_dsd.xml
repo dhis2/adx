@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dsd_validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message ../../../../Documents/formats/sdmx-2.1/SDMX_2-1-1_SECTION_3B_SDMX_ML_Schemas_Samples_201108/schemas/SDMXMessage.xsd"
+ xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+ xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+ xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message">
+  <mes:Header>
+    <mes:ID>DSD_ADX</mes:ID>
+    <mes:Test>true</mes:Test>
+    <mes:Prepared>2015-01-13T14:30:47.000Z</mes:Prepared>
+    <mes:Sender id="Bob">
+      <com:Name xml:lang="en">Bob Jolliffe</com:Name>
+    </mes:Sender>
+  </mes:Header>
+
+  <mes:Structures>
+
+    <str:Codelists>
+
+      <str:Codelist id="CL_OrgUnits" agencyID="WAHO" version="1.0" >
+        <com:Name xml:lang="en">Reporting health clinics</com:Name>
+        <str:Code id="342">
+          <com:Name xml:lang="en">Bob's clinic</com:Name>
+        </str:Code>
+        <str:Code id="343">
+          <com:Name xml:lang="en">Jim's clinic</com:Name>
+        </str:Code>
+      </str:Codelist>
+
+      <str:Codelist id="CL_DataElements" agencyID="WAHO" version="1.0">
+        <com:Name xml:lang="en">WAHO Data elements</com:Name>
+        <str:Code id="MAL01">
+          <com:Name xml:lang="en">Confirmed Malaria cases</com:Name>
+        </str:Code>
+        <str:Code id="MAL02">
+          <com:Name xml:lang="en">Unconfirmed Malaria cases</com:Name>
+        </str:Code>
+        <str:Code id="MAL03">
+          <com:Name xml:lang="en">Confirmed Malaria deaths</com:Name>
+        </str:Code>
+        <str:Code id="MAL04">
+          <com:Name xml:lang="en">Unconfirmed Malaria deaths</com:Name>
+        </str:Code>
+      </str:Codelist>
+
+      <str:Codelist id="CL_AgeGroup" agencyID="WAHO" version="1.0">
+        <com:Name xml:lang="en">WAHO Age Groups</com:Name>
+        <str:Code id="under5">
+          <com:Name xml:lang="en">Under 5 years of age</com:Name>
+        </str:Code>
+        <str:Code id="5andOver">
+          <com:Name xml:lang="en">5 Years and over</com:Name>
+        </str:Code>
+      </str:Codelist>
+
+      <str:Codelist id="CL_Sex" agencyID="WAHO" version="1.0">
+        <com:Name xml:lang="en">WAHO Sex categories</com:Name>
+        <str:Code id="M">
+          <com:Name xml:lang="en">Male</com:Name>
+        </str:Code>
+        <str:Code id="F">
+          <com:Name xml:lang="en">Female</com:Name>
+        </str:Code>
+      </str:Codelist>
+
+      <str:Codelist id="CL_Mechanism" agencyID="WAHO" version="1.0">
+        <com:Name xml:lang="en">Funding mechanisms</com:Name>
+        <str:Code id="PEPFAR">
+          <com:Name xml:lang="en">PEPFAR</com:Name>
+        </str:Code>
+        <str:Code id="GFATM">
+          <com:Name xml:lang="en">Global Fund</com:Name>
+        </str:Code>
+        <str:Code id="OTHER">
+          <com:Name xml:lang="en">Other</com:Name>
+        </str:Code>
+      </str:Codelist>
+      
+    </str:Codelists>
+
+    <str:Concepts>
+      <str:ConceptScheme id="ADX_MANDATORY_CONCEPTS" agencyID="IHE" version="1.0">
+        <com:Name xml:lang="en">Mandatory concepts defined by IHE ADX profile</com:Name>
+        <str:Concept id="dataElement">
+          <com:Name xml:lang="en">Subject of the data measure</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref agencyID="WAHO" id="CL_DataElements" version="1.0"/>            
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept id="orgUnit">
+          <com:Name xml:lang="en">Spatial dimension of the measure</com:Name>
+        </str:Concept>
+        <str:Concept id="period">
+          <com:Name xml:lang="en">Temporal dimension of the measure</com:Name>
+        </str:Concept>
+        <str:Concept id="value">
+          <com:Name xml:lang="en">Value of the data measure</com:Name>
+        </str:Concept>
+      </str:ConceptScheme>
+
+      <str:ConceptScheme id="ADX_WAHO_CONCEPTS" agencyID="WAHO" version="1.0">
+        <com:Name xml:lang="en">Disaggregation concepts used in WAHO data warehouse</com:Name>
+        <str:Concept id="ageGroup">
+          <com:Name xml:lang="en">Age group</com:Name>
+        </str:Concept>
+        <str:Concept id="sex">
+          <com:Name xml:lang="en">Sex</com:Name>
+        </str:Concept>
+        <str:Concept id="mechanism">
+          <com:Name xml:lang="en">Funding Mechanism</com:Name>
+        </str:Concept>
+      </str:ConceptScheme>
+    </str:Concepts>
+
+    <str:DataStructures>
+      <str:DataStructure id="ADX" agencyID="WAHO" version="1.0">
+        <com:Name xml:lang="en">ADX data structure</com:Name>
+
+        <str:DataStructureComponents>
+
+          <str:DimensionList>
+            
+            <str:Dimension>
+              <str:ConceptIdentity>
+                <Ref id="dataElement" maintainableParentID="ADX_MANDATORY_CONCEPTS"
+                  maintainableParentVersion="1.0" agencyID="IHE"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref agencyID="WAHO" id="CL_DataElements" version="1.0"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+
+            <str:Dimension id="orgUnit">
+              <str:ConceptIdentity>
+                <Ref id="orgUnit" maintainableParentID="ADX_MANDATORY_CONCEPTS"
+                  maintainableParentVersion="1.0" agencyID="IHE"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref agencyID="WAHO" id="CL_OrgUnits" version="1.0"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+
+            <str:Dimension>
+              <str:ConceptIdentity>
+                <Ref id="sex" maintainableParentID="ADX_WAHO_CONCEPTS"
+                  maintainableParentVersion="1.0" agencyID="WAHO"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                <Ref agencyID="WAHO" id="CL_Sex" version="1.0"/>
+              </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+
+            <str:Dimension>
+              <str:ConceptIdentity>
+                <Ref id="ageGroup" maintainableParentID="ADX_WAHO_CONCEPTS"
+                  maintainableParentVersion="1.0" agencyID="WAHO"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref agencyID="WAHO" id="CL_AgeGroup" version="1.0"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            
+            <str:Dimension id="mechanism">
+              <str:ConceptIdentity>
+                <Ref id="mechanism" maintainableParentID="ADX_WAHO_CONCEPTS"
+                  maintainableParentVersion="1.0" agencyID="WAHO"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref agencyID="WAHO" id="CL_Mechanism" version="1.0"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            
+            <str:TimeDimension id="TIME_PERIOD">
+              <str:ConceptIdentity>
+                <Ref id="period" maintainableParentID="ADX_MANDATORY_CONCEPTS"
+                  maintainableParentVersion="1.0" agencyID="IHE"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="TimeRange"/>
+<!-- or :
+                <str:TextFormat textType="DateTime"/>
+-->
+              </str:LocalRepresentation>
+            </str:TimeDimension>
+          </str:DimensionList>
+          
+          <str:Group id="OUTER_DIMENSIONS">
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="orgUnit"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="TIME_PERIOD"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="mechanism"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+          </str:Group>
+
+          <!-- <str:AttributeList/> -->
+
+          <str:MeasureList>
+            <str:PrimaryMeasure>
+              <str:ConceptIdentity>
+                <Ref id="value" maintainableParentID="ADX_MANDATORY_CONCEPTS"
+                  maintainableParentVersion="1.0" agencyID="IHE"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+          
+        </str:DataStructureComponents>
+
+      </str:DataStructure>
+    </str:DataStructures>
+  </mes:Structures>
+</mes:Structure>
