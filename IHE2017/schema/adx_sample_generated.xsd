@@ -53,6 +53,7 @@
     <xs:sequence maxOccurs="unbounded">
       <xs:element name="dataValue" type="DataValueType"/>
     </xs:sequence>
+    <xs:attribute name="dataSet" use="required" type="xs:string" fixed="MALARIA"/>
     <xs:attribute name="orgUnit" use="required" type="CL_OrgUnits_WAHO_1.0_Type"/>
     <xs:attribute name="period" use="required" type="periodType"/>
     <xs:attribute name="mechanism" type="CL_Mechanism_WAHO_1.0_Type" use="optional"/>

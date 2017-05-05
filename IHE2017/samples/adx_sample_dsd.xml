@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/dsd_validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message ../../../../Documents/formats/sdmx-2.1/SDMX_2-1-1_SECTION_3B_SDMX_ML_Schemas_Samples_201108/schemas/SDMXMessage.xsd"
+ xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message /home/bobj/Documents/formats/sdmx-2.1/SDMX_2-1-1_SECTION_3B_SDMX_ML_Schemas_Samples_201108/schemas/SDMXMessage.xsd"
  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
  xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message">
@@ -80,7 +80,7 @@
     </str:Codelists>
 
     <str:Concepts>
-      <str:ConceptScheme id="ADX_MANDATORY_CONCEPTS" agencyID="IHE" version="1.0">
+      <str:ConceptScheme id="ADX_MANDATORY_CONCEPTS" agencyID="IHE_QRPH" version="1.0">
         <com:Name xml:lang="en">Mandatory concepts defined by IHE ADX profile</com:Name>
         <str:Concept id="dataElement">
           <com:Name xml:lang="en">Subject of the data measure</com:Name>
@@ -116,14 +116,14 @@
     </str:Concepts>
 
     <str:DataStructures>
-      <str:DataStructure id="ADX" agencyID="WAHO" version="1.0">
-        <com:Name xml:lang="en">ADX data structure</com:Name>
+      <str:DataStructure id="MALARIA" agencyID="WAHO" version="1.0">
+        <com:Name xml:lang="en">Malaria monthly routine report dataset structure</com:Name>
 
         <str:DataStructureComponents>
 
           <str:DimensionList>
             
-            <str:Dimension>
+            <str:Dimension id='dataElement'>
               <str:ConceptIdentity>
                 <Ref id="dataElement" maintainableParentID="ADX_MANDATORY_CONCEPTS"
                   maintainableParentVersion="1.0" agencyID="IHE"/>

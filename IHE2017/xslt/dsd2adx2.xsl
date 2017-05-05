@@ -53,6 +53,11 @@
         select="concat($dataElementCLRef/@id,'_',
           $dataElementCLRef/@agencyID,'_',$dataElementCLRef/@version,'_Type')" />
     
+    <!-- The dataSet identifier -->
+    <xsl:variable name="dataSetId" 
+        select="//str:DataStructure/@id"/>
+    
+    
 <!-- ===============================================================================
      Root Template Match
      =============================================================================== -->
@@ -114,6 +119,7 @@
             <xs:sequence maxOccurs="unbounded">
                 <xs:element name="dataValue" type="DataValueType"/>
             </xs:sequence>
+            <xs:attribute name="dataSet" use="required" type="xs:string" fixed="{$dataSetId}"/>
             <xs:attribute name="orgUnit" use="required" type="{$orgUnitType}"/>
             <xs:attribute name="period" use="required" type="periodType"/>
 
