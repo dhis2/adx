@@ -41,6 +41,14 @@
           <com:Name xml:lang="en">Confirmed Malaria deaths</com:Name>
         </str:Code>
         <str:Code id="MAL04">
+          <com:Annotations>
+            <com:Annotation id="Disaggregation">
+              <com:AnnotationText>ageGroup</com:AnnotationText>
+            </com:Annotation>
+            <com:Annotation id="Disaggregation">
+              <com:AnnotationText>sex</com:AnnotationText>
+            </com:Annotation>
+          </com:Annotations>
           <com:Name xml:lang="en">Unconfirmed Malaria deaths</com:Name>
         </str:Code>
       </str:Codelist>
