@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/adx_disaggs_generated.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <adx xmlns="urn:ihe:qrph:adx:2015"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="urn:ihe:qrph:adx:2015 ../schema/adx_sample_generated.xsd"

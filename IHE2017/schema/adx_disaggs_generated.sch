@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
+<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+  xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" 
+  xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" >
+  
   <sch:ns uri="urn:ihe:qrph:adx:2015" prefix="adx"/>
+  
   <sch:pattern>
     <sch:title>Validating ADX aggregations</sch:title>
     <sch:p> The ADX xsd schema validates that correct codes are used in code lists. Applying

@@ -4,7 +4,6 @@
     xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
     xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-    xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
     exclude-result-prefixes="xs" version="1.0">
 
     <xsl:output encoding="UTF-8" xml:space="preserve" method="xml" indent="yes"/>
@@ -33,11 +32,9 @@
     
     <xsl:template match="/">
 
-        <sch:schema >
-            
+        <sch:schema >            
             <sch:ns uri="urn:ihe:qrph:adx:2015" prefix="adx"/>
-            <xsl:apply-templates select="//str:Codelist[@id='CL_DataElements']"/>
-                                  
+            <xsl:apply-templates select="//str:Codelist[@id='CL_DataElements']"/>                                 
         </sch:schema>
     </xsl:template>
     
@@ -56,13 +53,12 @@
     <xsl:template match="str:Code">
         <xsl:variable name="apos">'</xsl:variable>
         <xsl:variable name="code" select="@id"/>
-        <xsl:variable name="context" select="concat('adx:dataValue[@dataElement=',$apos,$code,$apos,']')"/>
-        <xsl:variable name="disaggs" select="com:Annotations/com:Annotation[@id='Disaggregation']/com:AnnotationText"/>
+        <xsl:variable name="context" 
+            select="concat('adx:dataValue[@dataElement=',$apos,$code,$apos,']')"/>
+        <xsl:variable name="disaggs" 
+            select="com:Annotations/com:Annotation[@id='Disaggregation']/com:AnnotationText"/>
         
         <sch:rule context="{$context}">
-            <!--<sch:assert test="not(@sex or @ageGroup)">
-                @ageGroup or @sex attribute not permitted for dataElement "MAL01"
-            </sch:assert>-->
             
             <xsl:for-each select="$customConcepts">
                 <xsl:choose>
@@ -83,5 +79,4 @@
         </sch:rule>    
         
     </xsl:template>
-
 </xsl:stylesheet>
